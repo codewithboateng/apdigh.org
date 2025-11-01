@@ -18,6 +18,12 @@ export const SITE = {
       icon: 'ti ti-brand-x',
       url: 'https://twitter.com/apdigh',
       handle: '@apdigh',
+    },
+    {
+      name: 'YouTube',
+      icon: 'ti ti-brand-youtube',
+      url: 'https://www.youtube.com/@apdigh',
+      handle: '@apdigh',
     }
   ],
 } as const;
