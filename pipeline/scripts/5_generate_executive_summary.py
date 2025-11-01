@@ -34,12 +34,14 @@ class ExecutiveSummaryGenerator(dspy.Signature):
     - Be written in accessible language for non-experts
     - Reference country is Ghana
     - Cover impacts across: Digital Innovation, Freedom of Speech, Privacy & Data Rights, Business Environment
+    - CITE PROVISIONS: When discussing specific provisions, cite them using markdown links in the format [index](#id)
+      For example: [26](#non-transferability-of-licence). Use these citations to ground your analysis.
     """
 
     bill_title: str = dspy.InputField(desc="The bill title")
-    provisions_summary: str = dspy.InputField(desc="Complete JSON of ALL bill provisions with their plain language summaries - you have full access to the entire bill content")
+    provisions_summary: str = dspy.InputField(desc="Complete JSON of ALL bill provisions with their plain language summaries, IDs, and indices - you have full access to the entire bill content")
 
-    executive_summary: str = dspy.OutputField(desc="Comprehensive executive summary about this Ghanaian bill (3-5 paragraphs, use markdown formatting as described above, definitive analysis based on actual provisions)")
+    executive_summary: str = dspy.OutputField(desc="Comprehensive executive summary about this Ghanaian bill (3-5 paragraphs, use markdown formatting as described above, definitive analysis based on actual provisions, with inline section citations)")
 
 
 def setup_dspy():
@@ -92,6 +94,8 @@ def generate_executive_summary(bill_title: str, sections: list) -> str:
         if 'summary' in section:
             relevant_sections.append({
                 'type': 'provision',
+                'index': section.get('index', 0),
+                'id': section.get('id', ''),
                 'title': section.get('title', ''),
                 'summary': section.get('summary', '')
             })

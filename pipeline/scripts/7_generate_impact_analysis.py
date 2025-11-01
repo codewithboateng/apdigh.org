@@ -30,15 +30,17 @@ class TopicImpactAnalyzer(dspy.Signature):
     - Use markdown formatting: **bold** for key terms and important provisions, bullet lists where helpful
     - Be written in accessible language
     - Maintain objectivity - describe both beneficial and problematic aspects where applicable
+    - CITE PROVISIONS: When discussing specific provisions, cite them using markdown links in the format [index](#id)
+      For example: [26](#non-transferability-of-licence). Use these citations to ground your claims.
     """
 
     bill_context: str = dspy.InputField(desc="Executive summary providing context about what the bill does")
     topic: Topic = dspy.InputField(desc="The topic area")
     bill_title: str = dspy.InputField(desc="The bill title")
-    provisions_summary: str = dspy.InputField(desc="JSON of provisions affecting this topic with their summaries")
+    provisions_summary: str = dspy.InputField(desc="JSON of provisions affecting this topic with their IDs, indices, titles, and impact levels")
 
     overall_impact: ImpactLevel = dspy.OutputField(desc="Overall impact level for this topic considering all provisions")
-    impact_analysis: str = dspy.OutputField(desc="Impact analysis for this topic (2-3 paragraphs, use markdown formatting)")
+    impact_analysis: str = dspy.OutputField(desc="Impact analysis for this topic (2-3 paragraphs, use markdown formatting, with inline section citations)")
 
 
 def setup_dspy():
@@ -139,6 +141,7 @@ def process_bill(json_path: Path, dry_run: bool = False, force: bool = False):
             # Include severe or high impacts for analysis (LLM sees all significant impacts)
             if impact_level in ['severe-negative', 'high-negative', 'severe-positive', 'high-positive']:
                 topic_provisions[topic].append({
+                    'index': section.get('index', 0),
                     'id': section.get('id', ''),
                     'title': section.get('title', ''),
                     'rawText': section.get('rawText', ''),
