@@ -200,19 +200,25 @@ def extract_provisions(doc_dict: dict) -> list:
         if page <= 2 or label in ['page_header', 'page_footer'] or not text:
             continue
 
-        # Skip the bill title banner (centered header at top of pages)
-        # It has left margin ~168 and Y-coordinate ~804
+        # Skip the bill title banner (page header at top of pages)
+        # These appear at top of each page (high Y-coordinate ~800+)
+        # Can be either left-aligned (near base margin) OR centered
         bbox = item.get('prov', [{}])[0].get('bbox', {})
         left_margin = bbox.get('l', 0)
         y_coord = bbox.get('t', 0)
 
-        # Bill title banner is centered and at top of page
-        # Use inferred structure to detect
+        # Use inferred structure to detect page headers
         base_margin = doc_structure['base_margin']
         centered_threshold = doc_structure['centered_threshold']
         header_y_threshold = doc_structure['header_y_threshold']
 
-        is_bill_title_banner = (left_margin > centered_threshold) and (y_coord > header_y_threshold)
+        # Page headers have high Y-coordinate (near top of page) AND
+        # are either left-aligned (near base margin) or centered (beyond threshold)
+        is_at_page_top = y_coord > header_y_threshold
+        is_left_aligned_header = abs(left_margin - base_margin) < 10  # Within 10 points of base
+        is_centered_header = left_margin > centered_threshold
+
+        is_bill_title_banner = is_at_page_top and (is_left_aligned_header or is_centered_header)
         if is_bill_title_banner:
             continue
 
@@ -328,8 +334,12 @@ def create_bill_json(docling_json_path: str, force: bool = False):
     for i, prov in enumerate(provisions, 1):
         raw_text = '\n\n'.join(prov['content']).strip()
 
+        # Include index in ID to ensure uniqueness when titles are duplicated
+        base_id = slugify(prov['title'])
+        unique_id = f"{i}-{base_id}"
+
         bill_provisions.append({
-            "id": slugify(prov['title']),
+            "id": unique_id,
             "index": i,
             "title": prov['title'],
             "rawText": raw_text
