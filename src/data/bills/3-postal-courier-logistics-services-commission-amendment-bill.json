@@ -1114,6 +1114,21 @@
       }
     }
   ],
+  "statistics": {
+    "totalSections": 58,
+    "provisions": 58,
+    "preambles": 0,
+    "metadata": 0,
+    "withSummaries": 58,
+    "withImpacts": 0,
+    "keyConcerns": 6,
+    "concernsBySeverity": {
+      "critical": 1,
+      "high": 5,
+      "medium": 0,
+      "low": 0
+    }
+  },
   "notebookLMVideo": {
     "url": "https://youtu.be/qFfel8zacRs"
   },

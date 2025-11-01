@@ -133,6 +133,9 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
     related_bills = metadata.get('relatedBills', [])
 
     # Build final bill object
+    # Get statistics from metadata
+    statistics = metadata.get('statistics', {})
+
     web_bill = {
         'id': bill_id,
         'title': bill_title,
@@ -141,6 +144,7 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
         'impacts': impacts,
         'keyConcerns': key_concerns,
         'provisions': provisions,
+        'statistics': statistics,
         'notebookLMVideo': {
             'url': notebook_lm_url,
         },

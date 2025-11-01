@@ -871,14 +871,21 @@
     "title": "Data Harmonisation Bill",
     "slug": "12-data-harmonisation-bill",
     "pdfPath": "pdfs/12. Data Harmonisation Bill.pdf",
-    "processedAt": "2025-11-01T21:52:56.019905Z",
+    "processedAt": "2025-11-01T23:35:19.209208Z",
     "statistics": {
       "totalSections": 38,
       "provisions": 36,
       "preambles": 1,
       "metadata": 1,
       "withSummaries": 36,
-      "withImpacts": 0
+      "withImpacts": 0,
+      "keyConcerns": 5,
+      "concernsBySeverity": {
+        "critical": 1,
+        "high": 4,
+        "medium": 0,
+        "low": 0
+      }
     },
     "notebookLMUrl": "https://youtu.be/16_s0yD6HCY",
     "feedbackInstructions": "Download the consultation document from the NITA website. Submit your response as an email attachment in Microsoft Word format to comments@nita.gov.gh. Include a completed response cover sheet (available on Page 4 of the consultation document). All responses will be treated as non-confidential.",

@@ -68,11 +68,18 @@ function renderSummary(summary: string, maxLength: number = 300): string {
             </div>
           </div>
 
-          <!-- Filter Buttons -->
-          <div class="flex flex-wrap gap-2">
-            <button class="px-4 py-2 bg-[var(--color-primary)] text-white rounded-lg font-medium hover:bg-[#1E5A5A] transition-colors">
-              All Bills
-            </button>
+          <!-- Sort Controls -->
+          <div class="flex flex-wrap gap-2 items-center">
+            <span class="text-sm font-medium text-gray-600">Sort by:</span>
+            <select
+              id="bill-sort"
+              class="px-4 py-2 bg-white border-2 border-gray-200 rounded-lg font-medium hover:border-[var(--color-primary)] focus:border-[var(--color-primary)] focus:outline-none transition-colors cursor-pointer"
+            >
+              <option value="most-concerns">Most Concerns</option>
+              <option value="fewest-concerns">Fewest Concerns</option>
+              <option value="alphabetical">Alphabetical (A-Z)</option>
+              <option value="deadline">Deadline (Soonest First)</option>
+            </select>
           </div>
         </div>
       </div>
@@ -87,6 +94,8 @@ function renderSummary(summary: string, maxLength: number = 300): string {
               class="bill-card bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-[var(--color-primary)] hover:shadow-lg transition-all duration-300 flex flex-col"
               data-title={bill.title.toLowerCase()}
               data-summary={bill.summary.toLowerCase()}
+              data-concern-count={bill.statistics?.keyConcerns || 0}
+              data-deadline={bill.deadline || ''}
             >
               <!-- OG Image -->
               <a href={`/bills/${bill.id}`} class="block">
@@ -105,6 +114,31 @@ function renderSummary(summary: string, maxLength: number = 300): string {
                 <h2 class="text-2xl font-bold text-black mb-3 hover:text-[var(--color-primary)] transition-colors">
                   <a href={`/bills/${bill.id}`}>{bill.title}</a>
                 </h2>
+
+                <!-- Metadata Badges -->
+                <div class="flex flex-wrap gap-2 mb-3">
+                  {bill.statistics && bill.statistics.keyConcerns > 0 && (
+                    <span
+                      class={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-semibold ${
+                        bill.statistics.keyConcerns > 5
+                          ? 'bg-red-100 text-red-800 border border-red-200'
+                          : bill.statistics.keyConcerns >= 3
+                          ? 'bg-orange-100 text-orange-800 border border-orange-200'
+                          : 'bg-yellow-100 text-yellow-800 border border-yellow-200'
+                      }`}
+                    >
+                      <i class="ti ti-alert-triangle"></i>
+                      {bill.statistics.keyConcerns} {bill.statistics.keyConcerns === 1 ? 'Concern' : 'Concerns'}
+                    </span>
+                  )}
+
+                  {bill.deadline && (
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-semibold bg-blue-100 text-blue-800 border border-blue-200">
+                      <i class="ti ti-calendar"></i>
+                      Deadline: {new Date(bill.deadline).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
+                    </span>
+                  )}
+                </div>
 
                 <!-- Summary -->
                 <div class="text-gray-900 font-medium leading-relaxed mb-4 flex-grow prose prose-sm max-w-none" set:html={renderSummary(bill.summary)} />
@@ -154,19 +188,64 @@ function renderSummary(summary: string, maxLength: number = 300): string {
 </BaseLayout>
 
 <script>
-  // Search functionality
+  // Search and sort functionality
   const searchInput = document.getElementById('bill-search') as HTMLInputElement;
+  const sortSelect = document.getElementById('bill-sort') as HTMLSelectElement;
   const billCards = document.querySelectorAll('.bill-card');
   const emptyState = document.getElementById('empty-state');
   const billsGrid = document.getElementById('bills-grid');
 
   let debounceTimer: number;
+  let currentSortMethod = 'most-concerns';
+
+  function sortBills(sortMethod: string) {
+    const cardsArray = Array.from(billCards);
+
+    cardsArray.sort((a, b) => {
+      const aCard = a as HTMLElement;
+      const bCard = b as HTMLElement;
+
+      switch (sortMethod) {
+        case 'most-concerns':
+          const aCount = parseInt(aCard.getAttribute('data-concern-count') || '0');
+          const bCount = parseInt(bCard.getAttribute('data-concern-count') || '0');
+          return bCount - aCount; // Descending
+
+        case 'fewest-concerns':
+          const aCountAsc = parseInt(aCard.getAttribute('data-concern-count') || '0');
+          const bCountAsc = parseInt(bCard.getAttribute('data-concern-count') || '0');
+          return aCountAsc - bCountAsc; // Ascending
+
+        case 'alphabetical':
+          const aTitle = aCard.getAttribute('data-title') || '';
+          const bTitle = bCard.getAttribute('data-title') || '';
+          return aTitle.localeCompare(bTitle);
+
+        case 'deadline':
+          const aDeadline = aCard.getAttribute('data-deadline') || '';
+          const bDeadline = bCard.getAttribute('data-deadline') || '';
+          // Empty deadlines go to the end
+          if (!aDeadline && !bDeadline) return 0;
+          if (!aDeadline) return 1;
+          if (!bDeadline) return -1;
+          return aDeadline.localeCompare(bDeadline);
+
+        default:
+          return 0;
+      }
+    });
+
+    // Update order
+    cardsArray.forEach((card, index) => {
+      (card as HTMLElement).style.order = index.toString();
+    });
+  }
 
   function filterBills(searchTerm: string) {
     const query = searchTerm.toLowerCase().trim();
     let visibleCount = 0;
 
-    // Convert NodeList to array and sort by relevance
+    // Convert NodeList to array
     const cardsArray = Array.from(billCards);
 
     // Score each card
@@ -192,19 +271,18 @@ function renderSummary(summary: string, maxLength: number = 300): string {
       return { card, score };
     });
 
-    // Sort by score descending (title matches first)
-    scoredCards.sort((a, b) => b.score - a.score);
-
-    // Show/hide based on score and reorder
-    scoredCards.forEach(({ card, score }, index) => {
+    // Show/hide based on score
+    scoredCards.forEach(({ card, score }) => {
       if (score > 0) {
         (card as HTMLElement).style.display = '';
-        (card as HTMLElement).style.order = index.toString();
         visibleCount++;
       } else {
         (card as HTMLElement).style.display = 'none';
       }
     });
+
+    // Apply current sort method to visible cards
+    sortBills(currentSortMethod);
 
     // Show/hide empty state
     if (visibleCount === 0 && query !== '') {
@@ -216,6 +294,12 @@ function renderSummary(summary: string, maxLength: number = 300): string {
     }
   }
 
+  // Sort change handler
+  sortSelect?.addEventListener('change', (e) => {
+    currentSortMethod = (e.target as HTMLSelectElement).value;
+    filterBills(searchInput?.value || '');
+  });
+
   // Debounced search
   searchInput?.addEventListener('input', (e) => {
     clearTimeout(debounceTimer);
@@ -223,4 +307,7 @@ function renderSummary(summary: string, maxLength: number = 300): string {
       filterBills((e.target as HTMLInputElement).value);
     }, 300);
   });
+
+  // Initial sort on page load
+  sortBills(currentSortMethod);
 </script>

@@ -500,6 +500,21 @@
       }
     }
   ],
+  "statistics": {
+    "totalSections": 27,
+    "provisions": 27,
+    "preambles": 0,
+    "metadata": 0,
+    "withSummaries": 27,
+    "withImpacts": 0,
+    "keyConcerns": 1,
+    "concernsBySeverity": {
+      "critical": 0,
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    }
+  },
   "notebookLMVideo": {
     "url": "https://youtu.be/MT26C1o0f3g"
   },

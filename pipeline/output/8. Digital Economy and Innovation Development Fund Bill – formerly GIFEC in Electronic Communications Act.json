@@ -835,14 +835,21 @@
     "title": "Digital Economy and Innovation Development Fund Bill – formerly GIFEC in Electronic Communications Act",
     "slug": "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act",
     "pdfPath": "pdfs/8. Digital Economy and Innovation Development Fund Bill – formerly GIFEC in Electronic Communications Act.pdf",
-    "processedAt": "2025-11-01T22:10:33.224885Z",
+    "processedAt": "2025-11-01T23:35:46.218282Z",
     "statistics": {
       "totalSections": 38,
       "provisions": 37,
       "preambles": 1,
       "metadata": 0,
       "withSummaries": 37,
-      "withImpacts": 0
+      "withImpacts": 0,
+      "keyConcerns": 1,
+      "concernsBySeverity": {
+        "critical": 0,
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
     },
     "notebookLMUrl": "https://youtu.be/7PrzXAkbXr8",
     "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",

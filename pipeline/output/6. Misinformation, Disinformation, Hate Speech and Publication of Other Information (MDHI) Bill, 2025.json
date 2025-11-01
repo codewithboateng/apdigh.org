@@ -2192,14 +2192,21 @@
     "title": "Misinformation, Disinformation, Hate Speech and Publication of Other Information (MDHI) Bill, 2025",
     "slug": "6-misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
     "pdfPath": "pdfs/6. Misinformation, Disinformation, Hate Speech and Publication of Other Information (MDHI) Bill, 2025.pdf",
-    "processedAt": "2025-11-01T22:07:34.807047Z",
+    "processedAt": "2025-11-01T23:35:33.519856Z",
     "statistics": {
       "totalSections": 88,
       "provisions": 87,
       "preambles": 1,
       "metadata": 0,
       "withSummaries": 87,
-      "withImpacts": 0
+      "withImpacts": 0,
+      "keyConcerns": 34,
+      "concernsBySeverity": {
+        "critical": 14,
+        "high": 20,
+        "medium": 0,
+        "low": 0
+      }
     },
     "notebookLMUrl": "https://youtu.be/eh6tBmhnNtc",
     "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses. Also available via Google Docs for commenting.",

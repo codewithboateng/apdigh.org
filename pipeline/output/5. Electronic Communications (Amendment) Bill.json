@@ -1790,14 +1790,21 @@
     "title": "Electronic Communications (Amendment) Bill",
     "slug": "5-electronic-communications-amendment-bill",
     "pdfPath": "pdfs/5. Electronic Communications (Amendment) Bill.pdf",
-    "processedAt": "2025-11-01T22:07:22.760613Z",
+    "processedAt": "2025-11-01T23:35:32.570744Z",
     "statistics": {
       "totalSections": 82,
       "provisions": 81,
       "preambles": 0,
       "metadata": 1,
       "withSummaries": 81,
-      "withImpacts": 0
+      "withImpacts": 0,
+      "keyConcerns": 2,
+      "concernsBySeverity": {
+        "critical": 0,
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
     },
     "notebookLMUrl": "https://youtu.be/cX2kzK3YvoE",
     "feedbackInstructions": "Submit responses electronically to info@nca.org.gh. Respondents are encouraged to specify the sections of the Bill they support or oppose and to provide suggestions for improvement. All responses will be treated as non-confidential.",

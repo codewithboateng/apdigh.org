@@ -2619,14 +2619,21 @@
     "title": "Data Protection Commission (Amendment) Bill",
     "slug": "11-data-protection-commission-amendment-bill",
     "pdfPath": "pdfs/11. Data Protection Commission (Amendment) Bill.pdf",
-    "processedAt": "2025-11-01T21:51:00.697953Z",
+    "processedAt": "2025-11-01T23:35:15.501087Z",
     "statistics": {
       "totalSections": 116,
       "provisions": 116,
       "preambles": 0,
       "metadata": 0,
       "withSummaries": 116,
-      "withImpacts": 0
+      "withImpacts": 0,
+      "keyConcerns": 10,
+      "concernsBySeverity": {
+        "critical": 1,
+        "high": 9,
+        "medium": 0,
+        "low": 0
+      }
     },
     "notebookLMUrl": "https://youtu.be/W67yFahesQE",
     "feedbackInstructions": "",

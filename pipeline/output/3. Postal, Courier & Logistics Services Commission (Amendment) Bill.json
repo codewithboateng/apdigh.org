@@ -1316,14 +1316,21 @@
     "title": "Postal, Courier & Logistics Services Commission (Amendment) Bill",
     "slug": "3-postal-courier-logistics-services-commission-amendment-bill",
     "pdfPath": "pdfs/3. Postal, Courier & Logistics Services Commission (Amendment) Bill.pdf",
-    "processedAt": "2025-11-01T22:01:49.607921Z",
+    "processedAt": "2025-11-01T23:35:28.796571Z",
     "statistics": {
       "totalSections": 58,
       "provisions": 58,
       "preambles": 0,
       "metadata": 0,
       "withSummaries": 58,
-      "withImpacts": 0
+      "withImpacts": 0,
+      "keyConcerns": 6,
+      "concernsBySeverity": {
+        "critical": 1,
+        "high": 5,
+        "medium": 0,
+        "low": 0
+      }
     },
     "notebookLMUrl": "https://youtu.be/qFfel8zacRs",
     "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",

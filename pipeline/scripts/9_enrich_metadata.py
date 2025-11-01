@@ -37,11 +37,12 @@ def extract_bill_title(sections: list) -> str:
     return ""
 
 
-def calculate_statistics(sections: list) -> dict:
+def calculate_statistics(sections: list, key_concerns: list) -> dict:
     """Calculate statistics about the bill.
 
     Args:
         sections: List of bill sections
+        key_concerns: List of key concerns
 
     Returns:
         Dict with statistics
@@ -52,7 +53,14 @@ def calculate_statistics(sections: list) -> dict:
         'preambles': 0,
         'metadata': 0,
         'withSummaries': 0,
-        'withImpacts': 0
+        'withImpacts': 0,
+        'keyConcerns': len(key_concerns),
+        'concernsBySeverity': {
+            'critical': 0,
+            'high': 0,
+            'medium': 0,
+            'low': 0
+        }
     }
 
     for section in sections:
@@ -71,6 +79,12 @@ def calculate_statistics(sections: list) -> dict:
         if section.get('impacts'):
             stats['withImpacts'] += 1
 
+    # Count concerns by severity
+    for concern in key_concerns:
+        severity = concern.get('severity', '').lower()
+        if severity in stats['concernsBySeverity']:
+            stats['concernsBySeverity'][severity] += 1
+
     return stats
 
 
@@ -88,6 +102,7 @@ def enrich_metadata(json_path: Path):
         bill_data = json.load(f)
 
     sections = bill_data.get('sections', [])
+    key_concerns = bill_data.get('keyConcerns', [])
 
     # Use filename as the reliable source
     # Remove number prefix from title, but keep it in slug
@@ -98,7 +113,7 @@ def enrich_metadata(json_path: Path):
     print()
 
     # Calculate statistics
-    stats = calculate_statistics(sections)
+    stats = calculate_statistics(sections, key_concerns)
 
     # Find corresponding PDF path
     pdf_name = json_path.stem + '.pdf'
@@ -141,6 +156,10 @@ def enrich_metadata(json_path: Path):
     print(f"  Metadata: {stats['metadata']}")
     print(f"  With summaries: {stats['withSummaries']}")
     print(f"  With impacts: {stats['withImpacts']}")
+    print(f"  Key concerns: {stats['keyConcerns']}")
+    if stats['keyConcerns'] > 0:
+        concerns_by_sev = stats['concernsBySeverity']
+        print(f"    Critical: {concerns_by_sev['critical']}, High: {concerns_by_sev['high']}, Medium: {concerns_by_sev['medium']}, Low: {concerns_by_sev['low']}")
     print()
 
     # Add to bill data

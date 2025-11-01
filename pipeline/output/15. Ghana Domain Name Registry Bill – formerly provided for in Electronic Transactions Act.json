@@ -1031,14 +1031,21 @@
     "title": "Ghana Domain Name Registry Bill – formerly provided for in Electronic Transactions Act",
     "slug": "15-ghana-domain-name-registry-bill-formerly-provided-for-in-electronic-transactions-act",
     "pdfPath": "pdfs/15. Ghana Domain Name Registry Bill – formerly provided for in Electronic Transactions Act.pdf",
-    "processedAt": "2025-11-01T21:57:51.211557Z",
+    "processedAt": "2025-11-01T23:35:25.310605Z",
     "statistics": {
       "totalSections": 44,
       "provisions": 44,
       "preambles": 0,
       "metadata": 0,
       "withSummaries": 44,
-      "withImpacts": 0
+      "withImpacts": 0,
+      "keyConcerns": 7,
+      "concernsBySeverity": {
+        "critical": 1,
+        "high": 6,
+        "medium": 0,
+        "low": 0
+      }
     },
     "notebookLMUrl": "https://youtu.be/85i3aLwJVl0",
     "feedbackInstructions": "",

@@ -809,14 +809,21 @@
     "title": "Emerging Technologies Bill",
     "slug": "2-emerging-technologies-bill",
     "pdfPath": "pdfs/2. Emerging Technologies Bill.pdf",
-    "processedAt": "2025-11-01T21:59:52.537525Z",
+    "processedAt": "2025-11-01T23:35:28.026933Z",
     "statistics": {
       "totalSections": 36,
       "provisions": 35,
       "preambles": 0,
       "metadata": 1,
       "withSummaries": 35,
-      "withImpacts": 0
+      "withImpacts": 0,
+      "keyConcerns": 1,
+      "concernsBySeverity": {
+        "critical": 1,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
     },
     "notebookLMUrl": "https://youtu.be/ykzEroi1qSM",
     "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",

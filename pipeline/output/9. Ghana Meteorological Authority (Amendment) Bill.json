@@ -983,14 +983,21 @@
     "title": "Ghana Meteorological Authority (Amendment) Bill",
     "slug": "9-ghana-meteorological-authority-amendment-bill",
     "pdfPath": "pdfs/9. Ghana Meteorological Authority (Amendment) Bill.pdf",
-    "processedAt": "2025-11-01T22:12:08.912752Z",
+    "processedAt": "2025-11-01T23:35:47.017961Z",
     "statistics": {
       "totalSections": 45,
       "provisions": 44,
       "preambles": 1,
       "metadata": 0,
       "withSummaries": 44,
-      "withImpacts": 0
+      "withImpacts": 0,
+      "keyConcerns": 2,
+      "concernsBySeverity": {
+        "critical": 0,
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
     },
     "notebookLMUrl": "https://youtu.be/Ku-gr-TNqEs",
     "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",
