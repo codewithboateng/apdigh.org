@@ -41,6 +41,26 @@ function generateMetaDescription(summary: string): string {
 
 const metaDescription = generateMetaDescription(bill.summary);
 
+// Helper to convert YouTube URL to embed format
+function getYouTubeEmbedUrl(url: string): string {
+  if (!url) return '';
+
+  // Handle youtu.be format
+  const youtuBeMatch = url.match(/youtu\.be\/([a-zA-Z0-9_-]+)/);
+  if (youtuBeMatch) {
+    return `https://www.youtube.com/embed/${youtuBeMatch[1]}`;
+  }
+
+  // Handle youtube.com/watch?v= format
+  const youtubeMatch = url.match(/youtube\.com\/watch\?v=([a-zA-Z0-9_-]+)/);
+  if (youtubeMatch) {
+    return `https://www.youtube.com/embed/${youtubeMatch[1]}`;
+  }
+
+  // Already in embed format or unknown format
+  return url;
+}
+
 // Helper to truncate text at word boundary
 function truncateText(text: string, maxLength: number): { truncated: string, isTruncated: boolean } {
   if (text.length <= maxLength) {
@@ -318,18 +338,29 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
             <section>
               <h2 class="text-3xl font-bold text-black mb-4 flex items-center gap-3">
                 <i class="ti ti-video text-[var(--color-primary)]"></i>
-                Listen: AI-Powered Analysis
+                Watch: AI-Powered Analysis
               </h2>
               <div class="bg-white border-2 border-gray-200 rounded-xl p-6">
-                <div class="aspect-video bg-gray-100 rounded-lg flex items-center justify-center mb-4">
-                  <div class="text-center text-gray-500">
-                    <i class="ti ti-player-play text-6xl mb-4"></i>
-                    <p class="text-lg font-medium">NotebookLM Audio Overview</p>
-                    <p class="text-sm">Duration: {bill.notebookLMVideo.duration}</p>
+                {bill.notebookLMVideo?.url && bill.notebookLMVideo.url.trim() !== '' ? (
+                  <div class="aspect-video rounded-lg overflow-hidden mb-4">
+                    <iframe
+                      src={getYouTubeEmbedUrl(bill.notebookLMVideo.url)}
+                      class="w-full h-full"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
                   </div>
-                </div>
+                ) : (
+                  <div class="aspect-video bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                    <div class="text-center text-gray-500">
+                      <i class="ti ti-player-play text-6xl mb-4"></i>
+                      <p class="text-lg font-medium">NotebookLM Video Overview</p>
+                      <p class="text-sm">Coming soon</p>
+                    </div>
+                  </div>
+                )}
                 <p class="text-sm text-gray-600">
-                  Listen to an AI-generated discussion breaking down this bill in plain language, exploring its key provisions and potential impacts on Ghana's digital innovation sector.
+                  Watch an AI-generated discussion breaking down this bill in plain language, exploring its key provisions and potential impacts on Ghana's digital innovation sector.
                 </p>
               </div>
             </section>
