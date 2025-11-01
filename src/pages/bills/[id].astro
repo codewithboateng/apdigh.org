@@ -771,6 +771,13 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
   </div>
 </BaseLayout>
 
+<script>
+  import { marked } from 'marked';
+
+  // Make marked available globally for inline scripts
+  (window as any).marked = marked;
+</script>
+
 <script is:inline>
   let summaryExpanded = false;
 
@@ -811,12 +818,8 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
 
     title.textContent = impactName + ' - Full Analysis';
 
-    // Parse markdown using marked (should be available globally)
-    if (typeof marked !== 'undefined') {
-      content.innerHTML = marked.parse(analysisText);
-    } else {
-      content.textContent = analysisText;
-    }
+    // Parse markdown using marked
+    content.innerHTML = marked.parse(analysisText);
 
     modal.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
