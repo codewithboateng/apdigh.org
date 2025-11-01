@@ -34,27 +34,27 @@
   <!-- Impact indicators (2x2 grid) -->
   
   <g transform="translate(335, 300)">
-    <rect x="0" y="0" width="250" height="90" rx="8" fill="#EA580C" opacity="0.15"/>
-    <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#EA580C" stroke-width="2"/>
-    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#EA580C" text-anchor="middle">Innovation</text>
-    <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#EA580C" text-anchor="middle" opacity="0.8">HIGH IMPACT</text>
+    <rect x="0" y="0" width="250" height="90" rx="8" fill="#DC2626" opacity="0.15"/>
+    <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#DC2626" stroke-width="2"/>
+    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#DC2626" text-anchor="middle">Business</text>
+    <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#DC2626" text-anchor="middle" opacity="0.8">SEVERE IMPACT</text>
   </g>
   <g transform="translate(615, 300)">
-    <rect x="0" y="0" width="250" height="90" rx="8" fill="#EA580C" opacity="0.15"/>
-    <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#EA580C" stroke-width="2"/>
-    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#EA580C" text-anchor="middle">Free Speech</text>
-    <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#EA580C" text-anchor="middle" opacity="0.8">HIGH IMPACT</text>
-  </g>
-  <g transform="translate(335, 420)">
     <rect x="0" y="0" width="250" height="90" rx="8" fill="#EA580C" opacity="0.15"/>
     <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#EA580C" stroke-width="2"/>
     <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#EA580C" text-anchor="middle">Privacy</text>
     <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#EA580C" text-anchor="middle" opacity="0.8">HIGH IMPACT</text>
   </g>
+  <g transform="translate(335, 420)">
+    <rect x="0" y="0" width="250" height="90" rx="8" fill="#6B7280" opacity="0.15"/>
+    <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#6B7280" stroke-width="2"/>
+    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#6B7280" text-anchor="middle">Free Speech</text>
+    <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.8">NEUTRAL</text>
+  </g>
   <g transform="translate(615, 420)">
-    <rect x="0" y="0" width="250" height="90" rx="8" fill="#EA580C" opacity="0.15"/>
-    <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#EA580C" stroke-width="2"/>
-    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#EA580C" text-anchor="middle">Business</text>
-    <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#EA580C" text-anchor="middle" opacity="0.8">HIGH IMPACT</text>
+    <rect x="0" y="0" width="250" height="90" rx="8" fill="#10B981" opacity="0.15"/>
+    <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#10B981" stroke-width="2"/>
+    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#10B981" text-anchor="middle">Innovation</text>
+    <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#10B981" text-anchor="middle" opacity="0.8">MEDIUM BENEFIT</text>
   </g>
 </svg>

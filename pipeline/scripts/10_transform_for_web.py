@@ -143,7 +143,6 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
         'provisions': provisions,
         'notebookLMVideo': {
             'url': notebook_lm_url,
-            'duration': '10:00'
         },
         'deadline': deadline,
         'feedbackInstructions': feedback_instructions,
