@@ -670,6 +670,36 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
                         </div>
                       )}
 
+                      {/* Related Key Concerns */}
+                      {(() => {
+                        const relatedConcerns = bill.keyConcerns?.filter(concern =>
+                          concern.relatedProvisions?.includes(provision.id)
+                        ) || [];
+
+                        if (relatedConcerns.length > 0) {
+                          return (
+                            <div class="bg-red-50 border-2 border-red-200 rounded-lg p-4">
+                              <h4 class="text-sm font-semibold text-red-800 mb-3 flex items-center gap-2">
+                                <i class="ti ti-alert-circle"></i>
+                                Related Key Concerns
+                              </h4>
+                              <div class="flex flex-wrap gap-2">
+                                {relatedConcerns.map((concern) => (
+                                  <a
+                                    href={`#${concern.id}`}
+                                    class="inline-flex items-center gap-2 text-xs px-3 py-1.5 bg-red-100 text-red-800 font-medium rounded-full border-2 border-transparent hover:border-red-800 transition-all"
+                                  >
+                                    <i class="ti ti-alert-triangle text-sm"></i>
+                                    <span>{concern.title}</span>
+                                    <i class="ti ti-arrow-up text-xs"></i>
+                                  </a>
+                                ))}
+                              </div>
+                            </div>
+                          );
+                        }
+                      })()}
+
                       {/* Plain language explanation */}
                       <div>
                         <h4 class="text-sm font-semibold text-gray-600 mb-2">Plain Language Summary</h4>
@@ -955,6 +985,20 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
     }
   });
 
+  // Function to open a provision details element
+  function openProvisionIfNeeded() {
+    const hash = window.location.hash;
+    if (hash && hash.length > 1) {
+      const targetId = hash.substring(1);
+      const targetElement = document.getElementById(targetId);
+
+      // Check if it's a provision (details element)
+      if (targetElement && targetElement.tagName === 'DETAILS') {
+        targetElement.open = true;
+      }
+    }
+  }
+
   // Initialize collapsed state on load
   window.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('summary-content');
@@ -982,6 +1026,14 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
         });
       }
     });
+
+    // Open provision if navigating to one via hash
+    openProvisionIfNeeded();
+  });
+
+  // Also handle hash changes (e.g., clicking links)
+  window.addEventListener('hashchange', () => {
+    openProvisionIfNeeded();
   });
 
   function openImpactModal(impactKey, impactName, analysisText) {
