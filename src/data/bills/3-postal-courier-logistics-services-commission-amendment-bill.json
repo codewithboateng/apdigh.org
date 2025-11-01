@@ -117,10 +117,20 @@
   },
   "keyConcerns": [
     {
+      "id": "criminal-penalties-for-unlicensed-restaurant-deliveries",
+      "title": "Criminal Penalties for Unlicensed Restaurant Deliveries",
+      "severity": "critical",
+      "description": "This provision makes it a **criminal offense punishable by up to 3 years imprisonment** for virtually any business or individual providing delivery services without a Commission license—including restaurants delivering their own food, pharmacies delivering medicine, or individuals doing gig delivery work. The extraordinarily broad scope captures \"a public or private entity which engages in delivery services in the course of business\" and \"an individual engaged in courier or logistics services with the use of a vehicle, cycle, motorcycle or tri-cycle,\" with **no exemptions for small-scale, informal, or incidental delivery activities**. Meanwhile, **Ghana Post operates without any license requirement**, creating fundamental competitive inequality in the market.",
+      "relatedProvisions": [
+        "17-licence-to-provide-postal-courier-and-logistics-services"
+      ],
+      "relatedImpacts": []
+    },
+    {
       "id": "state-monopoly-blocks-private-postal-competition",
       "title": "State Monopoly Blocks Private Postal Competition",
       "severity": "high",
-      "description": "Ghana Post receives **exclusive rights** to deliver letters, postcards, printed materials, and small parcels, completely blocking private operators from competing in traditional postal services. This creates an absolute barrier to market entry for startups and logistics companies seeking to innovate in mail delivery, protecting the state provider from competitive pressure while potentially limiting service quality improvements and technological advancement in the reserved segment.",
+      "description": "Ghana Post receives **exclusive rights to deliver letters, postcards, printed materials, and small parcels**, completely barring private companies from competing in traditional postal services. This creates an insurmountable market entry barrier for entrepreneurs and eliminates competitive pressure that would drive service improvements and innovation. While private operators can still provide courier and logistics services, they are **categorically prohibited from the core postal market** regardless of their ability to offer better service, technology, or pricing.",
       "relatedProvisions": [
         "22-reserved-postal-services"
       ],
@@ -130,19 +140,9 @@
       "id": "undefined-government-directives-override-business-operations",
       "title": "Undefined Government Directives Override Business Operations",
       "severity": "high",
-      "description": "The Commission can issue mandatory directives to licensees for vaguely-defined **\"national security\"** or **\"international relations\"** purposes without notice, hearing, or appeal rights. These directives **override all other legal obligations** the business has under the Act, creating severe operational uncertainty. Compensation for losses is discretionary and requires parliamentary approval, meaning businesses may be forced to comply with costly directives without guaranteed recovery of losses—a particular burden for smaller operators who cannot absorb unexpected compliance costs.",
+      "description": "The Commission can issue mandatory directives to licensees for **\"national security\" or \"international relations\"** without defining these terms, providing notice, or allowing appeals. Licensees must comply **\"despite any other duty\"** under the law, potentially forcing businesses to violate other legal obligations or face criminal penalties. Compensation for losses is discretionary and requires parliamentary approval, creating severe operational uncertainty that will deter investment and disproportionately harm smaller operators unable to absorb unpredictable compliance costs.",
       "relatedProvisions": [
         "54-directions-in-the-interest-of-national-security-and-international-relations"
-      ],
-      "relatedImpacts": []
-    },
-    {
-      "id": "criminal-penalties-for-unlicensed-delivery-services",
-      "title": "Criminal Penalties for Unlicensed Delivery Services",
-      "severity": "high",
-      "description": "This provision makes it a **criminal offense punishable by up to 3 years imprisonment** for operating delivery services without a government license—even for restaurants offering food delivery, individuals doing gig work on motorcycles, or supermarkets providing home delivery. The extraordinarily broad scope captures any business or individual providing delivery services, extending licensing requirements far beyond traditional courier companies to include **e-commerce platforms, pharmacies, transport operators, and individuals using personal vehicles**. Licensed businesses face the same criminal penalties if they use unlicensed third-party delivery services, forcing them to verify licensing status and excluding informal operators from supply chains.",
-      "relatedProvisions": [
-        "17-licence-to-provide-postal-courier-and-logistics-services"
       ],
       "relatedImpacts": []
     },
@@ -150,17 +150,17 @@
       "id": "private-companies-can-open-your-mail-without-warrant",
       "title": "Private Companies Can Open Your Mail Without Warrant",
       "severity": "high",
-      "description": "This provision allows **postal, courier, and logistics companies to detain and open packages** whenever they have \"reason to believe\" contents are prohibited—without requiring a warrant, judicial authorization, or independent review. Private employees make subjective judgments about opening your communications, with no clear standards, no compensation for wrongful opening, and no appeal process. This deviates from international best practices (GDPR, ECHR Article 8) which require **judicial authorization before opening private communications**, even for legitimate security purposes.",
+      "description": "This provision allows postal, courier, and logistics companies to detain and **open your packages and mail** if they have \"reason to believe\" the contents are prohibited—without requiring a warrant, judicial authorization, or independent review. This grants **private companies surveillance powers** typically reserved for law enforcement with judicial oversight. The vague \"reason to believe\" standard creates risk of **arbitrary enforcement**, with no compensation for wrongful opening or appeal process if your private communications are improperly accessed.",
       "relatedProvisions": [
         "36-power-to-detain-and-open-prohibited-articles"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "criminal-jail-time-for-administrative-violations",
-      "title": "Criminal Jail Time for Administrative Violations",
+      "id": "criminal-imprisonment-for-administrative-violations",
+      "title": "Criminal Imprisonment for Administrative Violations",
       "severity": "high",
-      "description": "This provision imposes **up to 12 months imprisonment** for ANY violation of the Act that lacks a specific penalty—including routine administrative failures like missing technology requirements, incomplete accessibility features, or late license renewals. In democratic jurisdictions, such administrative violations typically result in civil fines or license suspension, not criminal prosecution. This **criminalizes business operations** and creates severe barriers to market entry, particularly for smaller operators who may struggle with complex compliance requirements. The provision transforms regulatory risk into criminal risk, with operators facing potential jail time for technical non-compliance rather than proportionate administrative penalties.",
+      "description": "This provision makes **any violation of the Act's requirements a criminal offense** punishable by up to 12 months imprisonment, even for purely administrative failures like missing technology implementation deadlines or late license renewals. In democratic jurisdictions, such violations typically result in civil penalties or license suspension, not criminal prosecution. The provision also establishes **automatic criminal liability for all directors and officers** when a company violates the Act, requiring them to prove they exercised due diligence—reversing normal burden of proof principles and creating personal liberty risks for business leaders over technical compliance matters.",
       "relatedProvisions": [
         "49-general-penalty"
       ],
@@ -170,7 +170,7 @@
       "id": "state-monopoly-blocks-private-postal-competition",
       "title": "State Monopoly Blocks Private Postal Competition",
       "severity": "high",
-      "description": "Ghana Post receives an **exclusive monopoly** over \"reserved postal services\" including letters, postcards, and small packages, legally prohibiting private operators from competing in these categories regardless of capability or innovation. The provision allows Ghana Post to **delegate functions under conditions it determines itself** (Section 25(4)), creating accountability gaps where the monopoly holder sets its own subcontracting rules. This permanent market barrier prevents startups from entering fundamental communication services without competitive bidding, performance requirements, or time limits on the monopoly designation.",
+      "description": "Ghana Post receives **exclusive rights over letters, postcards, and small packages** without competitive bidding or performance requirements, legally prohibiting private operators from competing in these segments regardless of their capabilities. This state-sanctioned monopoly eliminates market competition for essential postal services and creates **structural barriers to entry** that prevent innovation and service improvements. The provision includes no sunset clause, periodic review mechanism, or justification for why these specific services require monopoly provision rather than competitive supply—a significant departure from modern postal liberalization trends in OECD countries.",
       "relatedProvisions": [
         "21-designation-of-national-postal-service-provider"
       ],

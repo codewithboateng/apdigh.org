@@ -822,10 +822,10 @@
   },
   "keyConcerns": [
     {
-      "id": "criminal-penalties-for-vague-technical-compliance",
-      "title": "Criminal Penalties for Vague Technical Compliance",
-      "severity": "high",
-      "description": "The Authority can prescribe **\"any other specifications that the Authority may deem relevant\"** for API integration, yet failing to comply with these undefined requirements is a **criminal offense** punishable by fines up to 50,000 penalty units. This violates the rule of law principle that criminal offenses must be clearly defined in advance. Businesses cannot know with certainty what technical specifications they must meet, yet face criminal liability and potential **access revocation without due process** for non-compliance. The combination of vague discretionary authority, disproportionate criminalization of technical matters, and cumulative penalties creates severe operational risk, particularly for smaller entities.",
+      "id": "criminal-penalties-for-undefined-technical-violations",
+      "title": "Criminal Penalties for Undefined Technical Violations",
+      "severity": "critical",
+      "description": "The Authority can prescribe **\"any other specifications that the Authority may deem relevant\"** for API integration without limiting criteria, yet data providers face **criminal prosecution** (500-50,000 penalty units) for failing to comply with these undefined requirements. Companies cannot know in advance what technical specifications they must meet to avoid criminal liability, violating the fundamental principle that criminal offenses must be clearly defined. The Authority can also **unilaterally revoke platform access** without procedural safeguards, potentially destroying a business's ability to operate, while imposing both criminal fines and additional administrative penalties for the same violation.",
       "relatedProvisions": [
         "7-system-integration-and-api-governance"
       ]
@@ -834,7 +834,7 @@
       "id": "criminal-penalties-for-technical-non-compliance",
       "title": "Criminal Penalties for Technical Non-Compliance",
       "severity": "high",
-      "description": "The provision criminalizes violation of \"**any provision**\" of the Act with up to **2 years imprisonment**, without distinguishing between serious violations (deliberate data misuse) and technical failures (incomplete audit trails, API specification deviations). This creates severe legal uncertainty for businesses and startups, who could face criminal prosecution for administrative non-compliance with Authority-prescribed technical standards. The **disproportionate penalties** exceed OECD norms and will create a chilling effect on platform participation and digital innovation.",
+      "description": "The bill criminalizes violation of \"**any provision**\" with imprisonment up to 2 years, without distinguishing between intentional misconduct and technical failures. Organizations could face **criminal prosecution** for failing to meet API specifications, data quality standards, or audit trail requirements—even when violations result from resource constraints rather than willful wrongdoing. This creates severe legal uncertainty for startups and SMEs, who cannot reliably predict whether compliance failures will trigger administrative correction or criminal charges. The **uniform penalty structure** applies regardless of entity size, harm caused, or intent, departing from proportionality principles in democratic legal systems where criminal sanctions are reserved for intentional conduct causing material harm.",
       "relatedProvisions": [
         "18-offences-and-penalties"
       ]
@@ -843,25 +843,25 @@
       "id": "permanent-bans-without-clear-standards-or-appeal",
       "title": "Permanent Bans Without Clear Standards or Appeal",
       "severity": "high",
-      "description": "The Authority can impose **permanent, irreversible bans** on participating institutions using undefined \"appropriate sanctions\" without clear standards for what violations trigger which penalties. Unlike access revocation (which allows reinstatement after fixing issues), **banned institutions can never reapply** - creating a business death sentence that can be imposed administratively. The provision provides no proportionality requirements, no caps on \"administrative penalties,\" and no procedural safeguards before sanctions are imposed, enabling arbitrary enforcement that particularly threatens startups and SMEs already facing substantial compliance costs.",
+      "description": "The Authority can impose **permanent bans** that prevent institutions from ever reapplying to the platform, with no defined standards for what violations warrant such irreversible exclusion. The provision grants unlimited discretion to impose \"**any other sanction as may be appropriate**\" without specifying proportionality requirements, penalty caps, or procedural safeguards before sanctions are imposed. For businesses investing substantial resources in platform compliance, this creates catastrophic risk: a single violation—potentially technical or inadvertent—could result in permanent market exclusion with no reinstatement pathway.",
       "relatedProvisions": [
         "19-administrative-sanctions"
       ]
     },
     {
-      "id": "vague-competition-ban-criminalizes-business-innovation",
-      "title": "Vague \"Competition\" Ban Criminalizes Business Innovation",
+      "id": "anti-competitive-data-access-restrictions-chill-innovation",
+      "title": "Anti-Competitive Data Access Restrictions Chill Innovation",
       "severity": "high",
-      "description": "The bill prohibits businesses from re-using government data in ways that **\"directly compete with the service offered by the data provider\"**—but never defines what constitutes prohibited competition. A startup using health data to build a better appointment system than the government's could face **criminal prosecution and fines up to 50,000 penalty units**. This vague standard protects incumbent government services from market competition while creating massive legal uncertainty that will **chill investment in data-driven innovation**. Businesses cannot determine what's legal until the Authority decides—potentially after the fact.",
+      "description": "The provision prohibits businesses from re-using government data in ways that **\"directly compete with the service offered by the data provider\"**—a vague standard backed by **up to 5 years imprisonment**. This allows incumbent government contractors and agencies to block competitive innovation by claiming any new service competes with their offerings. Combined with the Authority's discretion to approve \"any other lawful purposes\" and restrictions on data commercialization, this creates severe legal uncertainty that will deter startups and SMEs from building innovative services using public data. The provision conflates legitimate data protection with market protection, effectively granting incumbents veto power over competitive threats.",
       "relatedProvisions": [
         "12-data-harmonisation-advisory-committee"
       ]
     },
     {
-      "id": "criminal-penalties-for-data-access-violations",
-      "title": "Criminal Penalties for Data Access Violations",
+      "id": "data-localization-through-ministerial-approval-bottleneck",
+      "title": "Data Localization Through Ministerial Approval Bottleneck",
       "severity": "high",
-      "description": "Data consumers face **criminal prosecution and fines up to 50,000 penalty units** for accessing data beyond their authorized scope, even for inadvertent violations. The Authority can **suspend or revoke access without explicit procedural safeguards** (notice, hearing, or appeal rights) specified in this provision. Cross-border data transfers require **ministerial approval** and may mandate establishing a **local Ghanaian subsidiary**, creating substantial barriers for international businesses and limiting Ghanaian companies' global partnerships.",
+      "description": "All cross-border transfers of public interest data require **ministerial approval** and may mandate establishing a **\"registered Ghanaian subsidiary\"** just to access government data through the platform. This creates a de facto data localization regime that locks foreign companies out of Ghana's data economy unless they invest in expensive local infrastructure. Violations carry criminal penalties up to **100,000 penalty units**, making this a high-stakes compliance trap for international businesses and researchers seeking to access even routine government data.",
       "relatedProvisions": [
         "13-onboarding-and-access-control-protocols"
       ]

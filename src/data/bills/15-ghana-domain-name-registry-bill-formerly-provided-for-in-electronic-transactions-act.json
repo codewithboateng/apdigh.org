@@ -111,67 +111,67 @@
       "id": "business-license-revocation-for-domain-non-compliance",
       "title": "Business License Revocation for Domain Non-Compliance",
       "severity": "critical",
-      "description": "This provision authorizes **suspension or revocation of business licenses** for failing to register a .gh domain name - an extraordinarily disproportionate penalty that could terminate all business operations for an administrative compliance matter. In established democracies, license revocation is reserved for serious violations like fraud or safety issues, not domain registration. Combined with annual fines up to 10,000 penalty units, two-year procurement bans, and personal director liability, this creates a **high-stakes compliance environment** without adequate safeguards like cure periods, graduated enforcement, or independent review before coercive action.",
+      "description": "This provision allows **business license revocation** - effectively shutting down all operations - for failure to register a .gh domain name. This is fundamentally disproportionate: license revocation is typically reserved for serious violations like fraud or safety breaches, not administrative non-compliance with a technical requirement. Combined with annual fines (1,000-10,000 penalty units), procurement disqualification (up to 2 years), and personal director liability (5,000 penalty units), the penalty structure creates existential business risk for what amounts to a domain registration issue. The provision lacks graduated enforcement, hardship exemptions, or independent review before license revocation, enabling arbitrary enforcement that could be weaponized to shut down businesses.",
       "relatedProvisions": [
         "21-penalties-for-non-compliance"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "undefined-grounds-for-revoking-domain-registrar-licenses",
-      "title": "Undefined Grounds for Revoking Domain Registrar Licenses",
+      "id": "undefined-license-revocation-powers-without-due-process",
+      "title": "Undefined License Revocation Powers Without Due Process",
       "severity": "high",
-      "description": "The Registry can revoke registrar licenses for **\"misconduct\"** or **\"abuse\"** without defining these terms, and for violating Minister's requirements that may not be publicly accessible. No hearing, appeal, or written decision is required before revocation. Since all businesses must use registrars to obtain mandatory .gh domains, license revocation could make legal compliance impossible for entire business categories, triggering cascading penalties (business license suspension, public contract exclusion). This creates a tool for potential arbitrary enforcement against disfavored sectors without clear standards or procedural protection.",
+      "description": "The Registry can revoke registrar licenses for undefined \"misconduct\" or \"abuse\" **without any requirement for notice, hearing, or independent appeal**. Combined with the mandatory .gh domain requirement, this creates a cascading enforcement mechanism: revoke a registrar's license → businesses cannot maintain required .gh domains → they face business license suspension and public contract exclusion. This concentrates unchecked power in a presidentially-appointed body to effectively exclude entire business categories from legal operation through undefined standards and no procedural safeguards.",
       "relatedProvisions": [
         "17-suspension-and-revocation-of-licences"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "forced-migration-to-government-controlled-domain-infrastructure",
-      "title": "Forced Migration to Government-Controlled Domain Infrastructure",
+      "id": "forced-government-infrastructure-dependency-for-all-businesses",
+      "title": "Forced Government Infrastructure Dependency for All Businesses",
       "severity": "high",
-      "description": "All legally registered entities in Ghana must transition their official digital presence to **.gh domains within six months**, including websites, platforms, and \"all official digital correspondence and transactions.\" This mandatory infrastructure requirement forces businesses currently operating on international domains (.com, .org, .net) to undergo costly DNS migration, website reconfiguration, and email system updates. The undefined term **\"official\"** creates ambiguity about what communications fall within scope, while the compressed timeline disproportionately burdens SMEs and startups with limited IT resources. Combined with severe enforcement penalties (business license suspension, contract exclusion), this creates a **high-stakes compliance environment** where all entities become dependent on a single government-controlled infrastructure.",
+      "description": "This provision mandates that **all legally registered entities** must use government-controlled **.gh domains** for their official digital presence and communications, with only **six months to transition**. Unlike voluntary domain adoption in other democracies, this creates mandatory infrastructure dependency with undefined scope—\"official digital correspondence and transactions\" could include internal emails, international communications, or cloud services. The requirement forces businesses to incur migration costs, maintain Ghana-specific infrastructure, and operate through a single national system with no competitive alternatives, creating **operational burden, compliance uncertainty, and single-point-of-failure risk** for all business operations.",
       "relatedProvisions": [
         "19-mandatory-registration"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "mandatory-domain-requirement-creates-regulatory-conflict-of-interest",
-      "title": "Mandatory Domain Requirement Creates Regulatory Conflict of Interest",
+      "id": "registry-profits-from-mandatory-domain-enforcement",
+      "title": "Registry Profits from Mandatory Domain Enforcement",
       "severity": "high",
-      "description": "This provision explicitly makes **\"mandate the use of the .gh domain name for entities in the Republic\"** a core object of the Act, establishing a regulatory framework where the Registry both enforces compliance and profits from mandatory registrations. This creates a fundamental **conflict of interest**: the enforcer benefits financially from enforcement. Combined with severe penalties (business license suspension, contract exclusion for up to 2 years, personal director fines), vague exemption criteria, and a tight six-month compliance timeline, this provision enables a high-stakes mandatory system unprecedented in democratic jurisdictions where domain choice is typically voluntary.",
+      "description": "This provision establishes **mandatory .gh domain use** as a core objective of the Act, creating a structural conflict of interest where the Registry collects fees from compulsory registrations while wielding enforcement powers including business license suspension and public contract exclusion. The provision enables a self-funding regulatory model where the enforcer profits from enforcement, creating perverse incentives. The vague exemption criteria for entities \"not targeting Ghanaian users\" enables arbitrary enforcement in a borderless internet environment, while the mandatory requirement itself is unprecedented in democratic jurisdictions and creates significant market entry barriers for startups and SMEs.",
       "relatedProvisions": [
         "1-application-and-objects"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "domain-seizure-for-administrative-non-compliance",
-      "title": "Domain Seizure for Administrative Non-Compliance",
+      "id": "domain-seizure-powers-for-administrative-non-compliance",
+      "title": "Domain Seizure Powers for Administrative Non-Compliance",
       "severity": "high",
-      "description": "The Registry can seek court orders to **seize or block domain names** for any \"contravention of this Act\"—including failure to transition to .gh within six months. This grants authority to shut down a business's entire online presence for administrative non-compliance, without explicit proportionality safeguards or graduated enforcement requirements. Domain seizure is business-critical infrastructure removal, yet the provision treats it as a standard enforcement tool rather than a last resort.",
+      "description": "The Registry can obtain court orders to **seize or block domain names** for \"contravention of this Act\"—potentially including failure to register a mandatory .gh domain. This enables **shutting down a business's online presence** (their existing domain) for what may be administrative non-compliance with a transition requirement. The provision lacks proportionality safeguards requiring exhaustion of lesser remedies before seeking this extreme measure. Combined with the mandatory .gh domain requirement, it creates enforcement authority that can effectively **force businesses offline** for registration delays.",
       "relatedProvisions": [
         "24-court-orders-and-judicial-support"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "criminal-penalties-for-undefined-regulatory-violations",
-      "title": "Criminal Penalties for Undefined Regulatory Violations",
+      "id": "criminal-penalties-for-undefined-registry-violations",
+      "title": "Criminal Penalties for Undefined Registry Violations",
       "severity": "high",
-      "description": "This provision allows **criminal prosecution and fines up to 10,000 penalty units** for any violation of the Act that doesn't have a specific penalty defined elsewhere. The problem: businesses, registrars, and domain holders could face **criminal conviction for violating undefined procedural requirements** or Registry operational rules that may be specified in regulations rather than clear statutory language. This creates legal uncertainty about what conduct triggers criminal liability, potentially chilling legitimate business activities and enabling arbitrary enforcement against entities trying to comply with Ghana's domain registration framework.",
+      "description": "This provision allows **criminal prosecution and fines up to 10,000 penalty units** for violating any requirement in the Act that doesn't have a specific penalty—but the Act doesn't clearly define what those violations are. Businesses could face **criminal conviction** for breaching undefined Registry procedures, registrar licensing conditions, or technical requirements that may be established later through regulations or administrative directives. This creates severe legal uncertainty: companies cannot know in advance what actions might trigger criminal liability, fundamentally violating the principle that **criminal offenses must be clearly defined in law**.",
       "relatedProvisions": [
         "41-general-penalty"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "unchecked-ministerial-power-over-domain-regulations",
-      "title": "Unchecked Ministerial Power Over Domain Regulations",
+      "id": "unconstrained-ministerial-power-over-domain-regulations",
+      "title": "Unconstrained Ministerial Power Over Domain Regulations",
       "severity": "high",
-      "description": "The Minister can unilaterally issue **\"policy directives\"** to regulate the .gh domain space without parliamentary oversight, procedural safeguards, or defined limits. Given the bill's severe enforcement mechanisms (business license revocation, contract exclusions, substantial fines), ministerial directives could effectively impose new compliance obligations, alter regulatory requirements, or create additional penalties without legislative scrutiny. This creates **regulatory uncertainty** where businesses cannot predict what obligations may be imposed and enables potential **selective enforcement** or politically-motivated directives that bypass democratic accountability.",
+      "description": "The Minister can unilaterally issue **policy directives** to regulate Ghana's .gh domain space **without any defined limits, consultation requirements, or parliamentary oversight**. Since all legally registered entities must maintain .gh domains or face business license revocation and public contract exclusion, ministerial directives effectively become binding regulations that can reshape compliance obligations without legislative scrutiny. This creates severe **regulatory uncertainty** - businesses cannot plan when rules can change by executive decree, and there are no procedural safeguards against arbitrary or disproportionate requirements.",
       "relatedProvisions": [
         "10-policy-directives"
       ],

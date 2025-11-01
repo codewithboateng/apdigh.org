@@ -76,20 +76,20 @@
   },
   "keyConcerns": [
     {
-      "id": "undefined-licensing-captures-all-weather-related-businesses",
-      "title": "Undefined Licensing Captures All Weather-Related Businesses",
+      "id": "mandatory-licensing-blocks-weather-tech-innovation",
+      "title": "Mandatory Licensing Blocks Weather Tech Innovation",
       "severity": "high",
-      "description": "This provision requires government licensing for **\"any business connected with meteorological services\"** without defining what activities this captures. Weather apps, agricultural tech using weather data, climate analytics platforms, or even research publications could all require licensing, background checks, facility inspections, and annual fees. With **no judicial appeal** beyond a single Tribunal decision and undefined terms like \"meteorological transactions,\" the Authority gains monopolistic control over an entire sector of digital innovation that operates freely in competitive markets across OECD democracies.",
+      "description": "This provision requires government licenses for **\"any business connected with meteorological services\"**—a scope that could capture weather apps, climate analytics platforms, and agricultural forecasting services. Unlike OECD democracies where weather data services operate in competitive markets with simple business registration, Ghana would require criminal background checks, facility inspections, equipment verification, and annual renewal fees. This creates significant barriers for startups and tech companies seeking to innovate in weather-related digital services, with appeals limited to a Tribunal with no judicial review.",
       "relatedProvisions": [
         "29-requirement-for-licence-to-operate"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "licensing-regime-controls-weather-data-services",
-      "title": "Licensing Regime Controls Weather Data Services",
+      "id": "government-licensing-required-for-weather-data-services",
+      "title": "Government Licensing Required for Weather Data Services",
       "severity": "high",
-      "description": "This provision enables the Authority to require **licenses for anyone providing meteorological data services or operating meteorological businesses**—extending government licensing beyond regulated activities to information services. While the provision requires **published criteria** (a positive safeguard), it operationalizes a regime that restricts market entry for weather apps, climate analytics platforms, and data services. This creates compliance barriers for startups and digital businesses simply for providing weather information, an activity typically unregulated in democratic markets.",
+      "description": "This provision requires anyone providing **meteorological data services** or operating weather-related businesses to obtain government approval before operating. While the Authority must publish licensing criteria, this extends government control beyond dangerous activities to **information services**—requiring licenses to provide weather data commercially. This creates barriers for startups developing weather apps, climate analytics platforms, or agricultural forecasting services, potentially stifling innovation in a sector where open data access typically drives technological advancement.",
       "relatedProvisions": [
         "31-conditions-for-grant-of-a-licence"
       ],

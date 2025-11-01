@@ -116,8 +116,8 @@
     {
       "id": "undefined-false-information-ban-threatens-speech",
       "title": "Undefined \"False Information\" Ban Threatens Speech",
-      "severity": "high",
-      "description": "This provision prohibits emerging technology systems from spreading **\"false information including misinformation and disinformation\"** without defining these terms. Technology companies face administrative penalties of 1,000-5,000 penalty units for violations, but cannot determine what content is prohibited—the law doesn't distinguish between deliberate lies, contested facts, satire, predictions, or opinion. This vagueness creates powerful incentives for **over-censorship**: platforms will suppress legitimate speech to avoid penalties they cannot predict, particularly affecting startups lacking resources for extensive legal review.",
+      "severity": "critical",
+      "description": "This provision prohibits emerging technology systems from spreading **\"false information including emerging technology-generated misinformation and disinformation\"** without defining any of these terms. Technology companies face administrative penalties of **1,000-5,000 penalty units** for violating undefined standards, creating massive legal uncertainty. Platforms cannot determine whether satire, contested facts, predictions, or opinion violate the law, incentivizing **over-censorship of legitimate speech** to avoid penalties. This vague prohibition on the primary medium of modern public discourse creates severe chilling effects on democratic participation.",
       "relatedProvisions": [
         "29-misinformation-and-disinformation"
       ],

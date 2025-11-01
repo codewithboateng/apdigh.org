@@ -63,10 +63,10 @@
   },
   "keyConcerns": [
     {
-      "id": "centralized-veto-over-all-public-ict-research",
-      "title": "Centralized Veto Over All Public ICT Research",
+      "id": "undefined-criteria-for-mandatory-research-approval",
+      "title": "Undefined Criteria for Mandatory Research Approval",
       "severity": "high",
-      "description": "Public institutions—including universities and research centers—must obtain **\"no objection\" approval from the Centre** before applying for ANY ICT research funding, even from private donors or international partners. The Centre evaluates projects against undefined **\"national development goals in ICT\"** with no requirement to provide written reasons for denials. This creates a centralized bottleneck where a single government body can veto any public sector ICT research project based on vague criteria, potentially stifling innovation and enabling politically-motivated interference in academic and scientific research.",
+      "description": "Public institutions must obtain Centre approval before applying for **any ICT research funding from any source** - including private donors and international partners. The Centre evaluates projects against undefined **\"national development goals in ICT\"** with no published standards or requirement to provide written reasons for denial. This creates legal uncertainty about what research will be approved and gives the Centre discretionary power to shape Ghana's entire public sector ICT research agenda without clear accountability, potentially blocking legitimate research that doesn't align with the Centre's interpretation of national priorities.",
       "relatedProvisions": [
         "5-no-objection-by-the-centre"
       ],

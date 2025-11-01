@@ -29,7 +29,7 @@
 
   <!-- Concern Title (centered, bold) -->
   <text x="600" y="270" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="700" fill="#111827" text-anchor="middle">
-    <tspan x="600" dy="0">Undefined Directives Enable Arbitrary</tspan><tspan x="600" dy="55">Business Shutdowns</tspan>
+    <tspan x="600" dy="0">Undefined &quot;Directives&quot; Enable</tspan><tspan x="600" dy="55">Arbitrary Business Shutdowns</tspan>
   </text>
 
   <!-- Bill Context -->

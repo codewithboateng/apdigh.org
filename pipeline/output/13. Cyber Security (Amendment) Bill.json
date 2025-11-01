@@ -1088,28 +1088,19 @@
   },
   "keyConcerns": [
     {
-      "id": "regulator-granted-police-powers-without-oversight",
-      "title": "Regulator Granted Police Powers Without Oversight",
+      "id": "regulator-granted-police-powers-without-independent-oversight",
+      "title": "Regulator Granted Police Powers Without Independent Oversight",
       "severity": "critical",
-      "description": "The Cybersecurity Authority—which already licenses businesses, sets rates, investigates violations, and prosecutes crimes—now gains **full police powers including arrest, search, and seizure** without requiring judicial warrants or independent oversight. This means the same entity that regulates your business can arrest you and seize your property, creating a fundamental **conflict of interest** and **rule of law violation**. The provision grants these powers to undefined \"authorised officers\" without specifying training, accountability standards, or appeal mechanisms, while the Authority profits from enforcement through tax revenues and provider contributions.",
+      "description": "The Cybersecurity Authority—which licenses businesses, sets rates, and collects revenue from the industry—is granted **full police powers including arrest, search, and seizure** over the same companies it regulates. This concentration of regulatory, investigative, prosecutorial, and enforcement authority in a single entity that **profits from enforcement** (receiving 12% of communications tax, 9% of corporate tax, and 30% of certified provider revenues) creates a fundamental conflict of interest. The provision authorizes **\"other authorised officers\"** to exercise police powers without defining qualifications or accountability standards, and grants these powers without requiring independent judicial authorization in the text itself.",
       "relatedProvisions": [
         "8-section-20b-inserted"
       ]
     },
     {
-      "id": "property-frozen-without-court-authorization",
-      "title": "Property Frozen Without Court Authorization",
+      "id": "criminalizing-false-information-without-definition",
+      "title": "Criminalizing \"False Information\" Without Definition",
       "severity": "critical",
-      "description": "The Authority can **freeze property by written direction** and seek court confirmation only afterward (within 14 days). This reverses fundamental due process—property is seized first, judicial review comes later. The provision also allows freezing **third-party property** without explicit safeguards requiring connection to the investigation. Combined with the Authority's prosecutorial powers, this creates a single entity that investigates, prosecutes, and seizes assets—concentrating coercive powers that are typically separated in democratic systems.",
-      "relatedProvisions": [
-        "24-section-59b-inserted"
-      ]
-    },
-    {
-      "id": "undefined-false-information-crime-threatens-speech",
-      "title": "Undefined \"False Information\" Crime Threatens Speech",
-      "severity": "critical",
-      "description": "This provision criminalizes posting **\"false information\"** with **1-10 years imprisonment** without defining what constitutes \"false\" or providing exceptions for satire, opinion, or public interest reporting. The undefined terms **\"harass\"** and **\"stalk\"** could encompass legitimate criticism of public officials, investigative journalism, or political debate. Democratic jurisdictions typically handle online harassment with 6-month to 2-year sentences and treat misinformation civilly—Ghana's approach creates severe **chilling effects on legitimate expression** by conflating serious harms (stalking) with disputed speech (false information).",
+      "description": "This provision makes posting **\"false information\"** about someone punishable by **1-10 years imprisonment**, but never defines what constitutes \"false information\" or distinguishes it from opinion, satire, or disputed facts. Journalists reporting on public figures, activists sharing controversial claims, or citizens criticizing officials could face criminal prosecution. The law provides **no exceptions for public interest, satire, or legitimate criticism**—protections standard in democratic jurisdictions. By treating information-based offenses with the same severity as stalking, the provision creates a severe **chilling effect on digital expression** and departs fundamentally from international norms where democracies handle such matters civilly or with far shorter sentences and precise definitions.",
       "relatedProvisions": [
         "36-section-67b-inserted"
       ]
@@ -1118,52 +1109,61 @@
       "id": "vague-cybercrime-definition-enables-arbitrary-prosecution",
       "title": "Vague \"Cybercrime\" Definition Enables Arbitrary Prosecution",
       "severity": "critical",
-      "description": "Section 67 is amended to cover generic **\"Other cybercrime\"** without defining what conduct is criminal, while imposing **3-10 years imprisonment** and fines up to 25,000 penalty units. This creates a rule of law crisis: citizens cannot know what online activity might trigger prosecution, while the Cybersecurity Authority gains discretion to interpret undefined \"cybercrime\" and enforce severe penalties. The **3-year mandatory minimum** for conduct that could include cyberbullying is extraordinarily harsh by international standards and will chill legitimate online speech, particularly criticism of government or public figures.",
+      "description": "The amendment changes Section 67's scope from **\"Online Sexual Offences\"** to generic **\"Other cybercrime\"** without defining what conduct is criminalized, while imposing **3-10 years imprisonment**. Citizens cannot know what online activities constitute criminal \"cybercrime,\" yet face severe mandatory sentences. The **3-year minimum** for potentially vague offenses like cyberbullying far exceeds international norms (typically months to 2 years). Combined with the Authority's broad investigative powers, this creates **arbitrary enforcement risk** and **chills legitimate online expression**, particularly for journalists and activists engaging in criticism.",
       "relatedProvisions": [
         "34-section-67-of-act-1038-amended"
       ]
     },
     {
-      "id": "regulator-sets-prices-and-takes-30-revenue",
-      "title": "Regulator Sets Prices and Takes 30% Revenue",
+      "id": "30-revenue-tax-on-cybersecurity-professionals",
+      "title": "30% Revenue Tax on Cybersecurity Professionals",
       "severity": "high",
-      "description": "The Authority gains **unilateral power to set mandatory prices** for cybersecurity certification services while **extracting 30% of all revenue** into its own fund. Certified professionals cannot charge competitive rates, must surrender nearly a third of their income, and face penalties (250-5,000 units) for non-compliance—all **without any independent review, appeal mechanism, or judicial oversight** of the Authority's rate-setting decisions. This creates a system where the regulator profits directly from the market it controls, with no checks on its pricing authority.",
+      "description": "The Authority can unilaterally set prices for cyber hygiene certification services and **requires certified professionals to pay 30% of their revenue** into the cybersecurity fund—functioning as a compulsory levy without legislative appropriation or independent oversight. This extraordinary revenue extraction, combined with price controls that eliminate competitive pricing, creates **significant barriers to market entry** and reduces profitability for cybersecurity service providers. The provision lacks appeal mechanisms, transparent rate-setting criteria, or procedural safeguards before penalty imposition.",
       "relatedProvisions": [
         "19-section-57c-inserted"
       ]
     },
     {
-      "id": "criminal-imprisonment-for-licensing-violations",
-      "title": "Criminal Imprisonment for Licensing Violations",
+      "id": "prison-time-for-operating-without-license",
+      "title": "Prison Time for Operating Without License",
       "severity": "high",
-      "description": "The provision makes operating without a cybersecurity license or accreditation a **criminal offense punishable by up to 5 years imprisonment**. Most democracies treat licensing violations as administrative matters with fines, not criminal imprisonment. Corporate directors are **\"deemed to have committed the offence\"** without requiring proof of knowledge or involvement, creating strict personal liability. While graduated enforcement options exist (warnings, administrative penalties), the availability of criminal imprisonment for regulatory non-compliance creates a chilling effect on business operations and market entry.",
+      "description": "This provision makes operating without a cybersecurity license or accreditation a **criminal offense punishable by up to 5 years imprisonment**. Most democracies treat licensing violations as administrative matters resolved through fines and cease-and-desist orders, not criminal prosecution. The provision also imposes **strict liability on corporate directors**, who \"shall be deemed to have committed the offence\" even without knowledge of the violation. This creates severe compliance anxiety and market entry barriers, particularly for startups navigating complex licensing requirements.",
       "relatedProvisions": [
         "23-section-59a-inserted"
       ]
     },
     {
-      "id": "mandatory-licensing-blocks-independent-security-research",
-      "title": "Mandatory Licensing Blocks Independent Security Research",
+      "id": "asset-freezing-without-prior-court-authorization",
+      "title": "Asset Freezing Without Prior Court Authorization",
       "severity": "high",
-      "description": "All cybersecurity service providers—including non-profit researchers and educators—must obtain government licenses or accreditation to operate. Operating without approval triggers penalties of **50,000-100,000 penalty units** plus undefined \"damage caused\" calculations. This creates substantial barriers for startups, independent security researchers, and SMEs while giving authorities broad discretion over who can provide security services in Ghana's digital ecosystem.",
+      "description": "The Authority can **unilaterally freeze business assets** by written direction before obtaining judicial approval, with court confirmation required only within 14 days afterward. This reverses fundamental due process protections—businesses can have their property frozen based on cybercrime allegations without prior judicial review, potentially crippling operations before any hearing occurs. The provision also enables **civil asset confiscation without criminal conviction**, using lower evidentiary standards, and allows freezing of **third-party property** held by entities not under investigation. This concentration of investigative, prosecutorial, and asset seizure powers in a single regulatory authority creates severe institutional design flaws that enable potential abuse and undermine business confidence.",
+      "relatedProvisions": [
+        "24-section-59b-inserted"
+      ]
+    },
+    {
+      "id": "mandatory-licensing-blocks-cybersecurity-innovation",
+      "title": "Mandatory Licensing Blocks Cybersecurity Innovation",
+      "severity": "high",
+      "description": "This provision requires **all cybersecurity service providers**—including startups, consultants, and researchers—to obtain government licenses before operating, with penalties of **50,000-100,000 penalty units** plus damages for non-compliance. The undefined scope of \"cybersecurity service\" could capture activities from penetration testing to security software development, while the lack of clear licensing standards, appeal rights, or decision timelines creates **discretionary enforcement risk**. This creates significant barriers to market entry that disproportionately harm smaller players and independent researchers, potentially concentrating the cybersecurity market among established firms who can navigate complex licensing requirements.",
       "relatedProvisions": [
         "15-section-49-of-act-1038-amended"
       ]
     },
     {
-      "id": "disproportionate-prison-terms-for-online-speech",
-      "title": "Disproportionate Prison Terms for Online Speech",
+      "id": "disproportionate-prison-terms-for-online-harassment",
+      "title": "Disproportionate Prison Terms for Online Harassment",
       "severity": "high",
-      "description": "This provision establishes **3-10 years imprisonment** for cyberbullying and related online conduct—far exceeding international norms where similar offenses typically carry 6 months to 2 years. The **3-year mandatory minimum** creates severe chilling effects on legitimate speech and online expression, as users and platforms face criminal liability for conduct that may be offensive but protected. This disproportionate penalty structure deters digital innovation by creating compliance uncertainty for platforms and content moderation services, while enabling potential selective enforcement against critics and activists.",
+      "description": "This provision establishes **3-10 years imprisonment** for cyberbullying and online harassment—penalties that far exceed international norms where similar offenses typically carry 6 months to 2 years. The **mandatory 3-year minimum** removes judicial discretion to impose proportionate sentences for minor violations, creating a powerful **chilling effect on legitimate speech** and giving prosecutors enormous leverage for selective enforcement. Comparable democracies address online harassment primarily through fines, restraining orders, or shorter prison terms, making Ghana's approach a dramatic escalation that violates proportionality principles.",
       "relatedProvisions": [
         "37-section-68-of-act-1038-amended"
       ]
     },
     {
-      "id": "security-research-criminalized-without-safe-harbor",
-      "title": "Security Research Criminalized Without Safe Harbor",
+      "id": "security-research-criminalized-without-safe-harbors",
+      "title": "Security Research Criminalized Without Safe Harbors",
       "severity": "high",
-      "description": "This provision criminalizes **any attempt to access critical infrastructure**, even unsuccessful ones, with **2-5 years imprisonment**—without defining what constitutes \"lawful authority\" or providing safe harbor for authorized security research. Security researchers, penetration testers, and cybersecurity professionals routinely attempt to access systems to identify vulnerabilities, but this provision makes such standard industry practices criminal offenses. A researcher testing their own company's defenses or conducting authorized vulnerability assessments could face prosecution if their authorization doesn't meet the undefined \"lawful authority\" standard, creating a **massive chilling effect on Ghana's cybersecurity industry** and deterring the very activities needed to maintain digital security.",
+      "description": "This provision criminalizes **\"attempts to gain access\"** to critical infrastructure with 2-5 year prison sentences, even when unsuccessful, without defining **\"lawful authority\"** or providing exceptions for legitimate security research. Cybersecurity professionals conducting authorized penetration testing, vulnerability assessments, or security research face criminal exposure because the law provides no safe harbor for these standard industry practices. The undefined scope of \"lawful authority\" creates massive legal uncertainty for security researchers, system administrators, and companies conducting authorized testing—potentially crippling Ghana's cybersecurity industry and deterring legitimate security work that protects critical systems.",
       "relatedProvisions": [
         "42-section-94-of-act-1038-amended"
       ]

@@ -343,20 +343,10 @@
   },
   "keyConcerns": [
     {
-      "id": "undefined-data-transfer-approval-blocks-digital-operations",
-      "title": "Undefined Data Transfer Approval Blocks Digital Operations",
+      "id": "criminal-penalties-for-undefined-pre-approval-violations",
+      "title": "Criminal Penalties for Undefined Pre-Approval Violations",
       "severity": "critical",
-      "description": "The Authority can **block or condition any cross-border data transfer** based on undefined \"compelling legitimate interests\" and \"real risk\" standards, with **no specified approval criteria, timeframes, or appeal mechanisms**. This creates severe uncertainty for cloud computing, SaaS platforms, and multinational tech operations that depend on cross-border data flows. Unlike GDPR's adequacy framework, **every transfer of special personal data requires case-by-case Authority approval**, effectively giving regulators discretionary veto power over digital business models with no procedural safeguards.",
-      "relatedProvisions": [
-        "90-safeguards-prior-to-transfer-of-personal-data-out-of-ghana"
-      ],
-      "relatedImpacts": []
-    },
-    {
-      "id": "criminal-penalties-for-undefined-assessable-processing",
-      "title": "Criminal Penalties for Undefined \"Assessable Processing\"",
-      "severity": "critical",
-      "description": "The Minister can unilaterally define which data processing activities require pre-approval using vague criteria like **\"substantial damage\"** or **\"significantly prejudice privacy rights\"** - terms with no objective definition. Organizations that process data without approval face **up to 5 years imprisonment** for what is fundamentally an administrative procedural violation. This creates a dangerous combination: undefined regulatory scope determined by ministerial discretion, backed by criminal sanctions, with no clear standards for what requires approval or how the Authority assesses compliance. Startups and tech companies cannot know whether their processing requires the 28-42 day approval period, creating massive uncertainty that chills innovation and enables selective enforcement.",
+      "description": "The Minister can unilaterally define which data processing activities require pre-approval using vague criteria like **\"substantial damage\"** or **\"significantly prejudice privacy\"**—terms with no objective definition. Data controllers who proceed without approval face **up to 5 years imprisonment** for what is fundamentally an administrative procedural violation. This creates a rule of law crisis: businesses cannot know in advance which activities require approval, yet face criminal prosecution for guessing wrong. The **28-42 day approval delays** combined with undefined scope create severe barriers to innovation, particularly for startups lacking compliance infrastructure.",
       "relatedProvisions": [
         "76-assessable-processing"
       ],
@@ -366,17 +356,27 @@
       "id": "business-shutdown-without-due-process-rights",
       "title": "Business Shutdown Without Due Process Rights",
       "severity": "high",
-      "description": "The Authority can **cancel or suspend a data controller's registration**—effectively shutting down their data processing operations—without any requirement to provide **notice, opportunity to be heard, or time to cure violations** before the sanction takes effect. For tech startups and digital businesses, this means facing potential **immediate business termination** for violations ranging from serious security breaches to minor administrative failures like late registration updates, with no procedural safeguards to contest findings or correct problems before suspension. This falls short of **international standards like GDPR** which require notice and hearing before such severe sanctions.",
+      "description": "The Authority can **cancel a data controller's registration**—effectively shutting down their business operations—without requiring prior notice, opportunity to respond, or explicit appeal mechanisms. Since registration is **mandatory before any data processing** (provision 72), cancellation equals business termination. The provision treats all violations equally: a late registration update could trigger the same sanction as a major security breach. This creates **existential risk for startups and digital businesses** operating under regulatory uncertainty, while the lack of procedural safeguards enables potential selective enforcement against disfavored companies.",
       "relatedProvisions": [
         "71-cancellation-or-suspension-of-registration"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "law-enforcement-exemption-lacks-basic-safeguards",
-      "title": "Law Enforcement Exemption Lacks Basic Safeguards",
+      "id": "data-localization-without-clear-approval-standards",
+      "title": "Data Localization Without Clear Approval Standards",
       "severity": "high",
-      "description": "This provision allows authorities to process and disclose personal data for crime prevention or tax collection without standard protections, using only a vague **\"likely to prejudice\"** standard with no judicial oversight, proportionality requirement, or time limits. Unlike GDPR and Commonwealth frameworks that require **\"appropriate safeguards\"** and independent review, this creates a massive loophole where citizens cannot know if their data is being accessed, journalists cannot protect sources, and authorities face minimal accountability for invoking exemptions based on speculative rather than demonstrated harm.",
+      "description": "This provision requires **Authority approval for all transfers of sensitive personal data** outside Ghana, but provides **no defined criteria, timelines, or procedural safeguards** for approval decisions. Terms like \"compelling legitimate interests\" and \"real risk\" grant arbitrary discretion to block or condition transfers. This effectively mandates **data localization for health data, children's data, and biometric information** without the infrastructure or clear standards needed to make compliance predictable. Tech companies cannot use global cloud services for sensitive data without case-by-case approvals, creating barriers that exceed GDPR standards and make Ghana-based digital operations unpredictable for startups and multinationals alike.",
+      "relatedProvisions": [
+        "90-safeguards-prior-to-transfer-of-personal-data-out-of-ghana"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "law-enforcement-exemption-lacks-judicial-oversight",
+      "title": "Law Enforcement Exemption Lacks Judicial Oversight",
+      "severity": "high",
+      "description": "This provision allows authorities to process and disclose personal data for crime prevention or tax collection without standard protections, using only a vague **\"likely to prejudice\"** standard with no requirement for judicial authorization or independent review. Unlike GDPR Article 23 or UK frameworks that require **\"appropriate safeguards\"** and proportionality assessments, citizens have no way to know if their data is being accessed, for how long, or under what justification. This creates particular risks for **journalists protecting sources** and activists subject to surveillance, while leaving businesses uncertain about when authorities can access data without notice.",
       "relatedProvisions": [
         "92-crime-and-taxation"
       ],
@@ -386,7 +386,7 @@
       "id": "absolute-erasure-right-creates-impossible-compliance-obligations",
       "title": "Absolute Erasure Right Creates Impossible Compliance Obligations",
       "severity": "high",
-      "description": "Section 61(2) grants an **absolute \"right to be forgotten\" without requiring justification**, while simultaneously making individuals bear all consequences of erasure through the liability shield in Section 61(9). This creates a perverse incentive where data controllers are protected from service disruption liability while individuals face unknown risks. More critically, the provision requires organizations to **manage search engine delisting and control third-party republication** beyond their direct control (61(3-4)), creating impossible compliance obligations with criminal penalties. The **30-day timeline for complex erasures** combined with undefined cost assessment standards creates a compliance trap where organizations must either over-invest in infrastructure or risk both penalties and cost disputes with the Authority.",
+      "description": "Section 61(2) grants an **absolute \"right to be forgotten\" without requiring justification**, while Section 61(3) requires data controllers to achieve **\"complete removal to the greatest extent possible\"** including managing **search engine results and third-party websites** beyond their control. This creates impossible compliance obligations: businesses must either erase data and face liability under Section 61(9) for service disruptions, or retain data and face enforcement action. The provision's **perverse incentive structure shields controllers from erasure consequences**, encouraging data retention over deletion—directly undermining the right it establishes.",
       "relatedProvisions": [
         "55-right-to-erasure-and-the-right-to-be-forgotten"
       ],
@@ -396,47 +396,47 @@
       "id": "undefined-public-interest-enables-arbitrary-license-revocation",
       "title": "Undefined \"Public Interest\" Enables Arbitrary License Revocation",
       "severity": "high",
-      "description": "The Authority can revoke any data controller's or service provider's license if it determines continuation is \"not in the public interest\" - **without defining what \"public interest\" means** or establishing procedural protections. While other revocation grounds (fraud, criminal conviction, failure to meet requirements) are legitimate, this vague standard allows the Authority to **shut down any data-handling business based on undefined criteria**, with no specified right to notice, hearing, or appeal. For tech companies and startups, this creates **existential uncertainty** - you could lose your license to operate at any time based on an arbitrary determination.",
+      "description": "The Authority can revoke a business's data processing license if it determines continuation is \"not in the **public interest**\"—without defining this standard or providing procedural protections. While other revocation grounds (fraud, criminal conviction, failure to meet requirements) are legitimate, this **vague discretionary power** allows the Authority to shut down any data controller or service provider without notice, hearing, or appeal rights. For tech companies, this creates existential uncertainty: a startup could lose its license to operate based on undefined criteria, with no opportunity to respond or cure violations—exceeding norms in OECD democracies where administrative revocations require defined grounds and procedural fairness.",
       "relatedProvisions": [
         "85-revocation-of-accreditation"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "data-localization-mandate-blocks-cloud-services",
-      "title": "Data Localization Mandate Blocks Cloud Services",
+      "id": "undefined-large-scale-transfers-require-authority-approval",
+      "title": "Undefined \"Large-Scale\" Transfers Require Authority Approval",
       "severity": "high",
-      "description": "The bill requires **mandatory localization** of children's, biometric, health, and genetic data within Ghana, effectively prohibiting standard cloud service models that rely on distributed international data centers. Even with data subject consent, cross-border transfers of these categories require **Authority approval** - a discretionary gatekeeping mechanism with no explicit appeal process. The provision also requires \"reasonable efforts\" to localize all personal data, creating compliance uncertainty since neither **\"reasonable efforts\"** nor **\"large-scale\"** transfers (which trigger Authority approval) are defined. This creates disproportionate barriers for startups and SMEs that cannot afford local infrastructure and must wait for Authority approval for legitimate business operations.",
+      "description": "The provision requires Authority authorization for **\"large-scale\"** cross-border data transfers but never defines what constitutes \"large-scale\" processing. This creates legal uncertainty for businesses and grants the Authority broad discretionary power to determine which routine business operations require case-by-case approval. Cloud service providers, SaaS platforms, and multinational companies cannot determine in advance whether their operations will trigger this requirement, forcing them to either seek precautionary approval (creating delays and compliance costs) or risk non-compliance penalties. The provision also requires assessment of **\"adequate safeguards\"** without specifying what safeguards meet this standard, adding another layer of discretionary gatekeeping.",
       "relatedProvisions": [
         "89-basis-for-cross-border-transfer-of-personal-data"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "examination-scripts-completely-exempt-from-protection",
-      "title": "Examination Scripts Completely Exempt from Protection",
+      "id": "exam-scripts-completely-exempt-from-data-protection",
+      "title": "Exam Scripts Completely Exempt from Data Protection",
       "severity": "high",
-      "description": "This provision removes **all data protection rights** for examination scripts, allowing educational institutions to retain sensitive academic performance data indefinitely without consent, security requirements, or breach notification obligations. Students lose the right to access their own exam scripts, correct errors, or seek compensation for unauthorized disclosure. Unlike international standards that permit research exemptions **with appropriate safeguards**, this blanket exemption contradicts the bill's core principle that \"personal data belongs to individuals\" and creates an unregulated repository for sensitive information that may reveal learning disabilities or cognitive abilities.",
+      "description": "This provision removes **all data protection safeguards** for examination scripts and related personal data recorded during academic or professional exams. Educational institutions can retain your exam data **indefinitely without security requirements**, you cannot access your own scripts to identify grading errors, and data breaches involving exam records would **not trigger notification obligations**. This contradicts the bill's principle that \"personal data belongs to individuals\" and creates an unregulated repository for sensitive information revealing cognitive abilities and potentially learning disabilities—without any stated justification for why complete exemption is necessary rather than modified protections.",
       "relatedProvisions": [
         "102-examination-scripts"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "business-shutdown-without-due-process-rights",
-      "title": "Business Shutdown Without Due Process Rights",
+      "id": "immediate-business-shutdown-without-due-process",
+      "title": "Immediate Business Shutdown Without Due Process",
       "severity": "high",
-      "description": "The Authority can order immediate **\"cease business operations\"** based on a compliance assessment without giving the data controller any opportunity to be heard, present evidence, or appeal before the shutdown takes effect. This violates fundamental due process principles - businesses can be closed down based on a complaint-triggered investigation without defending themselves first. For startups and tech companies operating on thin margins, even a brief operational suspension can be fatal, while the **lack of procedural safeguards** creates potential for selective enforcement against competitors or politically disfavored companies.",
+      "description": "The Authority can order complete **\"cease business operations\"** with **immediate compliance required** upon finding any data protection violation, without giving the business an opportunity to be heard, contest the findings, or appeal before shutdown takes effect. This creates an extreme enforcement mechanism where a single complaint can trigger corporate death penalty without basic procedural fairness—businesses are shut down first and can ask questions later. For startups and tech companies, this existential risk from discretionary enforcement will severely chill innovation and market participation.",
       "relatedProvisions": [
         "27-request-for-assessment"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "undefined-licensing-requirement-blocks-data-services-market",
-      "title": "Undefined Licensing Requirement Blocks Data Services Market",
+      "id": "undefined-data-protection-services-licensing-requirement",
+      "title": "Undefined \"Data Protection Services\" Licensing Requirement",
       "severity": "high",
-      "description": "The bill requires anyone providing **\"data protection services\"** to obtain a government license or face fines up to 50,000 penalty units, but never defines what constitutes such services. This undefined scope creates severe uncertainty: Does it apply only to specialized DPO consulting firms, or does it capture cloud providers, cybersecurity firms, IT support, analytics platforms, or any business offering data-related services? The ambiguity creates a **market entry barrier** where service providers cannot determine if they need licensing, while the substantial penalty deters innovation. This represents a significant departure from OECD practice, where licensing is reserved for regulated professions, not general information services.",
+      "description": "The bill requires anyone providing **\"data protection services\"** to obtain a government license or face fines up to 50,000 penalty units (≈USD 2,500-5,000), but never defines what constitutes a \"data protection service.\" This undefined scope could capture specialized compliance consultants, general IT services, cloud providers, cybersecurity firms, or any business offering data-related services. The ambiguity creates severe market entry barriers and enables arbitrary enforcement—a small IT consultancy could face substantial fines without clear notice they needed licensing. This departs from international practice where licensing is reserved for activities with direct public safety implications, not information services generally.",
       "relatedProvisions": [
         "79-accreditation-of-data-protection-service-providers"
       ],

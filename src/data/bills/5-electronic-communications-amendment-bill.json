@@ -221,22 +221,22 @@
   },
   "keyConcerns": [
     {
-      "id": "presidential-control-over-all-communications-infrastructure",
-      "title": "Presidential Control Over All Communications Infrastructure",
-      "severity": "critical",
-      "description": "The President can unilaterally seize control of Ghana's entire telecommunications infrastructure during emergencies based on undefined **\"national security\"** interests, without judicial review or parliamentary oversight. During declared war, the President may **\"assume direct control\"** of all electronic communications services and issue operating regulations with no procedural safeguards, temporal limits, or compensation mechanisms. This concentrates extraordinary power over internet, mobile networks, and broadcasting in executive hands precisely when independent communications are most critical for democratic accountability.",
+      "id": "criminal-penalties-for-undefined-misleading-information",
+      "title": "Criminal Penalties for Undefined \"Misleading\" Information",
+      "severity": "high",
+      "description": "This provision makes it a **crime punishable by up to 3 years imprisonment** to provide \"misleading\" information to the NCA—but never defines what \"misleading\" means. Companies must regularly submit technical reports, compliance filings, and operational data to the regulator. Under this vague standard, a **negligent error or reasonable disagreement** about facts could result in criminal prosecution. This creates a chilling effect on regulatory engagement and exceeds democratic norms, where criminal penalties are reserved for deliberate fraud, not administrative mistakes.",
       "relatedProvisions": [
-        "77-communications-during-a-state-of-emergency"
+        "55-giving-false-information"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "criminal-penalties-for-undefined-misleading-information",
-      "title": "Criminal Penalties for Undefined \"Misleading\" Information",
+      "id": "presidential-control-over-communications-without-oversight",
+      "title": "Presidential Control Over Communications Without Oversight",
       "severity": "high",
-      "description": "This provision makes it a **crime punishable by up to 3 years imprisonment** to negligently provide \"misleading\" information to the NCA—without defining what \"misleading\" means in the regulatory context. Companies must regularly submit information about network operations, service offerings, and technical compliance, but face **criminal prosecution for negligent errors or good-faith disagreements** about facts. This undefined standard creates a **chilling effect on regulatory engagement** and exceeds democratic norms where administrative false statements are handled through civil penalties, not imprisonment.",
+      "description": "During declared emergencies or war, the President can **assume direct control** of all electronic communications services and issue operating regulations without judicial review, parliamentary oversight, or compensation mechanisms. The provision grants unilateral authority to determine what communications are \"necessary in the interest of **national security and defence**\"—undefined terms that could justify broad censorship. Combined with the bill's separate authorization for presidential interception orders, this creates a framework for **mass surveillance and speech suppression** during emergency periods without independent oversight or clear procedures for restoring private operation.",
       "relatedProvisions": [
-        "55-giving-false-information"
+        "77-communications-during-a-state-of-emergency"
       ],
       "relatedImpacts": []
     }

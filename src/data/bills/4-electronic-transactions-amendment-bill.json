@@ -235,20 +235,20 @@
   },
   "keyConcerns": [
     {
-      "id": "encryption-services-require-expensive-government-licensing",
-      "title": "Encryption Services Require Expensive Government Licensing",
+      "id": "encryption-services-require-expensive-government-license",
+      "title": "Encryption Services Require Expensive Government License",
       "severity": "high",
-      "description": "This provision prohibits anyone from providing **encryption or authentication services** without complying with the Act's licensing requirements, which include **GHS 10 million liability insurance** (~$650,000 USD) and mandatory audits. Most democracies don't require prior licensing for encryption providers—this creates a significant barrier to market entry that will exclude startups, individual developers, and small businesses from offering privacy-protective tools. By treating encryption like a highly regulated industry, the bill concentrates control over foundational security technologies in the hands of well-capitalized, government-approved entities.",
+      "description": "This provision makes it **illegal to provide encryption or authentication services** without government licensing, effectively requiring a **GHS 10 million insurance policy** and regulatory approval to offer basic security tools. This creates a significant **barrier to market entry** for startups and small providers, departing from international norms where encryption tools are generally available without prior licensing. The requirement could reduce competition and innovation in privacy-protective technologies, concentrating the market among large, well-capitalized players while excluding smaller innovators who cannot afford the compliance costs.",
       "relatedProvisions": [
         "26-prohibited-acts"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "directors-face-imprisonment-for-administrative-license-delays",
-      "title": "Directors Face Imprisonment for Administrative License Delays",
+      "id": "criminal-imprisonment-for-administrative-paperwork-violations",
+      "title": "Criminal Imprisonment for Administrative Paperwork Violations",
       "severity": "high",
-      "description": "Directors of companies whose licenses are suspended or revoked can be **criminally prosecuted and imprisoned for up to two years** simply for failing to physically surrender the license document within 24 hours of notification. This provision treats administrative non-compliance as a **criminal offense with accumulating daily fines** (up to 5,000 penalty units per day), creating extreme personal liability for what is essentially a procedural failure. **Each director is individually liable**, meaning multiple directors face separate criminal prosecutions for the same company failure, creating a chilling effect on corporate governance and business operations.",
+      "description": "Directors face **up to 2 years imprisonment** for failing to surrender a suspended license within 24 hours—treating administrative non-compliance as a criminal offense. This creates **personal criminal liability for all directors** (not just those responsible for compliance) and establishes a dangerous precedent of using criminal law to enforce paperwork requirements. The provision weaponizes criminal penalties against routine administrative matters, creating a chilling effect on entrepreneurship and enabling potential enforcement abuse.",
       "relatedProvisions": [
         "30-surrender-of-licence"
       ],
@@ -258,17 +258,17 @@
       "id": "unchecked-power-to-designate-critical-databases",
       "title": "Unchecked Power to Designate \"Critical\" Databases",
       "severity": "high",
-      "description": "The Minister can unilaterally declare entire classes of information or databases as **\"critical\"** based on undefined criteria like **\"importance to national security\"** or **\"economic and social well-being\"**—triggering unknown compliance obligations without parliamentary oversight, stakeholder consultation, or judicial review. This creates severe regulatory uncertainty: digital businesses cannot predict which databases will be designated or what burdens will follow, chilling innovation and investment. The provision lacks all standard democratic safeguards found in comparable jurisdictions.",
+      "description": "The Minister can unilaterally declare any class of information or database as **\"critical\"** based on undefined criteria like **\"national security\"** or **\"economic well-being\"**—with no parliamentary oversight, stakeholder consultation, or judicial review. This creates severe regulatory uncertainty for digital businesses, which cannot predict which databases will suddenly face unknown compliance requirements. The **broad, vague criteria** could capture virtually any database (social media, e-commerce, health records), enabling selective enforcement against political opponents or foreign competitors while creating a chilling effect on digital innovation and investment.",
       "relatedProvisions": [
         "49-identification-of-critical-electronic-record-and-critical-databases"
       ],
       "relatedImpacts": []
     },
     {
-      "id": "unconstrained-ministerial-power-over-critical-databases",
-      "title": "Unconstrained Ministerial Power Over \"Critical Databases\"",
+      "id": "unconstrained-ministerial-power-over-database-regulation",
+      "title": "Unconstrained Ministerial Power Over Database Regulation",
       "severity": "high",
-      "description": "The Minister can unilaterally designate any database as **\"critical\"** and impose compliance standards for its management, security, and access—**without defining what makes a database critical, requiring parliamentary approval, or providing appeal rights**. A fintech startup or e-commerce platform could suddenly face designation and ministerial standards for \"any other matter required for adequate protection\" with no advance notice or recourse. This creates impossible planning conditions for digital businesses and replaces transparent regulation with administrative discretion.",
+      "description": "The Minister can unilaterally impose regulatory standards on any database designated as \"critical\" **without defined criteria, parliamentary oversight, or appeal rights**. This creates severe legal uncertainty for digital businesses—startups, fintech platforms, and data companies could face sudden compliance obligations determined entirely at ministerial discretion. The provision includes **open-ended authority** to regulate \"any other matter required for adequate protection,\" enabling arbitrary enforcement that could be weaponized against disfavored entities or used to impose prohibitive compliance costs on competitors.",
       "relatedProvisions": [
         "52-management-of-critical-databases"
       ],

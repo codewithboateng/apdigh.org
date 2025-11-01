@@ -822,10 +822,10 @@
   },
   "keyConcerns": [
     {
-      "id": "ministerial-override-power-without-safeguards",
-      "title": "Ministerial Override Power Without Safeguards",
+      "id": "ministerial-override-power-undermines-fund-independence",
+      "title": "Ministerial Override Power Undermines Fund Independence",
       "severity": "high",
-      "description": "The Minister can issue **binding policy directives** to the Fund's Board with no defined limits, transparency requirements, or appeal process. The Board \"**shall comply**\" with these directives on any \"**matters of policy**\"—a term broad enough to encompass funding priorities, project selection, and resource allocation. This concentrates executive power over a supposedly independent fund managing significant financial resources, undermining the transparent, criteria-based allocation system the Act promises and creating unpredictable conditions for businesses seeking support.",
+      "description": "The Minister can issue **binding policy directives** to the Fund Board with no procedural safeguards, transparency requirements, or appeal mechanisms. The undefined scope of \"matters of policy\" could encompass funding priorities, project selection, and resource allocation—effectively allowing the Minister to override the multi-stakeholder Board's decisions at will. This creates **regulatory uncertainty** for businesses seeking Fund support, as funding criteria can change through unpublished ministerial directives, and undermines the stated goal of transparent, merit-based resource allocation for digital innovation.",
       "relatedProvisions": [
         "12-policy-directives"
       ]

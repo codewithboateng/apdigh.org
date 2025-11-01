@@ -2097,7 +2097,7 @@
       "id": "prison-time-for-business-license-transfers",
       "title": "Prison Time for Business License Transfers",
       "severity": "critical",
-      "description": "Transferring an ICT business license without NITA's approval carries **5-10 years imprisonment** plus mandatory business closure—an extraordinarily harsh penalty for what should be an administrative matter. The law provides **no criteria for approval decisions, no hearing rights, and no appeal before license revocation**, giving NITA arbitrary power over normal business transactions like mergers, acquisitions, or succession planning. This effectively **criminalizes standard business operations** and creates severe chilling effects on investment, startup acquisitions, and capital restructuring across Ghana's entire ICT sector.",
+      "description": "Business owners face **5-10 years imprisonment** for transferring an ICT license without NITA's approval—treating a routine administrative matter as a serious crime. The law provides **no criteria for approval decisions**, no timeline for responses, and **mandatory license revocation** without any hearing or appeal. This creates arbitrary enforcement power and makes any ownership change (acquisitions, succession planning, investment) criminally risky, effectively **freezing business structures** and deterring investment in Ghana's ICT sector.",
       "relatedProvisions": [
         "40-non-transferability-of-licence"
       ]
@@ -2106,7 +2106,7 @@
       "id": "equipment-seizure-without-due-process-or-clear-standards",
       "title": "Equipment Seizure Without Due Process or Clear Standards",
       "severity": "critical",
-      "description": "NITA can **immediately confiscate ICT equipment** based on undefined triggers like lacking \"necessary documentation\" or attempting to \"bypass regulatory oversight\"—**without prior notice, hearing, or opportunity to cure violations**. This destroys businesses instantly based on vague standards that NITA interprets at its discretion. Comparable democracies require warnings, graduated enforcement, and pre-seizure hearings before confiscating business assets, particularly for documentation deficiencies that could be easily remedied.",
+      "description": "NITA can confiscate ICT equipment during \"random audits\" based on undefined criteria like lacking **\"necessary documentation\"** or **\"seeking to bypass regulatory oversight\"**—without specifying what documentation is required or what constitutes bypassing oversight. The provision contains no notice requirements, no opportunity to be heard before confiscation, and no cure period for documentation deficiencies. This enables arbitrary enforcement that can destroy businesses overnight, as companies cannot know with certainty what triggers asset seizure or how to avoid it.",
       "relatedProvisions": [
         "69-other-enforcement-measures"
       ]
@@ -2115,7 +2115,7 @@
       "id": "guilty-until-proven-innocent-for-corporate-officers",
       "title": "Guilty Until Proven Innocent for Corporate Officers",
       "severity": "critical",
-      "description": "This provision **reverses the burden of proof in criminal cases**, presuming that directors, managers, officers, and even **shareholders are criminally liable** for any corporate offense unless they can prove they exercised \"due diligence\" to prevent it. This violates the **presumption of innocence** fundamental to criminal justice—defendants must prove their innocence rather than prosecutors proving guilt. Combined with penalties up to **20 years imprisonment** and undefined \"due diligence\" standards, this creates severe legal uncertainty and risk for anyone involved in ICT businesses, particularly shareholders who may have no operational control.",
+      "description": "This provision **reverses the burden of proof** in criminal matters by presuming that directors, managers, officers, and shareholders are guilty of any offense their company commits unless they can prove they exercised \"due diligence\" to prevent it. This violates the **presumption of innocence** fundamental to rule of law—defendants must prove their innocence rather than prosecutors proving guilt. The undefined **\"due diligence\"** standard creates impossible uncertainty about what conduct shields individuals from criminal liability, including potential **imprisonment up to 20 years** for serious offenses under this bill.",
       "relatedProvisions": [
         "89-offence-by-a-body-corporate"
       ]
@@ -2124,16 +2124,16 @@
       "id": "criminal-penalties-for-undefined-critical-data-violations",
       "title": "Criminal Penalties for Undefined \"Critical Data\" Violations",
       "severity": "critical",
-      "description": "Section 97(4) imposes **up to 7 years imprisonment** for hosting \"critical data\" without accreditation—but the law never defines what qualifies as **\"critical data\"** or what accreditation standards apply. This violates the fundamental principle that people must be able to know what conduct is criminal before facing prosecution. A cloud provider, data analytics firm, or business handling customer information cannot determine whether their data is \"critical\" until NITA decides, potentially after the fact. Combined with vague standards for **\"negligently causes a cybersecurity breach\"** (5 years) and undefined **\"fraudulent ICT practices\"** (10 years), businesses face severe criminal liability for technical violations they cannot reliably identify in advance.",
+      "description": "Section 97(4) imposes **up to 7 years imprisonment** for hosting \"critical data\" without accreditation—but **\"critical data\" is never defined** in the Act. This violates the fundamental rule of law principle that criminal offenses must be clearly defined before prosecution. The Authority has complete discretion to determine what qualifies as \"critical data\" and who needs accreditation, then individuals face imprisonment for violating these undefined standards. Combined with immediate suspension powers (97(7)) that operate **without hearings or appeals**, and criminal liability for \"negligently\" causing cybersecurity breaches without defining the standard of care (97(1)), this provision creates arbitrary enforcement risk that will deter legitimate businesses from operating in Ghana's ICT sector.",
       "relatedProvisions": [
         "91-other-offences"
       ]
     },
     {
-      "id": "criminal-penalties-for-unlicensed-software-development",
-      "title": "Criminal Penalties for Unlicensed Software Development",
+      "id": "criminal-penalties-for-unlicensed-ict-business",
+      "title": "Criminal Penalties for Unlicensed ICT Business",
       "severity": "high",
-      "description": "This provision makes it a **criminal offense punishable by up to 2 years imprisonment** to operate any ICT business—including software development or service provision—without a government license. In most democracies, unlicensed business operation is an administrative matter handled through civil penalties, not criminal prosecution. The provision extends licensing requirements far beyond typical practice: while telecommunications infrastructure commonly requires authorization, **software developers and service providers in OECD countries generally don't need licenses to operate**—they're subject to conduct-based regulation instead. This creates significant barriers to entrepreneurship and innovation, as startups face criminal risk for developing products without first navigating NITA's licensing process.",
+      "description": "This provision makes operating any ICT business—including software development or service provision—without a license a **criminal offense punishable by imprisonment** of 6 months to 2 years. In most democracies, unlicensed business operation is an administrative matter with civil penalties, not a criminal offense. The **imprisonment penalty is disproportionate** for what is fundamentally a licensing compliance issue, creating severe chilling effects on entrepreneurship. Combined with the **broad licensing requirement** that captures all ICT activities (not just infrastructure), this creates substantial barriers to market entry that will particularly impact startups, individual developers, and small businesses who may lack compliance resources or fear criminal prosecution.",
       "relatedProvisions": [
         "34-requirement-for-licence"
       ]
@@ -2142,7 +2142,7 @@
       "id": "criminal-imprisonment-for-licensing-violations",
       "title": "Criminal Imprisonment for Licensing Violations",
       "severity": "high",
-      "description": "This provision makes licensing violations a **criminal offense punishable by 6 months to 2 years imprisonment**, rather than handling them through administrative penalties as is standard in democratic systems. A startup founder who operates a cloud service or data center without navigating NITA's licensing process could face **jail time**—not just fines or license suspension. Combined with the bill's expansive licensing requirements, citizenship restrictions, and vague scope definitions, this criminalizes market entry barriers and creates extreme chilling effects on entrepreneurship and innovation.",
+      "description": "This provision makes **licensing violations a criminal offense** punishable by **6 months to 2 years imprisonment**, treating administrative compliance failures as crimes. In democratic jurisdictions, licensing violations are typically addressed through civil penalties or license suspension—not criminal prosecution. When combined with the bill's **mandatory licensing for all ICT services** and **citizenship restrictions**, this creates a system where startups and small businesses face **criminal liability for market entry**, severely chilling innovation and entrepreneurship.",
       "relatedProvisions": [
         "86-offences-relating-to-licensing-and-certification"
       ]
@@ -2151,34 +2151,34 @@
       "id": "license-suspension-based-on-investigation-alone",
       "title": "License Suspension Based on Investigation Alone",
       "severity": "high",
-      "description": "The Authority can **suspend an ICT business license simply because an investigation is underway**, without requiring formal charges, probable cause, or any finding of wrongdoing. This violates the **presumption of innocence** and creates severe risks: authorities could strategically initiate investigations to disrupt competitors or critics, while startups and small businesses face potential destruction even if ultimately exonerated. The provision's **\"an offence...is being investigated\"** language provides no safeguards against arbitrary enforcement or requirement that suspension be necessary to prevent harm.",
+      "description": "The Authority can **suspend an ICT business license simply because an investigation is underway**—no charges required, no evidence of wrongdoing needed, just investigation status. This violates the **presumption of innocence** and creates enormous enforcement discretion: NITA can effectively shut down any business by opening an investigation, then suspend the license while the investigation proceeds indefinitely. For startups and innovative companies, even temporary suspension can be **fatal to the business**, causing investors to flee and customers to leave before any wrongdoing is proven.",
       "relatedProvisions": [
         "41-suspension-of-licence"
       ]
     },
     {
-      "id": "government-contracts-locked-to-citizen-only-providers",
-      "title": "Government Contracts Locked to Citizen-Only Providers",
+      "id": "government-contracts-locked-to-certified-domestic-providers",
+      "title": "Government Contracts Locked to Certified Domestic Providers",
       "severity": "high",
-      "description": "Public institutions must procure ICT services **only from NITA-certified providers**, but the bill's citizenship restrictions mean only **Ghanaian citizens or fully citizen-owned entities** can obtain ICT licenses and certifications. This creates a triple barrier: foreign companies cannot get licensed, cannot employ uncertified professionals, and cannot access government contracts—effectively locking international providers out of Ghana's public sector ICT market. While procurement preferences exist in other democracies, this goes further by combining certification requirements with absolute citizenship restrictions, eliminating competition from foreign firms regardless of their technical capabilities or competitive pricing.",
+      "description": "Public institutions can **only procure ICT services from Authority-certified providers** at prescribed tiers. Combined with the bill's citizenship restrictions on ICT licenses, this effectively **locks foreign providers out of Ghana's government technology market**—a major revenue source that typically drives sector growth in developing economies. While procurement preferences for domestic providers exist in some democracies, this provision creates a **compounding barrier** when layered with citizenship requirements and mandatory professional certifications, substantially restricting foreign investment and international partnerships that typically accelerate digital innovation.",
       "relatedProvisions": [
         "54-ict-performance-standards-and-certification-tiers"
       ]
     },
     {
       "id": "undefined-directives-enable-arbitrary-business-shutdowns",
-      "title": "Undefined Directives Enable Arbitrary Business Shutdowns",
+      "title": "Undefined \"Directives\" Enable Arbitrary Business Shutdowns",
       "severity": "high",
-      "description": "NITA can issue undefined **\"directives\"** and demand unspecified **\"required information\"** from any ICT business, then impose fines of USD 1,200-3,000 for non-compliance. If fines aren't paid, the Authority can **revoke licenses or ban companies from the entire ICT sector**. This creates a cascading enforcement mechanism where vague trigger language leads to business-ending consequences, giving NITA broad discretionary power to shut down companies without clear standards for what constitutes compliance.",
+      "description": "NITA can issue undefined **\"directives\"** and impose fines of 20,000-50,000 penalty units (USD 1,200-3,000) for non-compliance, with no clear standards for what constitutes a directive or what compliance requires. If businesses cannot pay these penalties, NITA can **revoke their license or ban them entirely** from Ghana's ICT sector. This creates arbitrary enforcement power where vague instructions can trigger business-ending consequences, particularly threatening startups and SMEs who face existential risk from substantial fines and potential market exclusion.",
       "relatedProvisions": [
         "90-administrative-penalty"
       ]
     },
     {
-      "id": "undefined-certification-standards-for-all-ict-workers",
-      "title": "Undefined Certification Standards for All ICT Workers",
+      "id": "undefined-certification-requirements-for-all-ict-workers",
+      "title": "Undefined Certification Requirements for All ICT Workers",
       "severity": "high",
-      "description": "This provision requires **all ICT professionals in both public and private sectors** to obtain NITA certification before employment, but provides **no statutory criteria** for what qualifications are required or how certification decisions are made. NITA has complete discretion to determine standards, with no appeal mechanism specified. Combined with the bill's severe penalties (up to 20 years imprisonment), this creates a rule of law problem: employers and professionals must comply with undefined requirements or face serious consequences. This could create workforce bottlenecks, increase startup costs, and enable arbitrary enforcement—particularly problematic given NITA's financial incentives from service fees.",
+      "description": "The bill requires **all ICT professionals in both public and private institutions** to obtain NITA certification before employment, but provides **no statutory criteria** for what qualifications, competencies, or procedures NITA must use. This grants NITA unfettered discretion to define who can work in ICT roles across Ghana's entire technology sector. Combined with criminal penalties for violations, this creates **arbitrary enforcement risk** where individuals and employers could face prosecution for violating undefined standards. The provision lacks appeal mechanisms and applies to the entire private sector workforce—far broader than typical professional licensing for doctors or lawyers—creating a **certification bottleneck** that could delay hiring, increase compliance costs, and displace existing professionals without transition provisions.",
       "relatedProvisions": [
         "44-certification-of-ict-professionals"
       ]
