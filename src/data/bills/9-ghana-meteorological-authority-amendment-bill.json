@@ -1,105 +1,87 @@
 {
   "id": "9-ghana-meteorological-authority-amendment-bill",
   "title": "Ghana Meteorological Authority (Amendment) Bill",
-  "summary": "The **Ghana Meteorological Authority (Amendment) Bill** transforms the existing Ghana Meteorological Agency into an independent statutory authority with expanded powers, comprehensive funding mechanisms, and regulatory oversight over meteorological services. The Authority becomes a legal entity capable of owning property, entering contracts, and managing assets, governed by a Board comprising representatives from multiple ministries and technical organizations. The bill establishes **mandatory regional offices in all regional capitals** and creates the **National Framework for Climate Services** with inter-ministerial and scientific committees, significantly expanding the institutional footprint of meteorological services across Ghana.\n\nThe bill introduces a **diversified funding model through the National Meteorological Fund**, drawing revenue from multiple economic sectors including aviation charges, maritime fees, construction project costs, crude oil production (a percentage of revenue), fisheries fees, and agricultural insurance premiums. This funding structure creates **financial dependencies across various industries** while potentially ensuring sustainable operations for the Authority. The Authority receives **tax exemptions** (subject to parliamentary approval) and can borrow funds with Finance Minister approval, providing financial flexibility. However, the **mandatory contributions from multiple sectors** may increase operational costs for businesses in aviation, maritime, construction, and extractive industries.\n\nThe bill establishes a **comprehensive licensing regime** requiring anyone providing meteorological data services, acting as a meteorological agent, or operating meteorological businesses to obtain authorization from the Authority. License applications require **background checks, facility inspections, equipment verification, and annual renewal fees**, creating regulatory barriers to entry in the meteorological services market. The Authority holds **broad enforcement powers** including license suspension and revocation for non-compliance, equipment standard violations, or criminal convictions. While this regulatory framework promotes **professional standards and data quality**, it effectively grants the Authority monopolistic control over meteorological services and may restrict market competition and innovation in weather data services.\n\nThe bill grants the Authority **significant operational powers** including the right to enter private properties for inspecting meteorological stations and removing obstructions to data collection (with prior notice and compensation provisions). The Authority can impose **administrative penalties** and seize goods for unauthorized use of World Meteorological Organization symbols. **Confidentiality requirements** bind all Authority personnel, with violations resulting in disciplinary action or Board removal. The bill creates an **Appeals Tribunal** for licensing disputes, though Tribunal decisions are final with no further appeal mechanism. These provisions establish strong institutional authority while raising questions about **oversight mechanisms, appeal rights, and the balance between regulatory necessity and property rights**. The transition provisions ensure continuity by transferring all assets and staff from the former Agency to the new Authority.",
+  "summary": "The Ghana Meteorological Authority (Amendment) Bill establishes the Ghana Meteorological Authority as a statutory body with comprehensive powers to regulate meteorological services nationwide. The Authority replaces the former Ghana Meteorological Agency and operates through a governance structure comprising a Board, Director-General, Deputy Directors-General, and regional offices in each regional capital ([2](#2-establishment-of-the-authority), [11](#11-offices-of-the-authority), [15](#15-principal-officers-of-the-authority)). The Authority's core functions include providing weather forecasts and meteorological advice to aviation, agriculture, and water management sectors, managing meteorological stations, conducting research, and ensuring compliance with international standards ([4](#4-functions-of-the-authority)). Financial sustainability is addressed through multiple revenue streams including parliamentary allocations, administrative penalties, loans, donations, and investment income ([18](#18-funds-of-the-authority)), supplemented by a dedicated National Meteorological Fund for publicity, research, training, and property maintenance ([24](#24-establishment-of-the-national-meteorological-fund), [25](#25-application-of-moneys-for-the-fund)).\n\n**The bill introduces a mandatory licensing regime that fundamentally changes the regulatory landscape for meteorological services.** Any person or entity offering meteorological data services, acting as a meteorological agent, or operating a meteorological business must obtain a license from the Authority ([29](#29-requirement-for-licence-to-operate)). License applications require prescribed forms, criminal background checks for company officers, equipment inspection fees, and compliance with Authority-published requirements ([30](#30-application-for-a-licence), [31](#31-conditions-for-grant-of-a-licence)). Licenses are non-transferable ([32](#32-non-transferability-of-licence)) and subject to annual renewal with specific documentation including tax clearance certificates ([33](#33-renewal-of-licence)). The Authority can suspend licenses for non-performance or failure to address deficiencies after ten days' notice ([34](#34-suspension-of-licence)), and revoke licenses for fraud, criminal convictions, false statements, or substandard equipment ([35](#35-revocation-of-licence)). While this regulatory framework establishes quality standards and professional accountability, it creates compliance costs and administrative requirements for private meteorological service providers, potentially affecting market entry and operational flexibility for weather-related businesses.\n\n**Governance provisions balance accountability mechanisms with ministerial oversight powers.** The bill includes conflict-of-interest disclosure requirements with penalties including benefit reclamation and Board removal ([8](#8-disclosure-of-interest)), mandatory confidentiality for Authority personnel with disciplinary consequences for violations ([38](#38-confidentiality)), and annual audits by the Auditor-General with reports to Parliament ([21](#21-internal-audit-unit)). However, the Minister retains authority to issue binding policy directives to the Board ([13](#13-policy-directives)), determine tax exemptions subject to parliamentary approval ([23](#23-tax-exemption)), approve Board allowances ([12](#12-allowances)), and create regulations covering climate activities, weather station establishment, fee structures, and licensing standards ([42](#42-regulations)). The Authority can borrow funds with Finance Minister approval and use property as collateral ([22](#22-borrowing-powers)). Authorized officers can enter properties to inspect meteorological stations and remove obstructions affecting data collection, with prior notice and compensation for damages ([40](#40-power-to-enter-land-or-premises)). License applicants can appeal Authority decisions to an Appeal Tribunal whose determinations are final ([37](#37-appeals-to-the-tribunal)).\n\n**The transition from the Ghana Meteorological Agency to the Authority preserves continuity while establishing new institutional capacity.** All assets, rights, liabilities, and obligations transfer to the new Authority, and existing Agency employees automatically become Authority employees under comparable terms ([45](#45-transitional-provisions)). The Authority establishes a National Framework for Climate Services managed through an Inter-ministerial Committee and Scientific and Technical Committee ([10](#10-organisation-and-operation-of-the-national-framework-for-climate-services-10-the-minister-shall-be-responsible-to)). The bill protects the World Meteorological Organization's official seal, emblem, and name through penalties up to 200 penalty units for unauthorized use ([39](#39-improper-use-of-the-official-seal-of-the-organisation)). Administrative expenses are funded from the Consolidated Fund ([20](#20-administrative-expenses-of-the-authority)), and the Authority maintains separate bank accounts for operational funds and the National Meteorological Fund, both requiring Controller and Accountant-General approval ([19](#19-bank-account-of-the-authority), [26](#26-bank-account-for-the-fund)). This institutional framework strengthens Ghana's meteorological capacity and international alignment while creating a regulated environment that affects both public service delivery and private sector meteorological operations.",
   "pdfPath": "pdfs/9. Ghana Meteorological Authority (Amendment) Bill.pdf",
   "impacts": {
     "innovation": {
       "score": "high-negative",
       "description": {
         "score": "high-negative",
-        "analysis": "The Ghana Meteorological Authority (Amendment) Bill creates **substantial barriers to digital innovation** in the meteorological services sector through its comprehensive licensing regime. The **mandatory licensing requirement** for anyone providing meteorological data services or engaging in meteorological businesses directly impacts weather tech startups, IoT sensor networks, agricultural technology platforms, and data analytics companies. Digital entrepreneurs seeking to develop innovative weather apps, climate data platforms, or sensor-based solutions would face **regulatory hurdles including background checks, facility inspections, equipment verification, and annual renewal fees** before entering the market. This compliance burden disproportionately affects small startups and early-stage ventures that typically lack the resources and legal infrastructure to navigate complex licensing processes.\n\nThe bill's **enforcement provisions compound these challenges** by establishing criminal penalties and license revocation powers for non-compliance, creating significant legal and operational risks for digital innovators. The Authority's broad discretion to suspend or revoke licenses for violations, equipment standard breaches, or even criminal convictions of company personnel introduces **regulatory uncertainty** that may deter investment in meteorological technology ventures. For the growing ecosystem of **agtech platforms, climate analytics services, and IoT weather monitoring solutions**, these provisions effectively create a government-controlled bottleneck that could stifle innovation, limit competition, and slow the development of digital solutions addressing Ghana's climate and agricultural challenges.\n\nWhile improved meteorological infrastructure and data quality standards could theoretically benefit digital innovation, the **restrictive licensing framework and monopolistic control** granted to the Authority substantially outweigh these potential advantages. The bill misses opportunities to foster a **vibrant, competitive digital ecosystem** for meteorological services, instead establishing a regulatory environment that favors incumbents and government control over entrepreneurial innovation. Digital innovators in adjacent sectors—such as **renewable energy platforms, disaster response apps, and smart agriculture solutions**—may also face indirect impacts if their services incorporate meteorological data, creating uncertainty about compliance requirements and potentially limiting the integration of weather intelligence into broader digital innovation initiatives."
+        "analysis": "The Ghana Meteorological Authority (Amendment) Bill creates **significant regulatory barriers to digital innovation** in the meteorological services sector through its mandatory licensing regime. The [29](#29-requirement-for-licence-to-operate) provision requires any person or entity providing meteorological data services, acting as meteorological agents, or engaging in meteorological business to obtain a license from the Authority. This requirement directly affects **digital innovators including weather app developers, climate-tech startups, AgriTech platforms, IoT sensor networks, and API providers** that collect, process, or distribute weather-related data. The licensing framework introduces substantial compliance costs and administrative burdens that disproportionately impact early-stage digital ventures and small technology enterprises.\n\nThe regulatory structure creates **multiple friction points for digital innovation**. License applications require criminal background checks for company officers, equipment inspection fees, and compliance with Authority-published requirements, while licenses are non-transferable and subject to annual renewal with tax clearance certificates. The Authority retains broad discretionary powers to suspend licenses for non-performance or revoke them for various infractions, creating regulatory uncertainty that may deter venture capital investment and entrepreneurial activity in meteorological technology. For **digital platforms operating across borders or aggregating data from multiple sources**, the licensing requirements add complexity without clear guidance on how digital business models fit within the traditional regulatory framework designed for conventional meteorological service providers.\n\nNotably, the bill **lacks provisions that would facilitate or encourage digital innovation** in meteorological services. There are no sandbox environments for testing innovative technologies, no streamlined licensing pathways for low-risk digital services, and no explicit support for open data initiatives or public-private data partnerships. While the Authority's mandate includes research and international standards compliance, the regulatory approach prioritizes control and licensing revenue over fostering a vibrant ecosystem of digital meteorological innovation. This creates a **chilling effect on Ghana's emerging climate-tech and weather-data sectors**, potentially limiting the development of locally-relevant digital solutions for agriculture, disaster preparedness, and climate adaptation that could benefit from meteorological data integration."
       },
       "relatedProvisions": [
-        "functions-of-the-authority",
-        "policy-directives",
-        "requirement-for-licence-to-operate",
-        "conditions-for-grant-of-a-licence",
-        "grant-of-licence",
-        "non-transferability-of-licence",
-        "renewal-of-licence",
-        "restoration-of-licences",
-        "appeals-to-the-tribunal",
-        "offences"
+        "4-functions-of-the-authority",
+        "13-policy-directives",
+        "29-requirement-for-licence-to-operate",
+        "31-conditions-for-grant-of-a-licence",
+        "32-non-transferability-of-licence",
+        "33-renewal-of-licence",
+        "36-restoration-of-licences",
+        "37-appeals-to-the-tribunal"
       ]
     },
     "business": {
       "score": "high-negative",
       "description": {
         "score": "high-negative",
-        "analysis": "The Ghana Meteorological Authority (Amendment) Bill introduces a **comprehensive licensing regime** that fundamentally restricts business operations in the meteorological services sector. The bill requires **mandatory licensing for anyone providing meteorological data services, acting as a meteorological agent, or engaging in meteorological business or transactions**. This broad scope effectively transforms weather data and services from an open market into a heavily regulated sector where the Authority serves as gatekeeper. Businesses across multiple industries—including aviation, maritime, agriculture, construction, and technology companies developing weather applications—will face new regulatory barriers to entry and ongoing compliance obligations. The **discretionary authority granted to the Authority to determine licensing requirements** introduces regulatory uncertainty, as the bill does not specify what conditions applicants must meet, potentially allowing for arbitrary or burdensome requirements that could restrict market participation and innovation.\n\nThe **enforcement mechanisms and penalty structure** create substantial business risks and personal liability for entrepreneurs and corporate leaders. The bill establishes criminal offences for violations of regulations, rules, orders, or directives issued by the Authority, with **directors, officers, and partners personally liable** for organizational violations unless they can prove the offence occurred without their consent and they exercised due diligence. This personal liability exposure may deter entrepreneurship and investment in meteorological services, as business leaders face potential criminal prosecution for organizational compliance failures. The combination of mandatory licensing, undefined regulatory requirements, and criminal penalties creates a **high-risk business environment** that favors established players with resources to navigate complex regulatory frameworks while disadvantaging startups and smaller enterprises.\n\nBeyond the meteorological services sector itself, the bill's **mandatory funding contributions from multiple industries** will increase operational costs across the economy. Aviation operators, maritime businesses, construction projects, crude oil producers, fisheries, and agricultural insurance providers must all contribute to the National Meteorological Fund through various fees and charges. These **cross-sector financial obligations** effectively function as new taxes on business operations, potentially reducing competitiveness and increasing costs for consumers. While the Authority's enhanced capabilities may provide improved meteorological services that benefit businesses, the **lack of clear accountability mechanisms, the monopolistic control over weather data services, and the absence of appeal rights beyond the Authority's own Tribunal** raise concerns about regulatory overreach and the balance between public safety objectives and business freedom."
+        "analysis": "**The bill fundamentally transforms the business environment for meteorological services through a mandatory licensing regime that creates significant barriers to entry and ongoing compliance obligations.** Provision [29](#29-requirement-for-licence-to-operate) prohibits any person from providing meteorological data services, acting as a meteorological agent, or engaging in meteorological business without obtaining a license from the Ghana Meteorological Authority. This represents a comprehensive regulatory intervention that affects all commercial activities related to weather data and forecasting services. For businesses currently operating in this space—whether technology companies offering weather apps, agricultural advisory services using meteorological data, or specialized consulting firms—this provision requires immediate regulatory compliance or cessation of operations. For entrepreneurs and new market entrants, it creates a mandatory licensing hurdle that increases startup costs and delays market entry.\n\n**The licensing framework established in [31](#31-conditions-for-grant-of-a-licence) compounds these business environment challenges through Authority-determined requirements, annual renewal obligations, and regulatory discretion.** While the provision establishes a 60-day processing timeline for license applications, the Authority retains broad power to \"determine\" both the requirements for obtaining a license and the terms and conditions under which licenses operate. This regulatory discretion creates uncertainty for business planning, as companies cannot fully predict compliance costs or operational restrictions until the Authority publishes its requirements. The annual renewal requirement (licenses valid for one year) creates recurring administrative burdens and potential business disruption if renewals are delayed or denied. Combined with the criminal background checks, equipment inspection fees, and tax clearance requirements mentioned in the broader bill context, these provisions establish a compliance-intensive regulatory environment that favors larger, well-resourced organizations over small businesses and startups.\n\n**However, the regulatory framework may provide some offsetting benefits by establishing quality standards, professional accountability, and market legitimacy for meteorological services.** The licensing regime could reduce market confusion by distinguishing qualified providers from unregulated operators, potentially building consumer and institutional confidence in licensed services. The 60-day decision timeline and appeals process ([37](#37-appeals-to-the-tribunal)) provide some procedural protections against arbitrary regulatory action. For established businesses willing to invest in compliance, the licensing requirements may create competitive advantages by raising barriers to new entrants. Nevertheless, the overall impact on the business environment remains substantially negative, as the mandatory licensing regime, regulatory uncertainty, recurring compliance costs, and Authority discretion create significant obstacles to business formation, market entry, operational flexibility, and competitive dynamics in Ghana's meteorological services sector."
       },
       "relatedProvisions": [
-        "establishment-of-the-authority",
-        "functions-of-the-authority",
-        "governing-body-of-the-authority",
-        "tenure-of-office-of-members-of-the-board",
-        "disclosure-of-interest",
-        "policy-directives",
-        "funds-of-the-authority",
-        "internal-audit-unit",
-        "borrowing-powers",
-        "tax-exemption",
-        "sources-of-money-for-the-fund",
-        "requirement-for-licence-to-operate",
-        "application-for-a-licence",
-        "conditions-for-grant-of-a-licence",
-        "grant-of-licence",
-        "non-transferability-of-licence",
-        "renewal-of-licence",
-        "suspension-of-licence",
-        "revocation-of-licence",
-        "restoration-of-licences",
-        "appeals-to-the-tribunal",
-        "confidentiality",
-        "improper-use-of-the-official-seal-of-the-organisation",
-        "offences",
-        "power-to-enter-land-or-premises",
-        "interpretation",
-        "repeal-and-savings",
-        "transitional-provisions"
+        "2-establishment-of-the-authority",
+        "4-functions-of-the-authority",
+        "6-tenure-of-office-of-members-of-the-board",
+        "8-disclosure-of-interest",
+        "13-policy-directives",
+        "18-funds-of-the-authority",
+        "21-internal-audit-unit",
+        "22-borrowing-powers",
+        "23-tax-exemption",
+        "29-requirement-for-licence-to-operate",
+        "30-application-for-a-licence",
+        "31-conditions-for-grant-of-a-licence",
+        "32-non-transferability-of-licence",
+        "33-renewal-of-licence",
+        "34-suspension-of-licence",
+        "35-revocation-of-licence",
+        "36-restoration-of-licences",
+        "37-appeals-to-the-tribunal",
+        "38-confidentiality",
+        "39-improper-use-of-the-official-seal-of-the-organisation",
+        "40-power-to-enter-land-or-premises",
+        "43-interpretation",
+        "44-repeal-and-savings",
+        "45-transitional-provisions"
       ]
     },
     "privacy": {
       "score": "neutral",
       "description": null,
       "relatedProvisions": [
-        "policy-directives",
-        "confidentiality",
-        "offences",
-        "power-to-enter-land-or-premises"
+        "13-policy-directives",
+        "38-confidentiality",
+        "40-power-to-enter-land-or-premises"
       ]
     },
     "freedomOfSpeech": {
       "score": "neutral",
       "description": null,
       "relatedProvisions": [
-        "requirement-for-licence-to-operate",
-        "conditions-for-grant-of-a-licence",
-        "confidentiality",
-        "improper-use-of-the-official-seal-of-the-organisation",
-        "offences"
+        "29-requirement-for-licence-to-operate",
+        "31-conditions-for-grant-of-a-licence",
+        "38-confidentiality",
+        "39-improper-use-of-the-official-seal-of-the-organisation"
       ]
     }
   },
   "keyConcerns": [
-    {
-      "id": "criminal-liability-for-undefined-future-regulations",
-      "title": "Criminal Liability for Undefined Future Regulations",
-      "severity": "critical",
-      "description": "Section 47 creates **criminal offenses for violating regulations, rules, orders, or directives** that don't yet exist and aren't defined in the Act itself. This violates the fundamental legal principle that people must know in advance what conduct is criminal. For digital innovators working with meteorological data, this means you could face **criminal prosecution for violating rules that haven't been written yet**—making compliance impossible and creating severe uncertainty for startups and businesses entering the meteorological services market.",
-      "relatedProvisions": [
-        "offences"
-      ],
-      "relatedImpacts": []
-    },
     {
       "id": "undefined-licensing-captures-all-weather-related-businesses",
       "title": "Undefined Licensing Captures All Weather-Related Businesses",
       "severity": "high",
       "description": "This provision requires government licensing for **\"any business connected with meteorological services\"** without defining what activities this captures. Weather apps, agricultural tech using weather data, climate analytics platforms, or even research publications could all require licensing, background checks, facility inspections, and annual fees. With **no judicial appeal** beyond a single Tribunal decision and undefined terms like \"meteorological transactions,\" the Authority gains monopolistic control over an entire sector of digital innovation that operates freely in competitive markets across OECD democracies.",
       "relatedProvisions": [
-        "requirement-for-licence-to-operate"
+        "29-requirement-for-licence-to-operate"
       ],
       "relatedImpacts": []
     },
@@ -109,18 +91,18 @@
       "severity": "high",
       "description": "This provision enables the Authority to require **licenses for anyone providing meteorological data services or operating meteorological businesses**—extending government licensing beyond regulated activities to information services. While the provision requires **published criteria** (a positive safeguard), it operationalizes a regime that restricts market entry for weather apps, climate analytics platforms, and data services. This creates compliance barriers for startups and digital businesses simply for providing weather information, an activity typically unregulated in democratic markets.",
       "relatedProvisions": [
-        "conditions-for-grant-of-a-licence"
+        "31-conditions-for-grant-of-a-licence"
       ],
       "relatedImpacts": []
     }
   ],
   "provisions": [
     {
-      "id": "establishment-of-the-authority",
+      "id": "2-establishment-of-the-authority",
       "section": 2,
       "title": "Establishment of the Authority",
       "plainLanguage": "This section creates the Ghana Meteorological Authority as a legal entity. The Authority can own property, make contracts, and manage its assets. If the Authority needs land but faces obstacles in acquiring it, the government can acquire the land on its behalf under the Lands Act, with the Authority responsible for the costs.",
-      "rawText": "- (1) There is established by this Act,  the Ghana Meteorological Authority as a body corporate.\n\n- The Authority may for the performance of the functions of the Authority acquire\n\nand hold property, dispose of property and enter into any contract or  related transaction .\n\n(3) Where there is an hindrance to the acquisition of land, the land  may be acquired for the Authority under the Lands Act, 2020 (Act 1036) and the cost shall be borne by the Authority.",
+      "rawText": "- (1) There is established by this Act,  the Ghana Meteorological Authority as a body corporate.\n\n- The Authority may for the performance of the functions of the Authority acquire",
       "relatedImpacts": [
         "business"
       ],
@@ -132,7 +114,7 @@
       }
     },
     {
-      "id": "object-of-the-authority",
+      "id": "3-object-of-the-authority",
       "section": 3,
       "title": "Object of the Authority",
       "plainLanguage": "The Authority's main goal is to deliver weather-related services throughout the country. It is also responsible for upholding international guidelines and procedures for meteorology in the country. This ensures that weather information and practices align with global standards.",
@@ -146,11 +128,11 @@
       }
     },
     {
-      "id": "functions-of-the-authority",
+      "id": "4-functions-of-the-authority",
       "section": 4,
       "title": "Functions of the Authority",
       "plainLanguage": "This section details the responsibilities of the Authority, which include providing weather forecasts and meteorological advice to various sectors like aviation, agriculture, and water management. The Authority will also manage meteorological stations, collect and share data, conduct research, and ensure adherence to international standards. Additionally, it will offer consultancy services and develop meteorological equipment.",
-      "rawText": "- To achieve the object under section 2, the Authority shall\n\n          - (a) advise Government on meteorology generally;\n\n          - (b) issue weather forecasts for the safe operation of aircraft, ocean-going vessels, oil rigs and other socio-economic activities;\n\n          - (c) provide  meteorological  information,  advice  and  warnings  for  the  benefit  of agriculture, civil and  military aviation, surface and marine transport, operational hydrology and management of energy and water resources to mitigate the effects of  natural  disasters  such  as  floods,  storms  and  droughts  on  socio-economic development and projects;\n\n          - (d) promote  the use of meteorology  in agriculture, prevention of drought and desertification activities;\n\n          - (e) establish, organise and manage surface and upper air observational station networks;\n\n          - (f) collect, process, and disseminate meteorological information nationally and internationally in accordance with the rules, practices and procedures established under international conventions;\n\n          - (g) ensure  uniform  standards  of  observation  of  meteorological  phenomena  in  the country;\n\n          - (h) train, conduct and undertake research particularly in the field of tropical, agricultural, hydrological and other aspects of meteorology;\n\n          - (i) store  meteorological  data  and  information  for  the  purposes  of  planning  and implementation of infrastructural projects;\n\n          - (j) develop and provide telecommunication systems for meteorological purposes only;\n\n          - (k) participate  in  local  and  international  training  and  research  in  meteorology  and climatology  and  in  other  related fields in  co-operation  with  other relevant institutions and authorities concerned with applied meteorological research;\n\n          - (l) collaborate with  relevant foreign and international organisations for the purposes of this Act;\n\n          - (m) be the sole authority to approve the establishment of meteorological stations for meteorological observations and the approved stations share data with the Authority;\n\n          - (n) provide consultancy services in meteorology to the public;\n\n          - (o) calibrate,  develop and fabricate meteorological equipment for internal use and export;\n\n          - (p) conduct investigations into meteorological issues and advise the Minister accordingly;\n\n          - (q) ensure due compliance with conventions, protocols and any other relevant standards and recommended practices of the World Meteorological Organisation; and",
+      "rawText": "- To achieve the object under section 2, the Authority shall\n\n          - (a) advise Government on meteorology generally;\n\n          - (b) issue weather forecasts for the safe operation of aircraft, ocean-going vessels, oil rigs and other socio-economic activities;\n\n          - (c) provide  meteorological  information,  advice  and  warnings  for  the  benefit  of agriculture, civil and  military aviation, surface and marine transport, operational hydrology and management of energy and water resources to mitigate the effects of  natural  disasters  such  as  floods,  storms  and  droughts  on  socio-economic development and projects;\n\n          - (d) promote  the use of meteorology  in agriculture, prevention of drought and desertification activities;\n\n          - (e) establish, organise and manage surface and upper air observational station networks;\n\n          - (f) collect, process, and disseminate meteorological information nationally and internationally in accordance with the rules, practices and procedures established under international conventions;\n\n          - (g) ensure  uniform  standards  of  observation  of  meteorological  phenomena  in  the country;\n\n          - (h) train, conduct and undertake research particularly in the field of tropical, agricultural, hydrological and other aspects of meteorology;\n\n          - (i) store  meteorological  data  and  information  for  the  purposes  of  planning  and implementation of infrastructural projects;\n\n          - (j) develop and provide telecommunication systems for meteorological purposes only;\n\n          - (k) participate  in  local  and  international  training  and  research  in  meteorology  and climatology  and  in  other  related fields in  co-operation  with  other relevant institutions and authorities concerned with applied meteorological research;\n\n          - (l) collaborate with  relevant foreign and international organisations for the purposes of this Act;\n\n          - (m) be the sole authority to approve the establishment of meteorological stations for meteorological observations and the approved stations share data with the Authority;\n\n          - (n) provide consultancy services in meteorology to the public;\n\n          - (o) calibrate,  develop and fabricate meteorological equipment for internal use and export;\n\n          - (p) conduct investigations into meteorological issues and advise the Minister accordingly;\n\n          - (q) ensure due compliance with conventions, protocols and any other relevant standards and recommended practices of the World Meteorological Organisation; and\n\n  - (1) The governing body of the Authority is a Board consisting of\n\n                - (a) the Minister, as chairperson ;\n\n                - (b) the Director-General of the Authority;\n\n                - (c) a  representative  each  not  below  the  rank  of  a  Director  nominated  by  the respective Minister responsible  for\n\n- (i) Communication, Digital Technology and Innovations;\n\n- (ii) Transport;\n\n- (iii) Environment and Science;\n\n                - (d) a representative each from\n\n- (i) the  Water  Resources  Commission  not  below  the  rank  of  a Director;\n\n- (ii) the Ghana Institution of Engineering;\n\n- (iii)a university in the country that offers Meteorology and Climate Science nominated by the Minister;\n\n- (iv) the air transport industry; and\n\n      - (e) t wo other persons one of whom is a woman nominated by the President.\n\n## (2) The President shall, in accordance with article 70 of the Constitution, appoint the members of the Board\n\n(3)  The President shall in making appointments under paragraph (e) of subsection 1, have regard to the expertise and experience of the persons in matters related to the functions of the Authority.",
       "relatedImpacts": [
         "innovation",
         "business"
@@ -163,24 +145,8 @@
       }
     },
     {
-      "id": "governing-body-of-the-authority",
+      "id": "5-functions-of-the-board",
       "section": 5,
-      "title": "Governing body of the Authority.",
-      "plainLanguage": "This provision establishes the governing board of the Authority, outlining its membership. The board includes the Minister, the Director-General, representatives from various ministries and organizations like the Water Resources Commission and the Ghana Institution of Engineering. The President appoints members, ensuring relevant expertise is considered.",
-      "rawText": "- (1) The governing body of the Authority is a Board consisting of\n\n                - (a) the Minister, as chairperson ;\n\n                - (b) the Director-General of the Authority;\n\n                - (c) a  representative  each  not  below  the  rank  of  a  Director  nominated  by  the respective Minister responsible  for\n\n- (i) Communication, Digital Technology and Innovations;\n\n- (ii) Transport;\n\n- (iii) Environment and Science;\n\n                - (d) a representative each from\n\n- (i) the  Water  Resources  Commission  not  below  the  rank  of  a Director;\n\n- (ii) the Ghana Institution of Engineering;\n\n- (iii)a university in the country that offers Meteorology and Climate Science nominated by the Minister;\n\n- (iv) the air transport industry; and\n\n      - (e) t wo other persons one of whom is a woman nominated by the President.\n\n## (2) The President shall, in accordance with article 70 of the Constitution, appoint the members of the Board\n\n(3)  The President shall in making appointments under paragraph (e) of subsection 1, have regard to the expertise and experience of the persons in matters related to the functions of the Authority.",
-      "relatedImpacts": [
-        "business"
-      ],
-      "impacts": {
-        "innovation": "neutral",
-        "freedomOfSpeech": "neutral",
-        "privacy": "neutral",
-        "business": "low-negative"
-      }
-    },
-    {
-      "id": "functions-of-the-board",
-      "section": 6,
       "title": "Functions of the Board",
       "plainLanguage": "The Board is responsible for making sure the Authority's goals are met and that it follows international meteorological standards. It also manages the National Meteorological Fund. Finally, the Board develops policies to ensure the Authority operates efficiently.",
       "rawText": "- The Board shall\n\n          - (a) ensure the implementation of the objects and functions of the Authority;\n\n          - (b) ensure  the  implementation  of  rules,  regulations  and  procedures  laid  down  by  the World Meteorological Organisation in accordance with provisions under this Act;\n\n          - (c) manage  the National Meteorological Fund; and\n\n          - (d) formulate policies for the efficient  and effective performance of the functions of the Authority.",
@@ -193,11 +159,11 @@
       }
     },
     {
-      "id": "tenure-of-office-of-members-of-the-board",
-      "section": 7,
+      "id": "6-tenure-of-office-of-members-of-the-board",
+      "section": 6,
       "title": "Tenure of office of members of the Board",
       "plainLanguage": "Board members, except for the Director-General, serve three-year terms and can be reappointed once. Members can resign by writing to the President through the Minister. Missing three consecutive meetings without a valid reason results in removal from the Board. The President appoints replacements to fill vacancies on the Board.",
-      "rawText": "6. (1)  A member of the Board shall hold office for a period of three years and is eligible for re-appointment for another term only.\n\n(2)  Subsection (1) does not apply to the Director- General or any other person who is a member of the Board  by virtue of office.\n\n(3)  A member of the Board other than the Director-General may, at any time by letter addressed to the President through the Minister, resign from office.\n\n(4)  A member of the Board, other than the Director-General who is absent from three consecutive meeting of the Board without sufficient cause ceases to be a member of the Board.\n\n(5) A member may, at any time, resign from office in writing addressed to the President through the Minister.\n\n(6)Where a member of the Board is for sufficient reason, unable to act as a member of the Board, the Minister shall determine whether the inability would result in the declaration of a vacancy.\n\n(7) Where there is a vacancy\n\n(a) under subsection (3),(4), (5) or subsection (2) of section 8,\n\n(b) as a result of a declaration under subsection (6), or\n\n(c) by reason of the death of a member, the Minister shall notify the President of the vacancy and the President shall appoint a person to fill the vacancy.",
+      "rawText": "6. (1)  A member of the Board shall hold office for a period of three years and is eligible for re-appointment for another term only.\n\n(2)  Subsection (1) does not apply to the Director- General or any other person who is a member of the Board  by virtue of office.\n\n(3)  A member of the Board other than the Director-General may, at any time by letter addressed to the President through the Minister, resign from office.\n\n(6)Where a member of the Board is for sufficient reason, unable to act as a member of the Board, the Minister shall determine whether the inability would result in the declaration of a vacancy.\n\n(7) Where there is a vacancy\n\n(a) under subsection (3),(4), (5) or subsection (2) of section 8,\n\n(b) as a result of a declaration under subsection (6), or\n\n(c) by reason of the death of a member, the Minister shall notify the President of the vacancy and the President shall appoint a person to fill the vacancy.",
       "relatedImpacts": [
         "business"
       ],
@@ -209,8 +175,8 @@
       }
     },
     {
-      "id": "meetings-of-the-board",
-      "section": 8,
+      "id": "7-meetings-of-the-board",
+      "section": 7,
       "title": "Meetings of the Board.",
       "plainLanguage": "The Board must meet at least quarterly, and special meetings can be called with sufficient member request. A quorum of seven members is required for meetings. The chairperson presides, and decisions are made by majority vote, with the chairperson having a tie-breaking vote. The Board can invite non-voting participants and set its own meeting procedures.",
       "rawText": "7. (1) The Board shall meet at least once every three months  for the conduct of business at a time and place determined by the chairperson.\n\n(2) The chairperson shall, at the request in writing of not less than one-third of the membership of the Board, convene an  extraordinary meeting of the Board at a time and place determined by the Board.\n\n(3) The quorum at a meeting of the Board is seven members.\n\n(4) The chairperson shall preside at meetings of the Board  and in the absence of the chairperson, a member of the Board elected by the members present from among their number shall preside.\n\n(5) Matters before the Board shall be decided by a majority of members present and voting and in the event of equality of votes, the person presiding shall have a casting vote.\n\n(6) The Board may co-opt a person to attend a  meeting of the Board but that person shall not vote on a matter for decision at the meeting.\n\n(7) The proceedings of the Board shall not be invalidated  because of a vacancy among the members or by a defect in the appointment or qualification of a member of the Board.\n\n(8) Subject to this section, the Board shall determine the procedure for its meetings of the Board.",
@@ -223,11 +189,11 @@
       }
     },
     {
-      "id": "disclosure-of-interest",
-      "section": 9,
+      "id": "8-disclosure-of-interest",
+      "section": 8,
       "title": "Disclosure of interest",
       "plainLanguage": "This section requires board members to disclose any personal interests they have in matters the board is discussing. If a conflict exists, the member cannot participate in those specific deliberations. Failure to disclose or comply can result in the board reclaiming any benefits the member gained and the member's removal from the board.",
-      "rawText": "8. (1) A member of the Board who has in interest in a matter for consideration\n\n              - (a) shall disclose in writing the nature of the interest and the disclosure shall form part of the record for the consideration of the matter; and\n\n              - (b) is  disqualified  from  being  present  at  or  participating  in  the  deliberations  of  the Board except in respect of that matter.\n\n(2) A member ceases to be a member of the Board if the member if that member has an interest in the matter before the Board and\n\n(3) Without limiting any further cause of action that may be instituted against the member, the Board shall recover any benefit derived by a member who contravenes subsection(1) in addition to the revocation of the appointment of that member.",
+      "rawText": "8. (1) A member of the Board who has in interest in a matter for consideration\n\n              - (a) shall disclose in writing the nature of the interest and the disclosure shall form part of the record for the consideration of the matter; and\n\n              - (b) is  disqualified  from  being  present  at  or  participating  in  the  deliberations  of  the Board except in respect of that matter.\n\n(3) Without limiting any further cause of action that may be instituted against the member, the Board shall recover any benefit derived by a member who contravenes subsection(1) in addition to the revocation of the appointment of that member.",
       "relatedImpacts": [
         "business"
       ],
@@ -239,8 +205,8 @@
       }
     },
     {
-      "id": "establishment-of-committees",
-      "section": 10,
+      "id": "9-establishment-of-committees",
+      "section": 9,
       "title": "Establishment of committees",
       "plainLanguage": "This section allows the Board to form committees to help with its work. These committees can include people who are not on the Board, but a Board member must lead the committee if it has non-members. A committee made up only of non-members serves in an advisory role. Board committee members are subject to the same rules as Board members.",
       "rawText": "9. (1) The Board may establish a committee consisting of members of the Board and nonmembers of the Board or both to perform a function of the Board.\n\n(2) A committee composed of members and non-members of the Board shall be chaired by a member of the Board.\n\n(3) A Committee of the Board composed of non-members only is advisory.\n\n- Section 8 applies to members of a committee of the Board.",
@@ -253,8 +219,8 @@
       }
     },
     {
-      "id": "organisation-and-operation-of-the-national-framework-for-climate-services-10-the-minister-shall-be-responsible-to",
-      "section": 11,
+      "id": "10-organisation-and-operation-of-the-national-framework-for-climate-services-10-the-minister-shall-be-responsible-to",
+      "section": 10,
       "title": "Organisation and operation of the National Framework for Climate Services 10. The Minister shall be responsible to",
       "plainLanguage": "The Minister is tasked with setting up and running the National Framework for Climate Services. This includes managing an Inter-ministerial Committee and creating a Scientific and Technical Committee. These committees will likely provide guidance and expertise to support the framework's operation.",
       "rawText": "- (a) organise and operationalise of the National Framework for Climate Services;\n\n              - (b) oversee the establishment of the Inter-ministerial Committee for the operation of the National Framework for Climate Services; and\n\n              - (c) establish the Scientific and Technical Committee for the operations of the National Framework for Climate Services.",
@@ -267,8 +233,8 @@
       }
     },
     {
-      "id": "offices-of-the-authority",
-      "section": 12,
+      "id": "11-offices-of-the-authority",
+      "section": 11,
       "title": "Offices of the Authority",
       "plainLanguage": "This provision requires the Authority to set up regional offices in each regional capital. The Authority can also establish other offices within a region if the Board approves. These offices will carry out specific tasks assigned to them by the Authority.",
       "rawText": "11. (1) The Authority shall establish regional offices of the Authority in the regional capitals.\n\n(2) The Authority may establish other offices within a region as the Board may determine.\n\n(3) An office established by the Authority shall perform the functions determined by the Authority.",
@@ -281,8 +247,8 @@
       }
     },
     {
-      "id": "allowances",
-      "section": 13,
+      "id": "12-allowances",
+      "section": 12,
       "title": "Allowances",
       "plainLanguage": "This provision states that members of the Board and its committees will be paid allowances. The amount of these allowances requires approval from the Minister. Before granting approval, the Minister must consult with the Minister for Finance.",
       "rawText": "12. Members of the Board and members of a committee shall be paid allowances approved by the Minister in consultation with the Minister for Finance.",
@@ -295,11 +261,11 @@
       }
     },
     {
-      "id": "policy-directives",
-      "section": 14,
+      "id": "13-policy-directives",
+      "section": 13,
       "title": "Policy directives",
       "plainLanguage": "This provision allows the Minister to provide specific policy instructions to the Board. The Board is then required to follow these instructions. This ensures the Board operates in accordance with the Minister's policy goals.",
-      "rawText": "13. The Minister may give directives to the Board on matters of policy and the Board shall comply",
+      "rawText": "13. The Minister may give directives to the Board on matters of policy and the Board shall comply\n\n(2) The Director-General\n\n              - (a) is the chief executive of the Authority; and\n\n              - (b) shall hold office on terms and conditions specified in the letter of appointment .",
       "relatedImpacts": [
         "innovation",
         "privacy",
@@ -313,22 +279,8 @@
       }
     },
     {
-      "id": "director-general-of-the-authority",
-      "section": 15,
-      "title": "Director-General of the Authority",
-      "plainLanguage": "This section states that the President will appoint a Director-General for the Authority, following guidelines in article 195. The Director-General is the chief executive of the Authority. The terms and conditions of their job will be detailed in their appointment letter.",
-      "rawText": "14. (1) The President shall, in accordance with article 195, appoint a Director- General for the Authority.\n\n(2) The Director-General\n\n              - (a) is the chief executive of the Authority; and\n\n              - (b) shall hold office on terms and conditions specified in the letter of appointment .",
-      "relatedImpacts": [],
-      "impacts": {
-        "innovation": "neutral",
-        "freedomOfSpeech": "neutral",
-        "privacy": "neutral",
-        "business": "neutral"
-      }
-    },
-    {
-      "id": "functions-of-the-director-general",
-      "section": 16,
+      "id": "14-functions-of-the-director-general",
+      "section": 14,
       "title": "Functions of the Director-General",
       "plainLanguage": "The Director-General manages the daily operations of the Authority and ensures that the Authority's decisions are carried out. They report to the Board and can assign tasks to other officers, but remain responsible for those tasks. Additionally, the Director-General serves as Ghana's permanent representative to the World Meteorological Organization.",
       "rawText": "15. (1) The Director-General is\n\n                - (a) responsible for the day to day administration of the Authority;\n\n                - (b) responsible for the implementation of the decisions of the Authority; and\n\n                - (c) answerable to the Board.\n\n(2) The Director-General shall perform any other function assigned by the Board.\n\n(3) The Director-General may delegate a function to an officer of the Authority but is not relieved of the ultimate responsibility for the performance of the delegated function.\n\n(4) The Director-General shall be the permanent representative of Ghana to the World Meteorological  Organization  in  accordance  with  the  provisions  of  Regulation  6  of  the  World Meteorological Organization, Basic Document No. 15.",
@@ -341,8 +293,8 @@
       }
     },
     {
-      "id": "principal-officers-of-the-authority",
-      "section": 17,
+      "id": "15-principal-officers-of-the-authority",
+      "section": 15,
       "title": "Principal officers of the Authority",
       "plainLanguage": "The Director-General of the Authority will be supported by two Deputy Directors-General and other key officers. The President is responsible for appointing these deputies and officers. These appointments are made based on the advice of the Authority's Board and after consulting with the Public Services Commission.",
       "rawText": "16. (1) The Director-General shall be assisted by two Deputy Directors-General and other principal officers as the Board may determine.\n\n(2) The President shall in accordance with the advice of the Board given in consultation with the Public Services Commission appoint the two Deputy Directors-General and other principal officers of the Authority.",
@@ -355,8 +307,8 @@
       }
     },
     {
-      "id": "secretary-to-the-board",
-      "section": 18,
+      "id": "16-secretary-to-the-board",
+      "section": 16,
       "title": "Secretary to the Board.",
       "plainLanguage": "This section designates the head of legal services as the Secretary to the Board. The Secretary must be a lawyer with under 10 years experience. Their responsibilities include organizing board meetings, keeping meeting minutes, and fulfilling other tasks assigned by the Board and Director-General.",
       "rawText": "17. (1) The Board shall designate the head of legal services of the Authority as Secretary to the  Board.\n\n(2) The Secretary shall\n\n                  - (a) be a legal practitioner of less than 10 years standing as a lawyer;\n\n                  - (b) subject to the directions of the Board, arrange the business of the meetings of the Board;\n\n                  - (c) record and keep the minutes of the meetings and proceedings of the Board; and\n\n                  - (d) perform  any  other  function  as  the  Board  and  the  Director-General  may  in writing, direct.",
@@ -369,11 +321,11 @@
       }
     },
     {
-      "id": "appointment-of-other-staff",
-      "section": 19,
+      "id": "17-appointment-of-other-staff",
+      "section": 17,
       "title": "Appointment of other Staff",
       "plainLanguage": "This section describes how the Authority's staff are appointed. The President is responsible for appointing officers and staff, following established guidelines. The Board can also hire experts and consultants as needed, and the Public Services Commission is involved in the appointment of officers.",
-      "rawText": "18. (1) The President shall in accordance with article 195, appoint other officers and staff of the Authority necessary for the effective and efficient performance of the functions of the Authority.\n\n(2) The Board may on the recommendations of the Director-General engage the services of experts and consultants as the Board may determine.\n\n(3) The appointment of officers of the Authority shall be made by the President in accordance with the advice of the Board given in consultation with the Public Services Commission and upon such terms and conditions as the appointing authority shall determine.",
+      "rawText": "18. (1) The President shall in accordance with article 195, appoint other officers and staff of the Authority necessary for the effective and efficient performance of the functions of the Authority.",
       "relatedImpacts": [],
       "impacts": {
         "innovation": "neutral",
@@ -383,8 +335,8 @@
       }
     },
     {
-      "id": "funds-of-the-authority",
-      "section": 20,
+      "id": "18-funds-of-the-authority",
+      "section": 18,
       "title": "Funds of the Authority",
       "plainLanguage": "The Authority's funds come from several sources. These include money allocated by Parliament, administrative penalties collected, loans, donations, grants, investment income, and any other funds the Authority generates itself. This funding is used to support the Authority's operations and activities.",
       "rawText": "19. The Fund of the Authority include\n\n          - (a) moneys approved by Parliament in the budget;\n\n          - (b) administrative penalties payable under this Act;\n\n          - (c) loans, donations and grants;\n\n          - (d) moneys accruing to the Authority from investments;\n\n          - (e) any other internally generated fund;",
@@ -399,8 +351,8 @@
       }
     },
     {
-      "id": "bank-account-of-the-authority",
-      "section": 21,
+      "id": "19-bank-account-of-the-authority",
+      "section": 19,
       "title": "Bank account of the Authority",
       "plainLanguage": "This provision mandates that the Authority must establish a bank account to manage its funds. The Controller and Accountant-General must approve the opening of this account. This requirement ensures proper financial oversight and accountability for the Authority's funds.",
       "rawText": "20. Money for the Authority shall be paid into a bank account opened for the purpose with the approval of the Controller and Accountant-General.",
@@ -413,8 +365,8 @@
       }
     },
     {
-      "id": "administrative-expenses-of-the-authority",
-      "section": 22,
+      "id": "20-administrative-expenses-of-the-authority",
+      "section": 20,
       "title": "Administrative expenses of the Authority",
       "plainLanguage": "This provision ensures that the Authority's administrative costs are paid for by the government. The funds will come from the Consolidated Fund, which is the government's primary bank account. This guarantees that the Authority has the financial resources to operate.",
       "rawText": "21. The administrative expenses of the Authority shall be a charge on the Consolidated Fund.",
@@ -427,11 +379,11 @@
       }
     },
     {
-      "id": "internal-audit-unit",
-      "section": 23,
+      "id": "21-internal-audit-unit",
+      "section": 21,
       "title": "Internal Audit Unit",
       "plainLanguage": "This section establishes an Internal Audit Unit within the Authority, headed by an Internal Auditor, to ensure financial oversight and compliance. The unit will conduct regular internal audits and report findings to the Board. Additionally, the Authority's accounts will be audited annually by the Auditor-General, and an annual report will be submitted to the Minister and Parliament, promoting transparency and accountability.",
-      "rawText": "22. ( 1) The Authority shall have an Internal Audit Unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921).\n\n(2) The Internal Audit Unit shall be headed by an Internal Auditor who shall be appointed in accordance with the Internal Audit Agency Act, 2003 (Act 658).\n\n(3) The Internal Auditor is responsible for the internal audit of the Authority.\n\n(4) The Internal Auditor shall, subject to subsections (3) and (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), at intervals of three months\n\n                    - (a) a prepare and submit to the Board, a report on the internal audit carried out during the period of three months immediately preceding the preparation of the report; and\n\n                    - (b) make recommendations in each report, with respect to matters which appear to  the  Internal  Auditor  as  necessary  for  the  conduct  of  the  affairs  of  the Authority.\n\n(5) The Internal Auditor shall, in accordance with subsection 4 of section 16 of the Internal  Audit  Agency  Act, 2003 (Act 658),  submit a copy of each report prepared under this section to the Director-General and the chairperson of the Board\n\nAccounts and audit\n\n23. (1) The Board shall keep books, records and returns of account and other documents relevant  to accounts in a form approved by the Auditor-General.\n\n(2)  The  Board shall submit the accounts of the Authority to the Auditor-General within three months after the end of the financial year.\n\n(3)  The  Auditor-General  within  six  months  after  the  end  of  the  immediately  preceding financial year, audit the accounts of the Authority and forward a copy each of the audited report to the Minister and the Board.\n\n(4) The financial year of the Authority is the same as the financial year of the government.\n\nAnnual report and other reports.\n\n24. (1) The Board shall within thirty days after receipt of the audit report, submit an annual report to the Minister covering the activities and operations of the Authority for the year to which the annual report relates.\n\n(2)The annual report shall include the report of the Auditor-General.\n\n(3) The Minister shall within two months after receipt of the annual report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n(4) The Board shall submit to the Minister any other report which the Minister may require in writing.",
+      "rawText": "22. ( 1) The Authority shall have an Internal Audit Unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921).\n\n(2) The Internal Audit Unit shall be headed by an Internal Auditor who shall be appointed in accordance with the Internal Audit Agency Act, 2003 (Act 658).\n\n(3) The Internal Auditor is responsible for the internal audit of the Authority.\n\n(4) The Internal Auditor shall, subject to subsections (3) and (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), at intervals of three months\n\n                    - (a) a prepare and submit to the Board, a report on the internal audit carried out during the period of three months immediately preceding the preparation of the report; and\n\n                    - (b) make recommendations in each report, with respect to matters which appear to  the  Internal  Auditor  as  necessary  for  the  conduct  of  the  affairs  of  the Authority.\n\n(5) The Internal Auditor shall, in accordance with subsection 4 of section 16 of the Internal  Audit  Agency  Act, 2003 (Act 658),  submit a copy of each report prepared under this section to the Director-General and the chairperson of the Board\n\nAccounts and audit\n\n23. (1) The Board shall keep books, records and returns of account and other documents relevant  to accounts in a form approved by the Auditor-General.\n\n(2)  The  Board shall submit the accounts of the Authority to the Auditor-General within three months after the end of the financial year.\n\nAnnual report and other reports.\n\n24. (1) The Board shall within thirty days after receipt of the audit report, submit an annual report to the Minister covering the activities and operations of the Authority for the year to which the annual report relates.\n\n(2)The annual report shall include the report of the Auditor-General.\n\n(3) The Minister shall within two months after receipt of the annual report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n(4) The Board shall submit to the Minister any other report which the Minister may require in writing.",
       "relatedImpacts": [
         "business"
       ],
@@ -443,8 +395,8 @@
       }
     },
     {
-      "id": "borrowing-powers",
-      "section": 24,
+      "id": "22-borrowing-powers",
+      "section": 22,
       "title": "Borrowing powers",
       "plainLanguage": "This section allows the Authority to borrow money from different entities, but only with the Finance Minister's written approval and in accordance with existing financial regulations. To secure these loans, the Authority can use its property as collateral. This borrowing power enables the Authority to fund its operations and projects.",
       "rawText": "25. (1) Subject to article 181 of the Constitution and section 76 of the Public Financial Management Act, 2016 (Act 921) and with prior consent in writing of the Minister responsible for Finance, the Authority may borrow money from a body corporate, financial market or any other person,\n\n(2) For the purposes of securing the money borrowed, the Authority may mortgage, charge or pledge a right, title or an interest in any of the properties of the Authority.",
@@ -459,8 +411,8 @@
       }
     },
     {
-      "id": "tax-exemption",
-      "section": 25,
+      "id": "23-tax-exemption",
+      "section": 23,
       "title": "Tax exemption",
       "plainLanguage": "This provision grants the Authority a tax exemption. The specific taxes that are exempt will be determined by the Minister, but must be approved by Parliament and adhere to the Constitution and Exemptions Act. This exemption potentially reduces the Authority's financial burden, allowing it to allocate more resources to its operations.",
       "rawText": "26. Subject to article 174 of the Constitution and the Exemptions Act 2022, Act ( 1038) the Authority is exempt from the payment of taxes that the Minister, may in writing, determine, with the prior approval of Parliament.\n\n## National Meteorological Fund",
@@ -475,8 +427,8 @@
       }
     },
     {
-      "id": "establishment-of-the-national-meteorological-fund",
-      "section": 26,
+      "id": "24-establishment-of-the-national-meteorological-fund",
+      "section": 24,
       "title": "Establishment of the National Meteorological Fund",
       "plainLanguage": "This provision creates the National Meteorological Fund. The fund's specific objectives are detailed in the following section. It is likely intended to support activities related to weather and climate.",
       "rawText": "27. There is established by this Act the National Meteorological Fund.\n\nObjects of the Fund\n\n28. …………………………………….",
@@ -489,11 +441,11 @@
       }
     },
     {
-      "id": "application-of-moneys-for-the-fund",
-      "section": 27,
+      "id": "25-application-of-moneys-for-the-fund",
+      "section": 25,
       "title": "Application of moneys for the Fund",
       "plainLanguage": "This provision specifies how the Authority's funds will be spent. The funds can be used for publicity, research, and training of personnel. Money can also be allocated to maintain properties owned by the Authority. Finally, the Board, with the Minister's approval, can use the funds for other activities related to the Authority's goals.",
-      "rawText": "29. Moneys of the Fund shall be applied for\n\n        - (a) publicity and promotion of the activities of the Authority;\n\n        - (b) research, studies and investigations related to the functions of the Authority;\n\n        - (c) human resource development;\n\n        - (d) the  development  and  maintenance  of  any  property  vested  in  or  owned  by  the Authority; and\n\n        - (e) other purposes relevant to the object of the Authority as the Board in consultation with the Minister shall determine.",
+      "rawText": "29. Moneys of the Fund shall be applied for\n\n        - (a) publicity and promotion of the activities of the Authority;\n\n        - (b) research, studies and investigations related to the functions of the Authority;\n\n        - (c) human resource development;\n\n        - (d) the  development  and  maintenance  of  any  property  vested  in  or  owned  by  the Authority; and\n\n        - (e) other purposes relevant to the object of the Authority as the Board in consultation with the Minister shall determine.\n\n  - The sources of money for the Fund are\n\n              - (b) fees and charges accruing to the Authority in the performance of the functions of the Authority;\n\n              - (c) ten  percent of  all  Landing  Charges  collected  by  the  Ghana  Civil  Aviation Authority in accordance with section 71 of the Ghana Civil Aviation Act, 2024 (Act 1120);\n\n              - (d) ten  percent of  Over-flight  Charges  collected  by  the  Ghana  Civil  Aviation Authority in accordance with section 71 of the Ghana Civil Aviation Act, 2024 (Act 1120);\n\n              - (e) five  percent of  Airport Tax collected by an aerodrome operator in accordance with section 1 of the Airport Tax Act, 1963 (Act 209);\n\n              - (f) one percent of the tax-exclusive cost of construction works contract in respect of all government and non-government buildings, roads, dams, telecommunication masts and other related projects in Ghana, for the provision of meteorological information.\n\n              - (g) two and half percent of pre-tax contract value of construction works.\n\n              - (h) three  percent per  barrel  of  crude  oil  produced  by  offshore  and  onshore Companies.\n\n              - (i) three  percent of  all  registration  and  licencing  fees  collected  by  the  Fisheries Commission;\n\n              - (j) ten percent of gross revenue of freight of all international inbound and outbound cargo from ships or shipping companies operating in Ghana collected and paid over to the Ghana Maritime Administration Authority.\n\n              - (k) three  percent of  all  habour  and  river  guide  dues  and  rates  collected  by  the National Inland Waterways Authority.\n\n              - (l) seven  and  half  percent of  all  harbour  and  port  charges/  dues  and  pilotage dues/charges collected by the Ghana Ports and Harbour Authority.\n\n              - (m) five percent of all premiums collected by the Ghana Agricultural Insurance Pool from policy holders, for the provision of agro-meteorological services.\n\n              - (n) five  percent of  the  total  premiums  collected  annually  by  agricultural  insurance providers  and  related  entities  as  a  cost  recovery  fee  for  the  provision  of  agrometeorological data and information.\n\n              - (o) fees and funds from meteorological training schools\n\n              - (p) fees and funds from meteorological calibration laboratory\n\n(q) interest from investments;\n\n(r) loans; and\n\n              - (s) grants, donations and gifts.",
       "relatedImpacts": [],
       "impacts": {
         "innovation": "neutral",
@@ -503,27 +455,11 @@
       }
     },
     {
-      "id": "sources-of-money-for-the-fund",
-      "section": 28,
-      "title": "Sources of money for the Fund",
-      "plainLanguage": "This provision outlines how the Fund will be financed. The Fund will receive money from various sources, including fees and charges related to the Authority's operations, percentages of aviation and maritime charges, a portion of construction costs, a percentage of crude oil production revenue, fees from the Fisheries Commission, and premiums from agricultural insurance. Additional funding will come from meteorological training schools, investments, loans, and donations.",
-      "rawText": "- The sources of money for the Fund are\n\n              - (b) fees and charges accruing to the Authority in the performance of the functions of the Authority;\n\n              - (c) ten  percent of  all  Landing  Charges  collected  by  the  Ghana  Civil  Aviation Authority in accordance with section 71 of the Ghana Civil Aviation Act, 2024 (Act 1120);\n\n              - (d) ten  percent of  Over-flight  Charges  collected  by  the  Ghana  Civil  Aviation Authority in accordance with section 71 of the Ghana Civil Aviation Act, 2024 (Act 1120);\n\n              - (e) five  percent of  Airport Tax collected by an aerodrome operator in accordance with section 1 of the Airport Tax Act, 1963 (Act 209);\n\n              - (f) one percent of the tax-exclusive cost of construction works contract in respect of all government and non-government buildings, roads, dams, telecommunication masts and other related projects in Ghana, for the provision of meteorological information.\n\n              - (g) two and half percent of pre-tax contract value of construction works.\n\n              - (h) three  percent per  barrel  of  crude  oil  produced  by  offshore  and  onshore Companies.\n\n              - (i) three  percent of  all  registration  and  licencing  fees  collected  by  the  Fisheries Commission;\n\n              - (j) ten percent of gross revenue of freight of all international inbound and outbound cargo from ships or shipping companies operating in Ghana collected and paid over to the Ghana Maritime Administration Authority.\n\n              - (k) three  percent of  all  habour  and  river  guide  dues  and  rates  collected  by  the National Inland Waterways Authority.\n\n              - (l) seven  and  half  percent of  all  harbour  and  port  charges/  dues  and  pilotage dues/charges collected by the Ghana Ports and Harbour Authority.\n\n              - (m) five percent of all premiums collected by the Ghana Agricultural Insurance Pool from policy holders, for the provision of agro-meteorological services.\n\n              - (n) five  percent of  the  total  premiums  collected  annually  by  agricultural  insurance providers  and  related  entities  as  a  cost  recovery  fee  for  the  provision  of  agrometeorological data and information.\n\n              - (o) fees and funds from meteorological training schools\n\n              - (p) fees and funds from meteorological calibration laboratory\n\n(q) interest from investments;\n\n(r) loans; and\n\n              - (s) grants, donations and gifts.",
-      "relatedImpacts": [
-        "business"
-      ],
-      "impacts": {
-        "innovation": "neutral",
-        "freedomOfSpeech": "neutral",
-        "privacy": "neutral",
-        "business": "medium-negative"
-      }
-    },
-    {
-      "id": "bank-account-for-the-fund",
-      "section": 29,
+      "id": "26-bank-account-for-the-fund",
+      "section": 26,
       "title": "Bank account for the Fund",
       "plainLanguage": "The Fund's finances will be managed through a dedicated bank account established by the Board. Opening this account requires the approval of the Controller and Accountant-General. This process ensures transparency and accountability in managing the Fund's monetary resources.",
-      "rawText": "31. The moneys for the Fund shall be paid into a bank account opened by the Board for the purpose with the approval of the Controller and Accountant- General.",
+      "rawText": "31. The moneys for the Fund shall be paid into a bank account opened by the Board for the purpose with the approval of the Controller and Accountant- General.\n\n  - All payments from the Fund shall be by cheque and signed by\n\n            - (b) the Director-General.",
       "relatedImpacts": [],
       "impacts": {
         "innovation": "neutral",
@@ -533,22 +469,8 @@
       }
     },
     {
-      "id": "payments-from-the-fund",
-      "section": 30,
-      "title": "Payments from the Fund",
-      "plainLanguage": "This provision states that all payments made from the Fund must be in the form of a cheque. To ensure proper authorization, the Director-General is required to sign all cheques. This process establishes a clear procedure for how money is disbursed from the Fund.",
-      "rawText": "- All payments from the Fund shall be by cheque and signed by\n\n            - (b) the Director-General.",
-      "relatedImpacts": [],
-      "impacts": {
-        "innovation": "neutral",
-        "freedomOfSpeech": "neutral",
-        "privacy": "neutral",
-        "business": "neutral"
-      }
-    },
-    {
-      "id": "management-of-the-fund",
-      "section": 31,
+      "id": "27-management-of-the-fund",
+      "section": 27,
       "title": "Management of the Fund",
       "plainLanguage": "The Board is in charge of managing the Fund. This includes creating policies to raise money for the fund, deciding how the money will be spent, and setting yearly goals. Sections 23 and 24 also apply to the Fund.",
       "rawText": "## 33. (1) The Fund shall be administered by the Board.\n\n    - The Board shall for the purpose of administration of  the Fund\n\n                - (a) formulate policies to generate money for the Fund;\n\n                - (b) determine the allocation to be made towards the objects of the Fund; and\n\n                - (c) determine annual targets of the Fund.\n\n    - Sections 23 and 24 apply to the Fund.",
@@ -561,8 +483,8 @@
       }
     },
     {
-      "id": "investment-of-the-fund",
-      "section": 32,
+      "id": "28-investment-of-the-fund",
+      "section": 28,
       "title": "Investment of the Fund",
       "plainLanguage": "This provision allows the Board to invest some of the Fund's money. The Board decides how much to invest and which securities to invest in. However, the Minister responsible for Finance must approve the types of securities the Board chooses.",
       "rawText": "## 34. The Board may invest a part of the Fund as it considers appropriate in securities as the Minister responsible for Finance .\n\n## Licensing and Related Matters",
@@ -575,8 +497,8 @@
       }
     },
     {
-      "id": "requirement-for-licence-to-operate",
-      "section": 33,
+      "id": "29-requirement-for-licence-to-operate",
+      "section": 29,
       "title": "Requirement for licence to operate",
       "plainLanguage": "This provision mandates that anyone offering meteorological data services, acting as a meteorological agent, running a meteorological business, or engaging in meteorological transactions must first obtain a license from the designated authority. This license ensures that meteorological service providers meet certain standards and are authorized to operate. The requirement aims to regulate the meteorological services industry.",
       "rawText": "- A person shall not\n\n          - (a) provide meteorological data services,\n\n          - (b) provide services as a meteorological agent,\n\n          - (c) engage in any business connected with the provision of meteorological services, or\n\n          - (d) engage in meteorological transactions\n\nunless that person has obtained a license to operate as a Meteorological Services Provider or Agent from the Authority.",
@@ -593,8 +515,8 @@
       }
     },
     {
-      "id": "application-for-a-licence",
-      "section": 34,
+      "id": "30-application-for-a-licence",
+      "section": 30,
       "title": "Application for a licence",
       "plainLanguage": "This provision states that anyone wanting to become a licensed weather service provider or agent must apply to the Authority. The application must use the form provided by the Authority. Companies and other organizations must also prove that their leaders don't have criminal records and pay a fee to have their equipment checked, if needed.",
       "rawText": "## 36. (1) A person shall apply to the Authority for a licence as a Meteorological Service Provider or Agent.\n\n    - An application for a licence shall\n\n                - (a) be made to the Authority in the form determined by the Board;\n\n                - (b) in the case of a company, society, association or partnership be accompanied with an attestation that officers of the company, society, association or partnership do not have any criminal record; and\n\n                - (c) where appropriate, be accompanied with the prescribed fee for the examination of equipment.",
@@ -609,11 +531,11 @@
       }
     },
     {
-      "id": "conditions-for-grant-of-a-licence",
-      "section": 35,
+      "id": "31-conditions-for-grant-of-a-licence",
+      "section": 31,
       "title": "Conditions for grant of a licence",
       "plainLanguage": "This provision states that the Authority can grant a license to an applicant who fulfills all of the Authority's requirements. The Authority is also required to publish these requirements for potential applicants. This ensures transparency and allows individuals to understand what is needed to obtain a license.",
-      "rawText": "37. ( 1) The Authority may issue a licence to a person if the person has met all the requirements determined by the Authority.\n\n- The Authority shall publish the requirements for application for the licence.",
+      "rawText": "37. ( 1) The Authority may issue a licence to a person if the person has met all the requirements determined by the Authority.\n\n- The Authority shall publish the requirements for application for the licence.\n\n(2) The Authority shall, within sixty days after the receipt of an application, if the Authority determines that the applicant has satisfied the conditions of a licence, grant the applicant a licence.\n\n(3) A licence issued under subsection (2) shall\n\n(a) be in the form determined by the Authority;\n\n(b) bear the name and address of the licensee;\n\n(c) indicate the date of issue;\n\n                - (d) be valid for one year from the date of issue and is renewable; and\n\n                - (e) be subject to the terms and conditions determined by the Board; and bear the seal of the Authority.",
       "relatedImpacts": [
         "innovation",
         "freedomOfSpeech",
@@ -627,25 +549,8 @@
       }
     },
     {
-      "id": "grant-of-licence",
-      "section": 36,
-      "title": "Grant of licence",
-      "plainLanguage": "To get a license, the Authority will conduct background checks and inspect your facilities. If you meet the requirements, the Authority must grant you a license within 60 days. The license will include your name, address, issue date, and any specific terms and conditions, and it is valid for one year.",
-      "rawText": "38. (1) The Authority shall, on receipt of an application, carry out background checks, including investigation of criminal history and inspection of the facilities of the applicant, that the Authority considers necessary.\n\n(2) The Authority shall, within sixty days after the receipt of an application, if the Authority determines that the applicant has satisfied the conditions of a licence, grant the applicant a licence.\n\n(3) A licence issued under subsection (2) shall\n\n(a) be in the form determined by the Authority;\n\n(b) bear the name and address of the licensee;\n\n(c) indicate the date of issue;\n\n                - (d) be valid for one year from the date of issue and is renewable; and\n\n                - (e) be subject to the terms and conditions determined by the Board; and bear the seal of the Authority.",
-      "relatedImpacts": [
-        "innovation",
-        "business"
-      ],
-      "impacts": {
-        "innovation": "low-negative",
-        "freedomOfSpeech": "neutral",
-        "privacy": "neutral",
-        "business": "medium-negative"
-      }
-    },
-    {
-      "id": "non-transferability-of-licence",
-      "section": 37,
+      "id": "32-non-transferability-of-licence",
+      "section": 32,
       "title": "Non-transferability of licence",
       "plainLanguage": "This provision prohibits the transfer of licenses issued under this Act. The original recipient of a license is the only party authorized to use it; they cannot give or sell the license to someone else. This ensures that the person or entity initially approved remains responsible for adhering to the license terms.",
       "rawText": "39. A licence issued under this Act is not transferable.",
@@ -661,8 +566,8 @@
       }
     },
     {
-      "id": "renewal-of-licence",
-      "section": 38,
+      "id": "33-renewal-of-licence",
+      "section": 33,
       "title": "Renewal of licence",
       "plainLanguage": "A license can be renewed if the application is submitted within 30 days of expiration, includes a signed declaration, a valid tax clearance, and the renewal fee. The applicant must also be in compliance with the original license terms. The renewal application must fulfill the same requirements as a new license application.",
       "rawText": "40. (1) A licence granted under section 38 may be renewed, if the application for renewal is\n\n                - (a) made within thirty days before the licence expires;\n\n                - (b) signed and accompanied with a statutory declaration by the applicant; and\n\n                - (c) in the form determined by the Authority;\n\n                - (d) not in breach of any of the terms and conditions of the licence;\n\n                - (e) accompanied with the valid tax clearance certificate; and\n\n                - (f) accompanied with the prescribed fee for the renewal of the licence.\n\n(2) An application for renewal shall satisfy the requirements for grant of a licence.",
@@ -678,11 +583,11 @@
       }
     },
     {
-      "id": "suspension-of-licence",
-      "section": 39,
+      "id": "34-suspension-of-licence",
+      "section": 34,
       "title": "Suspension of licence",
       "plainLanguage": "The Authority can suspend a meteorological service provider's or agent's license if they fail to do their job or don't fix problems after being warned. Before suspending a license, the Authority must give the provider/agent at least ten days' notice, explain why the suspension is happening, and allow them a chance to respond. If the provider/agent doesn't take the necessary corrective steps within the given timeframe, their license will be suspended.",
-      "rawText": "41. (1) The Authority may suspend the licence of a meteorological  service provider or agent or where the Authority determines that the meteorological agent has failed to perform the function specified in the licence.\n\n(2) The Authority shall suspend the licence, if the Authority\n\n            - (a) gives at least ten days' notice to the service provider or agent whose licence the Authority intends to suspend;\n\n            - (b) states in the notice the grounds for the suspension;\n\n            - (c) serves on the service provider or agent a copy of any complaint or charges which the Authority proposes to consider; and\n\n            - (d) gives the agent, the opportunity to be heard either in person or be represented by a\n\n(3) The Authority shall suspend the licence of a meteorological service provider or Agent who, after being given notice, fails to take the required remedial action within the specified time.",
+      "rawText": "41. (1) The Authority may suspend the licence of a meteorological  service provider or agent or where the Authority determines that the meteorological agent has failed to perform the function specified in the licence.\n\n(2) The Authority shall suspend the licence, if the Authority\n\n            - (a) gives at least ten days' notice to the service provider or agent whose licence the Authority intends to suspend;\n\n            - (b) states in the notice the grounds for the suspension;\n\n            - (c) serves on the service provider or agent a copy of any complaint or charges which the Authority proposes to consider; and\n\n            - (d) gives the agent, the opportunity to be heard either in person or be represented by a",
       "relatedImpacts": [
         "business"
       ],
@@ -694,8 +599,8 @@
       }
     },
     {
-      "id": "revocation-of-licence",
-      "section": 40,
+      "id": "35-revocation-of-licence",
+      "section": 35,
       "title": "Revocation of licence",
       "plainLanguage": "This section states that the Authority can take away an agent's or service's license if it finds that the license was obtained through fraud, the agent has been convicted of a serious crime, the agent knowingly made a false statement while performing their licensed duties, or the agent's equipment doesn't meet required standards. This ensures that agents and services operate legally and maintain certain standards. The revocation is subject to the rules outlined in the Act.",
       "rawText": "42. Subject to this Act , the Authority shall revoke the licence of an agent or service if the Authority determines that\n\n      - (a) the licence was obtained by fraud;\n\n      - (b) the  agent is convicted by a court of competent jurisdiction for a serious offence;\n\n      - (c) in the performance of a function authorised by the licence, the agent knowingly makes a fraudulent misrepresentation; or\n\n      - (d) the equipment of the agent is found to be substandard during inspections.",
@@ -710,8 +615,8 @@
       }
     },
     {
-      "id": "restoration-of-licences",
-      "section": 41,
+      "id": "36-restoration-of-licences",
+      "section": 36,
       "title": "Restoration of licences",
       "plainLanguage": "This provision mandates that the Authority must reinstate a license if the license holder follows all instructions given by the Authority. This ensures that licensees who comply with the Authority's requirements can have their licenses restored. The restoration process is triggered by the licensee's adherence to the Authority's directives.",
       "rawText": "43. The Authority shall restore a licence if the licensee complies with the directives issued by the Authority.",
@@ -727,8 +632,8 @@
       }
     },
     {
-      "id": "appeals-to-the-tribunal",
-      "section": 42,
+      "id": "37-appeals-to-the-tribunal",
+      "section": 37,
       "title": "Appeals to the Tribunal",
       "plainLanguage": "If the Authority suspends, revokes, or refuses to grant a license, the applicant can appeal this decision to an Appeal Tribunal. The Tribunal will review the Authority's decision, and the Tribunal's decision is final. This means that the outcome of the appeal cannot be challenged further.",
       "rawText": "44. (1) An Applicant who is aggrieved by  a decision of the Authority in respect of a suspension, revocation or refusal to grant a licence shall appeal to the Appeal tribunal .\n\n(2) The decision of the tribunal shall be final and binding.",
@@ -744,8 +649,8 @@
       }
     },
     {
-      "id": "confidentiality",
-      "section": 43,
+      "id": "38-confidentiality",
+      "section": 38,
       "title": "Confidentiality",
       "plainLanguage": "This provision mandates that Authority personnel must keep information obtained during their duties confidential. Information can only be disclosed if required by law or the Board. Violations of confidentiality can lead to disciplinary action, including removal from the Board.",
       "rawText": "45. (1) A member of the Board, the Director-General, or any other officer or employee of the Authority shall\n\n      - (a) subject to any existing law, treat as confidential any information obtained in the exercise of powers or the performance of duties under this Act; and\n\n      - (b) not disclose any information except when required to do so by a court, under any enactment or other circumstances determined by the Board.\n\n(3) Any person who contravenes to subsection (1) shall be subject to disciplinary action, and in the case of a member of the Board be liable to be removed from the Board.",
@@ -762,11 +667,11 @@
       }
     },
     {
-      "id": "improper-use-of-the-official-seal-of-the-organisation",
-      "section": 44,
+      "id": "39-improper-use-of-the-official-seal-of-the-organisation",
+      "section": 39,
       "title": "Improper use of the official seal of the organisation",
       "plainLanguage": "This provision makes it illegal to use the World Meteorological Organization's official seal, emblem, or name without the Minister's permission. Violators will be fined up to 200 penalty units and may have related goods seized. This aims to protect the organization's identity and prevent misuse of its symbols.",
-      "rawText": "46. (1) A person shall not, without the authority of the Minister use\n\n      - (a) the official seal and emblem of the World Meteorological Organisation as specified in the schedule; or\n\n      - (b) the designation \"World Meteorological Organization\" or an abbreviation of that designation.\n\n(3) A  person  who  contravenes  subsection  (1)  commits  an  offence  and  is  liable  on summary conviction to a fine not exceeding 200 penalty units and shall forfeit to the Republic the goods in connection with which the seal, emblem or designation was used.",
+      "rawText": "46. (1) A person shall not, without the authority of the Minister use\n\n      - (a) the official seal and emblem of the World Meteorological Organisation as specified in the schedule; or\n\n      - (b) the designation \"World Meteorological Organization\" or an abbreviation of that designation.\n\n(3) A  person  who  contravenes  subsection  (1)  commits  an  offence  and  is  liable  on summary conviction to a fine not exceeding 200 penalty units and shall forfeit to the Republic the goods in connection with which the seal, emblem or designation was used.\n\n47. ( 1) A person shall not\n\n              - (b) contravenes the regulations, rules, orders or directives issued under any of the provisions of this Act;\n\n- A  person  who  contravenes  subsection  (1)  commits  an  offence  is  liable ....................................................\n\nOffences  by a body of persons\n\n48. (1) Where  an offence is committed by a body of persons\n\n                  - (a) in the case of a body corporate, every director or officer of that body corporate shall be deemed to have committed that offence; and\n\n                  - (b) in the case of a partnership or a firm, every partner of the partnership or firm shall be deemed to have committed that offence\n\n(2) A person shall not be deemed to have committed an offence under subsection (1), if that person proves that the act  in respect of which  that person is charged was committed by some other person without the consent  or connivance of that person and that the person exercised all due diligence to prevent the commission of the offence having regard to all the circumstances.\n\n## Miscellaneous Provisions",
       "relatedImpacts": [
         "freedomOfSpeech",
         "business"
@@ -779,27 +684,8 @@
       }
     },
     {
-      "id": "offences",
-      "section": 45,
-      "title": "Offences",
-      "plainLanguage": "This section defines offenses under the Act, including violations of its regulations, rules, orders, or directives. It holds directors, officers, and partners responsible for offenses committed by their organizations. However, individuals can avoid liability if they prove the offense occurred without their consent and despite their efforts to prevent it.",
-      "rawText": "47. ( 1) A person shall not\n\n              - (b) contravenes the regulations, rules, orders or directives issued under any of the provisions of this Act;\n\n- A  person  who  contravenes  subsection  (1)  commits  an  offence  is  liable ....................................................\n\nOffences  by a body of persons\n\n48. (1) Where  an offence is committed by a body of persons\n\n                  - (a) in the case of a body corporate, every director or officer of that body corporate shall be deemed to have committed that offence; and\n\n                  - (b) in the case of a partnership or a firm, every partner of the partnership or firm shall be deemed to have committed that offence\n\n(2) A person shall not be deemed to have committed an offence under subsection (1), if that person proves that the act  in respect of which  that person is charged was committed by some other person without the consent  or connivance of that person and that the person exercised all due diligence to prevent the commission of the offence having regard to all the circumstances.\n\n## Miscellaneous Provisions",
-      "relatedImpacts": [
-        "innovation",
-        "freedomOfSpeech",
-        "privacy",
-        "business"
-      ],
-      "impacts": {
-        "innovation": "high-negative",
-        "freedomOfSpeech": "low-negative",
-        "privacy": "low-negative",
-        "business": "high-negative"
-      }
-    },
-    {
-      "id": "power-to-enter-land-or-premises",
-      "section": 46,
+      "id": "40-power-to-enter-land-or-premises",
+      "section": 40,
       "title": "Power to enter land or premises",
       "plainLanguage": "This section allows authorized officers to enter properties to inspect meteorological stations and remove obstructions that interfere with weather data collection. Property owners must be notified beforehand, and compensation will be provided for any damages caused by these actions. The Authority can delegate this power to local District Assemblies.",
       "rawText": "## 49. (1) For the purpose of carrying out a function under this Act, an officer of the\n\nAuthority may, after giving notice to the owner or occupier of any land or premises, enter the land or premises and do any act reasonably necessary for carrying out the function and in particular may\n\n              - (a) inspect and examine a land, building or equipment of meteorological stations;\n\n              - (b) inspect  and  examine  accounts,  records  and  memoranda  required  to  be  kept  by meteorological stations;\n\n              - (c) cut down and remove any tree, underwood or structure that  may interfere with surveys; and\n\n              - (d) remove  any  installation  which constitutes a hindrance  to the delivery of meteorological climate in consultation with the Environmental Protection Authority.\n\n(2) The Authority shall pay compensation for any damage caused as a result of action taken under subsection (1), and the liability for and the amount of  the compensation shall in case of dispute be settled in the first instance by negotiation.\n\n(3) The Authority may delegate a power under this section to the relevant District Assembly.",
@@ -815,11 +701,11 @@
       }
     },
     {
-      "id": "execution-of-contract",
-      "section": 47,
+      "id": "41-execution-of-contract",
+      "section": 41,
       "title": "Execution of contract",
       "plainLanguage": "This section explains how the Authority's contracts are signed and sealed. The Director-General must authenticate the Authority's seal. The Director-General or an authorized member can sign contracts that don't need a seal if the board approves. This process is also subject to the rules in the Contracts Act.",
-      "rawText": "- (1) The use of the seal of the Authority shall be authenticated by the signatures of (a) the Director-General; and\n\n- An instrument or contract which if executed or entered into by a person other than a body corporate would not require to be under seal, may be executed or entered into on behalf of the Authority by the Director-General or any member of the Authority if the person has previously been authorised by a decision of the board to execute or enter into that particular agreement or contract.\n\n- This section is subject to section 12 of the Contracts Act, 1960 (Act 25).",
+      "rawText": "- (1) The use of the seal of the Authority shall be authenticated by the signatures of (a) the Director-General; and\n\n- This section is subject to section 12 of the Contracts Act, 1960 (Act 25).",
       "relatedImpacts": [],
       "impacts": {
         "innovation": "neutral",
@@ -829,8 +715,8 @@
       }
     },
     {
-      "id": "regulations",
-      "section": 48,
+      "id": "42-regulations",
+      "section": 42,
       "title": "Regulations",
       "plainLanguage": "This provision allows the Minister to create regulations on climate and meteorology-related activities. These regulations can include guidelines for different sectors, the creation of weather stations, fee structures, and standards for aviation weather services. The regulations can also establish licensing requirements within the meteorology field.",
       "rawText": "- (1) The Minister may by legislative instrument make regulations to provide for\n\n                - (a) guidelines for climatic requirement for sectoral activities;\n\n                - (b) the establishment of meteorological stations;\n\n                - (c) matters in respect of which fees are payable;\n\n                - (d) aeronautical services;\n\n                - (e) uniform standards in the observation of meteorological phenomena; and\n\n                - (f) provide for the requirement for the grant of a licence.",
@@ -843,11 +729,11 @@
       }
     },
     {
-      "id": "interpretation",
-      "section": 49,
+      "id": "43-interpretation",
+      "section": 43,
       "title": "Interpretation.",
       "plainLanguage": "This section defines key terms used in the Act to ensure everyone understands the specific meaning of words like \"Authority,\" \"meteorology,\" and \"agro-meteorology.\" It clarifies terms related to weather observation, forecasting, and the application of meteorological data in various sectors like agriculture and aviation. These definitions help to avoid confusion and ensure consistent interpretation of the law. It also defines \"weather\" and \"upper air\".",
-      "rawText": "- In this Act unless the context otherwise requires;\n\n          - 'Authority' means the Ghana Meteorological Authority established under section 1 of this Act;\n\n            - 'Aeronautical service' includes information, direction and other facilities furnished, issued or provided in connection with meteorological forecasts or data;\n\n            - 'agro-meteorology' means the application of meteorological information and data in the monitoring and management of agricultural activities;\n\n'Board' means the governing body of the Authority established under section 4 of this Act;\n\n'Conventions' means the WMO Convention, the Convention of the International\n\nCivil Aviation Organisation, Framework Convention on Climatic Change and Convention to Combat Desertification and Drought;\n\n'meteorology' means the study dealing with phenomena of the a atmosphere;\n\n'meteorological services' means\n\n'meteorological services providers'\n\nmeans…………………………………\n\n'Minister' means the Minister responsible for Communications;\n\n'operational hydrology' means the practical application of meteorology in relation to water and flood management;\n\n'premises' includes any building or land, ship, aircraft, caravan but does not\n\ninclude a building or place used exclusively as a dwelling place;\n\n    - 'sectoral activities' includes activities related to agriculture, marine, civil aviation, construction and building works, environment, water resources and natural disaster;\n\n'upper air' refers to any level above ten meters from the surface of the earth;\n\n- 'weather' means the state of the atmosphere which consists of the short-term on the scale of minutes to days variation of the atmosphere.",
+      "rawText": "- In this Act unless the context otherwise requires;\n\n          - 'Authority' means the Ghana Meteorological Authority established under section 1 of this Act;\n\n            - 'Aeronautical service' includes information, direction and other facilities furnished, issued or provided in connection with meteorological forecasts or data;\n\n            - 'agro-meteorology' means the application of meteorological information and data in the monitoring and management of agricultural activities;\n\n'Board' means the governing body of the Authority established under section 4 of this Act;\n\n'Conventions' means the WMO Convention, the Convention of the International\n\nCivil Aviation Organisation, Framework Convention on Climatic Change and Convention to Combat Desertification and Drought;\n\n'meteorology' means the study dealing with phenomena of the a atmosphere;\n\n'meteorological services' means\n\n'meteorological services providers'\n\nmeans…………………………………\n\n'Minister' means the Minister responsible for Communications;\n\n'operational hydrology' means the practical application of meteorology in relation to water and flood management;\n\n'premises' includes any building or land, ship, aircraft, caravan but does not\n\n    - 'sectoral activities' includes activities related to agriculture, marine, civil aviation, construction and building works, environment, water resources and natural disaster;\n\n'upper air' refers to any level above ten meters from the surface of the earth;\n\n- 'weather' means the state of the atmosphere which consists of the short-term on the scale of minutes to days variation of the atmosphere.",
       "relatedImpacts": [
         "business"
       ],
@@ -859,8 +745,8 @@
       }
     },
     {
-      "id": "repeal-and-savings",
-      "section": 50,
+      "id": "44-repeal-and-savings",
+      "section": 44,
       "title": "Repeal and savings",
       "plainLanguage": "This provision repeals the previous law governing the Ghana Meteorological Agency. To ensure a smooth transition, any existing contracts, orders, or decisions made under the old law will remain valid. This prevents any disruption to the agency's operations due to the change in legislation.",
       "rawText": "53. (1) The Ghana Meteorological Agency Act, 2004 (Act 682) is hereby repealed.\n\n(2)  Notwithstanding the repeal under subsection (1) any contracts, orders or decisions or anything made or done by a body which until the coming into force of this Act, was charged with the performance of any of the functions under this Act shall, be valid and continue in force as if it was made or done under this Act.",
@@ -875,8 +761,8 @@
       }
     },
     {
-      "id": "transitional-provisions",
-      "section": 51,
+      "id": "45-transitional-provisions",
+      "section": 45,
       "title": "Transitional provisions",
       "plainLanguage": "This section transfers all assets, rights, and responsibilities of the former Ghana Meteorological Agency to the newly established Ghana Meteorological Authority. Current employees of the Agency will automatically become employees of the Authority under similar terms and conditions. Existing contracts with the Agency will remain valid under the new Authority, and individuals with licenses under the old Agency can apply to the new Authority.",
       "rawText": "54. (1) The rights, assets, and liabilities that have accrued in respect of the properties vested in Ghana Meteorological Agency in existence immediately before the coming into force of this Act shall be transferred to the Ghana Meteorological Authority established under this Act.\n\n(2)  A person in the employment of the Ghana Meteorological Agency immediately before the coming into force of this Act, shall on the coming into force of this Act, be deemed to have been duly employed by the Ghana Meteorological Authority established under this Act on the terms  and  conditions  which  are  not  less  favourable  in  aggregate  to  the  terms  and  conditions attached to the post held by the person before the coming into force of this Act.\n\n(3)  A  contract subsisting between the Ghana Meteorological Agency and another person and in effect immediately before the coming into force of this Act shall subsist between the Ghana Meteorological Authority and that other person subject to modifications that are necessary to ensure compliance with this Act.\n\n(4) A person whose license ceases to be valid under the Ghana Meteorological Agency may apply to the Ghana Meteorological Authority under this Act.",

@@ -1,114 +1,108 @@
 {
   "id": "15-ghana-domain-name-registry-bill-formerly-provided-for-in-electronic-transactions-act",
   "title": "Ghana Domain Name Registry Bill – formerly provided for in Electronic Transactions Act",
-  "summary": "The Ghana Domain Name Registry Bill establishes a comprehensive regulatory framework for managing Ghana's .gh internet domain space. The bill creates the Ghana Domain Name Registry as a self-governing, non-profit entity governed by a presidentially-appointed board representing government, law enforcement, universities, the internet community, and legal experts. The Registry manages all .gh domain registrations, licenses registrars, operates a **DNS Security Operations Centre** to protect against cyber threats, and maintains oversight of the entire .gh domain ecosystem.\n\nThe bill's most significant provision **mandates that all legally registered entities in Ghana use a .gh domain name** for their official online presence and digital communications within six months of the law's enactment. This requirement applies broadly to businesses, organizations, and government entities. Enforcement mechanisms include **substantial financial penalties** (1,000-10,000 penalty units annually), potential **business license suspension or revocation**, and **exclusion from public contracts for up to two years**. Corporate directors who knowingly allow violations face personal fines up to 5,000 penalty units. The Registry publishes lists of non-compliant entities and operates a Domain Compliance Unit to monitor adherence. Limited exemptions exist for entities whose digital operations are based outside Ghana, don't target Ghanaian users, and are subject to other jurisdictions' digital laws.\n\nThe bill creates **enhanced cybersecurity infrastructure** through the DNS Security Operations Centre, which monitors .gh domains for threats and coordinates responses, with mandatory integration of all government and security agency domains. The Registry provides secure email services to government bodies and audits government web applications for compliance. A structured **dispute resolution system** handles conflicts between the Registry, registrars, and domain registrants through a specialized committee before court proceedings, following international standards like the Uniform Domain Name Dispute Resolution Policy. The Registry operates with **tax-exempt status** and receives funding from Parliament, the Digital Economy and Innovation Development Fund, service fees, and other sources.\n\nFor businesses and organizations, this bill presents both **opportunities and compliance challenges**. The mandatory .gh domain requirement creates a unified national digital identity and potentially strengthens Ghana's digital sovereignty, while the cybersecurity infrastructure offers enhanced protection for .gh domains. However, entities currently operating exclusively on international domains (.com, .org, etc.) face **mandatory transition costs and operational adjustments** within a six-month timeframe. The enforcement provisions create **significant financial and operational risks** for non-compliance, including business license impacts that could affect core operations. Organizations must evaluate their current domain strategies, budget for .gh domain acquisition and maintenance, and ensure compliance systems are in place. The bill's broad regulatory powers—including domain seizure authority and public naming of violators—create a **high-stakes compliance environment** that requires careful attention from legal, IT, and executive leadership across all registered entities in Ghana.",
+  "summary": "The Ghana Domain Name Registry Bill establishes a comprehensive regulatory framework for managing Ghana's .gh domain name system. The bill creates the **Ghana Domain Name Registry** as a self-governing, non-profit entity governed by a presidentially-appointed board with mandatory gender representation ([5](#5-governing-body-of-the-registry)). The Registry will manage the .gh domain space, license registrars, and operate a **DNS Security Operations Centre** to monitor and protect against cyber threats ([18](#18-domain-name-system-dns-security-operations-centre)).\n\nThe bill's most significant provision mandates that **all legally registered entities in Ghana must register and use a .gh domain name** for their official online presence and digital communications, with a six-month transition period for existing entities ([19](#19-mandatory-registration)). Non-compliance carries substantial penalties: annual fines of 1,000-10,000 penalty units, potential business license suspension or revocation, and exclusion from public contracts for up to two years ([21](#21-penalties-for-non-compliance)). Corporate directors who knowingly permit violations face personal fines up to 5,000 penalty units. The Registry will publicly list non-compliant entities ([23](#23-entities-in-breach)) and can obtain court orders to seize or block violating domain names ([24](#24-court-orders-and-judicial-support)). Limited exemptions exist for entities whose digital operations are based outside Ghana, don't target Ghanaian users, and are subject to foreign digital laws ([20](#20-exemptions)).\n\nThe bill establishes robust financial mechanisms to support digital development. The Registry operates tax-exempt ([28](#28-tax-exemption)) and receives funding from Parliament, the Digital Economy and Innovation Development Fund, service fees, and donations ([25](#25-funds-of-the-registry)). A separate **Domain Name Registry Fund** prioritizes projects supporting SME digital capabilities and domain name system improvements ([36](#36-prioritisation-of-the-fund)). The Registry can borrow with government guarantees subject to Finance Minister approval ([27](#27-borrowing-powers-of-the-registry)).\n\nThe regulatory framework includes structured dispute resolution through a specialized five-member **Dispute Resolution Committee** with expertise in intellectual property and internet law ([39](#39-dispute-resolution-committee)). Parties must exhaust this process before court action, with decisions issued within 30 days and appeals available to the High Court ([38](#38-resolution-of-disputes)). The bill requires annual reporting to Parliament and public disclosure of Registry activities ([30](#30-annual-report-and-other-reports)), while the Minister retains authority to issue policy directives for domain space management ([10](#10-policy-directives)). Operating as an unlicensed registrar carries penalties, and the Registry has 60 days to process license applications ([15](#15-operation-as-a-registrar), [16](#16-application-for-a-registrar-licence)).",
   "pdfPath": "pdfs/15. Ghana Domain Name Registry Bill – formerly provided for in Electronic Transactions Act.pdf",
   "impacts": {
     "innovation": {
-      "score": "high-negative",
+      "score": "severe-negative",
       "description": {
-        "score": "high-negative",
-        "analysis": "The Ghana Domain Name Registry Bill creates a **highly restrictive environment for digital innovation** despite establishing important cybersecurity infrastructure. The **mandatory .gh domain requirement** with its six-month compliance deadline forces all legally registered entities to restructure their digital operations, diverting critical resources, time, and capital away from innovation activities toward compliance. For startups, tech ventures, and digital-first businesses—sectors where agility and rapid experimentation are essential—this represents a significant operational burden. The **severe penalty structure** (1,000-10,000 penalty units annually, business license suspension/revocation, and two-year procurement disqualification) creates a high-stakes compliance environment that discourages risk-taking and experimentation, fundamental elements of digital innovation.\n\nThe bill's **broad regulatory powers** further constrain innovation potential. The Registry's authority to suspend or revoke licenses for vaguely defined \"misconduct which harms consumers or the public interest,\" combined with powers to seize or deactivate domains and inspect premises under warrant, creates regulatory uncertainty that may deter innovative business models or unconventional digital ventures. **Personal liability for directors** (up to 5,000 penalty units) adds another layer of risk that may make leadership teams risk-averse, particularly in innovative ventures where digital strategy experimentation is common. The centralized control model contrasts sharply with the decentralized, permissionless innovation ethos that has driven global digital transformation.\n\nHowever, the bill does establish some **positive infrastructure elements**: the **DNS Security Operations Centre** provides enhanced cybersecurity protection for .gh domains, potentially making Ghana's digital space more secure and trustworthy for innovative ventures. The **structured dispute resolution system** following international standards (UDRP) provides clearer pathways for resolving conflicts. The Registry's tax-exempt status and diverse funding sources suggest potential for long-term stability. Yet these benefits are substantially outweighed by the compliance burden, enforcement severity, and regulatory uncertainty. For Ghana's digital innovation ecosystem—including tech startups, fintech ventures, e-commerce platforms, and digital service providers—this bill represents a **significant constraint on growth and experimentation**, potentially positioning Ghana as less competitive compared to regional peers with more flexible digital regulatory frameworks."
+        "score": "severe-negative",
+        "analysis": "The Ghana Domain Name Registry Bill creates **severe barriers to digital innovation** through its mandatory compliance regime and punitive enforcement framework. The [mandatory registration requirement](#1-application-and-objects) forces all legally registered entities to adopt .gh domains within six months, imposing immediate compliance costs and technical migration burdens on digital innovators, startups, and technology companies. For early-stage ventures operating with limited resources, these requirements divert capital and attention from product development and market validation to regulatory compliance. The **annual penalties of 1,000-10,000 penalty units** for non-compliance ([21](#21-penalties-for-non-compliance)), combined with threats of business license suspension and two-year procurement disqualification, create existential risks that discourage entrepreneurial risk-taking and experimentation—the foundation of digital innovation.\n\nThe bill's enforcement mechanisms actively **undermine the agility and flexibility** essential to digital innovation. The Registry's broad powers to [suspend or revoke licenses](#17-suspension-and-revocation-of-licences) for vaguely defined \"misconduct\" or failure to meet ministerial requirements create regulatory uncertainty that makes long-term technology investment risky. The authority to [seize, block, or deactivate domain names](#24-court-orders-and-judicial-support) and conduct premises inspections gives the Registry intrusive control over digital operations, potentially disrupting innovative services without due process. These provisions are particularly problematic for digital innovators who rely on continuous service availability, rapid iteration, and global platform integration—all of which become vulnerable to regulatory intervention.\n\nMost critically, the bill **fails to provide any countervailing support for digital innovation** while imposing substantial new burdens. There are no provisions for innovation sandboxes, regulatory exemptions for startups, technical assistance for compliance, or incentives for digital entrepreneurship. The [general penalty clause](#41-general-penalty) (2,000-10,000 penalty units for any violation) creates a compliance-first culture that prioritizes risk avoidance over innovation. For Ghana's digital economy, this represents a **fundamental policy misalignment**: while global competitors create enabling environments for digital innovation through light-touch regulation and startup support, this bill establishes a control-oriented framework that treats digital entities as compliance subjects rather than innovation drivers. The result will likely be **innovation flight**—digital entrepreneurs and technology companies choosing to establish operations in more favorable jurisdictions, depriving Ghana of the economic and social benefits of a thriving digital innovation ecosystem."
       },
       "relatedProvisions": [
-        "application-and-objects",
-        "duties-of-the-registry",
-        "functions-of-the-registry",
-        "governing-body-of-the-registry",
-        "disclosure-of-interest",
-        "establishment-of-committees",
-        "policy-directives",
-        "operation-as-a-registrar",
-        "application-for-a-registrar-licence",
-        "creation-of-one-central-registry",
-        "suspension-and-revocation-of-licences",
-        "domain-name-system-dns-security-operations-centre",
-        "mandatory-registration",
-        "exemptions",
-        "penalties-for-non-compliance",
-        "monitoring-and-inspection",
-        "entities-in-breach",
-        "court-orders-and-judicial-support",
-        "object-of-the-fund",
-        "prioritisation-of-the-fund",
-        "resolution-of-disputes",
-        "dispute-resolution-committee",
-        "powers-of-the-dispute-resolution-committee",
-        "general-penalty",
-        "regulations",
-        "interpretation"
+        "1-application-and-objects",
+        "3-duties-of-the-registry",
+        "4-functions-of-the-registry",
+        "5-governing-body-of-the-registry",
+        "7-disclosure-of-interest",
+        "8-establishment-of-committees",
+        "10-policy-directives",
+        "15-operation-as-a-registrar",
+        "16-application-for-a-registrar-licence",
+        "17-suspension-and-revocation-of-licences",
+        "18-domain-name-system-dns-security-operations-centre",
+        "19-mandatory-registration",
+        "20-exemptions",
+        "21-penalties-for-non-compliance",
+        "22-monitoring-and-inspection",
+        "23-entities-in-breach",
+        "24-court-orders-and-judicial-support",
+        "32-object-of-the-fund",
+        "36-prioritisation-of-the-fund",
+        "38-resolution-of-disputes",
+        "39-dispute-resolution-committee",
+        "40-powers-of-the-dispute-resolution-committee",
+        "41-general-penalty",
+        "42-regulations",
+        "43-interpretation"
       ]
     },
     "freedomOfSpeech": {
-      "score": "high-negative",
+      "score": "medium-negative",
       "description": {
-        "score": "high-negative",
-        "analysis": "This bill creates **significant structural risks to freedom of speech** by establishing centralized control mechanisms over Ghana's digital domain space. The Registry's power to **seize, block, or deactivate domain names** through court orders represents a form of prior restraint that can effectively silence online voices by removing their platforms entirely. While judicial oversight provides some procedural protection, the broad standard of \"contravention of this Act\" could potentially extend beyond technical registration violations to enable content-based restrictions. Once a domain is seized or deactivated, all content hosted there becomes inaccessible, affecting not just the domain holder but all users who rely on that platform for information or expression.\n\nThe **mandatory .gh domain requirement** compounds these concerns by creating a centralized point of control over Ghanaian entities' online presence. Organizations and businesses that previously operated on international domains (.com, .org) with diverse hosting arrangements must now maintain a .gh domain as their official presence, bringing them under the Registry's jurisdiction and enforcement powers. This consolidation of authority means that a single entity—governed by a presidentially-appointed board—has the technical and legal capability to affect the online accessibility of virtually all registered Ghanaian entities. The **severe financial penalties and business license implications** for non-compliance create strong incentives for entities to submit to this centralized system, even if they have concerns about potential overreach.\n\nThe bill's **warrant-based inspection powers** and the DNS Security Operations Centre's monitoring capabilities create additional surveillance infrastructure that could chill free expression. While ostensibly designed for cybersecurity purposes, these systems provide technical capabilities for monitoring online activities across the .gh domain space. The combination of centralized control, broad enforcement powers, and surveillance infrastructure creates an environment where **self-censorship may increase** as organizations become aware that their digital presence operates under a regulatory framework with significant coercive powers. The lack of explicit content protections or limitations on the Registry's authority to act against domains raises concerns about potential mission creep beyond technical domain management into content regulation."
+        "score": "medium-negative",
+        "analysis": "The Ghana Domain Name Registry Bill creates potential risks to freedom of speech through its enforcement mechanisms, though these concerns are somewhat mitigated by judicial oversight requirements. The most significant provision grants the Registry power to apply for court orders to **seize, block, or deactivate domain names** registered in contravention of the Act ([24](#24-court-orders-and-judicial-support)). While ostensibly designed to enforce compliance with registration requirements, this infrastructure creates technical and legal mechanisms that could be repurposed to restrict online expression. Domain blocking and seizure are powerful tools that can effectively silence online voices, and once such systems are established, they may be applied beyond their original regulatory purpose.\n\nThe bill's impact on speech is moderated by several factors. First, the provision requires **High Court authorization** rather than permitting unilateral administrative action, providing judicial oversight that can protect against arbitrary censorship ([24](#24-court-orders-and-judicial-support)). Second, the bill's stated purpose is regulatory compliance—ensuring entities use .gh domains—rather than content control, and it contains no explicit provisions authorizing content-based restrictions. Third, the mandatory registration requirement itself doesn't limit what organizations can say, only where their official digital presence must be hosted. The bill also establishes a structured dispute resolution process that could provide additional procedural protections.\n\nHowever, significant concerns remain. The bill lacks explicit safeguards protecting freedom of expression or limiting domain seizure powers strictly to administrative violations unrelated to content. The provision authorizing premises entry and digital system inspection under warrant ([24](#24-court-orders-and-judicial-support)) could potentially be used to access communications and content. The public listing of non-compliant entities ([23](#23-entities-in-breach)) and severe penalties for non-compliance create pressure that could disproportionately affect civil society organizations, media outlets, or advocacy groups with limited resources. While the bill doesn't directly restrict speech, it establishes enforcement infrastructure that, without clear constitutional and statutory protections, could be leveraged to constrain online expression in Ghana's digital ecosystem."
       },
       "relatedProvisions": [
-        "application-and-objects",
-        "policy-directives",
-        "entities-in-breach",
-        "court-orders-and-judicial-support",
-        "regulations"
+        "1-application-and-objects",
+        "10-policy-directives",
+        "23-entities-in-breach",
+        "24-court-orders-and-judicial-support",
+        "42-regulations"
       ]
     },
     "business": {
       "score": "severe-negative",
       "description": {
         "score": "severe-negative",
-        "analysis": "The Ghana Domain Name Registry Bill fundamentally transforms the business environment by imposing **mandatory .gh domain registration requirements** on all legally registered entities operating in Ghana. Within six months of enactment, businesses must register and maintain active .gh domains for official websites and use them for all official digital correspondence and transactions. This creates immediate **compliance costs and operational disruption** for the thousands of businesses currently operating on international domains (.com, .org, .net). Organizations must budget for domain acquisition, technical migration, rebranding efforts, and ongoing maintenance while managing the risk of service disruptions during transition. The aggressive timeline leaves little room for strategic planning, particularly for businesses with complex digital infrastructure, multiple brands, or international operations.\n\nThe **enforcement mechanisms create severe business risks** that extend far beyond simple fines. Non-compliant entities face annual penalties of 1,000-10,000 penalty units, but more critically, they risk **business license suspension or revocation** for repeated non-compliance—a provision that could effectively shut down operations. Businesses may be **disqualified from public procurement for up to two years**, cutting off a major revenue source for companies serving government contracts. Corporate directors face **personal liability up to 5,000 penalty units** for knowingly permitting violations, creating individual risk exposure that may affect board governance and decision-making. The Registry maintains public lists of non-compliant entities, adding reputational damage to financial penalties.\n\nThe bill grants the Registry **extensive regulatory and enforcement powers** that create an uncertain business environment. The Registry can apply for court orders to seize, block, or deactivate domains, and can obtain warrants to inspect digital systems where \"reasonable suspicion\" exists. The Minister's authority to issue policy directives means compliance requirements may change unpredictably. The Registry's power to suspend or revoke registrar licenses for broadly-defined \"misconduct\" or failure to meet \"ongoing requirements\" creates additional uncertainty in the domain services market. While the DNS Security Operations Centre may provide cybersecurity benefits, these are overshadowed by the **mandatory compliance burden, severe penalties, operational risks, and regulatory uncertainty** that collectively create a restrictive and high-stakes business environment requiring significant legal, technical, and financial resources to navigate successfully."
+        "analysis": "The Ghana Domain Name Registry Bill imposes **severe compliance burdens and operational risks** on businesses operating in Ghana. The centerpiece provision requires **all legally registered entities to register and use .gh domains** for official websites and digital communications, with only a six-month transition period ([19](#19-mandatory-registration)). This mandate forces businesses to undertake costly digital infrastructure transitions, including domain registration, website migration, email system reconfiguration, and updating all official communications channels. For businesses with established international digital presence, this requirement creates significant operational disruption and may conflict with existing brand strategies and global digital architectures.\n\nThe **penalty regime is exceptionally punitive** and poses existential threats to business operations. Non-compliant entities face annual fines ranging from 1,000 to 10,000 penalty units, with penalties accumulating each year of non-compliance ([21](#21-penalties-for-non-compliance)). More critically, businesses risk **suspension or revocation of business licenses** for repeated non-compliance, effectively threatening their legal right to operate. The bill also disqualifies non-compliant entities from public procurement for up to two years, cutting off a vital revenue stream for businesses that contract with government. Corporate directors face **personal liability** of up to 5,000 penalty units if they knowingly permit violations, creating significant governance risks and potential conflicts between fiduciary duties and compliance obligations. The Registry maintains public lists of non-compliant entities ([23](#23-entities-in-breach)), adding reputational damage to financial penalties.\n\nThe regulatory framework introduces **substantial uncertainty** into the business environment. The Minister retains broad authority to issue policy directives on domain space regulation ([10](#10-policy-directives)), while the Registry can suspend or revoke registrar licenses based on vague criteria like \"misconduct which harms consumers or the public interest\" ([17](#17-suspension-and-revocation-of-licences)). The Registry's power to seek court orders to seize or block domains and inspect business premises ([24](#24-court-orders-and-judicial-support)) creates enforcement risks that extend beyond simple non-compliance. General penalties of 2,000-10,000 penalty units apply to any violation not specifically addressed ([41](#41-general-penalty)), further expanding the compliance risk landscape. While limited exemptions exist for entities operating primarily outside Ghana, the exemption criteria are narrow and may not cover many legitimate business models, leaving most businesses subject to the full force of these requirements."
       },
       "relatedProvisions": [
-        "application-and-objects",
-        "establishment-of-the-domain-name-registry",
-        "duties-of-the-registry",
-        "functions-of-the-registry",
-        "governing-body-of-the-registry",
-        "meetings-of-the-board",
-        "disclosure-of-interest",
-        "establishment-of-committees",
-        "policy-directives",
-        "duties-and-liability-of-the-board",
-        "operation-as-a-registrar",
-        "application-for-a-registrar-licence",
-        "creation-of-one-central-registry",
-        "suspension-and-revocation-of-licences",
-        "domain-name-system-dns-security-operations-centre",
-        "mandatory-registration",
-        "exemptions",
-        "penalties-for-non-compliance",
-        "monitoring-and-inspection",
-        "entities-in-breach",
-        "court-orders-and-judicial-support",
-        "accounts-and-audit",
-        "internal-audit-unit",
-        "annual-report-and-other-reports",
-        "object-of-the-fund",
-        "sources-of-moneys-for-the-fund",
-        "prioritisation-of-the-fund",
-        "resolution-of-disputes",
-        "dispute-resolution-committee",
-        "powers-of-the-dispute-resolution-committee",
-        "general-penalty",
-        "regulations",
-        "interpretation",
-        "repeals-and-savings"
+        "1-application-and-objects",
+        "2-establishment-of-the-domain-name-registry",
+        "3-duties-of-the-registry",
+        "4-functions-of-the-registry",
+        "5-governing-body-of-the-registry",
+        "7-disclosure-of-interest",
+        "8-establishment-of-committees",
+        "10-policy-directives",
+        "13-duties-and-liability-of-the-board",
+        "15-operation-as-a-registrar",
+        "16-application-for-a-registrar-licence",
+        "17-suspension-and-revocation-of-licences",
+        "18-domain-name-system-dns-security-operations-centre",
+        "19-mandatory-registration",
+        "20-exemptions",
+        "21-penalties-for-non-compliance",
+        "22-monitoring-and-inspection",
+        "23-entities-in-breach",
+        "24-court-orders-and-judicial-support",
+        "29-accounts-and-audit",
+        "30-annual-report-and-other-reports",
+        "32-object-of-the-fund",
+        "33-sources-of-moneys-for-the-fund",
+        "36-prioritisation-of-the-fund",
+        "38-resolution-of-disputes",
+        "39-dispute-resolution-committee",
+        "40-powers-of-the-dispute-resolution-committee",
+        "41-general-penalty",
+        "42-regulations",
+        "43-interpretation",
+        "44-repeals-and-savings"
       ]
     },
     "privacy": {
       "score": "neutral",
       "description": null,
       "relatedProvisions": [
-        "functions-of-the-registry",
-        "policy-directives",
-        "creation-of-one-central-registry",
-        "domain-name-system-dns-security-operations-centre",
-        "monitoring-and-inspection",
-        "entities-in-breach",
-        "court-orders-and-judicial-support",
-        "internal-audit-unit",
-        "regulations"
+        "4-functions-of-the-registry",
+        "10-policy-directives",
+        "18-domain-name-system-dns-security-operations-centre",
+        "22-monitoring-and-inspection",
+        "23-entities-in-breach",
+        "24-court-orders-and-judicial-support",
+        "42-regulations"
       ]
     }
   },
@@ -119,7 +113,7 @@
       "severity": "critical",
       "description": "This provision authorizes **suspension or revocation of business licenses** for failing to register a .gh domain name - an extraordinarily disproportionate penalty that could terminate all business operations for an administrative compliance matter. In established democracies, license revocation is reserved for serious violations like fraud or safety issues, not domain registration. Combined with annual fines up to 10,000 penalty units, two-year procurement bans, and personal director liability, this creates a **high-stakes compliance environment** without adequate safeguards like cure periods, graduated enforcement, or independent review before coercive action.",
       "relatedProvisions": [
-        "penalties-for-non-compliance"
+        "21-penalties-for-non-compliance"
       ],
       "relatedImpacts": []
     },
@@ -129,7 +123,7 @@
       "severity": "high",
       "description": "The Registry can revoke registrar licenses for **\"misconduct\"** or **\"abuse\"** without defining these terms, and for violating Minister's requirements that may not be publicly accessible. No hearing, appeal, or written decision is required before revocation. Since all businesses must use registrars to obtain mandatory .gh domains, license revocation could make legal compliance impossible for entire business categories, triggering cascading penalties (business license suspension, public contract exclusion). This creates a tool for potential arbitrary enforcement against disfavored sectors without clear standards or procedural protection.",
       "relatedProvisions": [
-        "suspension-and-revocation-of-licences"
+        "17-suspension-and-revocation-of-licences"
       ],
       "relatedImpacts": []
     },
@@ -139,7 +133,7 @@
       "severity": "high",
       "description": "All legally registered entities in Ghana must transition their official digital presence to **.gh domains within six months**, including websites, platforms, and \"all official digital correspondence and transactions.\" This mandatory infrastructure requirement forces businesses currently operating on international domains (.com, .org, .net) to undergo costly DNS migration, website reconfiguration, and email system updates. The undefined term **\"official\"** creates ambiguity about what communications fall within scope, while the compressed timeline disproportionately burdens SMEs and startups with limited IT resources. Combined with severe enforcement penalties (business license suspension, contract exclusion), this creates a **high-stakes compliance environment** where all entities become dependent on a single government-controlled infrastructure.",
       "relatedProvisions": [
-        "mandatory-registration"
+        "19-mandatory-registration"
       ],
       "relatedImpacts": []
     },
@@ -149,7 +143,7 @@
       "severity": "high",
       "description": "This provision explicitly makes **\"mandate the use of the .gh domain name for entities in the Republic\"** a core object of the Act, establishing a regulatory framework where the Registry both enforces compliance and profits from mandatory registrations. This creates a fundamental **conflict of interest**: the enforcer benefits financially from enforcement. Combined with severe penalties (business license suspension, contract exclusion for up to 2 years, personal director fines), vague exemption criteria, and a tight six-month compliance timeline, this provision enables a high-stakes mandatory system unprecedented in democratic jurisdictions where domain choice is typically voluntary.",
       "relatedProvisions": [
-        "application-and-objects"
+        "1-application-and-objects"
       ],
       "relatedImpacts": []
     },
@@ -159,7 +153,7 @@
       "severity": "high",
       "description": "The Registry can seek court orders to **seize or block domain names** for any \"contravention of this Act\"—including failure to transition to .gh within six months. This grants authority to shut down a business's entire online presence for administrative non-compliance, without explicit proportionality safeguards or graduated enforcement requirements. Domain seizure is business-critical infrastructure removal, yet the provision treats it as a standard enforcement tool rather than a last resort.",
       "relatedProvisions": [
-        "court-orders-and-judicial-support"
+        "24-court-orders-and-judicial-support"
       ],
       "relatedImpacts": []
     },
@@ -169,7 +163,7 @@
       "severity": "high",
       "description": "This provision allows **criminal prosecution and fines up to 10,000 penalty units** for any violation of the Act that doesn't have a specific penalty defined elsewhere. The problem: businesses, registrars, and domain holders could face **criminal conviction for violating undefined procedural requirements** or Registry operational rules that may be specified in regulations rather than clear statutory language. This creates legal uncertainty about what conduct triggers criminal liability, potentially chilling legitimate business activities and enabling arbitrary enforcement against entities trying to comply with Ghana's domain registration framework.",
       "relatedProvisions": [
-        "general-penalty"
+        "41-general-penalty"
       ],
       "relatedImpacts": []
     },
@@ -179,14 +173,14 @@
       "severity": "high",
       "description": "The Minister can unilaterally issue **\"policy directives\"** to regulate the .gh domain space without parliamentary oversight, procedural safeguards, or defined limits. Given the bill's severe enforcement mechanisms (business license revocation, contract exclusions, substantial fines), ministerial directives could effectively impose new compliance obligations, alter regulatory requirements, or create additional penalties without legislative scrutiny. This creates **regulatory uncertainty** where businesses cannot predict what obligations may be imposed and enables potential **selective enforcement** or politically-motivated directives that bypass democratic accountability.",
       "relatedProvisions": [
-        "policy-directives"
+        "10-policy-directives"
       ],
       "relatedImpacts": []
     }
   ],
   "provisions": [
     {
-      "id": "application-and-objects",
+      "id": "1-application-and-objects",
       "section": 1,
       "title": "Application and objects",
       "plainLanguage": "This law applies to the Ghana Domain Name Registry, its licensed registrars, and anyone who registers a .gh domain name. The law aims to set up the Ghana Domain Name Registry and regulate the .gh domain name system. It also establishes a fund for the registry and requires entities in Ghana to use the .gh domain name.",
@@ -204,7 +198,7 @@
       }
     },
     {
-      "id": "establishment-of-the-domain-name-registry",
+      "id": "2-establishment-of-the-domain-name-registry",
       "section": 2,
       "title": "Establishment of the Domain Name Registry",
       "plainLanguage": "This provision formally establishes the Ghana Domain Name Registry. The Registry is created as a self-governing body with the ability to manage its own affairs and operate under its own name. It will function as a non-profit entity.",
@@ -220,7 +214,7 @@
       }
     },
     {
-      "id": "duties-of-the-registry",
+      "id": "3-duties-of-the-registry",
       "section": 3,
       "title": "Duties of the Registry",
       "plainLanguage": "The Registry is responsible for promoting the benefits of domain name registration to the public. It must research and monitor the domain name system, assess how well the .gh domain space meets the needs of Ghanaians, and provide information on domain name registration. The Registry also audits licensed registrars and evaluates the effectiveness of the law governing domain names, and can collaborate with other organizations and experts.",
@@ -237,7 +231,7 @@
       }
     },
     {
-      "id": "functions-of-the-registry",
+      "id": "4-functions-of-the-registry",
       "section": 4,
       "title": "Functions of the Registry",
       "plainLanguage": "The Registry manages Ghana's (.gh) domain name space, ensuring its proper function and security. It licenses registrars, provides secure email to government bodies, and publishes guidelines for domain name registration and web standards. The Registry also audits government web applications and ensures compliance with the Act for all .gh domain-related activities.",
@@ -255,7 +249,7 @@
       }
     },
     {
-      "id": "governing-body-of-the-registry",
+      "id": "5-governing-body-of-the-registry",
       "section": 5,
       "title": "Governing Body of the Registry",
       "plainLanguage": "This provision establishes the governing board for the Registry, which includes representatives from various sectors such as government, law enforcement, universities, the internet community, and legal experts. The President appoints the board members, with a requirement to include at least three women. The board is responsible for overseeing the Registry's operations and ensuring it functions effectively.",
@@ -272,11 +266,11 @@
       }
     },
     {
-      "id": "tenure-of-office-of-board-members",
+      "id": "6-tenure-of-office-of-board-members",
       "section": 6,
       "title": "Tenure of office of Board members",
       "plainLanguage": "Board members can serve up to four years and be reappointed for a maximum of two consecutive terms. Vacancies on the Board are filled by presidential appointment, based on advice from a nominating authority and consultation with the Council of State. A member who misses three meetings in a row without a good reason will be removed, and members can resign by writing to the President through the Minister.",
-      "rawText": "- (1) A member of the Board shall hold office for a period not exceeding four years and is eligible for reappointment, but a member shall not be appointed for more than two terms in succession.\n\n    - Where a member of the Board, resigns, dies, is removed from office or is for a reasonable cause unable to act as a member, the Minister shall notify the President of  the  vacancy  and  the  President  shall,  acting  on  the  advice  of  the  nominating authority and in consultation with the Council  of State appoint another person to hold office for the unexpired portion of the member's term of office.\n\n    - A member of the Board, who is absent from three consecutive meetings of the Board without reasonable cause ceases to be a member of the Board.\n\n    - A member of the Board, may at any time resign from office in writing addressed to the President through the Minister.",
+      "rawText": "- (1) A member of the Board shall hold office for a period not exceeding four years and is eligible for reappointment, but a member shall not be appointed for more than two terms in succession.\n\n    - Where a member of the Board, resigns, dies, is removed from office or is for a reasonable cause unable to act as a member, the Minister shall notify the President of  the  vacancy  and  the  President  shall,  acting  on  the  advice  of  the  nominating authority and in consultation with the Council  of State appoint another person to hold office for the unexpired portion of the member's term of office.\n\n    - A member of the Board, who is absent from three consecutive meetings of the Board without reasonable cause ceases to be a member of the Board.\n\n    - A member of the Board, may at any time resign from office in writing addressed to the President through the Minister.\n\n  - (1) The Board shall meet at least once every three months for the despatch of business at the times and in the places determined by the chairperson.\n\n    - The  chairperson shall at the request in writing of not less than one-third of the membership of the Board convene an extraordinary meeting of the Board at the place and time determined by the chairperson.\n\n    - The quorum at a meeting of the Board shall be two thirds of members of the Board or a greater number determined by the Board in respect of specific matters.\n\n    - The chairperson shall preside at meetings of the Board and in the absence of the chairperson a member of the Board elected by the members present from among their number shall preside.\n\n    - Matters before the Board shall be decided by a majority of the members present and voting and in the event of an equality of votes, the person presiding shall have a casting vote.\n\n    - The Board may co-opt a person to attend a Board meeting, but that person shall not vote on a matter for decision at the meeting.\n\n    - The proceedings of the Board shall not be invalidated because of a vacancy among the members or a defect in the appointment or qualification of a member.\n\n    - Subject to this section, the Board may determine the procedure for its meetings.",
       "relatedImpacts": [],
       "impacts": {
         "innovation": "neutral",
@@ -286,24 +280,8 @@
       }
     },
     {
-      "id": "meetings-of-the-board",
+      "id": "7-disclosure-of-interest",
       "section": 7,
-      "title": "Meetings of the Board",
-      "plainLanguage": "This section establishes the rules for the Board's meetings, requiring them to occur at least quarterly. It allows for special meetings to be called and sets a quorum of two-thirds of the members. Decisions are made by majority vote, with the chairperson having the tie-breaking vote, and the Board can invite non-voting participants.",
-      "rawText": "- (1) The Board shall meet at least once every three months for the despatch of business at the times and in the places determined by the chairperson.\n\n    - The  chairperson shall at the request in writing of not less than one-third of the membership of the Board convene an extraordinary meeting of the Board at the place and time determined by the chairperson.\n\n    - The quorum at a meeting of the Board shall be two thirds of members of the Board or a greater number determined by the Board in respect of specific matters.\n\n    - The chairperson shall preside at meetings of the Board and in the absence of the chairperson a member of the Board elected by the members present from among their number shall preside.\n\n    - Matters before the Board shall be decided by a majority of the members present and voting and in the event of an equality of votes, the person presiding shall have a casting vote.\n\n    - The Board may co-opt a person to attend a Board meeting, but that person shall not vote on a matter for decision at the meeting.\n\n    - The proceedings of the Board shall not be invalidated because of a vacancy among the members or a defect in the appointment or qualification of a member.\n\n    - Subject to this section, the Board may determine the procedure for its meetings.",
-      "relatedImpacts": [
-        "business"
-      ],
-      "impacts": {
-        "innovation": "neutral",
-        "freedomOfSpeech": "neutral",
-        "privacy": "neutral",
-        "business": "low-positive"
-      }
-    },
-    {
-      "id": "disclosure-of-interest",
-      "section": 8,
       "title": "Disclosure of interest",
       "plainLanguage": "This provision requires board members to disclose any personal interests related to matters the board is considering. A board member with a conflict of interest cannot participate in discussions about that matter. Failure to disclose a conflict of interest will result in the board member's removal.",
       "rawText": "- (1) A member of the Board who has an interest in a matter for consideration by the Board  shall  disclose  in  writing  the  nature  of  that  interest  and  is  disqualified  from participating in the deliberations of the Board in respect of that matter.\n\n    - A member who contravenes subsection (1) ceases to be a member.",
@@ -319,8 +297,8 @@
       }
     },
     {
-      "id": "establishment-of-committees",
-      "section": 9,
+      "id": "8-establishment-of-committees",
+      "section": 8,
       "title": "Establishment of committees",
       "plainLanguage": "This provision allows the Board to form committees to carry out specific tasks. These committees can be composed of Board members, outside experts, or a mix of both. Board members on committees serve as long as they are on the Board, while non-members can serve up to two four-year terms.",
       "rawText": "- (1) The Board may appoint committees consisting of members of the Board or nonmembers or both to perform a function.\n\n    - The membership of a committee appointed under this section and the tenure of office of its members shall be coterminous with the duration of their membership of the Board.\n\n    - Non-members shall hold office for a period not exceeding four years and may be eligible for re-appointment but shall not be appointed for more than two successive terms.",
@@ -336,8 +314,8 @@
       }
     },
     {
-      "id": "allowances",
-      "section": 10,
+      "id": "9-allowances",
+      "section": 9,
       "title": "Allowances",
       "plainLanguage": "This provision states that members of the Board and its committees will receive allowances. The amount and details of these allowances must be approved by the Minister, in consultation with the Minister responsible for Finance. This process ensures that the compensation is reviewed by both the relevant minister and the finance ministry.",
       "rawText": "- Members  of  the  Board  and  members  of  a  committee  of  the  Board  shall  be  paid allowances approved by the Minister in consultation with the Minister responsible for Finance.",
@@ -350,8 +328,8 @@
       }
     },
     {
-      "id": "policy-directives",
-      "section": 11,
+      "id": "10-policy-directives",
+      "section": 10,
       "title": "Policy Directives",
       "plainLanguage": "This provision allows the Minister to issue policy guidelines for managing and regulating the .gh domain name space. These directives will provide instructions on how the .gh domain, which represents Ghana on the internet, should be maintained and operated. This ensures there are clear rules and procedures for the .gh domain.",
       "rawText": "- The Minister may, from time to time, publish policy directives relating to the regulation and maintenance of the .gh domain name space.",
@@ -369,8 +347,8 @@
       }
     },
     {
-      "id": "the-executive-director",
-      "section": 12,
+      "id": "11-the-executive-director",
+      "section": 11,
       "title": "The Executive Director",
       "plainLanguage": "This provision states that the President will appoint an Executive Director for the Registry, following the rules in the Constitution. The Executive Director's job specifics, like salary and responsibilities, will be outlined in their appointment letter.",
       "rawText": "- (1) The President shall, in accordance with article 195 of the Constitution, appoint an Executive Director for the Registry.\n\n    - The Executive Director shall hold office on the terms and conditions specified in the letter of appointment.",
@@ -383,8 +361,8 @@
       }
     },
     {
-      "id": "functions-of-the-executive-director",
-      "section": 13,
+      "id": "12-functions-of-the-executive-director",
+      "section": 12,
       "title": "Functions of the Executive Director",
       "plainLanguage": "The Executive Director is in charge of the Registry's daily operations and reports to the Board. They can also delegate tasks to Registry officers, but remain responsible for those delegated tasks. The Executive Director also performs other functions as determined by the Board.",
       "rawText": "- (1) The Executive Director is responsible for the day-to-day administration of the affairs of the Registry and is answerable to the Board in the performance of functions under this Act.\n\n    - The Executive Director shall perform any other functions determined by the Board.\n\n    - The Executive Director may delegate a function to an officer of the Registry but shall  not  be  relieved from  the  ultimate  responsibility  for  the performance  of  the delegated function.",
@@ -397,8 +375,8 @@
       }
     },
     {
-      "id": "duties-and-liability-of-the-board",
-      "section": 14,
+      "id": "13-duties-and-liability-of-the-board",
+      "section": 13,
       "title": "Duties and liability of the Board",
       "plainLanguage": "This provision states that Board members must follow the same duties as company directors, as outlined in the Companies Act. Board members are protected from personal liability for damages to others if they acted in good faith while performing their official duties. This protection encourages board members to make decisions without fear of personal financial repercussions, as long as they are acting responsibly.",
       "rawText": "- (1) The duties of directors contained in Part Q of Chapter two of the Companies Act, 2019 (Act 992) shall apply to members of the Board.\n\n    - A member of the Board is not personally liable for damage or injury to a third party that arises in the execution of an official duty of that member, if the member at all material times acted in good faith.",
@@ -413,8 +391,8 @@
       }
     },
     {
-      "id": "appointment-of-other-staff",
-      "section": 15,
+      "id": "14-appointment-of-other-staff",
+      "section": 14,
       "title": "Appointment of other staff",
       "plainLanguage": "This provision describes how the Registry will be staffed. The Board, working with the Public Services Commissions, will appoint the necessary personnel. The Registry can also utilize existing public officers through transfers, secondments, or other forms of assistance.",
       "rawText": "- (1) The Board shall in consultation with the Public Services Commissions appoint other staff of the Registry that are necessary for the proper and effective performance of its functions.\n\n    - Other  public  officers  may  be  transferred  or  seconded  to  the  Registry  or  may otherwise give assistance to it.",
@@ -427,8 +405,8 @@
       }
     },
     {
-      "id": "operation-as-a-registrar",
-      "section": 16,
+      "id": "15-operation-as-a-registrar",
+      "section": 15,
       "title": "Operation as a registrar",
       "plainLanguage": "This provision requires registrars to be licensed by the Registry. Operating as a registrar without a license can result in fines. If convicted of operating without a license, the person must immediately cease operations as a registrar.",
       "rawText": "- (1) A person shall not act as a registrar unless licensed to do so by the Registry.\n\n        - A person who contravenes subsection (1) commits an offence and is liable upon summary conviction:\n\n          - (a) in the case of a body corporate or other body of persons, to a fine of not less than two thousand penalty units and not more than seven thousand penalty units;\n\n          - (b) in the case of a director of a body corporate or other body of persons, to a fine of not less than one thousand penalty units and not more than five thousand penalty units; and\n\n          - (c) in the case of an individual, to a fine of not less than one thousand penalty units and not more than three thousand penalty units.\n\n        - A person who is convicted of an offence under subsection (2) shall immediately cease operation as a registrar.",
@@ -444,11 +422,11 @@
       }
     },
     {
-      "id": "application-for-a-registrar-licence",
-      "section": 17,
+      "id": "16-application-for-a-registrar-licence",
+      "section": 16,
       "title": "Application for a registrar licence",
       "plainLanguage": "To become a licensed registrar, applicants must apply in the manner and pay the fees required. The Registry has 60 days to approve or deny the application, and may add terms if approved. Applications can be denied if incomplete, contain false information, don't meet requirements, or the applicant is deemed incapable. Rejected applicants can reapply if they fix the issues, and licenses must be renewed as directed by the Registry.",
-      "rawText": "- (1) An application to be licensed as a registrar shall be made in the prescribed manner and subject to the prescribed fees.\n\n    - The Registry may, within sixty days following the receipt of a complete application, grant or refuse the application.\n\n    - The Registry may, where it grants the licence, impose terms and conditions where the Registry deems it appropriate.\n\n    - The Registry may refuse an application where:\n\n          - (a) the application is incomplete;\n\n          - (b) the application contains false or misleading information;\n\n          - (c) the application does not meet the technical requirements prescribed by the Registry; or\n\n          - (d) the Registry is convinced upon reasonable grounds that the applicant is incapable of performing the functions of a registrar.\n\n    - An  applicant  whose  application  is  refused  may  resubmit  the  application  if  the deficiencies which formed the basis of the refusal of the initial application have been rectified.\n\n    - A licence granted under this Act shall be renewed as prescribed by the Registry.",
+      "rawText": "- (1) An application to be licensed as a registrar shall be made in the prescribed manner and subject to the prescribed fees.\n\n    - The Registry may, within sixty days following the receipt of a complete application, grant or refuse the application.\n\n    - The Registry may, where it grants the licence, impose terms and conditions where the Registry deems it appropriate.\n\n    - The Registry may refuse an application where:\n\n          - (a) the application is incomplete;\n\n          - (b) the application contains false or misleading information;\n\n          - (c) the application does not meet the technical requirements prescribed by the Registry; or\n\n          - (d) the Registry is convinced upon reasonable grounds that the applicant is incapable of performing the functions of a registrar.\n\n    - An  applicant  whose  application  is  refused  may  resubmit  the  application  if  the deficiencies which formed the basis of the refusal of the initial application have been rectified.\n\n    - A licence granted under this Act shall be renewed as prescribed by the Registry.\n\n  - (1) There shall be only one central registry of all .gh domain names registered in the Republic.\n\n    - The Registry shall have the sole responsibility to keep and maintain the central registry.\n\n    - No person shall maintain or update a repository, or administer a country domain name other than the Registry.\n\n    - A person who contravenes subsection (3) commits an offence and is liable upon summary conviction:\n\n          - (a) in the case of a body corporate or other body of persons, to a fine of not less  than  five  thousand  penalty  units  and  not  more  than  ten  thousand penalty units;\n\n          - (b) in the case of a director of a body corporate or other body of persons, to a fine of not less than one thousand penalty units and not more than three thousand penalty units; and\n\n          - (c) in the case of an individual, to a fine of not less than one thousand penalty units and not more than five thousand penalty units.\n\n    - The  Registry  shall  keep  and  maintain  a  register  of  registrars  in  which  shall  be recorded of the registrar:\n\n          - (a) the name;\n\n          - (b) the registration number;\n\n          - (c) the country of incorporation;\n\n          - (d) the address; and\n\n          - (e) any other information that the Registry shall prescribe.\n\n      - The  Registry  shall  publish  details  in  the  register of  registrars on  the  Registry's website and any other media which the Registry deems fit.",
       "relatedImpacts": [
         "innovation",
         "business"
@@ -461,26 +439,8 @@
       }
     },
     {
-      "id": "creation-of-one-central-registry",
-      "section": 18,
-      "title": "Creation of one central registry",
-      "plainLanguage": "This provision establishes a single, official registry for all \".gh\" domain names in Ghana. Only the designated Registry is authorized to manage these domain names. Unauthorized maintenance or administration of domain names will result in fines. The Registry must also maintain and publish a register of accredited registrars.",
-      "rawText": "- (1) There shall be only one central registry of all .gh domain names registered in the Republic.\n\n    - The Registry shall have the sole responsibility to keep and maintain the central registry.\n\n    - No person shall maintain or update a repository, or administer a country domain name other than the Registry.\n\n    - A person who contravenes subsection (3) commits an offence and is liable upon summary conviction:\n\n          - (a) in the case of a body corporate or other body of persons, to a fine of not less  than  five  thousand  penalty  units  and  not  more  than  ten  thousand penalty units;\n\n          - (b) in the case of a director of a body corporate or other body of persons, to a fine of not less than one thousand penalty units and not more than three thousand penalty units; and\n\n          - (c) in the case of an individual, to a fine of not less than one thousand penalty units and not more than five thousand penalty units.\n\n    - The  Registry  shall  keep  and  maintain  a  register  of  registrars  in  which  shall  be recorded of the registrar:\n\n          - (a) the name;\n\n          - (b) the registration number;\n\n          - (c) the country of incorporation;\n\n          - (d) the address; and\n\n          - (e) any other information that the Registry shall prescribe.\n\n      - The  Registry  shall  publish  details  in  the  register of  registrars on  the  Registry's website and any other media which the Registry deems fit.",
-      "relatedImpacts": [
-        "innovation",
-        "privacy",
-        "business"
-      ],
-      "impacts": {
-        "innovation": "low-negative",
-        "freedomOfSpeech": "neutral",
-        "privacy": "low-positive",
-        "business": "low-negative"
-      }
-    },
-    {
-      "id": "suspension-and-revocation-of-licences",
-      "section": 19,
+      "id": "17-suspension-and-revocation-of-licences",
+      "section": 17,
       "title": "Suspension and revocation of licences",
       "plainLanguage": "This section allows the Registry to revoke or suspend a license if the registrar engages in misconduct, is liable for abuse, doesn't meet requirements, or violates orders. The Registry can also take other disciplinary actions against the registrar. This ensures that registrars adhere to standards and regulations.",
       "rawText": "- (1) The Registry may revoke or suspend a licence issued under this section where the registrar:\n\n          - (a) engages in misconduct which harms consumers or the public interest;\n\n          - (b) is held liable for abuse;\n\n          - (c) fails to meet the ongoing requirements prescribed by the Minister; or\n\n          - (d) contravenes any orders, guidelines or directives issued by the Registry or the Minister.\n\n      - Subsection (1) does not limit the power of the Registry to take any other remedial or penal action against a registrar.\n\n## Security Operations Centre",
@@ -496,8 +456,8 @@
       }
     },
     {
-      "id": "domain-name-system-dns-security-operations-centre",
-      "section": 20,
+      "id": "18-domain-name-system-dns-security-operations-centre",
+      "section": 18,
       "title": "Domain Name System (DNS) Security Operations Centre",
       "plainLanguage": "This provision requires the creation of a DNS Security Operations Centre to monitor and protect .gh domains from cyber threats. The center will detect threats, coordinate responses, and provide regular reports on domain name system security. All government and security agencies' domain names must be integrated into this security monitoring system.",
       "rawText": "- (1) The Registry shall establish and maintain a mandatory DNS Security Operations Centre which shall monitor .gh domain resolutions, traffic, and logs using automated, manual, or hybrid methods as appropriate, to detect threats and attacks.\n\n    - The  DNS  Security  Operations  Centre  shall  be  responsible  for  initiating  and coordinating appropriate response actions, including but not limited to containment, notification of affected parties, mitigation of threats, and post-incident analysis.\n\n    - All metropolitan, municipal  and  district  assemblies',  government  ministries', agencies'  and  departments',  and  security  agencies'  domain  names  shall  be integrated into the DNS Security Operations Centre.\n\n    - The DNS Security Operations Centre shall publish quarterly and yearly reports on the threats detected in the domain name system.\n\n## Mandatory use of .gh domain",
@@ -514,8 +474,8 @@
       }
     },
     {
-      "id": "mandatory-registration",
-      "section": 21,
+      "id": "19-mandatory-registration",
+      "section": 19,
       "title": "Mandatory registration",
       "plainLanguage": "This provision requires all legally registered entities in the Republic to use a \".gh\" domain name for their official online presence and digital communications. This includes registering and maintaining a \".gh\" domain for any public-facing website or platform. Entities not currently using a \".gh\" domain must switch within six months.",
       "rawText": "- (1) All entities legally registered or operating in the Republic shall be required to:\n\n          - (a) register and maintain an active .gh domain name for any official website or digital platform intended for public access; and\n\n          - (b) use  the  .gh  domain  name  for  all  official  digital  correspondence  and transactions conducted within or from the Republic.\n\n    - Entities currently not using .gh domains shall transition to a .gh domain within six months of the coming into force of this Act to comply with subsection (1).",
@@ -531,8 +491,8 @@
       }
     },
     {
-      "id": "exemptions",
-      "section": 22,
+      "id": "20-exemptions",
+      "section": 20,
       "title": "Exemptions",
       "plainLanguage": "This provision allows the Registry, with the Minister's approval, to exempt certain entities from regulations. To qualify, the entity's digital operations must be based outside Ghana, not target Ghanaian users, and be subject to digital laws in another country. This exemption is intended for multinational organizations with a limited presence or focus within Ghana.",
       "rawText": "- (1) Notwithstanding section 20(1), the Registry in consultation with the Minister may grant an exemption to an entity if:\n\n          - (a) its digital presence is hosted exclusively outside the Republic and does not target Ghanaian users; and\n\n          - (b) it  operates  as  a  multinational  organisation  subject  to  foreign  digital jurisdiction.\n\n        - Any exemption granted under subsection (1) shall be:",
@@ -548,8 +508,8 @@
       }
     },
     {
-      "id": "penalties-for-non-compliance",
-      "section": 23,
+      "id": "21-penalties-for-non-compliance",
+      "section": 21,
       "title": "Penalties for Non-Compliance",
       "plainLanguage": "This section establishes consequences for failing to meet the requirements outlined in this Act. Non-compliant entities may face fines ranging from one thousand to ten thousand penalty units per year. Additionally, they could have their business licenses suspended or revoked, and be barred from participating in public contracts for up to two years. Corporate directors or officers who knowingly allow violations may be personally fined up to five thousand penalty units.",
       "rawText": "23. (1) Any entity that fails to comply with this section shall be liable to:\n\n          - (a) an administrative penalty of not less than one thousand penalty units and not more ten thousand penalty units per year of non-compliance;\n\n          - (b) suspension or revocation of business and regulatory licences for repeated non-compliance in accordance with regulatory procedure of the relevant sector; and\n\n          - (c) disqualification  from  participating  in  public  procurement  or  tendering processes for a period of up to two years.\n\n        - A  director  or  officer  of  a  corporate  body  who  knowingly  permits  the  body  to contravene this Act shall be personally liable to an administrative penalty of not more than five thousand penalty units.",
@@ -565,8 +525,8 @@
       }
     },
     {
-      "id": "monitoring-and-inspection",
-      "section": 24,
+      "id": "22-monitoring-and-inspection",
+      "section": 22,
       "title": "Monitoring and Inspection",
       "plainLanguage": "This provision establishes a Domain Compliance Unit (DCU) to oversee domain name usage. The DCU will monitor domain names and issue notices for any violations of the law. The unit will be staffed by Registry officers and appointees of the Minister.",
       "rawText": "- (1)  The Ministry, in collaboration with  the  Registry  shall  establish  a  Domain Compliance Unit (DCU) to:\n\n          - (a) audit and monitor domain name usage by entities; and\n\n          - (b) serve compliance notices for violations of this Act.\n\n        - The Domain Compliance unit shall be made up of officers of the Registry and persons appointed by the Minister.",
@@ -583,8 +543,8 @@
       }
     },
     {
-      "id": "entities-in-breach",
-      "section": 25,
+      "id": "23-entities-in-breach",
+      "section": 23,
       "title": "Entities in breach",
       "plainLanguage": "The Registry will publish a list of entities that have violated the Act, received exemptions, or been subject to enforcement actions. This list will be available on the Registry's website. The names of offending entities may also be published in newspapers and other publications to promote compliance transparency, while respecting human rights.",
       "rawText": "- (1) The Registry shall maintain and publish on its website a list of:\n\n          - (a) entities in breach of this Act;\n\n          - (b) entities granted exemptions or temporary waivers; and\n\n          - (c) enforcement actions undertaken and their outcomes.\n\n        - The  names  of  offending  entities  may  be  published  in  national  newspapers, government  gazettes,  and  regulatory  bulletins  as  part  of  a  compliance transparency initiative taking into consideration fundamental human rights of affected persons.",
@@ -602,8 +562,8 @@
       }
     },
     {
-      "id": "court-orders-and-judicial-support",
-      "section": 26,
+      "id": "24-court-orders-and-judicial-support",
+      "section": 24,
       "title": "Court orders and judicial support",
       "plainLanguage": "This provision allows the Registry to ask the High Court of Ghana to take action against domain names that violate the law. Specifically, the Registry can request the court to seize or block these domain names. The Registry can also obtain warrants to inspect digital systems on premises if they suspect illegal activity is taking place.",
       "rawText": "- The Registry shall have the power to apply to the High Court of Ghana for an order to:\n\n          - (a) seize, block, or deactivate any domain name registered in contravention of this Act;\n\n          - (d) authorise  entry  into  premises  to  inspect  digital  systems  under  warrant, where reasonable suspicion of concealment or fraud exists.\n\n## Financial Provisions",
@@ -621,8 +581,8 @@
       }
     },
     {
-      "id": "funds-of-the-registry",
-      "section": 27,
+      "id": "25-funds-of-the-registry",
+      "section": 25,
       "title": "Funds of the Registry",
       "plainLanguage": "The Registry's funding comes from several sources. These include money from Parliament, a portion of the Digital Economy and Innovation Development Fund, donations and grants, fees collected for its services, and any other funds approved by the Minister responsible for Finance. This funding is used to support the operations and activities of the Registry.",
       "rawText": "- The funds of the Registry include:\n\n          - (a) moneys provided by Parliament;\n\n          - (b) 2% of the Digital Economy and Innovation Development Fund;\n\n          - (c) donations, grants and gifts;\n\n          - (d) fees accruing to the Registry under this Act; and\n\n          - (e) any  other  moneys  that  are  approved  by  the  Minister  responsible  for Finance.",
@@ -635,8 +595,8 @@
       }
     },
     {
-      "id": "expenses-of-the-registry",
-      "section": 28,
+      "id": "26-expenses-of-the-registry",
+      "section": 26,
       "title": "Expenses of the Registry",
       "plainLanguage": "This provision specifies that the Registry is responsible for covering its own operational costs. The Registry will use its own funds to pay for these expenses. This ensures the Registry is financially independent and accountable for its spending.",
       "rawText": "- The expenses of the Registry shall be paid from moneys provided from the funds of the Registry.",
@@ -649,8 +609,8 @@
       }
     },
     {
-      "id": "borrowing-powers-of-the-registry",
-      "section": 29,
+      "id": "27-borrowing-powers-of-the-registry",
+      "section": 27,
       "title": "Borrowing powers of the Registry",
       "plainLanguage": "This provision allows the Registry to borrow money from banks or financial institutions, provided the government guarantees the loan. This borrowing is subject to existing financial regulations and requires approval from the Minister of Finance. This enables the Registry to access funds for its operations or projects.",
       "rawText": "- Subject  to  article  181  of  the  Constitution,  section  76  of  the  Public  Financial Management Act, 2016 (Act 921) and any other relevant enactment, the registry may obtain loans and any other credit facility on the guarantee of the Government from a bank or any other financial institution approved by the Minister responsible for Finance.",
@@ -663,8 +623,8 @@
       }
     },
     {
-      "id": "tax-exemption",
-      "section": 30,
+      "id": "28-tax-exemption",
+      "section": 28,
       "title": "Tax exemption",
       "plainLanguage": "This provision exempts the Registry from paying any taxes. This means the Registry will not be required to pay taxes, which could free up funds for its operations.",
       "rawText": "- The Registry is exempted from the payment of any taxes.",
@@ -677,11 +637,11 @@
       }
     },
     {
-      "id": "accounts-and-audit",
-      "section": 31,
+      "id": "29-accounts-and-audit",
+      "section": 29,
       "title": "Accounts and audit",
       "plainLanguage": "This section requires the Board to maintain financial records that are approved by the Auditor-General. The Board must submit these records to the Auditor-General for auditing within three months of the end of the financial year, which is the same as the government's. The Auditor-General will then audit the accounts and provide a report to the Minister.",
-      "rawText": "- (1) The Board shall keep books of account and proper records in relation to them in the form approved by the Auditor-General.\n\n    - The Board shall submit the accounts of the Registry to the Auditor-General for audit within three months after the end of the financial year.\n\n    - The  Auditor-General  shall,  not  later  than  three  months  after  the  receipt  of  the accounts, audit the accounts and forward a copy of the audit report to the Minister.\n\n    - The  financial  year  of  the  Registry  is  the  same  as  the  financial  year  of  the Government.",
+      "rawText": "- (1) The Board shall keep books of account and proper records in relation to them in the form approved by the Auditor-General.\n\n    - The Board shall submit the accounts of the Registry to the Auditor-General for audit within three months after the end of the financial year.\n\n    - The  Auditor-General  shall,  not  later  than  three  months  after  the  receipt  of  the accounts, audit the accounts and forward a copy of the audit report to the Minister.\n\n    - The  financial  year  of  the  Registry  is  the  same  as  the  financial  year  of  the Government.\n\n  - (1) The Registry shall have an Internal Audit Unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921).\n\n    - The  Internal  Audit  Unit  shall  be  headed  by  an  Internal  Auditor  who  shall  be appointed in accordance with the Internal Audit Agency Act, 2003 (Act 658).\n\n    - The Internal Auditor is responsible for the internal audit of the Registry.\n\n    - The Internal Auditor shall, subject to subsections (3) and (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), at intervals of three months:\n\n          - (a) prepare and submit to the Board, a report on the internal audit carried out during the period of three months immediately preceding the preparation of the report; and\n\n          - (b) recommendations in each report, with respect to matters which appear to the  Internal  Auditor  as  necessary  for  the  conduct  of  the  affairs  of  the Registry.\n\n    - The Internal Auditor shall, in accordance with subsection (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), submit a copy of each report prepared under this section to the Executive Director and the chairperson of the Board.",
       "relatedImpacts": [
         "business"
       ],
@@ -693,25 +653,8 @@
       }
     },
     {
-      "id": "internal-audit-unit",
-      "section": 32,
-      "title": "Internal Audit Unit",
-      "plainLanguage": "This section mandates the creation of an Internal Audit Unit within the Registry to ensure financial oversight. An Internal Auditor, appointed according to existing law, will head the unit. The auditor will conduct regular audits and report their findings and recommendations to the Board, Executive Director, and chairperson. This promotes transparency and accountability within the Registry's financial operations.",
-      "rawText": "- (1) The Registry shall have an Internal Audit Unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921).\n\n    - The  Internal  Audit  Unit  shall  be  headed  by  an  Internal  Auditor  who  shall  be appointed in accordance with the Internal Audit Agency Act, 2003 (Act 658).\n\n    - The Internal Auditor is responsible for the internal audit of the Registry.\n\n    - The Internal Auditor shall, subject to subsections (3) and (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), at intervals of three months:\n\n          - (a) prepare and submit to the Board, a report on the internal audit carried out during the period of three months immediately preceding the preparation of the report; and\n\n          - (b) recommendations in each report, with respect to matters which appear to the  Internal  Auditor  as  necessary  for  the  conduct  of  the  affairs  of  the Registry.\n\n    - The Internal Auditor shall, in accordance with subsection (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), submit a copy of each report prepared under this section to the Executive Director and the chairperson of the Board.",
-      "relatedImpacts": [
-        "privacy",
-        "business"
-      ],
-      "impacts": {
-        "innovation": "neutral",
-        "freedomOfSpeech": "neutral",
-        "privacy": "low-positive",
-        "business": "low-positive"
-      }
-    },
-    {
-      "id": "annual-report-and-other-reports",
-      "section": 33,
+      "id": "30-annual-report-and-other-reports",
+      "section": 30,
       "title": "Annual report and other reports",
       "plainLanguage": "This provision requires the Registry Board to produce an annual report on its activities and operations, including an audit report. This report is submitted to the Minister, who then presents it to Parliament. The Board must also provide other reports if requested by the Minister, and the annual report will be available on the Registry's website.",
       "rawText": "- (1) The Board shall within one month after the receipt of the audit report, submit an annual report to the Minister covering the activities and the operations of the Registry for the year to which the report relates.\n\n    - The annual report shall include the report of the Auditor-General.\n\n    - The Minister shall, within one month after the receipt of the annual report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n    - The Board shall also submit to the Minister any other reports which the Minister may require in writing.\n\n    - The annual report shall be published on the Registry's website and made available to all stakeholders.\n\nDomain Name Registry Fund",
@@ -726,8 +669,8 @@
       }
     },
     {
-      "id": "establishment-of-the-domain-name-registry-fund",
-      "section": 34,
+      "id": "31-establishment-of-the-domain-name-registry-fund",
+      "section": 31,
       "title": "Establishment of the Domain Name Registry Fund",
       "plainLanguage": "This provision creates a special fund called the Domain Name Registry Fund. This fund will hold money specifically for activities related to domain name registration. The establishment of this fund likely aims to ensure that there are dedicated financial resources available for managing and supporting the domain name system.",
       "rawText": "- There shall be established a fund to be known as the Domain Name Registry Fund.",
@@ -740,8 +683,8 @@
       }
     },
     {
-      "id": "object-of-the-fund",
-      "section": 35,
+      "id": "32-object-of-the-fund",
+      "section": 32,
       "title": "Object of the Fund",
       "plainLanguage": "This provision grants the Minister the authority to determine additional objectives for which the Fund can be used. This allows the Minister flexibility to direct the Fund towards goals not explicitly listed elsewhere. The Fund's resources can therefore be allocated based on the Minister's discretion.",
       "rawText": "- The Fund shall be applied to achieve the following objectives:\n\n          - (d) any other objective as the Minister may prescribe.",
@@ -757,8 +700,8 @@
       }
     },
     {
-      "id": "sources-of-moneys-for-the-fund",
-      "section": 36,
+      "id": "33-sources-of-moneys-for-the-fund",
+      "section": 33,
       "title": "Sources of moneys for the Fund",
       "plainLanguage": "The fund receives money from several sources. These include a portion of the fees collected by the Registry, government funding allocated by Parliament, and earnings from the fund's investments. Additionally, the fund can accept donations, grants, gifts, and any other funds it legally obtains. These various income streams ensure the fund has sufficient resources to operate.",
       "rawText": "- The sources of money for the Fund are:\n\n          - (a) 5% of the fees charged by the Registry under this Act;\n\n          - (b) moneys provided by Parliament to the Fund;\n\n          - (c) moneys that accrue to the Fund from investments made by the Board;\n\n          - (d) donations, grants and gifts; and\n\n          - (e) any other moneys that may lawfully accrue to the Fund.",
@@ -773,8 +716,8 @@
       }
     },
     {
-      "id": "bank-account-for-the-fund",
-      "section": 37,
+      "id": "34-bank-account-for-the-fund",
+      "section": 34,
       "title": "Bank account for the Fund",
       "plainLanguage": "The Fund's money will be deposited into bank accounts managed by the Board. Donations will be paid directly into these accounts once the Board verifies them. This process ensures that all financial transactions are properly recorded and managed.",
       "rawText": "- (1) Moneys of the Fund shall be paid into bank accounts opened by the Board for the Fund.\n\n    - Donors  shall  pay  their  donations  directly  into  the  account  of  the  Fund  upon verification by the Board.",
@@ -787,8 +730,8 @@
       }
     },
     {
-      "id": "management-of-the-fund",
-      "section": 38,
+      "id": "35-management-of-the-fund",
+      "section": 35,
       "title": "Management of the Fund",
       "plainLanguage": "The Registry Board is responsible for managing the Fund. Sections 31 and 33 of this act provide further guidance on how the fund should be managed. These sections likely contain specific rules or procedures related to the Fund's operation.",
       "rawText": "- (1) The Fund shall be managed by the Board of the Registry.\n\n    - Sections 31 and 33 of this Act shall apply to the Fund.",
@@ -801,8 +744,8 @@
       }
     },
     {
-      "id": "prioritisation-of-the-fund",
-      "section": 39,
+      "id": "36-prioritisation-of-the-fund",
+      "section": 36,
       "title": "Prioritisation of the Fund",
       "plainLanguage": "This provision establishes a priority order for how the fund's money will be allocated. The fund will first support projects that help small and medium businesses improve their digital capabilities. After that, projects that improve the domain name system will be prioritized. Finally, the Minister can designate other projects as priorities for funding.",
       "rawText": "- (1) Projects for which moneys from the Fund are disbursed shall satisfy the criteria laid out in the order of priority.\n\n    - The order of priority for support by the Fund is as follows:\n\n          - (a) projects  aimed  at  improving  digital  inclusion  for  small  and  medium enterprises;\n\n          - (b) projects aimed at improving the capacity of the domain name system ; and\n\n          - (c) other projects that the Minister may designate as priority projects.",
@@ -818,8 +761,8 @@
       }
     },
     {
-      "id": "disbursement-of-the-fund",
-      "section": 40,
+      "id": "37-disbursement-of-the-fund",
+      "section": 37,
       "title": "Disbursement of the Fund",
       "plainLanguage": "This provision states that the Board will decide how the fund is distributed, working with the Minister to set up the process. The Board will then be responsible for disbursing the funds based on these established procedures. This ensures a structured and agreed-upon approach to distributing the fund.",
       "rawText": "- In consultation with the Minister, the Board shall determine procedures for disbursement of the Fund and disburse the Fund accordingly.\n\n## Dispute Resolution",
@@ -832,8 +775,8 @@
       }
     },
     {
-      "id": "resolution-of-disputes",
-      "section": 41,
+      "id": "38-resolution-of-disputes",
+      "section": 38,
       "title": "Resolution of Disputes",
       "plainLanguage": "This section requires the Minister to set up a way to resolve disagreements, including those between the Registry and people who register. Before taking legal action in court, parties must use this dispute resolution process. The Minister can create regulations for how disputes are resolved, and these rules should follow the Uniform Domain Name Dispute Resolution Policy.",
       "rawText": "- (1) The Minister shall establish a dispute resolution process to resolve:\n\n          - (d) disputes between the Registry and any registrant.\n\n    - No party to a dispute described under subsection (1) shall institute an action in court unless the dispute resolution procedure established under this Act has been exhausted.\n\n    - The Minister may by legislative instrument make regulations on the manner and procedure for the resolution of disputes.\n\n      - The procedure shall be in line with the Uniform Domain Name Dispute Resolution Policy and its Rules.",
@@ -849,8 +792,8 @@
       }
     },
     {
-      "id": "dispute-resolution-committee",
-      "section": 42,
+      "id": "39-dispute-resolution-committee",
+      "section": 39,
       "title": "Dispute Resolution Committee",
       "plainLanguage": "This provision establishes a Dispute Resolution Committee consisting of five experts in dispute resolution, intellectual property, and internet law. A panel of three members will review disputes brought before it, allowing parties to present evidence and arguments, potentially with legal representation. The Committee must communicate its decision within thirty days, and appeals can be made to the High Court. This committee offers a structured process for resolving disagreements related to the Board's activities.",
       "rawText": "- (1) The Board shall establish a Dispute Resolution Committee which shall consist of five  members  with  relevant  experience  in alternative  dispute  resolution,  intellectual property, and internet law, policy and governance.\n\n    - A three-member panel of the Committee shall expeditiously hear, inquire into and investigate any matter which is brought before it.\n\n    - The Committee shall determine the periods that are reasonably necessary for the fair  and  adequate presentation  of  the  matter  by  the  respective  parties  and  the Registry may require those matters to be presented within the periods.\n\n    - The Committee may require evidence or arguments to be presented in writing and may decide the matters upon which it will hear oral evidence or written arguments.\n\n    - Each party to a matter is entitled to appear at the hearing and may be represented by a lawyer or any other person.\n\n    - The Committee shall communicate its decision to the parties within thirty days of receipt  of  the  dispute  provided  that  there  are  no  exceptional  circumstances affecting the dispute.\n\n    - Appeals from a decision by the Dispute Resolution Committee may be submitted to the High Court.",
@@ -866,8 +809,8 @@
       }
     },
     {
-      "id": "powers-of-the-dispute-resolution-committee",
-      "section": 43,
+      "id": "40-powers-of-the-dispute-resolution-committee",
+      "section": 40,
       "title": "Powers of the Dispute Resolution Committee",
       "plainLanguage": "The Dispute Resolution Committee has the authority to call witnesses, examine evidence, and demand documents to resolve disputes. It can also penalize individuals for contempt of court and dismiss unimportant cases. In certain situations, the committee can order one party to cover the legal costs of the other. Overall, the committee has broad powers to manage and resolve disputes effectively.",
       "rawText": "- The Dispute Resolution Committee may:\n\n          - (a) issue summons to compel the attendance of witnesses under the hand of the Executive Director of the Registry;\n\n          - (b) examine witnesses on oath, affirmation or otherwise;\n\n          - (c) compel the production of documents;\n\n          - (d) cite a person for trial at the High Court for contempt;\n\n          - (g) dismiss or refrain from hearing or determining a matter, in whole or in part, if it appears that the matter, or part of the matter, is trivial or vexatious or that  further  proceedings  are  not  necessary  or  desirable  in  the  public interest;\n\n          - (h) in appropriate circumstances, order any party to pay the reasonable costs and expenses of another party, including the expenses of witnesses and fees of lawyers, in bringing the matter before the Committee; and\n\n          - (i) generally, give directions and do what is necessary or expedient for the hearing and determination of the matter.\n\n## Miscellaneous Provisions",
@@ -883,8 +826,8 @@
       }
     },
     {
-      "id": "general-penalty",
-      "section": 44,
+      "id": "41-general-penalty",
+      "section": 41,
       "title": "General Penalty",
       "plainLanguage": "This provision creates a standard fine for violations of the Act that don't have a specific penalty already defined. If someone breaks a rule without a set penalty, they will be fined between two thousand and ten thousand penalty units if convicted. This ensures that all violations of the Act have some form of consequence.",
       "rawText": "- A person who contravenes or fails to comply with any provision of this Act commits an offence and, where no penalty is expressly provided, shall upon summary conviction be liable to a fine not less than two thousand penalty units and not more than ten thousand penalty units.",
@@ -900,8 +843,8 @@
       }
     },
     {
-      "id": "regulations",
-      "section": 45,
+      "id": "42-regulations",
+      "section": 42,
       "title": "Regulations",
       "plainLanguage": "This section allows the Minister to create regulations for implementing the Act, in consultation with the Registry. These regulations will address registrar licensing, registration processes, fees, domain name restoration, and registration agreements. They will also cover fair practices, compliance, contact information, dispute resolution, appeals, and other necessary aspects of the .gh domain name space.",
       "rawText": "- The Minister, in consultation with the Registry, may by legislative instrument make Regulations to give effect to the provisions of this Act and shall in particular, make Regulations in relation to:\n\n          - (a) the  requirements  which  registrars  must  meet  in  order  to  be  licensed, including  objective  standards  relating  to  operational  accuracy,  stability, robustness, security, privacy and efficiency;\n\n          - (b) the  circumstances and  manner  in  which  registrations  may be assigned, registered, renewed, refused, transferred or revoked;\n\n          - (c) fees;\n\n          - (d) provisions for the restoration of a domain name registration;\n\n          - (e) the terms of the domain name registration agreement which registrars must adopt and use in registering domain names, including issues in respect of privacy,  fundamental  human  rights,  consumer  protection  and  dispute resolution;\n\n          - (f) processes and procedures to avoid unfair and anti-competitive practices, including bias  to, or preferential treatment  of actual  or  prospective registrants, registrars, protocols or products;\n\n          - (g) ongoing  compliance  requirements  for  registrars  including  sustainability requirements and abuse reporting;\n\n          - (h) requirements to ensure that each domain name contains an administrative and technical contact;\n\n          - (i) the dispute resolution process or procedure;\n\n          - (j) conditions upon which appeals may be submitted to the High Court;\n\n          - (l) such other matters relating to the .gh domain name space as it may be necessary to prescribe to achieve the objectives of this Act.",
@@ -919,8 +862,8 @@
       }
     },
     {
-      "id": "interpretation",
-      "section": 46,
+      "id": "43-interpretation",
+      "section": 43,
       "title": "Interpretation",
       "plainLanguage": "This section defines the meaning of specific terms used in the Act, such as \"abuse,\" \"domain name,\" \"registrant,\" and \"Registry.\" These definitions clarify the scope and application of the law. Understanding these terms is crucial for interpreting the rights, responsibilities, and regulations outlined in the Act. The definitions cover technical aspects like domain name systems and security extensions, as well as administrative aspects like the roles of the Minister and the Board.",
       "rawText": "46. In this Act unless the context otherwise requires,\n\n' abuse '  includes  spamming,  spoofing,  phishing,  cache  poisoning,  hijacking,  DOS attack, and DNS tunneling as may be determined by the Registry;\n\n' Board ' means the governing body of the Registry;\n\n' ccTLD ' means country code domain at the top level of the Internet's domain name system assigned according to the two-letter codes in the International Standard ISO 3166-1 (Codes for Representation of Names of Countries and their Subdivision);\n\n' domain name ' means an alphanumeric designation that is registered or assigned in respect of an electronic address or other resource on the Internet;\n\n' domain name system ' means a system to translate domain names into IP addresses or other information;\n\n' Domain Name System Security Extension' means an extension to  the domain name system which uses cryptography to authenticate data retrieved from the domain name system;\n\n' .gh domain name space' means the .gh ccTLD assigned to the Republic according to the two-letter codes in the International Standard ISO 3166;\n\n' Government ' means any authority by which the executive authority of the Republic is duly exercised;\n\n' malicious domain name '  means a domain name which is registered under false pretences to cause consumer harm; is being used to cause consumer harm or is being used to conduct illegal activity;\n\n' Minister ' means the Minister responsible for Communications;\n\n' Ministry ' means the Ministry responsible for Communications;\n\n' registrant ' means a person who has registered a domain name in accordance with this Act;\n\n' registrar ' means an entity licensed by the Registry to register domain names;\n\n' Registry ' means the Ghana Domain Name Registry established under this Act;\n\n' repository ' means the primary register of the information maintained by the Registry;",
@@ -936,8 +879,8 @@
       }
     },
     {
-      "id": "repeals-and-savings",
-      "section": 47,
+      "id": "44-repeals-and-savings",
+      "section": 44,
       "title": "Repeals and Savings",
       "plainLanguage": "This provision repeals specific sections of the Electronic Transactions Act of 2008. Licenses issued under the old sections remain valid until expiration or renewal. Existing regulations and guidelines associated with the repealed sections will continue to be in effect.",
       "rawText": "- (1) Sections 63 to 81 of the Electronic Transactions Act, 2008 (Act 772) are hereby repealed.\n\n        - Notwithstanding the repeal:\n\n          - (a) any licence granted under the repealed sections and valid on the date of the coming into force of this Act shall continue to be in force until it expires or is renewed under this Act; and\n\n          - (b) any regulations, guidelines or directives made under the repealed sections are saved.",

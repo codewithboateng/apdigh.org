@@ -1,110 +1,103 @@
 {
   "id": "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act",
   "title": "Digital Economy and Innovation Development Fund Bill – formerly GIFEC in Electronic Communications Act",
-  "summary": "The **Digital Economy and Innovation Development Fund Act** replaces the Ghana Investment Fund for Electronic Communications (GIFEC) with a significantly expanded mechanism to accelerate Ghana's digital transformation. The Fund operates as an independent legal entity with authority to own property, make contracts, and manage investments, governed by a **Board of Trustees** representing the Ministry, National Communications Authority, Ghana Chamber of Telecommunications, Mobile Network Operators, Parliament, and presidential appointees.\n\nThe Fund receives financing from **Parliamentary allocations, mandatory contributions from electronic communication and money service providers, government ICT sector revenue, grants, donations, and investment income**. These resources support six core areas: expanding digital infrastructure in underserved areas, financing digital innovation and startups, developing digital skills programs, creating digital public services (e-health, e-education, e-governance), co-financing projects with private sector partners, and covering operational costs. The Fund can deploy resources through **grants, co-investments, results-based financing, subsidies, or digital vouchers**, with funding decisions guided by transparent prioritization criteria focused on underserved communities and national digital objectives.\n\n**Transparency and accountability mechanisms** include mandatory quarterly public disclosure of funding allocations and project progress via a dedicated website, annual audits by the Auditor-General with reports to Parliament, an Internal Audit Unit providing quarterly oversight, and independent monitoring of subsidized projects. The Board must establish public guidelines for accessing funds, covering eligibility criteria, application procedures, and disbursement processes developed with stakeholder input. The Fund operates with **tax exemption** under the Constitution and Exemptions Act 2022, and unused funds roll over annually for continued use according to approved plans.\n\nThe legislation grants the Fund authority to work with the National Communications Authority to **promote spectrum access for rural connectivity** and recommend reduced spectrum fees for operators in underserved areas, as well as propose tariff and interconnection policies supporting affordable rural services. However, the Act creates **new financial obligations for telecommunications and money service providers through mandatory contributions**, and gives the Minister power to issue **binding policy directives** to the Board, which could affect operational independence. The transition from GIFEC transfers all assets, liabilities, and employees to the new Fund with protected employment terms, while repealing relevant sections of the Electronic Communications Act 2008. Success depends on effective Board governance, transparent implementation of disbursement guidelines, genuine multi-stakeholder engagement, and balanced management of the Fund's expanded mandate across infrastructure, innovation, skills development, and digital services.",
+  "summary": "The **Digital Economy and Innovation Development Fund Act** establishes a dedicated fund to accelerate Ghana's digital transformation by providing financial and technical support for digital infrastructure, innovation, skills development, and inclusive access to digital services. The Act repeals relevant sections of the Electronic Communications Act of 2008 and creates a comprehensive framework for sustainable digital economy development.\n\n**Governance and Funding Structure**: The Fund operates under a [Board of Trustees](#6-governing-body-of-the-fund) comprising representatives from the Ministry, National Communications Authority, Ghana Chamber of Telecommunications, Mobile Network Operators, Parliament, and presidential appointees. The Fund draws resources from [multiple sources](#17-sources-of-money-for-the-fund) including Parliamentary allocations, **mandatory contributions from electronic communication and money service providers**, government ICT sector revenue, grants, donations, and investment income. An [Administrator appointed by the President](#13-administrator-of-the-fund) manages daily operations, while the Fund benefits from [tax exemption](#20-tax-exemption) under the Constitution and Exemptions Act of 2022. The Fund's [core functions](#5-functions-of-the-fund) include gathering financial resources, investing in broadband infrastructure, promoting digital entrepreneurship, financing digital skills programs, and developing digital public services like e-health and e-education.\n\n**Funding Priorities and Disbursement**: The Act prioritizes [underserved areas and digital inclusion](#24-use-of-moneys-of-the-fund), directing funds toward improving digital access and infrastructure in communities lacking connectivity, supporting digital innovation through grants to startups and entrepreneurs, promoting digital literacy and skills development, and co-financing digital economy projects with the private sector. The [disbursement principles](#25-disbursement-principles) emphasize fairness, transparency, and focus on projects that improve digital access, literacy, and innovation, particularly in underserved communities. [Eligible beneficiaries](#28-eligible-beneficiaries) include telecommunications companies working in underserved areas, digital start-ups, organizations offering digital skills training, government bodies implementing digital infrastructure, universities with digital innovation programs, and community organizations involved in digital initiatives. The Fund employs [various funding modalities](#29-funding-modalities) including grants, co-investment partnerships, results-based financing tied to performance metrics, and subsidies or digital vouchers.\n\n**Accountability and Transparency Mechanisms**: The Act establishes robust oversight through multiple channels. The [Auditor-General conducts annual audits](#22-accounts-and-audit) and reports to Parliament, the Minister, and the Board, while an [Internal Audit Unit](#23-internal-audit-unit) submits quarterly reports with improvement recommendations. The Fund must maintain [public disclosure through a website](#31-public-disclosure-and-transparency) updated at least quarterly with information on funding allocations, project progress, financial data, and audit findings, while protecting data privacy. [Performance-based funding and monitoring](#32-performance-based-funding-and-monitoring) ensures recipients are evaluated against agreed goals, with annual impact reports measuring improvements in digital access, skills training, and economic well-being. However, the Minister retains authority to issue [binding policy directives](#12-policy-directives) to the Board, which could affect Board independence. Board members face [strict conflict of interest requirements](#10-disclosure-of-interest) with mandatory disclosure and removal for violations, while [duties and liabilities](#8-duties-and-liabilities-of-a-member-of-the-board) require members to act in good faith with the same care as company directors, prohibiting misuse of information or position for personal gain.\n\n**Business and Operational Implications**: For telecommunications and money service providers, the Act creates **new mandatory contribution obligations** as a [funding source](#17-sources-of-money-for-the-fund), potentially affecting operational costs and pricing structures. The Board may [recommend tariff and interconnection policies](#33-tariff-recommendations-for-rural-services) to the National Communications Authority to support fair pricing for rural services and prevent cost-shifting to rural customers. For digital startups and entrepreneurs, the Fund provides **structured access to capital** through multiple funding mechanisms, though success depends on meeting [project prioritization criteria](#26-project-prioritisation) that favor underserved areas, digital services establishment, and nationally important projects. The [guidelines for disbursement](#27-guidelines-for-disbursement) will be developed with stakeholder input and made publicly available, covering eligibility, support types, tendering procedures, and innovation support. Organizations receiving funding face [monitoring and evaluation requirements](#34-monitoring-and-evaluation-of-subsidised-projects) including independent monitoring, financial and performance reporting, and public disclosure of results. The Act grants the Minister broad authority to [create regulations](#35-regulations) detailing contribution mechanisms, funding allocation processes, and performance management, while the Board can issue [operational guidelines](#36-guidelines) covering fund management, ethical standards, technical processes, and compliance requirements.",
   "pdfPath": "pdfs/8. Digital Economy and Innovation Development Fund Bill – formerly GIFEC in Electronic Communications Act.pdf",
   "impacts": {
     "innovation": {
       "score": "high-positive",
       "description": {
         "score": "high-positive",
-        "analysis": "The **Digital Economy and Innovation Development Fund Act** represents a **major advancement for Ghana's digital innovation ecosystem**, transforming a telecommunications-focused fund into a comprehensive innovation support mechanism. The legislation explicitly mandates support for **digital entrepreneurship, start-ups, innovation hubs, and FinTech initiatives**, backed by diversified funding sources including parliamentary allocations, mandatory contributions from telecom and money service providers, and development partner resources. This creates an institutionalized, sustainable funding pipeline specifically designed to accelerate technology development and entrepreneurial growth—a critical gap in many African innovation ecosystems where access to capital remains a primary barrier.\n\nThe **funding modalities and disbursement frameworks** are particularly well-designed for innovation support. The Fund can deploy resources through **outright grants, co-investment partnerships, results-based financing, and digital vouchers**, allowing flexibility to support different innovation stages from early-stage startups to scaling ventures. The provision for **challenge funds and performance-based calls for proposals** creates competitive mechanisms that can drive quality and impact, while **direct disbursement procedures for community-scale or innovation-related initiatives below specified thresholds** reduces bureaucratic barriers for smaller innovators. The transparent, consultative approach to developing guidelines—with public accessibility requirements—ensures that entrepreneurs and innovation organizations can clearly understand and access support opportunities.\n\nBeyond direct funding, the Act creates **ecosystem-enabling conditions** that amplify innovation potential. Support for **digital skills development targeting youth, women, and vulnerable groups** builds the talent pipeline essential for sustainable innovation. Investment in **digital public infrastructure** (e-health, e-education, e-agriculture, e-government platforms) creates market opportunities and use cases for digital innovators to develop solutions. The **spectrum access provisions and rural connectivity support** extend infrastructure to underserved areas, opening new markets and enabling innovations addressing rural challenges. The primary concern is the **ministerial policy directive authority**, which could potentially redirect resources toward political priorities rather than innovation impact, though this risk is somewhat mitigated by transparent governance, public reporting requirements, and multi-stakeholder Board representation. Overall, this legislation provides Ghana's digital innovation sector with dedicated institutional support, flexible funding mechanisms, and ecosystem-building functions that can significantly accelerate technology entrepreneurship and economic transformation."
+        "analysis": "The Digital Economy and Innovation Development Fund Act establishes **transformative infrastructure for Ghana's digital innovation ecosystem** by creating dedicated funding streams and comprehensive support mechanisms for entrepreneurs, startups, and technology developers. The Fund's [core object](#4-object-of-the-fund) explicitly targets \"the growth of the digital economy of the Country through support for innovation, entrepreneurship, and technology development,\" while its [operational functions](#5-functions-of-the-fund) translate this vision into concrete action by supporting **digital entrepreneurship, start-ups, innovation hubs and FinTech initiatives**, financing digital skills development programs, and funding digital public infrastructure including e-health, e-education, and e-agriculture platforms. This represents a significant advancement from ad-hoc innovation support to a **structured, sustainable funding mechanism** with clear priorities and accountability frameworks.\n\nThe Act's implementation framework demonstrates strong commitment to accessibility and effectiveness for innovators. The [disbursement principles](#25-disbursement-principles) emphasize **performance-based and results-oriented funding models** alongside fairness and transparency, ensuring that innovative projects are evaluated on merit and impact rather than political connections. The [guidelines for disbursement](#27-guidelines-for-disbursement) establish multiple pathways for innovators to access support, including **challenge funds or performance-based calls for proposals** specifically designed for innovation support programs, direct disbursement procedures for community-scale or innovation-related initiatives below specified thresholds, and consultative development processes involving relevant stakeholders. The diverse [funding modalities](#29-funding-modalities)—ranging from outright grants to co-investment partnerships with private or development partners to results-based financing tied to performance indicators—provide **flexibility to match funding structures to different innovation stages and project types**, from early-stage startups requiring grants to growth-stage ventures seeking co-investment.\n\nHowever, the Minister's authority to issue binding [policy directives](#12-policy-directives) to the Board introduces a governance concern that could affect innovation support. While ministerial oversight serves legitimate policy coordination purposes, this provision could potentially enable **political interference in funding decisions** or shift priorities away from innovation toward other objectives during changes in government. Despite this limitation, the Act's comprehensive framework—combining dedicated funding sources, explicit innovation mandates, transparent processes, flexible funding mechanisms, and performance-based evaluation—creates **substantial positive momentum for Ghana's digital innovation sector**, particularly benefiting startups, innovation hubs, FinTech initiatives, and technology entrepreneurs who have historically faced significant capital access barriers."
       },
       "relatedProvisions": [
-        "application-of-the-act",
-        "establishment-of-the-fund",
-        "object-of-the-fund",
-        "functions-of-the-fund",
-        "governing-body-of-the-fund",
-        "functions-of-the-board",
-        "duties-and-liabilities-of-a-member-of-the-board",
-        "meetings-of-the-board",
-        "disclosure-of-interest",
-        "policy-directives",
-        "appointment-of-other-staff-of-the-fund",
-        "offices-of-the-fund",
-        "retention-and-roll-over-of-funds",
-        "tax-exemption",
-        "use-of-moneys-of-the-fund",
-        "disbursement-principles",
-        "project-prioritisation",
-        "guidelines-for-disbursement",
-        "eligible-beneficiaries",
-        "funding-modalities",
-        "disbursement-oversight",
-        "public-disclosure-and-transparency",
-        "performance-based-funding-and-monitoring",
-        "access-to-frequency-spectrum",
-        "tariff-recommendations-for-rural-services",
-        "monitoring-and-evaluation-of-subsidised-projects",
-        "regulations",
-        "guidelines",
-        "interpretation"
+        "2-application-of-the-act",
+        "3-object-of-the-act",
+        "4-object-of-the-fund",
+        "5-functions-of-the-fund",
+        "6-governing-body-of-the-fund",
+        "7-functions-of-the-board",
+        "8-duties-and-liabilities-of-a-member-of-the-board",
+        "9-meetings-of-the-board",
+        "10-disclosure-of-interest",
+        "12-policy-directives",
+        "15-appointment-of-other-staff-of-the-fund",
+        "16-offices-of-the-fund",
+        "19-retention-and-roll-over-of-funds",
+        "20-tax-exemption",
+        "24-use-of-moneys-of-the-fund",
+        "25-disbursement-principles",
+        "26-project-prioritisation",
+        "27-guidelines-for-disbursement",
+        "28-eligible-beneficiaries",
+        "29-funding-modalities",
+        "30-disbursement-oversight",
+        "31-public-disclosure-and-transparency",
+        "32-performance-based-funding-and-monitoring",
+        "33-tariff-recommendations-for-rural-services",
+        "34-monitoring-and-evaluation-of-subsidised-projects",
+        "35-regulations",
+        "36-guidelines",
+        "37-interpretation"
       ]
     },
     "business": {
       "score": "high-positive",
       "description": {
         "score": "high-positive",
-        "analysis": "The Digital Economy and Innovation Development Fund Act creates a **transformative support infrastructure for Ghana's business environment**, particularly for digital economy enterprises and businesses operating in underserved markets. The Fund's mandate to **support digital entrepreneurship, startups, innovation hubs, and FinTech initiatives** through diverse funding mechanisms—including grants, co-investments, results-based financing, and digital vouchers—addresses a critical gap in Ghana's entrepreneurial ecosystem. By providing both financial and non-financial support with **transparent, publicly accessible guidelines developed through stakeholder consultation**, the legislation reduces uncertainty and transaction costs that currently discourage business formation and innovation. The **flexible funding modalities** allow businesses at different development stages to access appropriate capital, from early-stage grants for startups to co-investment partnerships for scaling enterprises.\n\nThe Fund's **infrastructure investment mandate** creates substantial indirect benefits for business operations and market expansion. By financing broadband connectivity and digital infrastructure in underserved and unserved areas, the legislation effectively **expands the addressable market** for digital services and reduces operational costs for businesses seeking to serve previously unviable locations. The provisions enabling **collaboration with the National Communications Authority to promote spectrum access** and recommend reduced spectrum fees for rural operators directly lower barriers to entry and expansion costs for telecommunications businesses. Additionally, the Fund's support for **digital skills development programs** addresses workforce constraints that currently limit business growth, while investments in **digital public infrastructure** (e-health, e-education, e-agriculture, e-government platforms) create new business opportunities in platform development, service delivery, and complementary solutions.\n\nThe primary concern for business environment stability is the **ministerial power to issue binding policy directives** to the Board, which introduces potential for political interference that could affect predictability and operational independence. This provision creates uncertainty about whether funding priorities and eligibility criteria might shift based on political considerations rather than purely economic or developmental merit. However, this governance risk is substantially mitigated by the **robust transparency and accountability mechanisms**—including quarterly public disclosure of allocations, annual parliamentary audits, and published disbursement guidelines—which create public oversight that constrains arbitrary decision-making. The mandatory contributions from telecommunications and money service providers represent new compliance costs, but these are offset by the ecosystem benefits and potential for reduced spectrum fees in underserved areas. Overall, the legislation creates a **significantly more supportive business environment** for digital economy enterprises while opening new markets and reducing infrastructure constraints across sectors."
+        "analysis": "The Digital Economy and Innovation Development Fund Act creates a **transformative support infrastructure** for Ghana's digital business ecosystem. The Fund's [core object](#4-object-of-the-fund) directly addresses critical business barriers by providing financial and non-financial support for digital infrastructure, innovation, entrepreneurship, and technology development. Through its [comprehensive functions](#5-functions-of-the-fund), the Fund will mobilize resources, provide grants and subsidies, promote broadband investments in underserved areas, support digital startups and FinTech initiatives, and finance digital skills development. This creates **multiple pathways for businesses** to access capital and technical assistance, whether they are telecommunications companies expanding rural coverage, technology startups seeking seed funding, or established enterprises pursuing digital transformation.\n\nThe Act establishes **clear, transparent processes** that reduce uncertainty for businesses seeking support. The [guidelines for disbursement](#27-guidelines-for-disbursement) will be developed through stakeholder consultation and published publicly, covering eligibility criteria, support types, disbursement procedures, and monitoring requirements. Importantly, these guidelines will include procedures for competitive tendering for large infrastructure projects, streamlined direct disbursement for smaller community-scale initiatives, and challenge funds for innovation programs. The [flexible funding modalities](#29-funding-modalities)—including outright grants, co-investment partnerships, results-based financing, and demand-side subsidies—allow the Fund to tailor support to different business models and project types, enhancing accessibility for diverse enterprises from early-stage startups to growth-stage companies.\n\nOne **governance concern** warrants attention: the provision allowing the Minister to issue [binding policy directives](#12-policy-directives) to the Board introduces potential regulatory uncertainty. Since the Board must comply with ministerial directives on policy matters, businesses may face unpredictable shifts in Fund priorities, eligibility criteria, or disbursement approaches based on changing political considerations. This could complicate long-term business planning and investment decisions, particularly for companies developing multi-year strategies around anticipated Fund support. Despite this concern, the Act's overall impact on the business environment remains strongly positive, as it creates unprecedented opportunities for digital economy participants to access capital, technical support, and market development assistance through a structured, transparent framework."
       },
       "relatedProvisions": [
-        "application-of-the-act",
-        "establishment-of-the-fund",
-        "object-of-the-fund",
-        "functions-of-the-fund",
-        "governing-body-of-the-fund",
-        "functions-of-the-board",
-        "tenure-of-office-of-members-of-the-board",
-        "duties-and-liabilities-of-a-member-of-the-board",
-        "meetings-of-the-board",
-        "disclosure-of-interest",
-        "policy-directives",
-        "appointment-of-other-staff-of-the-fund",
-        "offices-of-the-fund",
-        "sources-of-money-for-the-fund",
-        "bank-account-of-the-fund",
-        "investment-of-funds",
-        "retention-and-roll-over-of-funds",
-        "tax-exemption",
-        "expenses-of-the-fund",
-        "accounts-and-audit",
-        "annual-report-and-other-reports",
-        "internal-audit-unit",
-        "use-of-moneys-of-the-fund",
-        "disbursement-principles",
-        "project-prioritisation",
-        "guidelines-for-disbursement",
-        "eligible-beneficiaries",
-        "funding-modalities",
-        "disbursement-oversight",
-        "public-disclosure-and-transparency",
-        "performance-based-funding-and-monitoring",
-        "access-to-frequency-spectrum",
-        "tariff-recommendations-for-rural-services",
-        "monitoring-and-evaluation-of-subsidised-projects",
-        "regulations",
-        "guidelines",
-        "interpretation",
-        "repeal-and-savings",
-        "transitional-provisions"
+        "2-application-of-the-act",
+        "3-object-of-the-act",
+        "4-object-of-the-fund",
+        "5-functions-of-the-fund",
+        "6-governing-body-of-the-fund",
+        "7-functions-of-the-board",
+        "8-duties-and-liabilities-of-a-member-of-the-board",
+        "9-meetings-of-the-board",
+        "10-disclosure-of-interest",
+        "12-policy-directives",
+        "15-appointment-of-other-staff-of-the-fund",
+        "16-offices-of-the-fund",
+        "17-sources-of-money-for-the-fund",
+        "18-bank-account-of-the-fund",
+        "19-retention-and-roll-over-of-funds",
+        "20-tax-exemption",
+        "21-expenses-of-the-fund",
+        "22-accounts-and-audit",
+        "23-internal-audit-unit",
+        "24-use-of-moneys-of-the-fund",
+        "25-disbursement-principles",
+        "26-project-prioritisation",
+        "27-guidelines-for-disbursement",
+        "28-eligible-beneficiaries",
+        "29-funding-modalities",
+        "30-disbursement-oversight",
+        "31-public-disclosure-and-transparency",
+        "32-performance-based-funding-and-monitoring",
+        "33-tariff-recommendations-for-rural-services",
+        "34-monitoring-and-evaluation-of-subsidised-projects",
+        "35-regulations",
+        "36-guidelines",
+        "37-interpretation",
+        "38-repeal-and-savings"
       ]
     },
     "freedomOfSpeech": {
       "score": "neutral",
       "description": null,
       "relatedProvisions": [
-        "public-disclosure-and-transparency",
-        "access-to-frequency-spectrum"
+        "31-public-disclosure-and-transparency"
       ]
     },
     "privacy": {
       "score": "neutral",
       "description": null,
       "relatedProvisions": [
-        "public-disclosure-and-transparency",
-        "performance-based-funding-and-monitoring",
-        "monitoring-and-evaluation-of-subsidised-projects"
+        "31-public-disclosure-and-transparency",
+        "32-performance-based-funding-and-monitoring",
+        "34-monitoring-and-evaluation-of-subsidised-projects"
       ]
     }
   },
@@ -115,14 +108,14 @@
       "severity": "high",
       "description": "The Minister can issue **binding policy directives** to the Fund's Board with no defined limits, transparency requirements, or appeal process. The Board \"**shall comply**\" with these directives on any \"**matters of policy**\"—a term broad enough to encompass funding priorities, project selection, and resource allocation. This concentrates executive power over a supposedly independent fund managing significant financial resources, undermining the transparent, criteria-based allocation system the Act promises and creating unpredictable conditions for businesses seeking support.",
       "relatedProvisions": [
-        "policy-directives"
+        "12-policy-directives"
       ],
       "relatedImpacts": []
     }
   ],
   "provisions": [
     {
-      "id": "application-of-the-act",
+      "id": "2-application-of-the-act",
       "section": 2,
       "title": "Application of the Act",
       "plainLanguage": "This law applies to public, private, and non-profit organizations that interact with the Fund. This includes entities that donate to the Fund, those that want to use the Fund's resources, and those that collaborate with the Fund. Essentially, any organization involved with the Fund in any of these ways is subject to this law.",
@@ -139,11 +132,11 @@
       }
     },
     {
-      "id": "establishment-of-the-fund",
-      "section": 4,
-      "title": "Establishment of the Fund",
-      "plainLanguage": "This section creates the Digital Economy and Innovation Development Fund as a legal entity. The Fund is empowered to own property, make contracts, and conduct transactions necessary for its operations. It can also acquire land, with the Fund responsible for covering the costs.",
-      "rawText": "3. (1) There is established by this Act the Digital  Economy  and  Innovation Development Fund as a body corporate.\n\n(2) The Fund may for the performance of the functions of the Fund acquire and hold property, dispose of property and enter into a contract or any other related transaction.\n\n(3) Where there is hindrance to the acquisition of land, the land may be acquired for the Fund under the Land Act, 2020 (Act 1036) and the cost shall be borne by the Fund.",
+      "id": "3-object-of-the-act",
+      "section": 3,
+      "title": "Object of the Act",
+      "plainLanguage": "This Act aims to create a clear and lasting way to raise and distribute money to boost digital access and innovation in underserved areas. It establishes the Digital Economy and Innovation Development Fund to manage resources, acquire property, and enter into agreements. The Fund can also acquire land for its operations under existing land laws.",
+      "rawText": "2. The object of this Act is to provide a sustainable and transparent  mechanism to mobilise  and  allocate  financial  and  other  resources  to  accelerate  digital  inclusion  and innovation in the underserved and unserved areas.\n\n3. (1) There is established by this Act the Digital  Economy  and  Innovation Development Fund as a body corporate.\n\n(2) The Fund may for the performance of the functions of the Fund acquire and hold property, dispose of property and enter into a contract or any other related transaction.\n\n(3) Where there is hindrance to the acquisition of land, the land may be acquired for the Fund under the Land Act, 2020 (Act 1036) and the cost shall be borne by the Fund.",
       "relatedImpacts": [
         "innovation",
         "business"
@@ -156,8 +149,8 @@
       }
     },
     {
-      "id": "object-of-the-fund",
-      "section": 5,
+      "id": "4-object-of-the-fund",
+      "section": 4,
       "title": "Object of the Fund",
       "plainLanguage": "The Fund aims to provide financial and other support to expand digital access, especially in underserved areas. It also seeks to foster growth in the digital economy by supporting innovation and workforce development. Finally, the Fund promotes the use of digital solutions to improve governance, services, and job creation.",
       "rawText": "- The object of the Fund is to provide financial and non-financial support to facilitate and accelerate\n\n      - (a) universal  access  to  digital  infrastructure  and  services  in  underserved  and unserved  areas  to  close  coverage,  upgrade,  and  usage  gaps  in  broadband  and digital service delivery across the country;\n\n      - (b) the growth of the digital economy of the Country through support for innovation, entrepreneurship, and technology development;\n\n- (c) the development of a digitally skilled and inclusive workforce; and\n\n- (d) the  deployment  of  digital  solutions  that  enhance  governance,  service  delivery, productivity, and job creation.",
@@ -173,8 +166,8 @@
       }
     },
     {
-      "id": "functions-of-the-fund",
-      "section": 6,
+      "id": "5-functions-of-the-fund",
+      "section": 5,
       "title": "Functions of the Fund",
       "plainLanguage": "The Fund will gather financial resources from various sources to support digital projects. It will provide funding and support to digital economy projects, invest in broadband infrastructure, and promote digital entrepreneurship. The Fund will also finance digital skills programs and the development of digital public services like e-health and e-education, while collaborating with partners and monitoring the impact of its investments.",
       "rawText": "- To achieve the object of the Fund, the Fund shall\n\n      - (a) mobilise financial and non-financial resources from public,  private and donor sources;\n\n      - (b) provide  resources,  grants,  subsidies,  co-financing  or  other  support  to  eligible digital economy and innovation projects;\n\n      - (c) promote investments in broadband and connectivity infrastructure in underserved and unserved areas;\n\n      - (d) support digital entrepreneurship, start-ups, innovation hubs and FinTech initiatives;\n\n      - (e) finance programmes for digital skills development including youth, women and vulnerable groups;\n\n      - (f) fund the  development  and  uptake  of  digital  public  infrastructure  and  services including e-health, e-education, e-agriculture and e-government platforms;\n\n      - (g) collaborate with development partners, private sector actors, academic institutions and civil society organisations;\n\n      - (h) establish  frameworks for  monitoring, evaluating and reporting on the use and impact of the resources of the Fund; and\n\n      - (i) perform any other function ancillary to the achievement of the object of the Fund.\n\n## Governance of the Fund",
@@ -190,8 +183,8 @@
       }
     },
     {
-      "id": "governing-body-of-the-fund",
-      "section": 7,
+      "id": "6-governing-body-of-the-fund",
+      "section": 6,
       "title": "Governing body of the Fund",
       "plainLanguage": "This provision establishes a Board of Trustees to govern the Fund. The Board includes representatives from the Ministry, the National Communications Authority, the Ghana Chamber of Telecommunications, Mobile Network Operators, Parliament, and presidential appointees. The President appoints all members, who must take official oaths before beginning their service.",
       "rawText": "- (1) The governing body of the Fund is a Board of Trustees consisting of\n\n          - (a) the Minister or a representative of the Minister as chairperson;\n\n          - (b) the Administrator of the Fund;\n\n          - (c) a representative each of\n\n                  - (i) the  National  Communications  Authority,  not  below  the  rank  of  a Director, nominated by………………………... ;\n\n                  - (ii) the Ministry, not below the rank of a Director, nominated by……............…..;\n\n                  - (iii) the Ghana Chamber of Telecommunications, nominated by……………………..;\n\n                  - (iv) the Mobile Network Operators, nominated by………………………;\n\n          - (d) a  member  of  the  Parliamentary  Select  Committee  on  Communications nominated by that Committee; and\n\n          - (e) two other persons nominated by the President, one of whom is a woman.\n\n(2) Members of the Board shall be appointed by the President in accordance with article 70 of the Constitution.\n\n(3) The chairperson and other members of the Board shall, before assuming office, take and subscribe to the Official Oaths specified in the First Schedule.",
@@ -207,11 +200,11 @@
       }
     },
     {
-      "id": "functions-of-the-board",
-      "section": 8,
+      "id": "7-functions-of-the-board",
+      "section": 7,
       "title": "Functions of the Board",
       "plainLanguage": "The Board is responsible for setting the Fund's policies, overseeing its strategy, and ensuring it is well-governed. In carrying out these responsibilities, the Board must follow the rules outlined in this Act and any other relevant laws. This ensures the Fund operates within a legal and strategic framework.",
-      "rawText": "7. (1)  The  Board  is  responsible  for  the  policy  direction,  strategic  oversight,  and governance of the Fund.\n\n(2)The Board shall, in the performance of this function, have regard to  this Act and any other relevant enactment.",
+      "rawText": "7. (1)  The  Board  is  responsible  for  the  policy  direction,  strategic  oversight,  and governance of the Fund.\n\n(2)The Board shall, in the performance of this function, have regard to  this Act and any other relevant enactment.\n\n8. (1) A member of the Board, other than the Administrator, shall hold office for a term of four years and is eligible for re-appointment for another term only.\n\n(2) A member may resign from office by notice in writing addressed to the President through the Minister.\n\n(3) The President may, by a letter addressed to a member, revoke the appointment of that member.\n\n(4) A member of the Board, other than the Chief Executive Officer, who is absent from three consecutive  meetings of the Board without reasonable cause ceases to be a member of the Board.\n\n(5) Where a  member of the Board is, for a sufficient  reason,  unable  to  act  as  a member, the Minister shall determine whether the inability may result in the declaration of a vacancy.\n\n      - Where there is a vacancy\n\n              - (a) under subsection (2) or (3) or subsection (2) of section 11,\n\n              - (b) as a result of a declaration under subsection (5), or\n\n              - (c) by reason of the death of a member,\n\nthe Minister shall notify the President of the vacancy and the President shall, in accordance with this Act, appoint another person to fill the vacancy for the unexpired term.",
       "relatedImpacts": [
         "innovation",
         "business"
@@ -224,24 +217,8 @@
       }
     },
     {
-      "id": "tenure-of-office-of-members-of-the-board",
-      "section": 9,
-      "title": "Tenure of office of members of the Board",
-      "plainLanguage": "Board members, excluding the Administrator, serve a four-year term and can be re-appointed once. Members can resign by notifying the President through the Minister, and the President can revoke an appointment. Missing three consecutive meetings without a valid reason results in removal from the Board. The Minister determines if a member's inability to serve warrants declaring a vacancy, and vacancies are filled by Presidential appointment for the remainder of the term.",
-      "rawText": "8. (1) A member of the Board, other than the Administrator, shall hold office for a term of four years and is eligible for re-appointment for another term only.\n\n(2) A member may resign from office by notice in writing addressed to the President through the Minister.\n\n(3) The President may, by a letter addressed to a member, revoke the appointment of that member.\n\n(4) A member of the Board, other than the Chief Executive Officer, who is absent from three consecutive  meetings of the Board without reasonable cause ceases to be a member of the Board.\n\n(5) Where a  member of the Board is, for a sufficient  reason,  unable  to  act  as  a member, the Minister shall determine whether the inability may result in the declaration of a vacancy.\n\n      - Where there is a vacancy\n\n              - (a) under subsection (2) or (3) or subsection (2) of section 11,\n\n              - (b) as a result of a declaration under subsection (5), or\n\n              - (c) by reason of the death of a member,\n\nthe Minister shall notify the President of the vacancy and the President shall, in accordance with this Act, appoint another person to fill the vacancy for the unexpired term.",
-      "relatedImpacts": [
-        "business"
-      ],
-      "impacts": {
-        "innovation": "neutral",
-        "freedomOfSpeech": "neutral",
-        "privacy": "neutral",
-        "business": "low-positive"
-      }
-    },
-    {
-      "id": "duties-and-liabilities-of-a-member-of-the-board",
-      "section": 10,
+      "id": "8-duties-and-liabilities-of-a-member-of-the-board",
+      "section": 8,
       "title": "Duties and liabilities of a member of the Board",
       "plainLanguage": "This provision defines the duties and potential liabilities of members of the Board. Board members must act in good faith and with the same level of care as company directors. They are prohibited from misusing information or their position for personal gain, and failure to comply can result in a fine.",
       "rawText": "9. (1) A member of the Board has the same fiduciary relationship with the Fund and the  same  duty  to  act  in  good  faith  as  a  director  of  a  company  incorporated  under  the Companies Act, 2019 (Act 992).\n\n(2) Without limiting subsection (1), a member of the Board has a duty\n\n              - (a) to act honestly in the performance of the functions of that member;\n\n              - (b) to  exercise  the  degree  of  care  and  diligence  in  the  performance  of  the functions  of  that  member  that  a  reasonable  person  in  that  position  would reasonably be expected to exercise in the circumstances;\n\n              - (c) not to use information acquired by virtue of the position of that member as a member of the Board without authorisation; and\n\n              - (d) not to make improper use of the position of the member so as to gain directly or indirectly, a benefit for the member or for any other person or cause loss to the Fund.\n\n(3) A  member  of  the  Board  who  contravenes  subsection  (1)  or  (2)  commits  an offence and is liable on summary conviction to a fine of not less than three hundred and fifty penalty units and not more than six hundred and fifty penalty units.",
@@ -257,8 +234,8 @@
       }
     },
     {
-      "id": "meetings-of-the-board",
-      "section": 11,
+      "id": "9-meetings-of-the-board",
+      "section": 9,
       "title": "Meetings of the Board",
       "plainLanguage": "The Board must meet at least once every three months, led by the Chairperson or a member chosen by the group. Decisions are made by a majority vote, with the Chairperson having a tie-breaking vote. Five members, including representatives from both public and private sectors, must be present for a meeting to proceed. The Board can also invite people to attend meetings who are not members, but these attendees cannot vote.",
       "rawText": "10. (1) The Board shall meet at least once every quarter for the conduct of business at a time and place determined by the Chairperson.\n\n(2)The Chairperson shall preside at meetings of the Board and in the absence of the Chairperson, the members present shall elect one of their number to preside.\n\n(3)The quorum for a meeting of the Board is five members, including at least one representative each from the public and private sectors.\n\n(4) Matters before the Board shall be decided by a majority of the members present and voting and in the event of a tie, the Chairperson shall have a casting vote.\n\n(5) The Board may co-opt any person to attend its meetings but such person shall not have a right to vote.\n\n(6) The Chairperson shall, upon receipt of a written request by not less than onethird of the members of the Board, convene an extraordinary meeting of the Board at a time and place determined by the Chairperson, but not later than fourteen days from the date of the request.\n\n(7) A vacancy in the membership of the Board or any defect in the appointment or qualification of a member does not invalidate proceedings of the Board.\n\n(8) Subject to the provisions of this Act, the Board may determine the procedure for its meetings and the regulation of its own affairs.",
@@ -274,11 +251,11 @@
       }
     },
     {
-      "id": "disclosure-of-interest",
-      "section": 12,
+      "id": "10-disclosure-of-interest",
+      "section": 10,
       "title": "Disclosure of interest",
       "plainLanguage": "This provision requires Board members to disclose any personal interests they have in matters before the Board. If a conflict exists, the member cannot participate in discussions or decisions related to that matter. A member who violates this rule will be removed from the Board.",
-      "rawText": "11. (1) A member of the Board who has an interest in a matter for consideration by the Board shall\n\n              - (a) disclose in writing the nature of that interest and the disclosure shall form part of the record of the consideration of the matter; and\n\n              - (b) not participate in any deliberations or decisions of the Board relating to that matter.\n\n(2)  A member who contravenes subsection (1) ceases to be a member of the Board from the date of the contravention.",
+      "rawText": "11. (1) A member of the Board who has an interest in a matter for consideration by the Board shall\n\n              - (a) disclose in writing the nature of that interest and the disclosure shall form part of the record of the consideration of the matter; and\n\n              - (b) not participate in any deliberations or decisions of the Board relating to that matter.\n\n(2)  A member who contravenes subsection (1) ceases to be a member of the Board from the date of the contravention.\n\n(2) A committee established under this section shall be chaired by a member of the Board.",
       "relatedImpacts": [
         "innovation",
         "business"
@@ -291,22 +268,8 @@
       }
     },
     {
-      "id": "committees-of-the-board",
-      "section": 13,
-      "title": "Committees of the Board",
-      "plainLanguage": "The Board has the power to form committees to help with its work. These committees can include both members of the Board and people from outside the Board. Each committee must have a Board member as its chairperson.",
-      "rawText": "12. (1) The Board may establish committees consisting of members or non-members or both to perform a function of the Board.\n\n(2) A committee established under this section shall be chaired by a member of the Board.",
-      "relatedImpacts": [],
-      "impacts": {
-        "innovation": "neutral",
-        "freedomOfSpeech": "neutral",
-        "privacy": "neutral",
-        "business": "neutral"
-      }
-    },
-    {
-      "id": "allowances",
-      "section": 14,
+      "id": "11-allowances",
+      "section": 11,
       "title": "Allowances",
       "plainLanguage": "This provision states that members of the Board and its committees will receive allowances. The amount of these allowances must be approved by the relevant Minister, in consultation with the Minister responsible for Finance. This establishes a process for determining and approving compensation for board members.",
       "rawText": "13. A member of the Board or a member of a committee of the Board shall be paid allowances  approved  by  the  Minister  in  consultation  with  the  Minister  responsible  for Finance.",
@@ -319,8 +282,8 @@
       }
     },
     {
-      "id": "policy-directives",
-      "section": 15,
+      "id": "12-policy-directives",
+      "section": 12,
       "title": "Policy directives",
       "plainLanguage": "This provision allows the Minister to provide written policy instructions to the Board. The Board is required to follow these instructions. This ensures that the Board's actions align with the Minister's policy objectives.",
       "rawText": "14. The Minister may give written directives to the Board on matters of policy and the Board shall comply.\n\n## Administrative provisions",
@@ -336,8 +299,8 @@
       }
     },
     {
-      "id": "administrator-of-the-fund",
-      "section": 16,
+      "id": "13-administrator-of-the-fund",
+      "section": 13,
       "title": "Administrator of the Fund",
       "plainLanguage": "The President will appoint an Administrator to manage the Fund. This Administrator is responsible for the Fund's daily operations and for carrying out the decisions made by the Fund's Board. The Administrator also takes on other duties as determined by the Board, and their specific job conditions are detailed in their appointment letter.",
       "rawText": "15. (1) The President shall, in accordance with article 195 of the Constitution, appoint an Administrator for the Fund.\n\n(2) The Administrator shall hold office on the terms and conditions specified in the letter of appointment.\n\n(3) The administrator\n\n(a) is responsible for the day-to-day management of the Fund;\n\n(b) is responsible for the implementation of the decisions of the Board; and\n\n(c) shall perform any other function determined by the Board.",
@@ -350,8 +313,8 @@
       }
     },
     {
-      "id": "deputy-administrator",
-      "section": 17,
+      "id": "14-deputy-administrator",
+      "section": 14,
       "title": "Deputy Administrator",
       "plainLanguage": "This section describes the role of the Deputy Administrator for the Fund. The President will appoint this individual, and their specific job conditions will be detailed in their appointment letter. The Deputy Administrator will support the Administrator in their duties and take on other responsibilities as assigned.",
       "rawText": "16. (1) The President shall, in accordance with article 195 of the Constitution appoint a Deputy Administrator for the Fund.\n\n(2) The Deputy Administrator shall hold office on the terms and conditions specified in the letter of appointment.\n\n(3) The Deputy Administrator shall\n\n(a) assist the Administrator in the performance of the functions; and\n\n              - (b) perform any other duty as may be assigned by the Administrator or the Board.",
@@ -364,8 +327,8 @@
       }
     },
     {
-      "id": "appointment-of-other-staff-of-the-fund",
-      "section": 18,
+      "id": "15-appointment-of-other-staff-of-the-fund",
+      "section": 15,
       "title": "Appointment of other staff of the Fund",
       "plainLanguage": "This provision describes how the Fund will be staffed. The President is responsible for appointing necessary staff members. The Board also has the authority to hire consultants and advisors with specialized knowledge to support the Fund's work, under terms approved by the Board.",
       "rawText": "17. (1) The President shall, in accordance with article 195 of the Constitution, appoint other staff of the Fund as may be necessary.\n\n(2)The Board may engage the services of consultants or advisors with expertise in matters relevant to the mandate of the Fund on terms approved by the Board.",
@@ -381,8 +344,8 @@
       }
     },
     {
-      "id": "offices-of-the-fund",
-      "section": 19,
+      "id": "16-offices-of-the-fund",
+      "section": 16,
       "title": "Offices of the Fund",
       "plainLanguage": "The main office of the fund must be located in Accra. The fund's board has the power to create additional offices in different regions or districts throughout the country if they deem it necessary. This allows the fund to have a presence beyond the capital city.",
       "rawText": "18. (1) The head office of the Fund shall be in Accra.\n\n(2) The Fund may establish regional or district offices in other parts of the country as the Board may determine.\n\n## Financial Provisions",
@@ -398,8 +361,8 @@
       }
     },
     {
-      "id": "sources-of-money-for-the-fund",
-      "section": 20,
+      "id": "17-sources-of-money-for-the-fund",
+      "section": 17,
       "title": "Sources of money for the Fund",
       "plainLanguage": "The Fund receives money from several sources. These include funds approved by Parliament, mandatory contributions from electronic communication and money service providers, and a portion of government revenue from the ICT sector. Additionally, the Fund can receive grants, donations, income from investments, and any other funds lawfully payable to it. These combined sources ensure the Fund has the financial resources to operate.",
       "rawText": "- The sources of money for the Fund are\n\n              - (a) moneys approved by Parliament;\n\n              - (b) a  mandatory quarterly contribution of three percent of net revenues from electronic  communications  service  providers  and  licensees    specified  in Second schedule.\n\n              - (c) one percent of net revenue from electronic money issuers;\n\n              - (d) one percent of the total revenue generated by the Government from the ICT sector, including taxes, levies, regulatory fees, and statutory charges, as may be prescribed by regulations;\n\n              - (e) grants, donations and gifts;\n\n              - (f) income generated from investments made by the Fund; and\n\n              - (g) any other money that may become lawfully payable to the Fund.",
@@ -414,11 +377,11 @@
       }
     },
     {
-      "id": "bank-account-of-the-fund",
-      "section": 21,
+      "id": "18-bank-account-of-the-fund",
+      "section": 18,
       "title": "Bank account of the Fund",
       "plainLanguage": "This provision mandates that the Fund's money be deposited in a dedicated bank account. To ensure proper oversight, the opening of this account must be approved by the Controller and Accountant-General. This requirement promotes financial transparency and accountability in managing the Fund's resources.",
-      "rawText": "20. The moneys of the Fund shall be paid into a bank account opened for the Fund  with the approval of the Controller and Accountant-General.",
+      "rawText": "20. The moneys of the Fund shall be paid into a bank account opened for the Fund  with the approval of the Controller and Accountant-General.\n\n      - The Board may invest part of the Fund that is not required for immediate use in (a) government securities;\n\n21.\n\n                - (b) instruments approved by the Bank of Ghana; or\n\n                - (c) any other secure investment approved by the Board, in consultation with the Minister responsible for Finance.\n\n(2) Returns on investments shall accrue to the Fund.",
       "relatedImpacts": [
         "business"
       ],
@@ -430,24 +393,8 @@
       }
     },
     {
-      "id": "investment-of-funds",
-      "section": 22,
-      "title": "Investment of Funds",
-      "plainLanguage": "This section allows the Board to invest unused funds to generate additional income. The investments can be made in government bonds, instruments approved by the Bank of Ghana, or other secure options approved by both the Board and the Finance Minister. Any profits earned from these investments will be added back into the Fund.",
-      "rawText": "- The Board may invest part of the Fund that is not required for immediate use in (a) government securities;\n\n21.\n\n                - (b) instruments approved by the Bank of Ghana; or\n\n                - (c) any other secure investment approved by the Board, in consultation with the Minister responsible for Finance.\n\n(2) Returns on investments shall accrue to the Fund.",
-      "relatedImpacts": [
-        "business"
-      ],
-      "impacts": {
-        "innovation": "neutral",
-        "freedomOfSpeech": "neutral",
-        "privacy": "neutral",
-        "business": "low-positive"
-      }
-    },
-    {
-      "id": "retention-and-roll-over-of-funds",
-      "section": 23,
+      "id": "19-retention-and-roll-over-of-funds",
+      "section": 19,
       "title": "Retention and roll-over of Funds",
       "plainLanguage": "This section ensures that any money left in the Fund at the end of the year will remain available for use in future years. All spending from the fund must be in line with a previously approved plan and strategy. This promotes responsible and planned use of the Fund's resources.",
       "rawText": "22. (1) Monies in the Fund not disbursed in a financial year shall not lapse but shall be retained in the Fund for the same purpose in subsequent years.\n\n(2) Any disbursement from the Fund shall be guided by an approved work plan and financing strategy.",
@@ -463,8 +410,8 @@
       }
     },
     {
-      "id": "tax-exemption",
-      "section": 24,
+      "id": "20-tax-exemption",
+      "section": 20,
       "title": "Tax Exemption",
       "plainLanguage": "This provision grants the Fund an exemption from taxes, as long as it aligns with the Constitution and the Exemptions Act of 2022. This means the Fund will not be required to pay taxes on its income or assets. The exemption is based on the legal framework established by the Constitution and the specified Act.",
       "rawText": "23. Subject to the Constitution and in accordance with the Exemptions Act, 2022 (Act 1083) the Fund is exempt from tax.",
@@ -480,8 +427,8 @@
       }
     },
     {
-      "id": "expenses-of-the-fund",
-      "section": 25,
+      "id": "21-expenses-of-the-fund",
+      "section": 21,
       "title": "Expenses of the Fund",
       "plainLanguage": "This provision states that the fund's operational costs, such as employee salaries and administrative expenses, will be paid using the fund's own money. This means the money allocated to the fund will be used to cover its running costs. It clarifies the financial responsibility for the fund's expenses.",
       "rawText": "24. The expenses of the Fund including the salaries of employees of the Fund and other administrative expenses related to the Fund shall be paid from moneys provided for the Fund.",
@@ -496,11 +443,11 @@
       }
     },
     {
-      "id": "accounts-and-audit",
-      "section": 26,
+      "id": "22-accounts-and-audit",
+      "section": 22,
       "title": "Accounts and audit",
       "plainLanguage": "This section requires the Board to keep financial records approved by the Auditor-General. The Auditor-General will audit the Fund's accounts annually and report to Parliament, the Minister, and the Board. The Auditor-General can also perform additional technical audits. The Fund's financial year will match the government's.",
-      "rawText": "25. (1) The Board shall keep books, records, returns and other documents relevant to the accounts in the form approved by the Auditor-General.\n\n(2) The Board shall submit the accounts of the Fund to the Auditor-General for audit at the end of the financial year.\n\n(3) The Auditor-General shall, within six months after the end of the immediately preceding financial year, audit the accounts of the Fund and submit a report to Parliament and forward a copy of the audit report to the Minister and the Board.\n\n(4) The Auditor-General may, in addition to the annual audit under subsection (3), conduct technical audits.\n\n(5) The financial year of the Fund is the same as the financial year of Government.",
+      "rawText": "25. (1) The Board shall keep books, records, returns and other documents relevant to the accounts in the form approved by the Auditor-General.\n\n(2) The Board shall submit the accounts of the Fund to the Auditor-General for audit at the end of the financial year.\n\n(3) The Auditor-General shall, within six months after the end of the immediately preceding financial year, audit the accounts of the Fund and submit a report to Parliament and forward a copy of the audit report to the Minister and the Board.\n\n(4) The Auditor-General may, in addition to the annual audit under subsection (3), conduct technical audits.\n\n(5) The financial year of the Fund is the same as the financial year of Government.\n\n26. (1) The Board shall, within thirty days after the receipt of the audit report, submit an annual report to the Minister covering the activities and operations of the Fund for the year to which the annual report relates.\n\n(2) The annual report shall include the report of the Auditor General.\n\n(3)  The  Minister  shall,  within  thirty  days  after  the  receipt  of  the  annual  report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n(4) The Board shall submit to the Minister any other report which the Minister may require in writing.",
       "relatedImpacts": [
         "business"
       ],
@@ -512,24 +459,8 @@
       }
     },
     {
-      "id": "annual-report-and-other-reports",
-      "section": 27,
-      "title": "Annual report and other reports",
-      "plainLanguage": "The Board must create an annual report on the Fund's activities, including an audit, and give it to the Minister. The Minister then presents this report to Parliament, adding any comments they see fit. The Board must also provide other reports to the Minister if requested.",
-      "rawText": "26. (1) The Board shall, within thirty days after the receipt of the audit report, submit an annual report to the Minister covering the activities and operations of the Fund for the year to which the annual report relates.\n\n(2) The annual report shall include the report of the Auditor General.\n\n(3)  The  Minister  shall,  within  thirty  days  after  the  receipt  of  the  annual  report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n(4) The Board shall submit to the Minister any other report which the Minister may require in writing.",
-      "relatedImpacts": [
-        "business"
-      ],
-      "impacts": {
-        "innovation": "neutral",
-        "freedomOfSpeech": "neutral",
-        "privacy": "neutral",
-        "business": "low-positive"
-      }
-    },
-    {
-      "id": "internal-audit-unit",
-      "section": 28,
+      "id": "23-internal-audit-unit",
+      "section": 23,
       "title": "Internal Audit Unit",
       "plainLanguage": "This section mandates the creation of an Internal Audit Unit for the Fund, headed by an Internal Auditor. The Internal Auditor is responsible for regularly auditing the Fund's activities. They must submit quarterly reports to the Board with recommendations for improvements, and also share these reports with the Administrator and Board Chairperson.",
       "rawText": "27. (1) The Fund shall have an Internal Audit Unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921).\n\n(2) The Internal Audit Unit shall be headed by an Internal Auditor who shall be appointed in accordance with the Internal Audit Agency Act, 2003 (Act 658).\n\n(3) The Internal Auditor is responsible for the internal audit of the Fund.\n\n(4) The Internal Auditor shall, subject to subsections (3) and (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), at intervals of three months\n\n              - (a) prepare and submit to the Board, a report on the internal audit carried out during the period of three months immediately preceding the preparation of the report; and\n\n              - (b) make recommendations in each report with respect to matters which appear to the Internal Auditor as necessary for the conduct of the affairs of the Fund.\n\n(5) The Internal Auditor shall, in accordance with subsection (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), submit a copy of each report prepared under this section to the Administrator and the chairperson of the Board.\n\n## Utilisation of the Fund",
@@ -544,8 +475,8 @@
       }
     },
     {
-      "id": "use-of-moneys-of-the-fund",
-      "section": 29,
+      "id": "24-use-of-moneys-of-the-fund",
+      "section": 24,
       "title": "Use of moneys of the Fund",
       "plainLanguage": "The Digital Connectivity Fund will use its money to improve digital access and infrastructure, especially in underserved areas. It will also support digital innovation by providing grants and funding to startups and entrepreneurs. Additionally, the fund will promote digital literacy and skills, develop digital public services, and co-finance digital economy projects with the private sector, while also covering operational costs.",
       "rawText": "28. Moneys from the Fund shall be applied to\n\n            - (a) finance digital connectivity and infrastructure projects in underserved or unserved areas;\n\n            - (b) support innovation hubs, start-ups and digital entrepreneurs through grants, co-investment or matching funds;\n\n            - (c) implement programmes that promote digital literacy, inclusion and skills development;\n\n            - (d) support development and deployment of digital public infrastructure and services;\n\n            - (e) co-finance public-private partnership projects in the digital economy sector;\n\n            - (f) provide operational and technical support to beneficiaries of the Fund; and\n\n            - (g) cover administrative expenses incurred by the Fund in the performance of the functions of the Fund subject to ceilings approved by the Board.",
@@ -561,8 +492,8 @@
       }
     },
     {
-      "id": "disbursement-principles",
-      "section": 30,
+      "id": "25-disbursement-principles",
+      "section": 25,
       "title": "Disbursement principles",
       "plainLanguage": "This section describes how the Fund's money will be distributed. Funding decisions will be guided by principles like fairness, transparency, and a focus on projects that improve digital access, literacy, and innovation, especially in underserved communities. The Fund will also prioritize partnerships and use funding models that reward performance. Grants may be given to support new digital infrastructure in areas that need it most.",
       "rawText": "29. (1) The disbursement of money from the Fund shall be guided by the following principles:\n\n              - (a) alignment with the objects and functions of the Fund under this Act;\n\n              - (b) fairness, transparency and accountability in the selection of beneficiaries;\n\n              - (c) prioritisation of initiatives that address access, coverage, usage, digital literacy and innovation gaps;\n\n              - (d) support for underserved and unserved communities, youth, women and vulnerable groups;\n\n              - (e) promotion of public-private and community-based partnerships;\n\n              - (f) performance-based and results-oriented funding models; and\n\n              - (g) compliance with any guidelines issued by the Board.\n\n(2) Disbursements may include non-commercial competitive grants to support startup digital infrastructure and services in underserved and unserved areas, consistent with the  development mandate of the Fund.",
@@ -578,11 +509,11 @@
       }
     },
     {
-      "id": "project-prioritisation",
-      "section": 31,
+      "id": "26-project-prioritisation",
+      "section": 26,
       "title": "Project prioritisation",
       "plainLanguage": "The Board must create a system for ranking projects to receive funding, following national guidelines. Priority will be given to projects that improve internet access in underserved areas, establish digital services, or are deemed nationally important by the Minister. This system will be reviewed regularly and made available to the public.",
-      "rawText": "30. (1) The  Board  shall establish a project prioritisation framework  to guide disbursements from the Fund in accordance with national policy.\n\n(2) In determining the order of priority, the Board shall give preference to\n\n                - (a) a project that provides basic digital connectivity in underserved areas;\n\n                - (b) a  project  that  establishes  access  to  internet  infrastructure,  digital  public services or innovation facilities; and\n\n              - (c) any  other  project  or  programme  designated  as  a  national  priority  by  the Minister.\n\n(3) The prioritisation framework shall be subject to periodic review by the Board and published on the website of the Fund.",
+      "rawText": "30. (1) The  Board  shall establish a project prioritisation framework  to guide disbursements from the Fund in accordance with national policy.\n\n(2) In determining the order of priority, the Board shall give preference to\n\n                - (a) a project that provides basic digital connectivity in underserved areas;\n\n                - (b) a  project  that  establishes  access  to  internet  infrastructure,  digital  public services or innovation facilities; and\n\n              - (c) any  other  project  or  programme  designated  as  a  national  priority  by  the Minister.",
       "relatedImpacts": [
         "innovation",
         "business"
@@ -595,8 +526,8 @@
       }
     },
     {
-      "id": "guidelines-for-disbursement",
-      "section": 32,
+      "id": "27-guidelines-for-disbursement",
+      "section": 27,
       "title": "Guidelines for disbursement",
       "plainLanguage": "This section directs the Board to create guidelines for accessing and using the Fund, covering aspects like eligibility, support types, and disbursement. These guidelines will be developed with input from stakeholders and made available to the public. The guidelines will include procedures for tendering, direct disbursement, and innovation support, and may be adapted for co-financed projects.",
       "rawText": "- (1) The Board shall issue guidelines for\n\n              - (a) eligibility criteria for access to the Fund;\n\n              - (b) types of support available, including grants, subsidies, co-financing and technical assistance;\n\n              - (c) disbursement procedures and timelines;\n\n              - (d) monitoring and evaluation of funded projects; and\n\n              - (e) any other matter necessary to give effect to the efficient disbursement and use of the Fund.\n\n(2) The guidelines shall be developed through a consultative process involving relevant stakeholders.\n\n(3) The Board shall publish the guidelines on the website of the Fund and ensure that the guidelines are accessible to the public.\n\n      - The guidelines shall include the following\n\n              - (a) procedures for open and competitive tendering for public connectivity and infrastructure projects;\n\n              - (b) procedures for direct disbursement for community-scale or innovationrelated initiatives below a monetary threshold to be specified by the Board;\n\n              - (c) procedures for challenge funds or performance-based calls for proposals for innovation support  programmes; and\n\n              - (d) any other procedures for disbursement that the Board may approve.\n\n(5)  Where  disbursement  involves  co-financing  or  contributions  from  donors  or development  partners,  the  Fund  may  adopt  alternative  procedures  agreed  with  such partners,  provided  those  procedures  are  consistent  with  the  object  and  priorities  of  the Fund.",
@@ -612,8 +543,8 @@
       }
     },
     {
-      "id": "eligible-beneficiaries",
-      "section": 33,
+      "id": "28-eligible-beneficiaries",
+      "section": 28,
       "title": "Eligible beneficiaries",
       "plainLanguage": "This provision outlines who can benefit from the Fund. Eligible beneficiaries include telecommunications companies working in underserved areas, digital start-ups, organizations offering digital skills training, and government bodies implementing digital infrastructure. Universities with digital innovation programs, community organizations involved in digital initiatives, and other entities approved by the Board can also receive funding. The Fund aims to support a wide range of organizations that promote digital development and inclusion.",
       "rawText": "32. Eligible beneficiaries of the Fund include;\n\n            - (a) licensed telecommunications providers, internet service providers, FinTech, mobile money providers and electronic communications service providers that undertake projects in underserved areas;\n\n              - (b) registered digital start-ups, innovation hubs and accelerators;\n\n              - (c) institutions that offer digital skills and inclusion programmes;\n\n              - (d) public sector bodies that implement digital public infrastructure or platforms;\n\n              - (e) universities, research institutions, and TVET providers with approved digital innovation programmes;\n\n              - (f) community organisations and cooperatives engaged in grassroots digital initiatives; and\n\n              - (g) any other entity approved by the Board in line with the objects of the Fund.",
@@ -629,8 +560,8 @@
       }
     },
     {
-      "id": "funding-modalities",
-      "section": 34,
+      "id": "29-funding-modalities",
+      "section": 29,
       "title": "Funding modalities",
       "plainLanguage": "This section describes how the Fund will provide financial support to projects. The Fund can use grants, co-invest with other partners, offer results-based financing based on performance, or provide subsidies or digital vouchers. The specific funding method will be chosen based on the project's characteristics and potential for success.",
       "rawText": "- (1) The Fund may support projects through\n\n              - (a) outright grants;\n\n              - (b) co-investment with private or development partners;\n\n              - (c) results-based financing tied to defined performance indicators; or\n\n              - (d) demand-side subsidies or digital vouchers for devices, services or skills development.\n\n- The choice of modality shall be based on the nature, impact and sustainability of the proposed intervention.",
@@ -646,8 +577,8 @@
       }
     },
     {
-      "id": "disbursement-oversight",
-      "section": 35,
+      "id": "30-disbursement-oversight",
+      "section": 30,
       "title": "Disbursement oversight",
       "plainLanguage": "This provision establishes a committee to oversee the disbursement of funds. The committee will evaluate funding applications, ensure they meet requirements, and advise the Board on funding decisions. The Board must also monitor projects that receive funding and evaluate them after completion.",
       "rawText": "34. (1) The Board shall establish an internal Disbursement and Project Evaluation Committee which is responsible for\n\n              - (a) assessing funding applications;\n\n              - (b) verifying compliance with technical and financial due diligence; and\n\n              - (c) recommending disbursement decisions to the Board.\n\n(2) The Board shall ensure that all funded projects are subject to periodic monitoring and post-project evaluation.",
@@ -663,8 +594,8 @@
       }
     },
     {
-      "id": "public-disclosure-and-transparency",
-      "section": 36,
+      "id": "31-public-disclosure-and-transparency",
+      "section": 31,
       "title": "Public disclosure and transparency",
       "plainLanguage": "This provision requires the Fund to create a publicly accessible website. The website will provide information on where funding is going, the progress of funded projects, financial information, and audit findings. The information must be updated at least quarterly, and the Fund must protect data privacy when disclosing information.",
       "rawText": "35. (1) The Fund shall establish a publicly accessible digital reporting platform for the publication of\n\n(a) approved funding allocations and beneficiary names;\n\n            - (b)\n\nthe implementation status of funded projects; quarterly summaries of income and expenditure; and\n\n            - (c)\n\n(d) audit findings and recommendations.\n\n(2) The Board shall update the digital reporting platform at least once every quarter.\n\n(3)The  Board  shall  develop  data  privacy  and  information  security  protocols  to ensure responsible disclosure in line with applicable laws.",
@@ -682,11 +613,11 @@
       }
     },
     {
-      "id": "performance-based-funding-and-monitoring",
-      "section": 37,
+      "id": "32-performance-based-funding-and-monitoring",
+      "section": 32,
       "title": "Performance-based funding and monitoring",
       "plainLanguage": "Funding will be allocated to recipients based on their performance against agreed-upon goals. The fund will monitor and evaluate the results of its projects and publish an annual report on its impact. The fund's overall success will be judged by specific measures, such as improvements in digital access, skills training, and the economic well-being of communities it supports.",
-      "rawText": "(1) Disbursement of funds to beneficiaries shall be based on performance indicators\n\n36. specified in funding agreements.\n\n(2)The Fund shall apply monitoring and evaluation mechanisms to track and assess the outcomes of all supported interventions. (3)The Board shall publish an Annual Digital Impact Dashboard, summarising (a) the number and type of beneficiaries reached, (b) the key metrics on digital inclusion, innovation, and entrepreneurship, (c) gender and geographic equity, and (d) recommendations for continuous improvement. (4) The Fund shall be evaluated based on measurable performance indicators, including the\n\n              - (a) number of districts with access to basic digital connectivity;\n\n              - (b) number of districts with established internet points-of-presence;\n\n              - (c) number of accredited digital skills institutions supported by the Fund;\n\n              - (d) number of individuals trained through Fund-supported digital skills programmes;\n\n              - (e) volume and quality of ICT content creation and awareness campaigns implemented;\n\n              - (f) financial sustainability and efficiency of Fund-supported initiatives; and\n\n              - (g) socio-economic impact of projects on beneficiary communities.",
+      "rawText": "(1) Disbursement of funds to beneficiaries shall be based on performance indicators\n\n36. specified in funding agreements.\n\n(2)The Fund shall apply monitoring and evaluation mechanisms to track and assess the outcomes of all supported interventions. (3)The Board shall publish an Annual Digital Impact Dashboard, summarising (a) the number and type of beneficiaries reached, (b) the key metrics on digital inclusion, innovation, and entrepreneurship, (c) gender and geographic equity, and (d) recommendations for continuous improvement. (4) The Fund shall be evaluated based on measurable performance indicators, including the\n\n              - (a) number of districts with access to basic digital connectivity;\n\n              - (b) number of districts with established internet points-of-presence;\n\n              - (c) number of accredited digital skills institutions supported by the Fund;\n\n              - (d) number of individuals trained through Fund-supported digital skills programmes;\n\n              - (e) volume and quality of ICT content creation and awareness campaigns implemented;\n\n              - (f) financial sustainability and efficiency of Fund-supported initiatives; and\n\n              - (g) socio-economic impact of projects on beneficiary communities.\n\n37. (1)  The  Fund  shall  collaborate  with  the  National  Communications Authority  to promote access to radio frequency spectrum for rural connectivity initiatives in a manner that preserves the freedom of choice of technology for operators.\n\n(2)The  Board  may  recommend  to  the  National  Communications  Authority  the partial  waiver  or  reduction  of  spectrum  fees  for  operators  that  undertake  projects  in underserved or high-cost rural areas.\n\n(3) The Fund shall encourage the use of cost-effective, state-of-the-art or scalable solutions that promote sustainability and coverage.",
       "relatedImpacts": [
         "innovation",
         "privacy",
@@ -700,26 +631,8 @@
       }
     },
     {
-      "id": "access-to-frequency-spectrum",
-      "section": 38,
-      "title": "Access to frequency spectrum",
-      "plainLanguage": "This provision directs the Fund to work with the National Communications Authority to improve rural internet access by promoting access to radio frequency spectrum. The Board can recommend reducing spectrum fees for operators in underserved areas. The Fund will also encourage the use of cost-effective and sustainable technologies to expand coverage.",
-      "rawText": "37. (1)  The  Fund  shall  collaborate  with  the  National  Communications Authority  to promote access to radio frequency spectrum for rural connectivity initiatives in a manner that preserves the freedom of choice of technology for operators.\n\n(2)The  Board  may  recommend  to  the  National  Communications  Authority  the partial  waiver  or  reduction  of  spectrum  fees  for  operators  that  undertake  projects  in underserved or high-cost rural areas.\n\n(3) The Fund shall encourage the use of cost-effective, state-of-the-art or scalable solutions that promote sustainability and coverage.",
-      "relatedImpacts": [
-        "innovation",
-        "freedomOfSpeech",
-        "business"
-      ],
-      "impacts": {
-        "innovation": "high-positive",
-        "freedomOfSpeech": "low-positive",
-        "privacy": "neutral",
-        "business": "high-positive"
-      }
-    },
-    {
-      "id": "tariff-recommendations-for-rural-services",
-      "section": 39,
+      "id": "33-tariff-recommendations-for-rural-services",
+      "section": 33,
       "title": "Tariff recommendations for rural services",
       "plainLanguage": "This provision allows the Board to recommend tariff and interconnection policies to the National Communications Authority to support fair pricing for rural communication services. The Board can also suggest tariff adjustments or special agreements to make access more affordable in rural areas. The Board must ensure that these agreements do not lead to higher costs for rural customers.",
       "rawText": "38. (1)  The  Board  may  make  recommendations  to  the  National  Communications Authority on tariff frameworks or interconnection policies that support equitable pricing for rural communications services.\n\n(2) In promoting universal access, the Board may engage the National Communications  Authority  to  consider  tariff  rebalancing  or  special  interconnection agreements that facilitate affordable access in rural areas.\n\n(3) The Board shall advocate that the special interconnection agreements do not result in higher call or data charges for end-users in rural communities.",
@@ -735,8 +648,8 @@
       }
     },
     {
-      "id": "monitoring-and-evaluation-of-subsidised-projects",
-      "section": 40,
+      "id": "34-monitoring-and-evaluation-of-subsidised-projects",
+      "section": 34,
       "title": "Monitoring and evaluation of subsidised projects",
       "plainLanguage": "Projects receiving subsidies from the Fund will be independently monitored to ensure they promote universal access to digital services. These projects must also report on their finances, performance, and the impact on beneficiaries. The Fund may then publish reports on these projects to keep the public informed.",
       "rawText": "39. (1) A project supported by the Fund shall be subject to independent monitoring and evaluation to ensure alignment with universal access and digital inclusion targets.\n\n(2)  A  subsidised  project  shall  be  subject  to  reporting  requirements  including financial accountability, performance indicators and beneficiary outcomes as determined by the Board.\n\n(3) The Fund may publish periodic reports on the status and impact of subsidised initiatives to inform stakeholders and the public.",
@@ -753,8 +666,8 @@
       }
     },
     {
-      "id": "regulations",
-      "section": 41,
+      "id": "35-regulations",
+      "section": 35,
       "title": "Regulations",
       "plainLanguage": "This provision allows the Minister to create regulations to implement the Act. These regulations will detail how digital companies will contribute financially, how funding will be allocated, and how the program's performance and finances will be managed and reported. The regulations will also establish digital transparency tools.",
       "rawText": "- (1) The Minister may, by legislative instrument, make Regulations to give effect to this Act.\n\n      - Without limiting subsection (1), the Regulations shall provide for\n\n              - (a) modalities for calculating contributions from digital ecosystem actors;\n\n              - (b) procedures for eligibility, application and disbursement of funding;\n\n              - (c) financial management, audit and investment standards;\n\n              - (d) performance monitoring and evaluation; and\n\n              - (e) reporting formats and digital transparency tools.",
@@ -770,8 +683,8 @@
       }
     },
     {
-      "id": "guidelines",
-      "section": 42,
+      "id": "36-guidelines",
+      "section": 36,
       "title": "Guidelines",
       "plainLanguage": "This section allows the Board to create guidelines and directions to help manage and distribute funds effectively. These guidelines can cover things like how the fund operates, ethical standards, and technical processes. The guidelines also offer instructions on reporting, following the rules, and using resources supported by the fund. All guidelines will be available on the Fund's website.",
       "rawText": "- (1) The Board may issue guidelines or administrative directives consistent with this Act or regulations made under this Act to\n\n        - (a) clarify procedures for fund management and disbursement;\n\n        - (b) establish operational frameworks, codes of conduct or technical protocols;\n\n        - (c) provide direction on reporting, compliance and use of fund-supported resources; and\n\n        - (d) provide for any other matter necessary for the effective and efficient functioning of the Fund.\n\n    - Guidelines issues under this Act shall be published on the website of the Fund.",
@@ -787,8 +700,8 @@
       }
     },
     {
-      "id": "interpretation",
-      "section": 43,
+      "id": "37-interpretation",
+      "section": 37,
       "title": "Interpretation",
       "plainLanguage": "This section defines the key terms used in the Digital Economy and Innovation Development Fund Act. These definitions clarify the meaning of terms like \"Board,\" \"Administrator,\" \"digital ecosystem players,\" and \"digital innovation.\" Other terms defined include \"disbursement,\" \"Fund,\" \"Minister,\" \"National digital transformation policy,\" \"start-up,\" and \"underserved or unserved areas.\" These definitions ensure consistent understanding and application of the law.",
       "rawText": "- In this Act, unless the context otherwise requires\n\n          - 'Board' means  the  governing  Board  of  the  Digital  Economy  and  Innovation Development Fund established under section 3 of this Act;\n\n      - 'Administrator' means the person appointed under section 15 as the Administrator of the Fund;\n\n      - 'digital  ecosystem  players' includes  telecommunication  operators,  over-the-top platforms,  cloud  service  providers,  FinTechs,  digital  content  platforms,\n\ndevice  manufacturers,  and  other  entities  deriving  economic  value  from Ghana's digital infrastructure;\n\n      - 'digital  innovation' means  the  creation  or  improvement  of  digital  solutions, services, models or platforms that contribute to economic transformation;\n\n      - 'disbursement' means  the  release  or  allocation  of  resources  from  the  Fund  to eligible recipients or initiatives;\n\n      - 'Fund' means the Digital Economy and Innovation Development Fund established under section 3 of this Act;\n\n      - 'Minister' means the Minister responsible for Communications, Digital Technology and Innovation;\n\n      - 'National digital transformation policy' refers to the prevailing government policy framework or strategy that guides the implementation of digital economy and innovation programmes in Ghana;\n\n      - 'start-up' means a newly established or early-stage business, typically with high growth potential and operating in the technology or innovation sector; and\n\n      - 'underserved or unserved areas' means any geographical, demographic or sectoral area with limited or no access to adequate digital services, infrastructure, or capacity.",
@@ -804,11 +717,11 @@
       }
     },
     {
-      "id": "repeal-and-savings",
-      "section": 44,
+      "id": "38-repeal-and-savings",
+      "section": 38,
       "title": "Repeal and savings",
       "plainLanguage": "This provision repeals specific sections of the Electronic Communications Act of 2008. To maintain order, any existing regulations or rules established under the old sections will remain valid until they are officially changed or removed. Also, any ongoing rights, responsibilities, or legal cases related to the repealed sections will continue without interruption.",
-      "rawText": "- (1) Sections 31 to 53 of the Electronic Communications Act, 2008 (Act 775) are repealed.\n\n      - Despite the repeal in subsection (1) any\n\n                  - (a) Regulations, bye-laws, directives, rules, guidelines, notices, directions or other acts lawfully made or done under the repealed provisions and in force  immediately  before  the  coming  into  force  of  this  Act  shall  be considered to have been made or done under this Act and shall continue to have effect until revoked, reviewed, cancelled, withdrawn, or terminated; and\n\n                  - (b) right, obligation or proceedings arising under those sections before the coming into force of this Act be deemed to have been made under the corresponding provisions  of  this Act  and  shall  continue  to  have  effect until revoked, cancelled, withdrawn, or terminated.",
+      "rawText": "- (1) Sections 31 to 53 of the Electronic Communications Act, 2008 (Act 775) are repealed.\n\n      - Despite the repeal in subsection (1) any\n\n                  - (a) Regulations, bye-laws, directives, rules, guidelines, notices, directions or other acts lawfully made or done under the repealed provisions and in force  immediately  before  the  coming  into  force  of  this  Act  shall  be considered to have been made or done under this Act and shall continue to have effect until revoked, reviewed, cancelled, withdrawn, or terminated; and\n\n                  - (b) right, obligation or proceedings arising under those sections before the coming into force of this Act be deemed to have been made under the corresponding provisions  of  this Act  and  shall  continue  to  have  effect until revoked, cancelled, withdrawn, or terminated.\n\n    - On the coming into force of this Act\n\n        - (a) the Ghana Investment Fund for Electronic Communications established under Sections 31 to 53 of the Electronic Communications Act, 2008 (Act 775) shall cease to exist;\n\n        - (b) the assets, rights, obligations, liabilities, and records of  the Ghana Investment Fund for Electronic Communications immediately before the commencement of this Act are transferred to the Digital Economy and Innovation Development Fund established under this Act;\n\n        - (c) any decision, agreement, project, or contract lawfully entered into by or on behalf of the Ghana Investment Fund for Electronic Communications and subsisting immediately before the coming into force of this Act shall be deemed to have been made by or in favour of the Fund established under this Act;\n\n        - (d) a  person  in  the  employment  of  the  Ghana  Investment  Fund  for  Electronic Communications shall be deemed to have been duly employed by the Fund on terms and conditions which are no less favourable in aggregate to the terms and conditions attached to the post held by the person before the coming into force of this Act;'\n\n(2) The Minister may, in consultation with the Public Services Commission, issue administrative directives to facilitate the smooth transition from the Ghana Investment Fund for Electronic Communications  to the new Fund.\n\n## OFFICIAL OATHS PART A OATH OF OFFICE\n\nI.. ..............................do, (in the name of the Almighty God, swear) (solemnly affirm) that I  will,  at  all  times,  well  and  truly  serve  the  Republic  of  Ghana  in  the  office  of ......................... and that I will uphold, preserve and protect the Fund as by law established (So help me God).\n\n## PART B OATH OF SECRECY\n\nI..  ..............................,  holding  the  office  of............................  do  (in  the  name  of  the Almighty God, swear) (solemnly affirm) that I will not directly or indirectly communicate or reveal to any person any matter which shall be brought under my consideration or shall come to my knowledge in the discharge of my official duties except as may be required for the discharge of my official duties or as may be specifically permitted by law (So help me God).\n\n## SECTOR CONTRIBUTIONS\n\n| Sector | Entities | Percentage of net revenue |\n| --- | --- | --- |\n| 1. Technology Space Operators Electronic communications service providers and licensees, authorised, or designated under the applicable Acts or regulations administered by the National Communications Authority | (a) Fixed Network Operators (FNOs) (b) Mobile Network Operators (MNOs) (c) Telecommunications Infrastructure Companies (d) Terrestrial Fibre Optic Network Operators (e) Broadband Wireless Access (BWA) Service Providers (f) International Gateway Licensees (IGLs) (g) Mobile Virtual Network Operators (MVNOs) (h) International Wholesale Carrier Licensees (IWCLs) (i) Submarine Cable Landing Station Operators (j) Interconnect Clearing House (ICH) Operators (k) Communications Managed and Support Services Providers (l) any other licensee or service provider that the National Communications Authority may designate as a contributor to the Fund | 3% |\n| 2. | net revenue from electronic money issuers; | 1% |\n| 3. ICT | total gross revenue generated by the Government | 1% |",
       "relatedImpacts": [
         "business"
       ],
@@ -817,22 +730,6 @@
         "freedomOfSpeech": "neutral",
         "privacy": "neutral",
         "business": "low-positive"
-      }
-    },
-    {
-      "id": "transitional-provisions",
-      "section": 45,
-      "title": "Transitional provisions",
-      "plainLanguage": "Upon the commencement of this act, the Ghana Investment Fund for Electronic Communications will cease to exist, and its assets and responsibilities will be transferred to the newly established Digital Economy and Innovation Development Fund. Current employees of the Ghana Investment Fund will be transferred to the new fund with no reduction in their terms of employment. The provision also includes oaths of office and secrecy and outlines contribution percentages from various sectors to support the fund.",
-      "rawText": "- On the coming into force of this Act\n\n        - (a) the Ghana Investment Fund for Electronic Communications established under Sections 31 to 53 of the Electronic Communications Act, 2008 (Act 775) shall cease to exist;\n\n        - (b) the assets, rights, obligations, liabilities, and records of  the Ghana Investment Fund for Electronic Communications immediately before the commencement of this Act are transferred to the Digital Economy and Innovation Development Fund established under this Act;\n\n        - (c) any decision, agreement, project, or contract lawfully entered into by or on behalf of the Ghana Investment Fund for Electronic Communications and subsisting immediately before the coming into force of this Act shall be deemed to have been made by or in favour of the Fund established under this Act;\n\n        - (d) a  person  in  the  employment  of  the  Ghana  Investment  Fund  for  Electronic Communications shall be deemed to have been duly employed by the Fund on terms and conditions which are no less favourable in aggregate to the terms and conditions attached to the post held by the person before the coming into force of this Act;'\n\n(2) The Minister may, in consultation with the Public Services Commission, issue administrative directives to facilitate the smooth transition from the Ghana Investment Fund for Electronic Communications  to the new Fund.\n\n## OFFICIAL OATHS PART A OATH OF OFFICE\n\nI.. ..............................do, (in the name of the Almighty God, swear) (solemnly affirm) that I  will,  at  all  times,  well  and  truly  serve  the  Republic  of  Ghana  in  the  office  of ......................... and that I will uphold, preserve and protect the Fund as by law established (So help me God).\n\n## PART B OATH OF SECRECY\n\nI..  ..............................,  holding  the  office  of............................  do  (in  the  name  of  the Almighty God, swear) (solemnly affirm) that I will not directly or indirectly communicate or reveal to any person any matter which shall be brought under my consideration or shall come to my knowledge in the discharge of my official duties except as may be required for the discharge of my official duties or as may be specifically permitted by law (So help me God).\n\n## SECTOR CONTRIBUTIONS\n\n| Sector | Entities | Percentage of net revenue |\n| --- | --- | --- |\n| 1. Technology Space Operators Electronic communications service providers and licensees, authorised, or designated under the applicable Acts or regulations administered by the National Communications Authority | (a) Fixed Network Operators (FNOs) (b) Mobile Network Operators (MNOs) (c) Telecommunications Infrastructure Companies (d) Terrestrial Fibre Optic Network Operators (e) Broadband Wireless Access (BWA) Service Providers (f) International Gateway Licensees (IGLs) (g) Mobile Virtual Network Operators (MVNOs) (h) International Wholesale Carrier Licensees (IWCLs) (i) Submarine Cable Landing Station Operators (j) Interconnect Clearing House (ICH) Operators (k) Communications Managed and Support Services Providers (l) any other licensee or service provider that the National Communications Authority may designate as a contributor to the Fund | 3% |\n| 2. | net revenue from electronic money issuers; | 1% |\n| 3. ICT | total gross revenue generated by the Government | 1% |",
-      "relatedImpacts": [
-        "business"
-      ],
-      "impacts": {
-        "innovation": "neutral",
-        "freedomOfSpeech": "neutral",
-        "privacy": "neutral",
-        "business": "low-negative"
       }
     }
   ],

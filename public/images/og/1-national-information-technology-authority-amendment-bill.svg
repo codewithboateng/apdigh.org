@@ -34,15 +34,15 @@
   <!-- Impact indicators (2x2 grid) -->
   
   <g transform="translate(335, 300)">
-    <rect x="0" y="0" width="250" height="90" rx="8" fill="#DC2626" opacity="0.15"/>
-    <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#DC2626" stroke-width="2"/>
-    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#DC2626" text-anchor="middle">Business</text>
-    <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#DC2626" text-anchor="middle" opacity="0.8">SEVERE IMPACT</text>
+    <rect x="0" y="0" width="250" height="90" rx="8" fill="#EA580C" opacity="0.15"/>
+    <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#EA580C" stroke-width="2"/>
+    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#EA580C" text-anchor="middle">Innovation</text>
+    <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#EA580C" text-anchor="middle" opacity="0.8">HIGH IMPACT</text>
   </g>
   <g transform="translate(615, 300)">
     <rect x="0" y="0" width="250" height="90" rx="8" fill="#EA580C" opacity="0.15"/>
     <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#EA580C" stroke-width="2"/>
-    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#EA580C" text-anchor="middle">Innovation</text>
+    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#EA580C" text-anchor="middle">Business</text>
     <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#EA580C" text-anchor="middle" opacity="0.8">HIGH IMPACT</text>
   </g>
   <g transform="translate(335, 420)">

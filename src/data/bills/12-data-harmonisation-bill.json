@@ -1,131 +1,131 @@
 {
   "id": "12-data-harmonisation-bill",
   "title": "Data Harmonisation Bill",
-  "summary": "The Data Harmonisation Bill establishes Ghana's first comprehensive legal framework for systematic data sharing across public and private sectors through a **National Data Exchange Platform**. The bill creates mandatory data sharing obligations for government agencies and private entities handling public services, requiring them to categorize their data as open (freely accessible), shareable (requires authorization), or restricted (limited access). This infrastructure enables **cross-institutional data exchange** to improve public administration efficiency, reduce data silos, and support evidence-based policymaking.\n\nThe bill imposes substantial **technical and operational requirements** on data providers. Organizations must implement standardized APIs, meet data quality standards for accuracy and completeness, maintain encryption and access controls, keep audit trails for five years, and appoint compliance officers. These requirements create **significant compliance costs** particularly for smaller institutions and private entities, though they also establish professional standards that could enhance Ghana's data infrastructure maturity. The Authority will set technical specifications and monitor compliance through inspections and audits, with **penalties including fines and potential imprisonment** for violations. However, the bill allows phased implementation, providing flexibility for gradual adoption.\n\n**Privacy protections and data rights** are explicitly preserved through integration with the Data Protection Act, 2012. The bill maintains existing rights for data subjects and requires Data Protection Commission involvement in disputes concerning personal data. Cross-border data transfers require ministerial approval and adherence to data protection safeguards. The bill also establishes **restricted data categories** protecting information that could threaten national security or violate legal restrictions. These provisions balance data sharing objectives with privacy concerns, though the practical effectiveness depends on enforcement capacity and the Authority's interpretation of data classifications.\n\nThe bill creates **new opportunities and challenges for businesses and civil society**. Private sector entities gain potential access to government data that could enable innovation in services like fintech, healthtech, and civic technology. The standardized data exchange framework reduces barriers to public-private collaboration. However, businesses handling public services face new regulatory obligations and potential penalties for non-compliance. The governance structure includes an Advisory Committee with private sector and civil society representation, providing stakeholder input into implementation. A **Dispute Resolution Committee and Tribunal** offer mechanisms for appealing Authority decisions, though mandatory pre-litigation dispute resolution may delay access to courts. The bill's success depends heavily on the Authority's capacity, the clarity of implementing regulations, and balancing accessibility with security in practice.",
+  "summary": "The Data Harmonisation Bill establishes a **National Data Exchange Platform** to centralize and standardize the sharing of \"public interest data\" across Ghana's public and private sectors ([3](#3-establishment-of-the-national-data-exchange-platform)). The bill creates a mandatory framework requiring government agencies, private companies handling public services, and other designated entities to share data through standardized APIs ([7](#7-system-integration-and-api-governance)). All public interest data must be classified into three categories: **open data** (freely accessible), **shareable data** (requiring authorization), and **restricted data** (limited by legal or security concerns) ([37](#37-open-data-refers-to-public-interest-data-that)). The framework is overseen by an Authority with broad powers to set technical standards, monitor compliance, and impose sanctions ([11](#11-oversight-and-accountability)).\n\n**Key operational requirements** impose substantial obligations on participating entities. Data providers must reformat their databases for platform compatibility ([6](#6-data-exchange-framework)), implement comprehensive security measures including encryption and disaster recovery plans ([8](#8-data-security)), maintain data quality standards ([9](#9-data-quality-requirements)), and keep detailed audit logs for a minimum of five years ([10](#10-audit-trails-and-logging)). Organizations must appoint compliance officers and submit regular reports to the Authority ([17](#17-reporting-requirements)). Cross-border data transfers require ministerial approval and adherence to specific safeguards ([13](#13-onboarding-and-access-control-protocols)). The bill establishes a **Dispute Resolution Committee** ([21](#21-dispute-resolution-committee)) and a **Data Harmonisation Tribunal** ([24](#24-establishment-of-the-data-harmonisation-tribunal)) to handle conflicts and appeals.\n\nThe framework creates **opportunities for improved governance and digital innovation**. Centralized data sharing can enhance government service delivery, reduce duplication, and support evidence-based policymaking. The standardization requirements ([6](#6-data-exchange-framework), [7](#7-system-integration-and-api-governance)) establish technical infrastructure that could facilitate interoperability across sectors. The bill explicitly preserves data subject rights under the Data Protection Act ([14](#14-data-subject-rights)) and requires coordination with the Data Protection Commission on privacy matters. The phased implementation approach ([33](#33-implementation-and-pilot-scheme)) allows for gradual rollout and adjustment. For businesses and researchers, increased access to shareable and open data could enable innovation and analysis.\n\n**Significant concerns** arise from the bill's scope and enforcement mechanisms. The definition of \"public interest data\" is broad, and the Minister holds substantial discretionary power to designate additional entities as data providers ([5](#5-data-providers)) and issue classification guidelines ([37](#37-open-data-refers-to-public-interest-data-that)). Compliance costs for smaller organizations may be substantial given the technical requirements for API integration, security infrastructure, and ongoing monitoring. The enforcement regime combines criminal penalties including imprisonment ([18](#18-offences-and-penalties)) with administrative sanctions such as platform access revocation and bans ([19](#19-administrative-sanctions)). The Authority's inspection powers include premises entry ([16](#16-compliance-monitoring)), and failure to comply with data sharing obligations triggers financial penalties ([4](#4-data-sharing-obligations)). While the bill states it works in harmony with existing data protection laws, it establishes that in cases of conflict regarding data standardization or sharing, this Act prevails ([34](#34-relationship-and-integration-with-existing-laws)). The extensive logging requirements ([10](#10-audit-trails-and-logging)) and broad data sharing mandates raise questions about proportionality and the balance between administrative efficiency and privacy protection, particularly for sensitive personal information classified as \"shareable\" rather than \"restricted.\"",
   "pdfPath": "pdfs/12. Data Harmonisation Bill.pdf",
   "impacts": {
     "innovation": {
-      "score": "high-positive",
+      "score": "medium-positive",
       "description": {
-        "score": "high-positive",
-        "analysis": "The Data Harmonisation Bill represents a **transformative opportunity for digital innovation** in Ghana by establishing the country's first comprehensive data infrastructure for systematic public-private data exchange. The **National Data Exchange Platform** creates unprecedented access to government data through **standardized APIs and machine-readable formats**, fundamentally lowering barriers for developers, startups, and technology companies to build innovative digital solutions. Previously, innovators faced fragmented data systems, inconsistent formats, and opaque access processes; this bill establishes transparent pathways to both **open data** (freely accessible) and **shareable data** (available through defined procedures). The **technical standardization requirements**—including XML/JSON formats, unique identifiers, and interoperability protocols—create a common foundation that enables scalable innovation across sectors. This infrastructure could catalyze breakthrough applications in **fintech** (leveraging financial regulatory data), **healthtech** (public health information), **civic technology** (government services data), **agritech** (agricultural statistics), and numerous other domains where data-driven innovation has been constrained by access limitations.\n\nThe bill's **mandatory data sharing obligations** for public institutions ensure that the platform will contain substantive, valuable datasets rather than remaining an empty framework. For digital entrepreneurs, this represents a dramatic shift from data scarcity to data abundance, enabling business models built on government data integration. The **standardized data exchange framework** reduces technical complexity and development costs—startups can build once to platform specifications rather than creating custom integrations for each data source. The inclusion of **private sector representation on the Advisory Committee** ensures that technical standards reflect practical innovation needs rather than purely bureaucratic perspectives. This participatory governance structure increases the likelihood that the platform will evolve to support emerging technologies and use cases.\n\nHowever, the bill introduces **significant compliance risks and operational constraints** that temper its innovation benefits. The **offences and penalties provisions** impose severe consequences—including **fines up to 10,000 penalty units and potential imprisonment**—for violations including data quality failures, security breaches, or non-compliance with technical standards. For startups and small technology companies with limited resources, these high-stakes penalties create substantial risk exposure that may discourage platform participation or experimentation. The **administrative sanctions** allowing the Authority to **revoke access or impose permanent bans** could abruptly terminate business models dependent on platform data, creating existential risks for data-dependent ventures. The **technical and operational requirements**—including encryption standards, five-year audit trails, and compliance officer appointments—impose costs that may be prohibitive for early-stage companies, potentially creating barriers to entry that favor established players. While these provisions aim to ensure data security and quality, they establish a **risk-averse regulatory environment** that could inhibit the rapid iteration and experimentation characteristic of successful digital innovation ecosystems. The balance between enabling access and enforcing compliance will critically depend on how the Authority implements these provisions in practice."
+        "score": "medium-positive",
+        "analysis": "The Data Harmonisation Bill creates **significant infrastructure for digital innovation** by establishing the [National Data Exchange Platform](#3-establishment-of-the-national-data-exchange-platform) as centralized digital infrastructure for accessing public interest data. The [data sharing obligations](#4-data-sharing-obligations) requiring open data holders to provide access through the platform, combined with the [standardized data exchange framework](#6-data-exchange-framework) mandating machine-readable formats and standardized APIs, substantially lower technical barriers for developers, researchers, and entrepreneurs. This infrastructure enables innovators to build applications and services on top of government and public sector data without negotiating individual data access agreements or dealing with incompatible formats. The requirement for **structured, machine-readable formats** using standards like XML and JSON, along with unique identifiers and metadata standards, creates a foundation for interoperability that can accelerate development of data-driven solutions across sectors including civic technology, analytics platforms, and commercial applications.\n\nHowever, the bill imposes **substantial compliance burdens** that may constrain innovation, particularly for smaller entities and startups that might themselves become data providers. The [technical requirements](#6-data-exchange-framework) for database reformatting, API implementation, and adherence to prescribed standards represent significant development costs. Organizations must invest in infrastructure to meet security, quality, and logging requirements before participating in the ecosystem. The [enforcement regime](#18-offences-and-penalties) combining criminal penalties—including imprisonment of up to two years—with [administrative sanctions](#19-administrative-sanctions) such as platform removal and bans creates a high-stakes compliance environment. For innovative startups operating with limited resources and higher risk tolerance, these penalties may discourage participation or experimentation with novel data applications. The potential for **permanent bans** under administrative sanctions is particularly severe, as banned entities cannot reapply for access, effectively excluding them from the data ecosystem permanently.\n\nThe bill's impact on innovation is further shaped by **regulatory discretion and implementation uncertainty**. While the phased approach allows for gradual rollout, the Minister's broad powers to designate additional data providers and prescribe classifications introduce regulatory uncertainty that can chill innovative activities. The balance between enabling data access and imposing compliance requirements suggests the bill will primarily **benefit well-resourced actors**—established companies, research institutions, and government agencies—who can absorb compliance costs and navigate regulatory requirements. Smaller innovators, individual developers, and early-stage startups may face barriers to entry despite the theoretical availability of open data. The overall effect is moderately positive: the bill creates genuine infrastructure and access opportunities that can fuel innovation, but the compliance framework and enforcement mechanisms introduce friction that prevents this from being transformational for the broader innovation ecosystem."
       },
       "relatedProvisions": [
-        "application-of-this-act",
-        "establishment-of-the-national-data-exchange-platform",
-        "data-sharing-obligations",
-        "data-providers",
-        "data-exchange-framework",
-        "system-integration-and-api-governance",
-        "data-security",
-        "data-quality-requirements",
-        "audit-trails-and-logging",
-        "oversight-and-accountability",
-        "data-harmonisation-advisory-committee",
-        "onboarding-and-access-control-protocols",
-        "data-subject-rights",
-        "obligations-of-data-controllers-and-data-processors",
-        "compliance-monitoring",
-        "reporting-requirements",
-        "offences-and-penalties",
-        "administrative-sanctions",
-        "dispute-resolution",
-        "dispute-resolution-committee",
-        "resolution-of-referred-disputes",
-        "establishment-of-the-data-harmonisation-tribunal",
-        "composition-of-the-tribunal",
-        "right-of-appeal",
-        "decisions-of-the-tribunal",
-        "sources-of-funds",
-        "implementation-and-pilot-scheme",
-        "relationship-and-integration-with-existing-laws",
-        "open-data-refers-to-public-interest-data-that"
+        "1-application-of-this-act",
+        "3-establishment-of-the-national-data-exchange-platform",
+        "4-data-sharing-obligations",
+        "5-data-providers",
+        "6-data-exchange-framework",
+        "7-system-integration-and-api-governance",
+        "8-data-security",
+        "9-data-quality-requirements",
+        "10-audit-trails-and-logging",
+        "11-oversight-and-accountability",
+        "12-data-harmonisation-advisory-committee",
+        "13-onboarding-and-access-control-protocols",
+        "14-data-subject-rights",
+        "15-obligations-of-data-controllers-and-data-processors",
+        "16-compliance-monitoring",
+        "17-reporting-requirements",
+        "18-offences-and-penalties",
+        "19-administrative-sanctions",
+        "20-dispute-resolution",
+        "21-dispute-resolution-committee",
+        "23-resolution-of-referred-disputes",
+        "24-establishment-of-the-data-harmonisation-tribunal",
+        "25-composition-of-the-tribunal",
+        "27-right-of-appeal",
+        "28-decisions-of-the-tribunal",
+        "30-sources-of-funds",
+        "33-implementation-and-pilot-scheme",
+        "34-relationship-and-integration-with-existing-laws",
+        "37-open-data-refers-to-public-interest-data-that"
       ]
     },
     "privacy": {
-      "score": "high-positive",
+      "score": "medium-positive",
       "description": {
-        "score": "high-positive",
-        "analysis": "The Data Harmonisation Bill **strengthens privacy and data rights** in Ghana by explicitly preserving all protections under the existing Data Protection Act while establishing a modern data sharing framework. The bill's most significant contribution is its **non-derogation clauses**, which ensure that neither data subjects' rights nor data controllers' and processors' obligations can be diminished by the new data exchange platform. This creates a legal firewall preventing the data sharing infrastructure from being used to circumvent privacy protections. The mandatory collaboration between the National Data Exchange Authority and the Data Protection Commission establishes **institutional coordination** that enhances enforcement capacity and ensures privacy considerations are embedded in platform operations.\n\nThe bill introduces **additional privacy safeguards** beyond simply preserving existing rights. Cross-border data transfers require ministerial approval and adherence to data protection standards, creating oversight for international data flows. The **restricted data classification** protects sensitive information that could threaten national security or violate legal restrictions, while the requirement that personal data processing through the platform \"uphold\" the Data Protection Act ensures privacy-by-design principles. Audit trail requirements (five-year retention) and access controls create accountability mechanisms that support data subject rights enforcement. These provisions demonstrate that the bill treats privacy protection as integral to data sharing rather than as a competing interest.\n\nHowever, the bill's **practical impact depends on implementation capacity**. The effectiveness of privacy protections relies on the Data Protection Commission's resources to monitor the expanded data flows enabled by the platform, the Authority's interpretation of data classifications, and the clarity of implementing regulations. While the legal framework is strong, the increased volume and complexity of data sharing could strain enforcement capacity. The **phased implementation approach** provides time to develop adequate safeguards, but ongoing vigilance will be necessary to ensure that efficiency objectives don't gradually erode privacy protections in practice. Overall, the bill represents a **positive evolution** that modernizes Ghana's data infrastructure while maintaining robust privacy protections, setting a strong foundation for responsible data governance."
+        "score": "medium-positive",
+        "analysis": "The Data Harmonisation Bill includes **important safeguards for privacy and data rights** through provisions that explicitly preserve existing protections. [14](#14-data-subject-rights) ensures that nothing in the Act limits data subject rights under Ghana's Data Protection Act, requiring that personal data processing through the National Data Exchange Platform upholds data protection standards. This provision mandates **collaboration between the Authority and the Data Protection Commission**, creating institutional coordination to enforce data subject rights in the context of data exchange. Similarly, [15](#15-obligations-of-data-controllers-and-data-processors) preserves the obligations of data controllers and processors under existing data protection law, preventing the harmonisation framework from creating loopholes in accountability.\n\nThese provisions establish a **dual-governance model** where data sharing operates under both the new harmonisation framework and existing privacy protections. The explicit requirement for the Authority to work with the Data Protection Commission creates oversight mechanisms that could help identify and address privacy risks as the platform develops. For individuals whose personal information flows through the platform, these provisions theoretically maintain their rights to access, correction, erasure, and other protections established under data protection law. The bill's recognition that personal data requires special handling when classified and shared represents an acknowledgment of privacy concerns.\n\nHowever, the **practical impact depends heavily on implementation and the resolution of structural tensions** within the broader bill. While these provisions preserve data protection rights on paper, the bill's mandatory data sharing obligations, broad ministerial discretion over data classification, and the precedence clause ([34](#34-relationship-and-integration-with-existing-laws)) that allows this Act to prevail in conflicts over data sharing create uncertainty. The effectiveness of these privacy safeguards will depend on how the Authority and Data Protection Commission navigate situations where harmonisation objectives and privacy protections appear to conflict, and whether the classification system adequately restricts sensitive personal information rather than designating it as broadly \"shareable.\" The provisions provide a foundation for privacy protection, but their strength will be tested by the operational realities of centralized data sharing."
       },
       "relatedProvisions": [
-        "application-of-this-act",
-        "data-sharing-obligations",
-        "data-providers",
-        "system-integration-and-api-governance",
-        "data-security",
-        "data-quality-requirements",
-        "audit-trails-and-logging",
-        "oversight-and-accountability",
-        "data-harmonisation-advisory-committee",
-        "onboarding-and-access-control-protocols",
-        "data-subject-rights",
-        "obligations-of-data-controllers-and-data-processors",
-        "compliance-monitoring",
-        "reporting-requirements",
-        "administrative-sanctions",
-        "dispute-resolution",
-        "dispute-resolution-committee",
-        "powers-of-the-dispute-resolution-committee",
-        "resolution-of-referred-disputes",
-        "composition-of-the-tribunal",
-        "rules-of-procedure-of-the-tribunal",
-        "right-of-appeal",
-        "decisions-of-the-tribunal",
-        "implementation-and-pilot-scheme",
-        "relationship-and-integration-with-existing-laws",
-        "interpretation",
-        "open-data-refers-to-public-interest-data-that"
+        "1-application-of-this-act",
+        "4-data-sharing-obligations",
+        "5-data-providers",
+        "7-system-integration-and-api-governance",
+        "8-data-security",
+        "9-data-quality-requirements",
+        "10-audit-trails-and-logging",
+        "11-oversight-and-accountability",
+        "12-data-harmonisation-advisory-committee",
+        "13-onboarding-and-access-control-protocols",
+        "14-data-subject-rights",
+        "15-obligations-of-data-controllers-and-data-processors",
+        "16-compliance-monitoring",
+        "17-reporting-requirements",
+        "19-administrative-sanctions",
+        "20-dispute-resolution",
+        "21-dispute-resolution-committee",
+        "22-powers-of-the-dispute-resolution-committee",
+        "23-resolution-of-referred-disputes",
+        "25-composition-of-the-tribunal",
+        "26-rules-of-procedure-of-the-tribunal",
+        "27-right-of-appeal",
+        "28-decisions-of-the-tribunal",
+        "33-implementation-and-pilot-scheme",
+        "34-relationship-and-integration-with-existing-laws",
+        "36-interpretation",
+        "37-open-data-refers-to-public-interest-data-that"
       ]
     },
     "business": {
-      "score": "medium-negative",
+      "score": "high-negative",
       "description": {
-        "score": "medium-negative",
-        "analysis": "The Data Harmonisation Bill creates a **dual-edged impact** on Ghana's business environment, introducing both significant opportunities and substantial regulatory burdens. The establishment of the **National Data Exchange Platform** opens new possibilities for data-driven innovation, particularly benefiting sectors like fintech, healthtech, and civic technology that can leverage standardized access to government data. Businesses gain potential access to valuable public interest data through **standardized APIs**, reducing barriers to public-private collaboration and enabling new service offerings. The inclusion of **private sector representatives on the Advisory Committee** ensures business perspectives inform implementation, while the phased rollout provides some flexibility for gradual adaptation.\n\nHowever, the **compliance requirements impose considerable costs and operational constraints** on businesses, particularly those handling public services who become mandatory data providers. Organizations must implement **standardized API architectures**, meet rigorous data quality standards, maintain encryption and access controls, keep audit trails for five years, and appoint dedicated compliance officers. These technical and administrative requirements create substantial financial and operational burdens, especially challenging for smaller enterprises with limited IT infrastructure and compliance capacity. The **onboarding process** involves fees, detailed applications, and ongoing subscription renewals, adding administrative complexity to market entry and operations.\n\nThe **penalty structure creates significant regulatory risk** for businesses. Violations carry fines ranging from **500 to 100,000 penalty units** with potential imprisonment up to five years for serious breaches. Even failures through \"gross negligence\" trigger penalties up to 10,000 penalty units. The Authority wields broad discretionary powers to **suspend access, revoke approvals, or impose bans**, creating regulatory uncertainty. Restrictions on data reuse—prohibiting competition with data providers' services and limiting personal data applications—constrain business model flexibility. **Cross-border data transfer requirements** add complexity for international businesses, requiring ministerial approval and additional safeguards. While the bill's long-term vision of improved data infrastructure could enhance Ghana's business competitiveness, the immediate impact is a more complex, costly, and risky regulatory environment for businesses operating in data-intensive sectors."
+        "score": "high-negative",
+        "analysis": "The Data Harmonisation Bill creates **substantial compliance burdens and operational risks** for businesses operating in Ghana. The mandatory API integration requirements ([7](#7-system-integration-and-api-governance)) force designated data providers to completely restructure their technical infrastructure to meet Authority-prescribed specifications, including authentication mechanisms, security protocols, and standardized endpoints. This represents a significant capital investment, particularly for small and medium enterprises that may lack existing API infrastructure or technical expertise. The bill's requirement that APIs must be tested and approved before database exposure, combined with penalties of up to 50,000 penalty units for non-compliance, creates substantial financial risk. Businesses must also navigate complex onboarding processes ([13](#13-onboarding-and-access-control-protocols)) with associated fees and ongoing access control protocols that restrict how they can use and share data.\n\nThe **enforcement regime poses severe risks** to business operations and leadership. The bill establishes criminal liability including imprisonment of up to five years for unauthorized access ([12](#12-data-harmonisation-advisory-committee)), with directors and officers of companies personally liable for corporate violations ([18](#18-offences-and-penalties)). Administrative sanctions ([19](#19-administrative-sanctions)) allow the Authority to revoke platform access, impose bans preventing reapplication, and levy substantial fines - all without requiring criminal conviction. For businesses dependent on data sharing for their operations, platform removal could be commercially devastating. The combination of criminal penalties, administrative sanctions, and personal liability for executives creates a high-stakes compliance environment that may deter business investment and innovation.\n\n**Cross-border operations face particular challenges** under the restrictive data transfer framework ([13](#13-onboarding-and-access-control-protocols)). International businesses must obtain ministerial approval for cross-border data transfers, potentially operate through Ghanaian subsidiaries, and comply with additional safeguards including access logs and audits. Foreign entities seeking platform access face quarterly ministerial review processes, creating uncertainty and delays. These restrictions may disadvantage multinational corporations, limit Ghana's integration into global digital supply chains, and reduce the country's attractiveness for foreign direct investment in data-intensive sectors. While the National Data Exchange Platform ([3](#3-establishment-of-the-national-data-exchange-platform)) could theoretically improve interoperability and reduce duplication costs in the long term, the transition costs, compliance burden, and regulatory uncertainty create a challenging environment that outweighs potential benefits for most businesses."
       },
       "relatedProvisions": [
-        "application-of-this-act",
-        "establishment-of-the-national-data-exchange-platform",
-        "data-sharing-obligations",
-        "data-providers",
-        "data-exchange-framework",
-        "system-integration-and-api-governance",
-        "data-security",
-        "data-quality-requirements",
-        "audit-trails-and-logging",
-        "oversight-and-accountability",
-        "data-harmonisation-advisory-committee",
-        "onboarding-and-access-control-protocols",
-        "data-subject-rights",
-        "obligations-of-data-controllers-and-data-processors",
-        "compliance-monitoring",
-        "reporting-requirements",
-        "offences-and-penalties",
-        "administrative-sanctions",
-        "dispute-resolution",
-        "dispute-resolution-committee",
-        "powers-of-the-dispute-resolution-committee",
-        "resolution-of-referred-disputes",
-        "establishment-of-the-data-harmonisation-tribunal",
-        "composition-of-the-tribunal",
-        "rules-of-procedure-of-the-tribunal",
-        "right-of-appeal",
-        "decisions-of-the-tribunal",
-        "fees",
-        "accounts-and-audits",
-        "implementation-and-pilot-scheme",
-        "relationship-and-integration-with-existing-laws",
-        "open-data-refers-to-public-interest-data-that"
+        "1-application-of-this-act",
+        "3-establishment-of-the-national-data-exchange-platform",
+        "4-data-sharing-obligations",
+        "5-data-providers",
+        "6-data-exchange-framework",
+        "7-system-integration-and-api-governance",
+        "8-data-security",
+        "9-data-quality-requirements",
+        "10-audit-trails-and-logging",
+        "11-oversight-and-accountability",
+        "12-data-harmonisation-advisory-committee",
+        "13-onboarding-and-access-control-protocols",
+        "14-data-subject-rights",
+        "15-obligations-of-data-controllers-and-data-processors",
+        "16-compliance-monitoring",
+        "17-reporting-requirements",
+        "18-offences-and-penalties",
+        "19-administrative-sanctions",
+        "20-dispute-resolution",
+        "21-dispute-resolution-committee",
+        "22-powers-of-the-dispute-resolution-committee",
+        "23-resolution-of-referred-disputes",
+        "24-establishment-of-the-data-harmonisation-tribunal",
+        "25-composition-of-the-tribunal",
+        "26-rules-of-procedure-of-the-tribunal",
+        "27-right-of-appeal",
+        "28-decisions-of-the-tribunal",
+        "29-fees",
+        "32-accounts-and-audits",
+        "33-implementation-and-pilot-scheme",
+        "34-relationship-and-integration-with-existing-laws",
+        "37-open-data-refers-to-public-interest-data-that"
       ]
     },
     "freedomOfSpeech": {
       "score": "neutral",
       "description": null,
       "relatedProvisions": [
-        "audit-trails-and-logging",
-        "data-harmonisation-advisory-committee",
-        "open-data-refers-to-public-interest-data-that"
+        "10-audit-trails-and-logging",
+        "12-data-harmonisation-advisory-committee",
+        "37-open-data-refers-to-public-interest-data-that"
       ]
     }
   },
@@ -136,7 +136,7 @@
       "severity": "high",
       "description": "The Authority can prescribe **\"any other specifications that the Authority may deem relevant\"** for API integration, yet failing to comply with these undefined requirements is a **criminal offense** punishable by fines up to 50,000 penalty units. This violates the rule of law principle that criminal offenses must be clearly defined in advance. Businesses cannot know with certainty what technical specifications they must meet, yet face criminal liability and potential **access revocation without due process** for non-compliance. The combination of vague discretionary authority, disproportionate criminalization of technical matters, and cumulative penalties creates severe operational risk, particularly for smaller entities.",
       "relatedProvisions": [
-        "system-integration-and-api-governance"
+        "7-system-integration-and-api-governance"
       ],
       "relatedImpacts": []
     },
@@ -146,7 +146,7 @@
       "severity": "high",
       "description": "The provision criminalizes violation of \"**any provision**\" of the Act with up to **2 years imprisonment**, without distinguishing between serious violations (deliberate data misuse) and technical failures (incomplete audit trails, API specification deviations). This creates severe legal uncertainty for businesses and startups, who could face criminal prosecution for administrative non-compliance with Authority-prescribed technical standards. The **disproportionate penalties** exceed OECD norms and will create a chilling effect on platform participation and digital innovation.",
       "relatedProvisions": [
-        "offences-and-penalties"
+        "18-offences-and-penalties"
       ],
       "relatedImpacts": []
     },
@@ -156,7 +156,7 @@
       "severity": "high",
       "description": "The Authority can impose **permanent, irreversible bans** on participating institutions using undefined \"appropriate sanctions\" without clear standards for what violations trigger which penalties. Unlike access revocation (which allows reinstatement after fixing issues), **banned institutions can never reapply** - creating a business death sentence that can be imposed administratively. The provision provides no proportionality requirements, no caps on \"administrative penalties,\" and no procedural safeguards before sanctions are imposed, enabling arbitrary enforcement that particularly threatens startups and SMEs already facing substantial compliance costs.",
       "relatedProvisions": [
-        "administrative-sanctions"
+        "19-administrative-sanctions"
       ],
       "relatedImpacts": []
     },
@@ -166,7 +166,7 @@
       "severity": "high",
       "description": "The bill prohibits businesses from re-using government data in ways that **\"directly compete with the service offered by the data provider\"**—but never defines what constitutes prohibited competition. A startup using health data to build a better appointment system than the government's could face **criminal prosecution and fines up to 50,000 penalty units**. This vague standard protects incumbent government services from market competition while creating massive legal uncertainty that will **chill investment in data-driven innovation**. Businesses cannot determine what's legal until the Authority decides—potentially after the fact.",
       "relatedProvisions": [
-        "data-harmonisation-advisory-committee"
+        "12-data-harmonisation-advisory-committee"
       ],
       "relatedImpacts": []
     },
@@ -176,14 +176,14 @@
       "severity": "high",
       "description": "Data consumers face **criminal prosecution and fines up to 50,000 penalty units** for accessing data beyond their authorized scope, even for inadvertent violations. The Authority can **suspend or revoke access without explicit procedural safeguards** (notice, hearing, or appeal rights) specified in this provision. Cross-border data transfers require **ministerial approval** and may mandate establishing a **local Ghanaian subsidiary**, creating substantial barriers for international businesses and limiting Ghanaian companies' global partnerships.",
       "relatedProvisions": [
-        "onboarding-and-access-control-protocols"
+        "13-onboarding-and-access-control-protocols"
       ],
       "relatedImpacts": []
     }
   ],
   "provisions": [
     {
-      "id": "application-of-this-act",
+      "id": "1-application-of-this-act",
       "section": 1,
       "title": "Application of this Act",
       "plainLanguage": "This law applies to public interest data and those who manage it. This includes government agencies, private companies handling public services, and anyone using the National Data Exchange Platform. The Minister can also add other groups to this list. However, the law will not force anyone to share restricted information or data that could threaten national security.",
@@ -201,7 +201,7 @@
       }
     },
     {
-      "id": "establishment-of-the-national-data-exchange-platform",
+      "id": "3-establishment-of-the-national-data-exchange-platform",
       "section": 3,
       "title": "Establishment of the National Data Exchange Platform",
       "plainLanguage": "This provision creates a National Data Exchange Platform for the secure exchange of public interest data. The platform will allow public and private entities to share data, making it more accessible and transparent. The Ministry will oversee the platform, while the Authority will manage its technical aspects.",
@@ -218,7 +218,7 @@
       }
     },
     {
-      "id": "data-sharing-obligations",
+      "id": "4-data-sharing-obligations",
       "section": 4,
       "title": "Data Sharing Obligations",
       "plainLanguage": "This provision requires entities with public interest data to categorize it as open, shareable, or restricted. Open and shareable data must be made available through a National Data Exchange Platform. Access to shareable data may have specific conditions that must be clearly defined. Failure to provide access to data as required can result in fines.",
@@ -236,7 +236,7 @@
       }
     },
     {
-      "id": "data-providers",
+      "id": "5-data-providers",
       "section": 5,
       "title": "Data Providers",
       "plainLanguage": "This provision establishes a system for designating \"data providers\" who will share public interest data on a national platform. Qualifying entities include public bodies and private institutions that hold or manage such data. The Authority will set eligibility criteria, operational guidelines, and maintain a register of approved data providers, ensuring secure and efficient data exchange.",
@@ -254,7 +254,7 @@
       }
     },
     {
-      "id": "data-exchange-framework",
+      "id": "6-data-exchange-framework",
       "section": 6,
       "title": "Data Exchange Framework",
       "plainLanguage": "This section requires data providers to format their databases so they can be easily accessed and used by the National Data Exchange Platform. The goal is to make it easier for software to find and extract specific data. The Authority will set the technical standards for these data formats and update them as needed, and providers can consult the Authority if they have trouble meeting the requirements.",
@@ -271,7 +271,7 @@
       }
     },
     {
-      "id": "system-integration-and-api-governance",
+      "id": "7-system-integration-and-api-governance",
       "section": 7,
       "title": "System Integration and API Governance",
       "plainLanguage": "This provision requires data providers to share data through secure and standardized APIs, following guidelines set by the Authority. The Authority will define technical specifications for these APIs, including security measures and access controls. Failure to comply with these requirements or protect API keys can result in fines and penalties. The Authority will also monitor API performance and security to ensure compliance.",
@@ -289,7 +289,7 @@
       }
     },
     {
-      "id": "data-security",
+      "id": "8-data-security",
       "section": 8,
       "title": "Data Security",
       "plainLanguage": "This section requires data providers on the National Data Exchange Platform to implement security measures to protect the data they share. These measures include access controls, encryption, backups, and disaster recovery plans. Data providers must also report any data breaches to the Authority and potentially to the Data Protection Commission or Cybersecurity Authority, and failure to comply can result in fines.",
@@ -307,7 +307,7 @@
       }
     },
     {
-      "id": "data-quality-requirements",
+      "id": "9-data-quality-requirements",
       "section": 9,
       "title": "Data Quality Requirements",
       "plainLanguage": "Data providers on the National Data Exchange Platform must meet data quality standards set by the Authority. This includes keeping data accurate, complete, and consistent, as well as regularly updating and verifying information. The Authority can tailor these standards for different types of data. Data providers must also show the Authority how they maintain data quality if asked.",
@@ -325,7 +325,7 @@
       }
     },
     {
-      "id": "audit-trails-and-logging",
+      "id": "10-audit-trails-and-logging",
       "section": 10,
       "title": "Audit Trails and Logging",
       "plainLanguage": "This provision requires data providers on the National Data Exchange Platform to keep detailed, secure logs of all data access, transmission, and modifications. These logs must be retained for a minimum of five years and are subject to review by the Authority. Data providers must also monitor these logs internally to detect and prevent misuse.",
@@ -344,7 +344,7 @@
       }
     },
     {
-      "id": "oversight-and-accountability",
+      "id": "11-oversight-and-accountability",
       "section": 11,
       "title": "Oversight and Accountability",
       "plainLanguage": "The Authority is responsible for ensuring everyone complies with this law by monitoring data providers and consumers. It will issue guidelines, collect reports, and publish annual performance reports to maintain transparency. Data providers must appoint compliance officers and address any issues identified by the Authority. The Authority also manages the National Data Exchange Platform, ensuring it operates effectively and aligns with national policies.",
@@ -362,7 +362,7 @@
       }
     },
     {
-      "id": "data-harmonisation-advisory-committee",
+      "id": "12-data-harmonisation-advisory-committee",
       "section": 12,
       "title": "Data Harmonisation Advisory Committee",
       "plainLanguage": "This provision creates a Data Harmonisation Advisory Committee to advise the Data Authority. The committee includes representatives from government agencies, the private sector, and civil society. It will provide guidance on data exchange, stakeholder coordination, and implementation of data-related policies. The goal is to ensure effective data harmonization across different sectors.",
@@ -381,7 +381,7 @@
       }
     },
     {
-      "id": "onboarding-and-access-control-protocols",
+      "id": "13-onboarding-and-access-control-protocols",
       "section": 13,
       "title": "Onboarding and Access Control Protocols",
       "plainLanguage": "The Authority will create a process for onboarding data consumers and control their data access levels. Data consumers cannot access data beyond their granted permissions, and violations can result in fines and penalties. Transferring public interest data outside of Ghana requires adherence to data protection laws, specific safeguards, and approval from the Minister. Violations of cross-border transfer rules also carry significant fines.",
@@ -399,7 +399,7 @@
       }
     },
     {
-      "id": "data-subject-rights",
+      "id": "14-data-subject-rights",
       "section": 14,
       "title": "Data Subject Rights",
       "plainLanguage": "This provision ensures that your rights under the Data Protection Act are protected, even when your personal information is used on the National Data Exchange Platform. The agency managing the platform will work with the Data Protection Commission to uphold these rights. This means your existing data privacy rights remain in place.",
@@ -417,7 +417,7 @@
       }
     },
     {
-      "id": "obligations-of-data-controllers-and-data-processors",
+      "id": "15-obligations-of-data-controllers-and-data-processors",
       "section": 15,
       "title": "Obligations of Data Controllers and Data Processors",
       "plainLanguage": "This provision clarifies that the new law does not change the existing responsibilities of data controllers and data processors as defined in the Data Protection Act. These entities must continue to comply with all obligations outlined in the Data Protection Act. The new law is intended to supplement, not replace, existing data protection requirements.",
@@ -435,7 +435,7 @@
       }
     },
     {
-      "id": "compliance-monitoring",
+      "id": "16-compliance-monitoring",
       "section": 16,
       "title": "Compliance Monitoring",
       "plainLanguage": "The Authority will create a monitoring system to ensure everyone follows the rules of the National Data Exchange Platform. Inspectors may be appointed to check for compliance, including entering premises and submitting quarterly reports. The Authority can also audit participating institutions to assess their compliance with the rules.",
@@ -453,7 +453,7 @@
       }
     },
     {
-      "id": "reporting-requirements",
+      "id": "17-reporting-requirements",
       "section": 17,
       "title": "Reporting Requirements",
       "plainLanguage": "Participating institutions in the National Data Exchange Platform must provide reports to the Authority when requested, including specific information the Authority requires. Institutions must also inform the Authority within seven days of any changes to their initial application information. This ensures the Authority has up-to-date information about participating institutions and their activities.",
@@ -471,7 +471,7 @@
       }
     },
     {
-      "id": "offences-and-penalties",
+      "id": "18-offences-and-penalties",
       "section": 18,
       "title": "Offences and Penalties",
       "plainLanguage": "This section defines the penalties for not following the rules outlined in the Act. Individuals or organizations that break the law may face fines or jail time. If a company or partnership commits an offence, its leaders can also be held responsible unless they took steps to prevent the violation and were unaware of it.",
@@ -488,7 +488,7 @@
       }
     },
     {
-      "id": "administrative-sanctions",
+      "id": "19-administrative-sanctions",
       "section": 19,
       "title": "Administrative Sanctions",
       "plainLanguage": "This section allows the Authority to issue administrative sanctions for violations of the Act. These sanctions can include revoking platform access, imposing penalties, or issuing bans. Institutions that have had their access revoked can reapply after fixing the issue, but banned institutions cannot reapply. These administrative sanctions are in addition to any penalties from other regulatory bodies or legal proceedings under other laws.",
@@ -506,7 +506,7 @@
       }
     },
     {
-      "id": "dispute-resolution",
+      "id": "20-dispute-resolution",
       "section": 20,
       "title": "Dispute Resolution",
       "plainLanguage": "This section requires the Authority to create a process for resolving disputes between data providers, consumers, individuals, and the Authority. If a dispute involves data protection or cybersecurity, the Data Protection Commission/Authority or Cybersecurity Authority will be involved. Parties must attempt to resolve disputes through this process before going to court.",
@@ -524,7 +524,7 @@
       }
     },
     {
-      "id": "dispute-resolution-committee",
+      "id": "21-dispute-resolution-committee",
       "section": 21,
       "title": "Dispute Resolution Committee",
       "plainLanguage": "This provision creates a Dispute Resolution Committee within the Authority to handle disputes. The committee's structure and rules will be determined by the board in consultation with the Advisory Committee. The committee will investigate disputes, and parties can be represented by a lawyer or another person of their choosing.",
@@ -542,7 +542,7 @@
       }
     },
     {
-      "id": "powers-of-the-dispute-resolution-committee",
+      "id": "22-powers-of-the-dispute-resolution-committee",
       "section": 22,
       "title": "Powers of the Dispute Resolution Committee",
       "plainLanguage": "This provision grants the Dispute Resolution Committee the authority to call witnesses, take testimony, and request documents. It also allows the committee to refer individuals to the High Court if they are found in contempt. Summons issued by the committee must be signed by the Secretary of the Authority.",
@@ -559,7 +559,7 @@
       }
     },
     {
-      "id": "resolution-of-referred-disputes",
+      "id": "23-resolution-of-referred-disputes",
       "section": 23,
       "title": "Resolution of Referred Disputes",
       "plainLanguage": "This provision details the authority of the Dispute Resolution Committee in settling disputes. The committee can declare the rights and responsibilities of involved parties, issue temporary orders, and dismiss insignificant or bothersome issues. It also has the power to instruct a party to cover the costs of another party and provide instructions necessary for resolving the dispute. These powers allow the committee to efficiently handle and conclude disputes.",
@@ -577,7 +577,7 @@
       }
     },
     {
-      "id": "establishment-of-the-data-harmonisation-tribunal",
+      "id": "24-establishment-of-the-data-harmonisation-tribunal",
       "section": 24,
       "title": "Establishment of the Data Harmonisation Tribunal",
       "plainLanguage": "This provision creates the Data Harmonisation Tribunal to handle appeals. The tribunal will be formed as needed to review decisions made by the Authority or its Dispute Resolution Committee. This ensures an avenue for appealing decisions related to data regulations.",
@@ -594,7 +594,7 @@
       }
     },
     {
-      "id": "composition-of-the-tribunal",
+      "id": "25-composition-of-the-tribunal",
       "section": 25,
       "title": "Composition of the Tribunal",
       "plainLanguage": "The Tribunal will consist of members appointed by the Minister, including individuals with expertise in areas like data governance, cybersecurity, law, or economics. The Minister will also appoint a registrar and other staff to support the Tribunal's operations. The Authority's income will fund the Tribunal's expenses.",
@@ -612,7 +612,7 @@
       }
     },
     {
-      "id": "rules-of-procedure-of-the-tribunal",
+      "id": "26-rules-of-procedure-of-the-tribunal",
       "section": 26,
       "title": "Rules of Procedure of the Tribunal",
       "plainLanguage": "This provision mandates the creation of procedural rules for the Tribunal. The Authority is responsible for drafting proposed rules within 30 days of the Act's commencement. These proposed rules must then be approved by a panel of the Tribunal before being officially enacted as Regulations.",
@@ -629,7 +629,7 @@
       }
     },
     {
-      "id": "right-of-appeal",
+      "id": "27-right-of-appeal",
       "section": 27,
       "title": "Right of Appeal",
       "plainLanguage": "This provision grants individuals the right to appeal decisions made by the Authority or the Dispute Resolution Committee. To appeal, a notice must be sent to the Tribunal within 28 days of the decision. The notice must detail the decision being appealed, the specific rule it falls under, and the reasons for the appeal. The Tribunal will then meet within one month to review the appeal.",
@@ -647,7 +647,7 @@
       }
     },
     {
-      "id": "decisions-of-the-tribunal",
+      "id": "28-decisions-of-the-tribunal",
       "section": 28,
       "title": "Decisions of the Tribunal",
       "plainLanguage": "This section describes what the Tribunal can do after hearing an appeal. The Tribunal can overturn or modify the original decision, or uphold it. The Tribunal can also consider input from outside parties when making its decision.",
@@ -665,7 +665,7 @@
       }
     },
     {
-      "id": "fees",
+      "id": "29-fees",
       "section": 29,
       "title": "Fees",
       "plainLanguage": "This provision clarifies that the Minister will set the fees for activities related to this Act. The determination of these fees will be done in accordance with the Fees and Charges (Miscellaneous Provisions) Act, 2022. This ensures a standardized approach to setting fees as outlined in existing legislation.",
@@ -681,7 +681,7 @@
       }
     },
     {
-      "id": "sources-of-funds",
+      "id": "30-sources-of-funds",
       "section": 30,
       "title": "Sources of Funds",
       "plainLanguage": "This provision specifies how the National Data Exchange Platform will be funded. The platform will receive money from initial investments, fees it generates, government allocations, donations, and other approved sources. These funds will be used to support the platform's operations and development.",
@@ -697,7 +697,7 @@
       }
     },
     {
-      "id": "expenses",
+      "id": "31-expenses",
       "section": 31,
       "title": "Expenses",
       "plainLanguage": "This provision states that the National Data Exchange Platform's operational costs will be covered by the platform's own funds. In other words, the platform is financially responsible for its own expenses. This ensures the platform has a dedicated source of funding for its activities.",
@@ -711,7 +711,7 @@
       }
     },
     {
-      "id": "accounts-and-audits",
+      "id": "32-accounts-and-audits",
       "section": 32,
       "title": "Accounts and audits",
       "plainLanguage": "This section ensures financial transparency for the National Data Exchange Platform. It requires the Authority to keep detailed accounts that will be audited by the Auditor-General. The Auditor-General will then submit an audit report to the Minister, and the Internal Audit Agency Act will also apply. The financial year for the Authority and the platform will match the government's.",
@@ -727,7 +727,7 @@
       }
     },
     {
-      "id": "implementation-and-pilot-scheme",
+      "id": "33-implementation-and-pilot-scheme",
       "section": 33,
       "title": "Implementation and Pilot Scheme",
       "plainLanguage": "This provision allows the Minister to implement the Act in stages rather than all at once. The Minister will decide the specific details and timeline for this phased implementation. This approach allows for a more controlled and adaptable rollout of the Act.",
@@ -745,7 +745,7 @@
       }
     },
     {
-      "id": "relationship-and-integration-with-existing-laws",
+      "id": "34-relationship-and-integration-with-existing-laws",
       "section": 34,
       "title": "Relationship and Integration with Existing Laws",
       "plainLanguage": "This section clarifies that the new law works in harmony with Ghana's existing laws on data protection, intellectual property, and related areas. It generally respects these existing laws, but if there's a conflict about how data is standardized or shared, the new law will be the one that is followed. This ensures a consistent approach to data handling while acknowledging the importance of other legal frameworks.",
@@ -763,7 +763,7 @@
       }
     },
     {
-      "id": "regulations",
+      "id": "35-regulations",
       "section": 35,
       "title": "Regulations",
       "plainLanguage": "This section allows the Minister to create regulations to implement the Act. However, the Authority must first recommend these regulations. This process allows for specific rules and guidelines to be created to manage and adjust the implementation of the Act.",
@@ -777,7 +777,7 @@
       }
     },
     {
-      "id": "interpretation",
+      "id": "36-interpretation",
       "section": 36,
       "title": "Interpretation",
       "plainLanguage": "This section defines key terms used in the Act to ensure clarity and proper interpretation. It covers definitions related to data exchange, data types (like personal, public interest, and restricted data), and the roles of different entities involved. The Act also establishes a framework for classifying public interest data into open, shareable, and restricted categories, which determines how the data can be accessed and used.",
@@ -793,7 +793,7 @@
       }
     },
     {
-      "id": "open-data-refers-to-public-interest-data-that",
+      "id": "37-open-data-refers-to-public-interest-data-that",
       "section": 37,
       "title": "Open data refers to public interest data that:",
       "plainLanguage": "This provision categorizes public interest data into open, shareable, and restricted types based on accessibility and usage rights. Open data is freely available, shareable data requires authorization, and restricted data has limitations due to legal or security concerns. The Data Protection Commission and the Authority will create guidelines for classifying data. The Minister can issue further guidelines for classifying public interest data and the criteria for reclassification of data from one category to another.",
