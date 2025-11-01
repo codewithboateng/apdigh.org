@@ -70,15 +70,20 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
 
         provision_id = section.get('id', '')
 
-        # Determine which impacts this provision affects
+        # Determine which impacts this provision affects and their levels
         related_impacts = []
+        provision_impact_levels = {}  # Map impact key -> impact level
         impact_data = section.get('impact', {})
         if impact_data:
             impact_levels = impact_data.get('levels', {})
             for topic, level in impact_levels.items():
-                # Include if not neutral or none
+                impact_key = topic_to_key.get(topic, slugify(topic))
+
+                # Store the impact level for this provision
+                provision_impact_levels[impact_key] = level
+
+                # Include in related impacts if not neutral or none
                 if level and level != 'neutral' and level != 'none':
-                    impact_key = topic_to_key.get(topic, slugify(topic))
                     related_impacts.append(impact_key)
 
                     # Ensure this impact category exists in impacts dict
@@ -98,7 +103,8 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
             'title': section.get('title', ''),
             'plainLanguage': section.get('summary', ''),
             'rawText': section.get('rawText', ''),
-            'relatedImpacts': related_impacts
+            'relatedImpacts': related_impacts,
+            'impacts': provision_impact_levels  # Add impact levels for each category
         })
 
     # Transform key concerns

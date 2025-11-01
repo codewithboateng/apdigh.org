@@ -417,33 +417,45 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
                           <div class="max-h-38 overflow-y-auto">
                             <div class="flex flex-wrap gap-2 p-3 bg-gray-50 rounded-lg">
                               {impact.relatedProvisions.map((provisionId) => {
-                                // Find this provision to get its impact level for this category
+                                // Find this provision to get its actual impact level for this category
                                 const provision = bill.provisions.find(p => p.id === provisionId);
-                                const hasThisImpact = provision?.relatedImpacts?.includes(impactKey);
 
-                                // Use the overall impact score for this category as approximation
-                                const impactScore = impact.score;
+                                // Get the actual impact score for THIS provision for THIS category
+                                const provisionImpact = provision?.impacts?.[impactKey];
+                                const impactScore = provisionImpact || 'neutral';
                                 const impactLabel = getImpactLabel(impactScore);
                                 const impactDescription = getImpactDescription(impactScore);
 
-                                // Get background color based on severity
+                                // Get background color based on actual provision impact
+                                const badgeClass = getImpactBadgeClass(impactScore);
+
+                                // Extract colors from badge class for consistency
                                 let bgColor = 'bg-gray-100';
                                 let textColor = 'text-gray-800';
-                                if (impactScore.includes('severe-negative')) {
-                                  bgColor = 'bg-red-100';
+                                if (impactScore === 'severe-negative') {
+                                  bgColor = 'bg-red-200';
                                   textColor = 'text-red-900';
-                                } else if (impactScore.includes('high-negative')) {
+                                } else if (impactScore === 'high-negative') {
+                                  bgColor = 'bg-red-100';
+                                  textColor = 'text-red-700';
+                                } else if (impactScore === 'medium-negative') {
                                   bgColor = 'bg-orange-100';
-                                  textColor = 'text-orange-900';
-                                } else if (impactScore.includes('medium-negative')) {
+                                  textColor = 'text-orange-700';
+                                } else if (impactScore === 'low-negative') {
                                   bgColor = 'bg-yellow-100';
-                                  textColor = 'text-yellow-900';
-                                } else if (impactScore.includes('low-negative')) {
-                                  bgColor = 'bg-yellow-50';
-                                  textColor = 'text-yellow-800';
-                                } else if (impactScore.includes('positive')) {
+                                  textColor = 'text-yellow-700';
+                                } else if (impactScore === 'severe-positive') {
+                                  bgColor = 'bg-emerald-200';
+                                  textColor = 'text-emerald-900';
+                                } else if (impactScore === 'high-positive') {
+                                  bgColor = 'bg-emerald-100';
+                                  textColor = 'text-emerald-700';
+                                } else if (impactScore === 'medium-positive') {
                                   bgColor = 'bg-green-100';
-                                  textColor = 'text-green-900';
+                                  textColor = 'text-green-700';
+                                } else if (impactScore === 'low-positive') {
+                                  bgColor = 'bg-blue-100';
+                                  textColor = 'text-blue-700';
                                 }
 
                                 return (
@@ -570,32 +582,43 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
                             <span class="text-xs font-semibold text-gray-600">This provision affects:</span>
                             {provision.relatedImpacts.map((impactKey) => {
                               const category = IMPACT_CATEGORIES[impactKey as ImpactKey];
-                              const impactData = bill.impacts?.[impactKey];
-                              const impactScore = impactData?.score || 'neutral';
+
+                              // Get the actual impact score for THIS provision for THIS category
+                              const provisionImpact = provision?.impacts?.[impactKey];
+                              const impactScore = provisionImpact || 'neutral';
 
                               if (!category) return null;
 
                               const impactLabel = getImpactLabel(impactScore);
                               const impactDescription = getImpactDescription(impactScore);
 
-                              // Get background color based on severity
+                              // Get background color based on actual provision impact
                               let bgColor = 'bg-gray-100';
                               let textColor = 'text-gray-800';
-                              if (impactScore.includes('severe-negative')) {
-                                bgColor = 'bg-red-100';
+                              if (impactScore === 'severe-negative') {
+                                bgColor = 'bg-red-200';
                                 textColor = 'text-red-900';
-                              } else if (impactScore.includes('high-negative')) {
+                              } else if (impactScore === 'high-negative') {
+                                bgColor = 'bg-red-100';
+                                textColor = 'text-red-700';
+                              } else if (impactScore === 'medium-negative') {
                                 bgColor = 'bg-orange-100';
-                                textColor = 'text-orange-900';
-                              } else if (impactScore.includes('medium-negative')) {
+                                textColor = 'text-orange-700';
+                              } else if (impactScore === 'low-negative') {
                                 bgColor = 'bg-yellow-100';
-                                textColor = 'text-yellow-900';
-                              } else if (impactScore.includes('low-negative')) {
-                                bgColor = 'bg-yellow-50';
-                                textColor = 'text-yellow-800';
-                              } else if (impactScore.includes('positive')) {
+                                textColor = 'text-yellow-700';
+                              } else if (impactScore === 'severe-positive') {
+                                bgColor = 'bg-emerald-200';
+                                textColor = 'text-emerald-900';
+                              } else if (impactScore === 'high-positive') {
+                                bgColor = 'bg-emerald-100';
+                                textColor = 'text-emerald-700';
+                              } else if (impactScore === 'medium-positive') {
                                 bgColor = 'bg-green-100';
-                                textColor = 'text-green-900';
+                                textColor = 'text-green-700';
+                              } else if (impactScore === 'low-positive') {
+                                bgColor = 'bg-blue-100';
+                                textColor = 'text-blue-700';
                               }
 
                               return (
