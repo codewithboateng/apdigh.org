@@ -21,52 +21,46 @@ load_dotenv()
 
 
 class KeyConcernGenerator(dspy.Signature):
-    """Generate a key concern from a single high-impact provision.
+    """Generate a key concern for a specific topic area impacted by a provision.
 
-    When identifying concerns, think about:
+    IMPORTANT: Focus on the CURRENT PROVISION and how it impacts the SPECIFIC TOPIC AREA you're analyzing.
+    Adjacent provisions are provided as context to understand how provisions relate and affect each other.
 
-    1. WHAT MAKES THIS CRITICAL:
-       - Undefined terms that grant arbitrary power ("critical data", "public interest")
-       - Perverse incentives (enforcer profits from enforcement)
-       - Disproportionate penalties (imprisonment for business activities)
-       - Data localization requirements with criminal sanctions
-       - Surveillance infrastructure without adequate oversight
+    Consider adjacent provisions when the current provision's impact depends on or is modified by what
+    adjacent provisions establish or omit. Focus on direct functional relationships between provisions.
 
-    2. WHO IS HARMED:
-       - Startups and SMEs facing disproportionate compliance burdens
-       - Citizens facing surveillance or speech restrictions
-       - Journalists, activists, researchers at risk of prosecution
-       - Foreign companies effectively locked out of market
-
-    3. ABUSE POTENTIAL:
-       - Could this be weaponized against political opponents?
-       - Does vague language enable selective enforcement?
-       - Are penalties severe enough to create chilling effects?
-       - What's the realistic worst-case scenario?
+    Evaluation framework:
+    - RULE OF LAW: Legal certainty, non-arbitrariness, equality before the law, judicial independence
+    - FUNDAMENTAL JUSTICE: Presumption of innocence, right to fair trial, no punishment without law
+    - SEPARATION OF POWERS: Checks and balances, independent oversight, no concentration of incompatible roles
+    - PROPORTIONALITY: Penalties proportionate to harm, necessity, least restrictive means
+    - DUE PROCESS: Notice, hearing, appeal rights, independent review before coercive action
+    - DEMOCRATIC ACCOUNTABILITY: Transparency, parliamentary oversight, limits on executive power
 
     A key concern should:
-    - Have a clear, attention-grabbing title (5-8 words)
-    - Explain the specific problem this provision creates (2-3 sentences)
+    - Have a clear, punchy title (4-6 words maximum, shorter is better)
+    - Explain what the provision does and why it's problematic for this topic area (2-3 sentences)
     - Focus on practical impact on rights, freedoms, or businesses
     - Be written in accessible language for non-experts
     - Use markdown formatting: **bold** for key terms, quoted provisions, or critical issues
-    - Be specific to this particular provision's issue
+    - Be specific to this particular provision's issue in this topic area
     - Consider the broader bill context when assessing severity
-    - Highlight institutional design flaws, not just direct impacts
     - Quote specific language from the raw text when relevant
-    - Use the impact analysis to identify the core problem
+    - CITE PROVISIONS: When referencing adjacent provisions, cite them using markdown links in the format [index](#id)
+      For example: [8](#section-20b-inserted). Only cite when the current provision's impact functionally depends on them.
     """
 
     bill_context: str = dspy.InputField(desc="Executive summary providing context about what the bill does")
-    topic: Topic = dspy.InputField(desc="The affected topic area")
-    provision_title: str = dspy.InputField(desc="The provision's title")
-    provision_raw_text: str = dspy.InputField(desc="The actual legal text of the provision")
-    provision_summary: str = dspy.InputField(desc="Plain language summary of what the provision does")
-    impact_reasoning: str = dspy.InputField(desc="Detailed impact analysis identifying specific problems, institutional design flaws, and critical issues")
-    impact_level: str = dspy.InputField(desc="The impact level (severe-negative or high-negative)")
+    topic: Topic = dspy.InputField(desc="The SPECIFIC topic area you are analyzing for this concern. Focus your title and description on this topic's unique angle.")
+    preceding_provisions: str = dspy.InputField(desc="JSON array of 2 preceding provisions for context: [{index, id, title, rawText}, ...]. CONTEXT ONLY - use to understand references and relationships.")
+    current_provision: str = dspy.InputField(desc="JSON object for the provision being analyzed: {index, id, title, rawText}")
+    following_provision: str = dspy.InputField(desc="JSON object for the following provision for context: {index, id, title, rawText}. CONTEXT ONLY - use to understand how provisions connect forward.")
+    existing_concerns: str = dspy.InputField(desc="JSON array of concerns already generated for this provision from other topics: [{title, topic}, ...]. Your title MUST be clearly different from these existing titles.")
+    impact_reasoning: str = dspy.InputField(desc="Detailed impact analysis from the impact assessment step. This covers all topic areas - extract the parts relevant to your specific topic.")
+    impact_level: str = dspy.InputField(desc="The impact level for this specific topic (severe-negative or high-negative)")
 
-    title: str = dspy.OutputField(desc="Concern title (5-8 words, attention-grabbing)")
-    description: str = dspy.OutputField(desc="Concern description (2-3 sentences explaining the problem, use markdown formatting)")
+    title: str = dspy.OutputField(desc="Concern title (4-6 words maximum, punchy and direct). MUST clearly indicate which topic-specific problem this addresses. Avoid repeating language from existing concern titles for this provision.")
+    description: str = dspy.OutputField(desc="Concern description (2-3 sentences explaining what the provision does and why it's problematic for THIS SPECIFIC TOPIC AREA, use markdown formatting)")
     severity: Severity = dspy.OutputField(desc="Severity level: critical, high, medium or low")
 
 
@@ -96,25 +90,49 @@ def slugify(text: str) -> str:
     return text.strip('-')
 
 
-def generate_key_concern(bill_context: str, topic: str, provision: dict) -> dict:
-    """Generate a key concern for a single provision.
+def generate_key_concern(bill_context: str, topic: str, provision: dict, preceding: list, following: dict = None, existing_concerns: list = []) -> dict:
+    """Generate a key concern for a specific topic area impact.
 
     Args:
         bill_context: Executive summary for context
         topic: Topic name
-        provision: Provision dict with id, title, summary, raw_text, impact_reasoning, impact_level
+        provision: Provision dict with index, id, title, raw_text, impact_reasoning, impact_level
+        preceding: List of preceding provision dicts (max 2)
+        following: Following provision dict or None
+        existing_concerns: List of already-generated concerns for this provision
 
     Returns:
-        Concern dict with id, title, description, severity, relatedProvisions
+        Concern dict with id, title, description, severity, topic, relatedProvisions
     """
+    # Build current provision JSON
+    current_provision_json = json.dumps({
+        'index': provision['index'],
+        'id': provision['id'],
+        'title': provision['title'],
+        'rawText': provision['raw_text']
+    }, indent=2)
+
+    # Build preceding provisions JSON
+    preceding_json = json.dumps(preceding, indent=2)
+
+    # Build following provision JSON
+    following_json = json.dumps(following if following else {}, indent=2)
+
+    # Build existing concerns JSON (just title and topic to avoid duplication)
+    existing_json = json.dumps([
+        {'title': c['title'], 'topic': c['topic']}
+        for c in existing_concerns
+    ], indent=2)
+
     # Generate concern
     generator = dspy.ChainOfThought(KeyConcernGenerator)
     result = generator(
         bill_context=bill_context,
         topic=topic,
-        provision_title=provision['title'],
-        provision_raw_text=provision['raw_text'],
-        provision_summary=provision['summary'],
+        preceding_provisions=preceding_json,
+        current_provision=current_provision_json,
+        following_provision=following_json,
+        existing_concerns=existing_json,
         impact_reasoning=provision['impact_reasoning'],
         impact_level=provision['impact_level']
     )
@@ -124,6 +142,7 @@ def generate_key_concern(bill_context: str, topic: str, provision: dict) -> dict
         "title": result.title,
         "severity": result.severity.value,
         "description": result.description,
+        "topic": topic,
         "relatedProvisions": [provision['id']]
     }
 
@@ -167,12 +186,11 @@ def process_bill(json_path: Path, dry_run: bool = False, force: bool = False):
 
     print()
 
-    # Collect ALL provisions with severe-negative or high-negative impacts
-    # Strategy: Use ALL severe and high provisions (no caps)
-    severe_provisions = []
-    high_provisions = []
+    # Collect ALL severe-negative or high-negative impacts per topic
+    # Strategy: Generate one concern per topic per provision
+    impactful_items = []
 
-    for section in sections:
+    for i, section in enumerate(sections):
         if section.get('category', {}).get('type') != 'provision':
             continue
 
@@ -183,38 +201,23 @@ def process_bill(json_path: Path, dry_run: bool = False, force: bool = False):
         impact_levels = impact.get('levels', {})
         confidence = impact.get('confidence', 0.5)
 
-        # Find the first severe-negative or high-negative impact for this provision
-        severe_impact = None
-        high_impact = None
-
+        # Find ALL severe-negative or high-negative impacts for this provision
         for topic in TOPICS:
             impact_level = impact_levels.get(topic, 'none')
-            if impact_level == 'severe-negative' and not severe_impact:
-                severe_impact = {'topic': topic, 'level': impact_level}
-            elif impact_level == 'high-negative' and not high_impact:
-                high_impact = {'topic': topic, 'level': impact_level}
+            if impact_level in ['severe-negative', 'high-negative']:
+                impactful_items.append({
+                    'section_index': i,
+                    'index': section.get('index', i + 1),
+                    'id': section.get('id', ''),
+                    'title': section.get('title', ''),
+                    'raw_text': section.get('rawText', ''),
+                    'impact_reasoning': impact.get('reasoning', ''),
+                    'impact_level': impact_level,
+                    'topic': topic,
+                    'confidence': confidence
+                })
 
-        provision_data = {
-            'id': section.get('id', ''),
-            'title': section.get('title', ''),
-            'raw_text': section.get('rawText', ''),
-            'summary': section.get('summary', ''),
-            'impact_reasoning': impact.get('reasoning', ''),
-            'confidence': confidence
-        }
-
-        if severe_impact:
-            severe_provisions.append({**provision_data, 'impact_level': severe_impact['level'], 'topic': severe_impact['topic']})
-        elif high_impact:
-            high_provisions.append({**provision_data, 'impact_level': high_impact['level'], 'topic': high_impact['topic']})
-
-    # Sort high provisions by confidence (descending) for consistent ordering
-    high_provisions.sort(key=lambda x: x['confidence'], reverse=True)
-
-    # Use ALL severe and high provisions (no caps)
-    impactful_provisions = severe_provisions + high_provisions
-
-    if not impactful_provisions:
+    if not impactful_items:
         print("No provisions with severe-negative or high-negative impact found")
         print("Clearing any existing key concerns")
         bill_data['keyConcerns'] = []
@@ -223,21 +226,80 @@ def process_bill(json_path: Path, dry_run: bool = False, force: bool = False):
         print("✓ Cleared key concerns")
         return
 
-    print(f"Found {len(severe_provisions)} SEVERE-negative provision(s)")
-    print(f"Found {len(high_provisions)} HIGH-negative provision(s)")
-    print(f"Generating {len(impactful_provisions)} key concern(s) from ALL severe and high provisions")
+    # Count unique provisions and impacts
+    unique_provisions = len(set(item['id'] for item in impactful_items))
+    severe_count = sum(1 for item in impactful_items if item['impact_level'] == 'severe-negative')
+    high_count = sum(1 for item in impactful_items if item['impact_level'] == 'high-negative')
+
+    print(f"Found {unique_provisions} provision(s) with high/severe impacts")
+    print(f"  {severe_count} SEVERE-negative topic impact(s)")
+    print(f"  {high_count} HIGH-negative topic impact(s)")
+    print(f"Generating {len(impactful_items)} key concern(s) (one per topic per provision)")
     print()
 
-    # Generate one concern per provision
+    # Generate one concern per topic per provision
     key_concerns = []
+    concerns_by_provision = {}  # Track concerns generated for each provision
+    BATCH_SIZE = 10  # Save every 10 concerns
 
-    for i, provision in enumerate(impactful_provisions, 1):
-        print(f"[{i}/{len(impactful_provisions)}] {provision['topic']}: {provision['title'][:50]}...")
+    for idx, item in enumerate(impactful_items, 1):
+        print(f"[{idx}/{len(impactful_items)}] {item['topic']}: {item['title'][:50]}...")
 
-        concern = generate_key_concern(executive_summary, provision['topic'], provision)
+        # Build sliding window context as structs
+        section_index = item['section_index']
+        preceding = []
+        following = None
+
+        # Get previous 2 provisions
+        for j in range(section_index - 1, max(-1, section_index - 20), -1):
+            if j >= 0 and j < len(sections):
+                prev_section = sections[j]
+                if prev_section.get('category', {}).get('type') == 'provision':
+                    preceding.insert(0, {  # Insert at beginning to maintain order
+                        'index': prev_section.get('index', j + 1),
+                        'id': prev_section.get('id', ''),
+                        'title': prev_section.get('title', ''),
+                        'rawText': prev_section.get('rawText', '')
+                    })
+                    if len(preceding) == 2:
+                        break
+
+        # Get next 1 provision
+        for j in range(section_index + 1, len(sections)):
+            next_section = sections[j]
+            if next_section.get('category', {}).get('type') == 'provision':
+                following = {
+                    'index': next_section.get('index', j + 1),
+                    'id': next_section.get('id', ''),
+                    'title': next_section.get('title', ''),
+                    'rawText': next_section.get('rawText', '')
+                }
+                break
+
+        # Get existing concerns for this provision
+        provision_id = item['id']
+        existing = concerns_by_provision.get(provision_id, [])
+
+        concern = generate_key_concern(executive_summary, item['topic'], item, preceding, following, existing)
         key_concerns.append(concern)
 
+        # Track this concern for future iterations
+        if provision_id not in concerns_by_provision:
+            concerns_by_provision[provision_id] = []
+        concerns_by_provision[provision_id].append(concern)
+
         print(f"  ✓ {concern['severity'].upper()}: {concern['title']}")
+
+        # Batch save progress (unless dry run)
+        if not dry_run and idx % BATCH_SIZE == 0:
+            # Sort current concerns by severity before saving
+            severity_order = {'critical': 0, 'high': 1, 'medium': 2, 'low': 3}
+            key_concerns.sort(key=lambda x: severity_order.get(x['severity'], 99))
+            bill_data['keyConcerns'] = key_concerns
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(bill_data, f, indent=2, ensure_ascii=False)
+            print(f"  💾 Saved progress ({idx}/{len(impactful_items)})")
+
         print()
 
     # Sort by severity (critical > high > medium > low)

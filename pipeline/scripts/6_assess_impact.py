@@ -26,21 +26,15 @@ class ImpactAssessor(dspy.Signature):
     Compare against rule of law principles and international democratic standards (GDPR, OECD guidelines,
     Commonwealth constitutions, ECHR, ICCPR).
 
-    IMPORTANT: Assess each provision independently based on its direct impact. You may reference other
-    provisions when there is a DIRECT CAUSAL RELATIONSHIP where the combination creates a rule of law
-    violation that neither provision creates alone (e.g., vague terms in one provision combined with
-    criminal penalties in another). However, do NOT rate a provision as severe merely because it
-    "finances," "enables," "facilitates," or "exists within" a broader problematic regime.
+    IMPORTANT: Assess the CURRENT PROVISION (current_provision field) based on its direct impact. Adjacent
+    provisions (preceding_provisions and following_provision) are provided as context to understand how
+    provisions relate and affect each other.
 
-    Valid cross-provision analysis:
-    - ✓ Vague/undefined terms + enforcement penalties = Legal certainty violation
-    - ✓ Broad discretionary power + inadequate oversight = Arbitrary enforcement risk
-    - ✓ Coercive authority + absence of due process = Procedural fairness violation
-    - ✗ Procedural/transitional provisions rated severe due to bill's substantive content
-    - ✗ Definitional provisions rated severe without analyzing enforcement mechanisms
+    Consider adjacent provisions when the current provision's impact depends on or is modified by what
+    adjacent provisions establish or omit. Focus on direct functional relationships between provisions.
 
-    Procedural provisions (repeals, savings, commencement, interpretation, definitions) should be rated
-    based on their own text and direct effects, not the broader bill's substantive requirements.
+    Procedural provisions (repeals, commencement, savings clauses) should be assessed on their own direct
+    effects, not the broader bill's substantive content.
 
     Evaluation framework - assess both compliance AND enhancement:
     - RULE OF LAW: Legal certainty, non-arbitrariness, equality before the law, judicial independence
@@ -113,8 +107,9 @@ class ImpactAssessor(dspy.Signature):
     """
 
     bill_context: str = dspy.InputField(desc="Executive summary providing context about what the bill does")
-    title: str = dspy.InputField(desc="The provision title")
-    content: str = dspy.InputField(desc="The full provision content")
+    preceding_provisions: str = dspy.InputField(desc="CONTEXT ONLY: Previous 2 provisions (title + full text) to understand references and relationships. Use this only to understand how the current provision relates to what came before. Do not assess these provisions.")
+    current_provision: str = dspy.InputField(desc="THIS IS THE PROVISION YOU ARE ASSESSING. Format: **Title**\\n\\nFull provision text")
+    following_provision: str = dspy.InputField(desc="CONTEXT ONLY: Next 1 provision (title + full text) to understand how the current provision connects forward. Use this to assess whether the current provision becomes problematic when combined with what follows. Do not assess this provision itself.")
 
     digital_innovation_impact: ImpactLevel = dspy.OutputField(desc="Impact level on Digital Innovation")
     freedom_of_speech_impact: ImpactLevel = dspy.OutputField(desc="Impact level on Freedom of Speech")
@@ -133,19 +128,22 @@ def setup_dspy():
         sys.exit(1)
 
     # Using Claude Haiku 4.5 for detailed impact assessment
-    lm = dspy.LM(model="claude-haiku-4-5", api_key=api_key)
+    # Temperature=0 for deterministic, consistent assessments
+    lm = dspy.LM(model="claude-haiku-4-5", api_key=api_key, temperature=0)
     dspy.configure(lm=lm)
 
     return lm
 
 
-def assess_impact(bill_context: str, title: str, raw_text: str) -> dict:
+def assess_impact(bill_context: str, title: str, raw_text: str, preceding_provisions: str = "", following_provision: str = "") -> dict:
     """Assess the impact level of a provision for each topic area.
 
     Args:
         bill_context: Executive summary providing bill context
         title: Provision title
         raw_text: Full provision content
+        preceding_provisions: Previous 2 provisions (title + summary) for context
+        following_provision: Next 1 provision (title + summary) for context
 
     Returns:
         Dict with topic names as keys and impact levels as values
@@ -156,8 +154,16 @@ def assess_impact(bill_context: str, title: str, raw_text: str) -> dict:
             "Business Environment": "high"
         }
     """
+    # Combine title and content for current provision
+    current_provision = f"**{title}**\n\n{raw_text}"
+
     assessor = dspy.ChainOfThought(ImpactAssessor)
-    result = assessor(bill_context=bill_context, title=title, content=raw_text)
+    result = assessor(
+        bill_context=bill_context,
+        current_provision=current_provision,
+        preceding_provisions=preceding_provisions,
+        following_provision=following_provision
+    )
 
     return {
         "levels": {
@@ -223,8 +229,36 @@ def process_bill(json_path: Path, dry_run: bool = False, force: bool = False):
         title = section['title']
         raw_text = section.get('rawText', '')
 
-        # Assess impact for each topic
-        result = assess_impact(executive_summary, title, raw_text)
+        # Build context from adjacent provisions (previous 2 and next 1)
+        preceding_provisions = ""
+        following_provision = ""
+
+        # Get previous 2 provisions
+        prev_provisions_list = []
+        for j in range(i - 1, max(0, i - 3), -1):
+            if j >= 0 and j < len(sections):
+                prev_section = sections[j]
+                if prev_section.get('category', {}).get('type') == 'provision':
+                    prev_title = prev_section.get('title', '')
+                    prev_text = prev_section.get('rawText', '')
+                    prev_provisions_list.append(f"**{prev_title}**\n\n{prev_text}")
+                    if len(prev_provisions_list) == 2:
+                        break
+
+        if prev_provisions_list:
+            preceding_provisions = "\n\n---\n\n".join(reversed(prev_provisions_list))
+
+        # Get next 1 provision
+        for j in range(i, len(sections)):
+            next_section = sections[j]
+            if next_section.get('category', {}).get('type') == 'provision':
+                next_title = next_section.get('title', '')
+                next_text = next_section.get('rawText', '')
+                following_provision = f"**{next_title}**\n\n{next_text}"
+                break
+
+        # Assess impact for each topic with adjacent context
+        result = assess_impact(executive_summary, title, raw_text, preceding_provisions, following_provision)
 
         # Add impacts to section
         section['impact'] = result
