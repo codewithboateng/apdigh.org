@@ -46,15 +46,15 @@
     <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#EA580C" text-anchor="middle" opacity="0.8">HIGH IMPACT</text>
   </g>
   <g transform="translate(335, 420)">
-    <rect x="0" y="0" width="250" height="90" rx="8" fill="#6B7280" opacity="0.15"/>
-    <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#6B7280" stroke-width="2"/>
-    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#6B7280" text-anchor="middle">Free Speech</text>
-    <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#6B7280" text-anchor="middle" opacity="0.8">NEUTRAL</text>
-  </g>
-  <g transform="translate(615, 420)">
     <rect x="0" y="0" width="250" height="90" rx="8" fill="#059669" opacity="0.15"/>
     <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#059669" stroke-width="2"/>
-    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#059669" text-anchor="middle">Privacy</text>
+    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#059669" text-anchor="middle">Free Speech</text>
     <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#059669" text-anchor="middle" opacity="0.8">HIGH BENEFIT</text>
+  </g>
+  <g transform="translate(615, 420)">
+    <rect x="0" y="0" width="250" height="90" rx="8" fill="#16A34A" opacity="0.15"/>
+    <rect x="0" y="0" width="250" height="90" rx="8" fill="none" stroke="#16A34A" stroke-width="2"/>
+    <text x="125" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#16A34A" text-anchor="middle">Privacy</text>
+    <text x="125" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#16A34A" text-anchor="middle" opacity="0.8">MAJOR BENEFIT</text>
   </g>
 </svg>
