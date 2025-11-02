@@ -74,8 +74,12 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
         related_impacts = []
         provision_impact_levels = {}  # Map impact key -> impact level
         impact_data = section.get('impact', {})
+        provision_impact_reasoning = ''  # Single reasoning text for all topics
+
         if impact_data:
             impact_levels = impact_data.get('levels', {})
+            provision_impact_reasoning = impact_data.get('reasoning', '')  # Get the full reasoning text
+
             for topic, level in impact_levels.items():
                 impact_key = topic_to_key.get(topic, slugify(topic))
 
@@ -104,7 +108,8 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
             'plainLanguage': section.get('summary', ''),
             'rawText': section.get('rawText', ''),
             'relatedImpacts': related_impacts,
-            'impacts': provision_impact_levels  # Add impact levels for each category
+            'impacts': provision_impact_levels,  # Add impact levels for each category
+            'impactReasoning': provision_impact_reasoning  # Single reasoning text for all topics
         })
 
     # Transform key concerns
@@ -115,6 +120,7 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
             'title': concern.get('title', ''),
             'severity': concern.get('severity', 'medium'),
             'description': concern.get('description', ''),
+            'topic': concern.get('topic', ''),  # Add topic field for UI display
             'relatedProvisions': concern.get('relatedProvisions', []),
             'relatedImpacts': []  # Could be derived from provisions if needed
         })

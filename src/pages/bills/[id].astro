@@ -558,13 +558,18 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
                         return (
                           <div id={concern.id} class="bg-white border-2 border-red-200 rounded-lg p-5 scroll-mt-24 hover:border-red-400 transition-colors flex-shrink-0 w-[340px] flex flex-col">
                             <div class="flex items-center justify-between gap-3 mb-3">
-                              <div class="flex items-center gap-3 flex-1">
+                              <div class="flex items-center gap-2 flex-1 flex-wrap">
                                 <div class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
                                   <span class="text-lg font-bold text-red-600">{index + 1}</span>
                                 </div>
                                 <span class={`px-2 py-1 text-xs font-semibold rounded border ${severityConfig.badgeClass}`}>
                                   {severityConfig.label}
                                 </span>
+                                {concern.topic && (
+                                  <span class="px-2 py-1 text-xs font-medium rounded bg-blue-50 text-blue-700 border border-blue-200">
+                                    {concern.topic}
+                                  </span>
+                                )}
                               </div>
                               <a
                                 href={`/bills/${bill.id}/concerns/${concern.id}`}
@@ -626,7 +631,25 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
                   <details class="group scroll-mt-24" id={provision.id}>
                     <summary class="flex items-center justify-between p-6 cursor-pointer hover:bg-gray-50 transition-colors">
                       <div class="flex items-center gap-3">
-                        <i class="ti ti-file-text text-[var(--color-primary)]"></i>
+                        {(() => {
+                          // Check if this provision has severe-negative or high-negative impacts
+                          const hasHighNegativeImpact = provision.impacts && Object.values(provision.impacts).some(
+                            (level: any) => level === 'severe-negative' || level === 'high-negative'
+                          );
+
+                          // Check if this provision has severe-positive or high-positive impacts
+                          const hasHighPositiveImpact = provision.impacts && Object.values(provision.impacts).some(
+                            (level: any) => level === 'severe-positive' || level === 'high-positive'
+                          );
+
+                          if (hasHighNegativeImpact) {
+                            return <i class="ti ti-alert-triangle text-red-600"></i>;
+                          } else if (hasHighPositiveImpact) {
+                            return <i class="ti ti-star text-green-600"></i>;
+                          } else {
+                            return <i class="ti ti-file-text text-[var(--color-primary)]"></i>;
+                          }
+                        })()}
                         <span class="text-lg font-semibold text-black">{provision.title}</span>
                       </div>
                       <i class="ti ti-chevron-down text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0"></i>
@@ -690,6 +713,25 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
                                 </a>
                               );
                             })}
+                            {/* View Impact Analysis button */}
+                            {(() => {
+                              // Get any impact reasoning (they're all the same text)
+                              const impactReasoning = provision?.impactReasoning?.[provision.relatedImpacts[0]] || '';
+
+                              if (impactReasoning) {
+                                return (
+                                  <button
+                                    type="button"
+                                    class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 bg-white text-gray-700 font-medium rounded-full border-2 border-gray-300 hover:border-gray-500 transition-all cursor-pointer"
+                                    title="View detailed impact analysis for this provision"
+                                    onclick={`event.preventDefault(); openProvisionImpactModal('${provision.id}', ${JSON.stringify(impactReasoning).replace(/'/g, "\\'")})`}
+                                  >
+                                    <i class="ti ti-file-text text-sm"></i>
+                                    <span>View Analysis</span>
+                                  </button>
+                                );
+                              }
+                            })()}
                           </div>
                         </div>
                       )}
@@ -843,6 +885,22 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
   </main>
 
   <Footer />
+
+  <!-- Provision Impact Modal -->
+  <div id="provisionImpactModal" class="hidden fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4" onclick="if (event.target === this) closeProvisionImpactModal()">
+    <div class="bg-white/95 backdrop-blur-md rounded-xl max-w-4xl w-full max-h-[85vh] overflow-hidden shadow-2xl border border-gray-200 flex flex-col">
+      <div class="bg-white/90 backdrop-blur-md border-b border-gray-200 px-6 py-4 flex items-center justify-between flex-shrink-0">
+        <div>
+          <h3 id="provisionImpactModalTitle" class="text-xl font-bold text-black"></h3>
+          <p id="provisionImpactModalSubtitle" class="text-sm text-gray-600 mt-1"></p>
+        </div>
+        <button onclick="closeProvisionImpactModal()" class="text-gray-400 hover:text-gray-600 transition-colors">
+          <i class="ti ti-x text-xl"></i>
+        </button>
+      </div>
+      <div id="provisionImpactModalContent" class="px-6 py-6 prose prose-lg max-w-none overflow-y-auto flex-1"></div>
+    </div>
+  </div>
 
   <!-- Impact Analysis Modal -->
   <div id="impactModal" class="hidden fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4" onclick="if (event.target === this) closeImpactModal()">
@@ -1037,22 +1095,33 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
     }
 
     // Style all citation links and attach click handlers
-    const citationLinks = document.querySelectorAll('a[href^="#"]');
-    citationLinks.forEach(link => {
-      // Only style numeric citations, not navigation links
-      const text = link.textContent.trim();
-      if (/^\d+$/.test(text)) {
-        link.classList.add('citation-link');
+    // Only apply to links within prose content (markdown-generated), not structural provision lists
+    const proseContainers = document.querySelectorAll('.prose');
+    proseContainers.forEach(container => {
+      const citationLinks = container.querySelectorAll('a[href^="#"]');
+      citationLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        const text = link.textContent.trim();
 
-        // Add click handler for popover
-        link.addEventListener('click', (e) => {
-          const href = link.getAttribute('href');
-          if (href && href.length > 1) {
+        // Skip if this link already has an onclick handler (means it's a structural element)
+        if (link.hasAttribute('onclick')) {
+          return;
+        }
+
+        // Skip navigation links like #take-action, #key-concerns, etc.
+        // Only process links that look like provision references (start with digit or contain "section")
+        const isProvisionLink = /^\d/.test(text) || href.includes('section') || href.includes('provision');
+
+        if (isProvisionLink && href.length > 1) {
+          link.classList.add('citation-link');
+
+          // Add click handler for popover
+          link.addEventListener('click', (e) => {
             const citationId = href.substring(1);
             openCitationPopover(citationId, e);
-          }
-        });
-      }
+          });
+        }
+      });
     });
 
     // Open provision if navigating to one via hash
@@ -1074,20 +1143,22 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
     // Parse markdown using marked
     content.innerHTML = marked.parse(analysisText);
 
-    // Style citation links and add click handlers (only numeric citations)
+    // Style citation links and add click handlers
     const links = content.querySelectorAll('a[href^="#"]');
     links.forEach(link => {
+      const href = link.getAttribute('href');
       const text = link.textContent.trim();
-      if (/^\d+$/.test(text)) {
+
+      // Skip navigation links, only process provision references
+      const isProvisionLink = /^\d/.test(text) || href.includes('section') || href.includes('provision');
+
+      if (isProvisionLink && href && href.length > 1) {
         link.classList.add('citation-link');
 
         // Add click handler for popover
         link.addEventListener('click', (e) => {
-          const href = link.getAttribute('href');
-          if (href && href.length > 1) {
-            const citationId = href.substring(1);
-            openCitationPopover(citationId, e);
-          }
+          const citationId = href.substring(1);
+          openCitationPopover(citationId, e);
         });
       }
     });
@@ -1108,9 +1179,64 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
     document.body.style.overflow = '';
   }
 
+  // Provision Impact Modal functions
+  function openProvisionImpactModal(provisionId, reasoningText) {
+    const modal = document.getElementById('provisionImpactModal');
+    const title = document.getElementById('provisionImpactModalTitle');
+    const subtitle = document.getElementById('provisionImpactModalSubtitle');
+    const content = document.getElementById('provisionImpactModalContent');
+
+    // Get provision title
+    const provisionElement = document.getElementById(provisionId);
+    const provisionTitle = provisionElement ?
+      provisionElement.querySelector('summary span')?.textContent || provisionId :
+      provisionId;
+
+    title.textContent = 'Impact Analysis';
+    subtitle.textContent = provisionTitle;
+
+    // Parse markdown using marked
+    content.innerHTML = marked.parse(reasoningText);
+
+    // Style citation links and add click handlers
+    const links = content.querySelectorAll('a[href^="#"]');
+    links.forEach(link => {
+      const href = link.getAttribute('href');
+      const text = link.textContent.trim();
+
+      // Skip navigation links, only process provision references
+      const isProvisionLink = /^\d/.test(text) || href.includes('section') || href.includes('provision');
+
+      if (isProvisionLink && href && href.length > 1) {
+        link.classList.add('citation-link');
+
+        // Add click handler for popover
+        link.addEventListener('click', (e) => {
+          const citationId = href.substring(1);
+          openCitationPopover(citationId, e);
+        });
+      }
+    });
+
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+
+    // Reset modal scroll to top
+    content.scrollTop = 0;
+  }
+
+  function closeProvisionImpactModal() {
+    const modal = document.getElementById('provisionImpactModal');
+    modal.classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+
   // Close on Escape key
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeImpactModal();
+    if (e.key === 'Escape') {
+      closeImpactModal();
+      closeProvisionImpactModal();
+    }
   });
 
   // Scroll highlight functionality
